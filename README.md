@@ -1,4 +1,6 @@
-# ![Pyplan](./docs/assets/logo.png)
+# ![Pyplan](./docs/images/logo.png)
+[![Documentation Status](https://readthedocs.org/projects/pyplan/badge/?version=latest)](https://pyplan.readthedocs.io/en/latest/?badge=latest)
+
 
 Repository for documentation of Pyplan
 
@@ -35,6 +37,6 @@ sphinx-autobuild -a docs docs/_build/html --port 5500 --open-browser
 ## Contribute
 
 1. Update the branch of the version to be documented
-2. Create a new branch with a descriptive name (e.g. 3.0.15-new features), based on the branch of the version that you want to document.
+2. Create a new branch with a descriptive name (e.g. schedule-task), based on the branch of the version that you want to document.
 3. Modify/create documentation files inside the /docs folder
 4. Perform a Pull Request from the new branch to the branch of the version to be modified

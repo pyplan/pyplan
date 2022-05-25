@@ -34,6 +34,7 @@ Pyplan UI
 =========
 
 .. image:: images/pyplan_ui.png
+   :width: 100%
 
 ==========================
 Lorem ipsum dolor sit amet

@@ -34,16 +34,7 @@ sphinx-autobuild -a docs docs/_build/html --port 5500 --open-browser
 
 ## Contribute
 
-TODO: describir bien el proceso
-
-1. Actualizar la rama sobre la cual se quiere documentar
-2. Crearuna rama nueva, partiendo de la rama base
-3. Modificar/crear archivos .rst de documentacion dentro de la carpeta /docs
-4. Realizar un Pull request seleccionando como origen la nueva rama y destino la rama que se quiere actualizar
-
-## Build
-
-``` bash
-cd [your-project-path]/pyplan/docs
-make html
-```
+1. Update the branch of the version to be documented
+2. Create a new branch with a descriptive name (e.g. 3.0.15-new features), based on the branch of the version that you want to document.
+3. Modify/create documentation files inside the /docs folder
+4. Perform a Pull Request from the new branch to the branch of the version to be modified

@@ -29,11 +29,19 @@ Welcome to the Pyplan documentation
 Pyplan is a graphical Integrated Development Environment for creating and sharing Data Analytics Apps
 
 
-=========
-Pyplan UI
-=========
+==================
+Coding with Pyplan
+==================
 
 .. image:: images/pyplan_ui.png
+   :width: 100%
+
+=================
+Pyplan Interfaces
+=================
+
+.. image:: images/pyplan_interfaces_1.png
+   :width: 100%   
 
 ==========================
 Lorem ipsum dolor sit amet

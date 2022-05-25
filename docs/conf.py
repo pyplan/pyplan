@@ -22,7 +22,7 @@ copyright = '2022, Pyplan'
 author = 'Pyplan Inc.'
 
 # The full version, including alpha/beta/rc tags
-release = '3.0.10'
+release = '3.0.12'
 
 
 # -- General configuration ---------------------------------------------------

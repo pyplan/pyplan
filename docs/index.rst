@@ -17,6 +17,7 @@
    :caption: User Guide
    
    user_guide/index
+   file_manager/index
  
 
 .. figure:: images/logo.png

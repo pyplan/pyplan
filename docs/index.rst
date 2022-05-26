@@ -9,39 +9,38 @@
    :caption: Overview
    :titlesonly:
 
-   overview/index
+   overview
 
 
 .. toctree::
    :hidden:
-   :caption: User Guide
+   :caption: User guide
    
    user_guide/index
+   file_manager/index
  
 
 .. figure:: images/logo.png
    :width: 300
 
 
-Welcome to the Pyplan documentation
-===================================
+Welcome to Pyplan documentation
+===============================
 
-Pyplan is a graphical Integrated Development Environment for creating and sharing Data Analytics Apps
+Pyplan is a ....
 
 
-=========
-Pyplan UI
-=========
+================
+Code with Pyplan
+================
 
-.. image:: images/pyplan_ui.png
+.. figure:: images/pyplan_ui.png
    :width: 100%
 
-==========================
-Lorem ipsum dolor sit amet
-==========================
+==========
+Interfaces
+==========
 
-Suspendisse quis eros odio. Nam eget tellus vel magna hendrerit pretium id vitae tellus. Nam nec dictum massa. Proin efficitur metus non ex tincidunt efficitur. Suspendisse potenti. Donec mollis molestie suscipit. Maecenas purus lorem, consectetur a tincidunt sed, pharetra quis tellus.
-   
-.. tip:: Sed ullamcorper erat vitae ipsum ultrices porttitor eu sit amet nibh
-
+.. figure:: images/pyplan_interfaces_1.png
+   :width: 100%
 

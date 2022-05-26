@@ -1,6 +1,4 @@
 # ![Pyplan](./docs/images/logo.png)
-[![Documentation Status](https://readthedocs.org/projects/pyplan/badge/?version=latest)](https://pyplan.readthedocs.io/en/latest/?badge=latest)
-
 
 Repository for documentation of Pyplan
 

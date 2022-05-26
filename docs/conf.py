@@ -22,7 +22,7 @@ copyright = '2022, Pyplan'
 author = 'Pyplan Inc.'
 
 # The full version, including alpha/beta/rc tags
-release = '3.0.12'
+release = ''
 
 
 # -- General configuration ---------------------------------------------------
@@ -63,7 +63,7 @@ html_theme_options = {
     "show_navbar_depth": 0
 }
 
-html_title = f"Pyplan {release}"
+html_title = ""
 html_favicon = "_static/favicon.ico"
 htmlhelp_basename = "Pyplandoc"
 

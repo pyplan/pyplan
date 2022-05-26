@@ -9,15 +9,15 @@ Repository for documentation of Pyplan
 ## Clone the repository
 
 ``` bash
-cd  [your-project-path]
+cd  [your-projects-path]
 git clone https://github.com/pyplan/pyplan.git
 ```
 
-## Prepare for build
+## Configure environment
 
 ``` bash
 # Create virtual environment
-cd [your-project-path]/pyplan
+cd [your-projects-path]/pyplan
 python3 -m venv venv
 . venv/bin/activate # in linux/mac os
 venv\Scripts\activate.bat # in windows
@@ -28,13 +28,13 @@ pip install -r requirements.txt
 ## Live preview
 
 ``` bash
-cd [your-project-path]/pyplan
+cd [your-projects-path]/pyplan
 sphinx-autobuild -a docs docs/_build/html --port 5500 --open-browser
 ```
 
-## Contribute
+## How to Contribute
 
-1. Update the branch of the version to be documented
-2. Create a new branch with a descriptive name (e.g. schedule-task), based on the branch of the version that you want to document.
-3. Modify/create documentation files inside the /docs folder
-4. Perform a Pull Request from the new branch to the branch of the version to be modified
+1. Checkout the **develop** branch
+2. Create a new branch with a descriptive name (e.g. schedule-task), from **develop** branch.
+3. Modify/create documentation files inside the **/docs** folder
+4. Perform a Pull Request from the new branch to the **develop** branch

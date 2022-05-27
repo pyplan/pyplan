@@ -34,7 +34,7 @@ sphinx-autobuild -a docs docs/_build/html --port 5500 --open-browser
 
 ## How to Contribute
 
-1. Checkout the **develop** branch
-2. Create a new branch with a descriptive name (e.g. schedule-task), from **develop** branch.
-3. Modify/create documentation files inside the **/docs** folder
-4. Perform a Pull Request from the new branch to the **develop** branch
+1. Checkout the **main** branch.
+2. Create a new branch with a descriptive name (e.g. schedule-task), from **main** branch.
+3. Modify/create .rst/.md documentation files inside the **/docs** folder.
+4. Perform a Pull Request from the new branch to the **main** branch.

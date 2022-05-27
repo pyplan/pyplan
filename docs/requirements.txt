@@ -1,0 +1,3 @@
+# Requirements for build page in github
+sphinx-book-theme==0.3.2
+sphinx-design==0.1.0

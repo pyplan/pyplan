@@ -29,8 +29,12 @@ pip install -r requirements.txt
 
 ``` bash
 cd [your-projects-path]/pyplan
-sphinx-autobuild -a docs docs/_build/html --port 5500 --open-browser
+# For Spanish
+sphinx-autobuild docs docs/_build/html/es -D=language=es --port 5500 --open-browser
+# For English
+sphinx-autobuild docs docs/_build/html/en -D=language=en --port 5500 --open-browser
 ```
+
 
 ## How to Contribute
 
@@ -38,3 +42,16 @@ sphinx-autobuild -a docs docs/_build/html --port 5500 --open-browser
 2. Create a new branch with a descriptive name (e.g. schedule-task), from **main** branch.
 3. Modify/create .rst/.md documentation files inside the **/docs** folder.
 4. Perform a Pull Request from the new branch to the **main** branch.
+
+
+## Generate translation files
+
+``` bash
+cd [your-projects-path]/pyplan/docs
+# create POT files
+make gettext
+# create/update PO files for translations
+sphinx-intl update -p _build/gettext -l en
+# update PO files
+sphinx-intl update -p _build/gettext
+```

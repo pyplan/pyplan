@@ -1,7 +1,7 @@
-Overview
-========
+Acerca de
+=========
 
-Pyplan is...
+Pyplan es una...
 
 
    

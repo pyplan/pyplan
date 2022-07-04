@@ -1,5 +1,5 @@
 
-Introduction
+Introducción
 ============
 
-Pyplan intro ....
+Introducción sobre Pyplan

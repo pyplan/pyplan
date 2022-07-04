@@ -6,7 +6,7 @@
 
 .. toctree::
    :hidden:
-   :caption: Overview
+   :caption: Acerca de
    :titlesonly:
 
    overview
@@ -14,25 +14,33 @@
 
 .. toctree::
    :hidden:
-   :caption: User guide
+   :caption: Guia de usuario
    
    user_guide/index
    file_manager/index
- 
+
+.. toctree::
+   :hidden:
+   :caption: Ejemplos de RST
+   :titlesonly:
+
+   samples
+
+
 
 .. figure:: images/logo.png
    :width: 300
 
 
-Welcome to Pyplan documentation
-===============================
+Bienvenido a la documentación de Pyplan
+=======================================
 
-Pyplan is a ....
+Pyplan es una...
 
 
-================
-Code with Pyplan
-================
+=====================
+Codificando en Pyplan
+=====================
 
 .. figure:: images/pyplan_ui.png
    :width: 100%

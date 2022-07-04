@@ -1,16 +1,20 @@
-File Manager
-============
+Administrador de archivos
+=========================
 
 Pyplan ... filemanager
 
+.. figure:: images/file_manager.png
+   :width: 200
+   :alt: Alternative text
+   
 
--------------------
-Copy and move files
--------------------
+-----------------------
+Copiar y mover archivos
+-----------------------
 
-.. tip:: To copy many files....
+.. tip:: Para copiar muchos archivos se puede....
 
-Other **way** for copy file is...
+Otra **forma** de copiar archivos es...
 
 
 

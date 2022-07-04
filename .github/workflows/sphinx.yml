@@ -8,10 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Build HTML
+    - name: Build HTML ES
       uses: ammaraskar/sphinx-action@master
       with:
-        build-command: "sphinx-build -b html -D language=es . _build/html/es && sphinx-build -b html -D language=en . _build/html/en && cp ./_static/index.html ./_build/html/"
+        build-command: "sphinx-build -b html -D language=es . _build/html/es"
+    - name: Build HTML EN
+      uses: ammaraskar/sphinx-action@master
+      with:
+        build-command: "sphinx-build -b html -D language=en . _build/html/en"
     - name: Upload artifacts
       uses: actions/upload-artifact@v1
       with:

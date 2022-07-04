@@ -10,10 +10,6 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-
 
 # -- Project information -----------------------------------------------------
 
@@ -30,8 +26,7 @@ release = ''
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -52,10 +47,6 @@ gettext_compact = False     # optional.
 # a list of builtin themes.
 #
 
-lang_links = """
-<a href='/en'>en</a>
-<a href='/es'>es</a>
-"""
 
 html_theme = 'sphinx_book_theme'
 
@@ -66,7 +57,7 @@ html_theme_options = {
     "use_edit_page_button": True,
     "path_to_docs": "docs",
     "home_page_in_toc": False,
-    "extra_navbar": lang_links,
+    "extra_navbar": "",
      
 }
 
@@ -80,6 +71,7 @@ htmlhelp_basename = "Pyplandoc"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_css_files = ["custom.css"]
+html_js_files = ['custom.js']
 
 html_logo = "images/logo.png"
 

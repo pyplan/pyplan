@@ -1,23 +1,23 @@
 # ![Pyplan](./docs/images/logo.png)
 
-Repository for documentation of Pyplan
+Repositorio para la documentación de Pyplan
 
-## Requirements
+## Requerimientos
 
 * [python 3](https://www.python.org/downloads/)
 
-## Clone the repository
+## Clonar el repositorio
 
 ``` bash
-cd  [your-projects-path]
+cd  [tu-path-de-proyectos]
 git clone https://github.com/pyplan/pyplan.git
 ```
 
-## Configure environment
+## Configurar el entorno
 
 ``` bash
 # Create virtual environment
-cd [your-projects-path]/pyplan
+cd [tu-path-de-proyectos]/pyplan
 python3 -m venv venv
 . venv/bin/activate # in linux/mac os
 venv\Scripts\activate.bat # in windows
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ## Live preview
 
 ``` bash
-cd [your-projects-path]/pyplan
+cd [tu-path-de-proyectos]/pyplan
 # For Spanish
 sphinx-autobuild docs docs/_build/html/es -D=language=es --port 5500 --open-browser
 # For English
@@ -36,22 +36,23 @@ sphinx-autobuild docs docs/_build/html/en -D=language=en --port 5500 --open-brow
 ```
 
 
-## How to Contribute
+## Como contribuir
 
-1. Checkout the **main** branch.
-2. Create a new branch with a descriptive name (e.g. schedule-task), from **main** branch.
-3. Modify/create .rst/.md documentation files inside the **/docs** folder.
-4. Perform a Pull Request from the new branch to the **main** branch.
+1. Actualizar la rama  local **main**.
+2. Crear una nueva rama con un nombre descriptivo (Ej. schedule-task), desde la rama **main**.
+3. Modificar/crear archivos de documentación .rst/.md, dentro de la carpeta **/docs**. Tener en cuenta la estructura que se muestra en el punto siguiente.
+4. Al terminar, realizar un Pull Request desde la nueva rama hacia la rama **main**.
+
+## Estructura de archivos
+La documentación se puede escribir en archivos de formato .rst (reStructuredText) o .md (markdown). Preferentemente se utilizará el formato rst. [Cheat Sheet](https://docs.typo3.org/m/typo3/docs-how-to-document/main/en-us/WritingReST/CheatSheet.html) Todos los archivos de documentación se ubican dentro de la carpeta **/docs**. Se deberán organizar los temas por subcarpetas. Ejemplo: **/docs/user_guide/**. Para agregar imágenes, crear una carpeta **images** en el mismo path donde se encuentra el archivo .rst que utiliza dicha imagen.
 
 
-## Generate translation files
+## Generar archivos de traducción (para uso interno)
 
 ``` bash
-cd [your-projects-path]/pyplan/docs
-# create POT files
+cd [tu-path-de-proyectos]/pyplan/docs
+# create/update POT files
 make gettext
 # create/update PO files for translations
 sphinx-intl update -p _build/gettext -l en
-# update PO files
-sphinx-intl update -p _build/gettext
 ```

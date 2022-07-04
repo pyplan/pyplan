@@ -18,7 +18,15 @@
    
    user_guide/index
    file_manager/index
- 
+
+.. toctree::
+   :hidden:
+   :caption: Ejemplos de RST
+   :titlesonly:
+
+   samples
+
+
 
 .. figure:: images/logo.png
    :width: 300

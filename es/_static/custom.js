@@ -9,13 +9,13 @@ const langSelector = `
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a class="headerbtn" data-toggle="tooltip" data-placement="left" title="" data-original-title="English" href='/en' onclick='return gotoLang("en")' >
+        <a class="headerbtn" data-toggle="tooltip" data-placement="left" title="" href='/en' onclick='return gotoLang("en")' >
             <span class="headerbtn__text-container">English</span>
         </a>
       </li>
       
       <li>
-        <a class="headerbtn" data-toggle="tooltip" data-placement="left" title="" data-original-title="Source repository" href='/es' onclick='return gotoLang("es")'>
+        <a class="headerbtn" data-toggle="tooltip" data-placement="left" title="" href='/es' onclick='return gotoLang("es")'>
             <span class="headerbtn__text-container">Español</span>
         </a>
       </li>

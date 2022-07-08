@@ -22,3 +22,6 @@ Una vez logueado con su susario y contraseña, ingresara a la siguiente sección
 .. figure:: images/imagen2.png
     :width: 260%
 
+---------------------------
+Inicio de la aplicación 
+---------------------------

@@ -4,24 +4,23 @@
    contain the root `toctree` directive.
 
 
-.. toctree::
+.. toctree:: 
    :hidden:
-   :caption: Acerca de
+   :caption: Acerca de Pyplan
    :titlesonly:
 
    overview
-
-
+   
 .. toctree::
    :hidden:
-   :caption: Guia de usuario
+   :caption: GUIA DE USUARIO
    
    user_guide/index
    file_manager/index
 
 .. toctree::
    :hidden:
-   :caption: Ejemplos de RST
+   :caption: EJEMPLOS RST
    :titlesonly:
 
    samples
@@ -30,12 +29,14 @@
 
 .. figure:: images/logo.png
    :width: 300
+===========================
 
 
-Bienvenido a la documentación de Pyplan
+BIENVENIDO A PYPLAN 
+=======================================
 =======================================
 
-Pyplan es una...
+Pyplan es un un entorno de desarrollo gráfico integrado, asistido y diseñado para crear y compartir fácilmente aplicaciones de análisis de datos basadas en el lenguaje de programación Python.
 
 
 =====================
@@ -43,7 +44,7 @@ Codificando en Pyplan
 =====================
 
 .. figure:: images/pyplan_ui.png
-   :width: 100%
+   :width: 300%
 
 ==========
 Interfaces

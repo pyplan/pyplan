@@ -1,4 +1,4 @@
-ADMINISTRADOR DE ARCHIVOS
+**Administrador de archivos**
 =========================
 Los usuarios tienen su propio espacio de trabajo y también pueden acceder a un espacio de trabajo público. El administrador de archivos brinda asistencia para trabajar con archivos relacionados con sus aplicaciones.
 Al hacer clic en el nombre de Administrador de archivo que se encuentra en el menú de la izquierda de la pantalla pricipal, usted accederá a otra pantalla que contiene una jerarquía de carpetas. Las mismas se indagan a traves de los signos + (abre carpetas) o - (cierra carpetas).
@@ -15,9 +15,9 @@ En la misma pantalla, hay funciones para filtrar por lo que se requiera, opcione
    :width: 400%
 
 
-======================
-Organización de Pyplan
-======================
+==========================
+**Organización de Pyplan**
+==========================
 
 Modelo
 ------

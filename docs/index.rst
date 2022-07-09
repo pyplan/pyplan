@@ -7,23 +7,16 @@
    :hidden:
    :caption: GUIA DE USUARIO
    
+   
    user_guide/index
    file_manager/index
 
 .. figure:: images/logo.png
    :width: 300
-===========================
-
-.. toctree::
-   :hidden:
-   :caption:
-   :titlesonly:
 
 
 
-
-BIENVENIDO A PYPLAN 
-=======================================
+**BIENVENIDO A PYPLAN** 
 =======================================
 
 Pyplan es un un entorno de desarrollo gráfico integrado, asistido y diseñado para crear y compartir fácilmente aplicaciones de análisis de datos basadas en el lenguaje de programación Python.

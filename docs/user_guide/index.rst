@@ -1,10 +1,10 @@
 
-INTRODUCCIÓN
+**Introducción**
 ==============
 
-====================================
-Pyplan ejecutándose en el escritorio
-====================================
+========================================
+**Pyplan ejecutándose en el escritorio**
+========================================
 
 Las siguientes secciones cubren las funcionalidades y características básicas de Pyplan. Pyplan está en evolución permanente, por lo que probablemente encontrará pequeñas diferencias entre este documento y la última versión de Pyplan que se ejecuta en línea.
 

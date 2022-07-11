@@ -1,6 +1,6 @@
 
 **Introducción**
-==============
+=================
 
 ========================================
 **Pyplan ejecutándose en el escritorio**
@@ -17,7 +17,7 @@ En el caso de que haya instalado Pyplan en su computadora, tan pronto como lo in
 
 
 
-Una vez logueado con su susario y contraseña, ingresara a la siguiente sección:
+Una vez logueado con su susario y contraseña, ingresará a la siguiente sección:
 
 
 .. figure:: images/imagen2.png
@@ -26,10 +26,10 @@ Una vez logueado con su susario y contraseña, ingresara a la siguiente sección
 ------------------------
 Inicio de la aplicación 
 ------------------------
-Después de iniciar sesión, el usuario llega a la página de inicio de la aplicación, donde encontrara su Cuenta, y debajo el menu que contiene varias solapas como Inicio, Aplicaciones, Administrador de archivos, y Herramientas.
-En la pantalla principal, viisualizará ademas, todas las aplicaciones vigentes. Por último, en el margen inferior encontrara los Recursos Pyplan que al abrirlo, contendra videos de Pyplan en acción y Documentación con los pasos básicos para el manejo del Software.  
-También en la pantala principal, en el margen superior derecho podrá visualizar el signo + con un circulo que al darle clic puede crear aplicaciones directamente. A su lado, se encuentra Pyplan Bot, que es una herramienta que le permite realizar consultas para el despeje de dudas
-Por último, se ensuentra la pestaña para poder cerrar su sesión.
+Después de iniciar sesión, el usuario llega a la página de inicio de la aplicación, donde encontrara su Cuenta, y debajo el menú que contiene varias solapas como Inicio, Aplicaciones, Administrador de archivos, y Herramientas.
+En la pantalla principal, visualizará además, todas las aplicaciones vigentes. Por último, en el margen inferior encontrara los Recursos Pyplan que, al abrirlo, contendrá videos de Pyplan en acción y Documentación con los pasos básicos para el manejo del Software.  
+También en la pantalla principal, en el margen superior derecho podrá visualizar el signo + con un circulo que al darle clic puede crear aplicaciones directamente. A su lado, se encuentra Pyplan Bot, que es una herramienta que le permite realizar consultas para el despeje de dudas.
+Por último, se encuentra la pestaña para poder cerrar su sesión.
 
 .. figure:: images/imagen3.png
     :width: 260%
@@ -43,12 +43,14 @@ contienen información con ejemplos de formularios, Demos, y otros ejemplos que 
 .. figure:: images/imagen4.png
     :width: 260%
 
-Para crear nuevas aplicaciones, al hacer clic en el botón Crear, usted puede otogar un nombre a la misma, pudiendo seleccionar si la misma será DESDE CERO, EJEMPLO DATAFRAME O EJEMPLO DATAARRAY. Una vez seleccionada la opción elegida, presionara crear y podrá observar en otra 
-pantalla su resultado.
+
+Para crear nuevas aplicaciones, al hacer clic en el botón Crear, usted puede otorgar un nombre a la misma, pudiendo seleccionar si la misma será DESDE CERO, EJEMPLO DATAFRAME O EJEMPLO DATAARRAY. Una vez seleccionada la opción elegida, presionará crear y podrá observar en otra pantalla su resultado.
+
 
 .. figure:: images/imagen5.png
     :width: 260%
 
 .. figure:: images/imagen6.png
     :width: 260%
+
 

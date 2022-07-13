@@ -29,7 +29,7 @@ Codificando en Pyplan
 =====================
 Una vez que haya leido la Guia de usuario con Introducción y el administrador de archivos en el margen superior izquierdo de la página principal, y haya crado su primer aplicación, al ingresar en la misma (haciendo clic en el cubo) podra editar y/o refescar la interfaz en el margen superior derecho. 
 
-.. figure:: images/imagen1.png 
+.. figure:: images/imagen1home.png 
    :width: 300%
 
 ==========

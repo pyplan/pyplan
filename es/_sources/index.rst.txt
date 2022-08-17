@@ -38,11 +38,19 @@ Bienvenido a la documentación de Pyplan
 Pyplan es una...
 
 
-=====================
-Codificando en Pyplan
-=====================
+=================================
+Generar una aplicación desde cero
+=================================
 
-.. figure:: images/pyplan_ui.png
+Desde la página de inicio puedes hacer clic en el ícono ubicado en la parte superior izquierda con un signo + en su interior. 
+
+Se abrirá una ventana en la que podrás tipear el nombre de tu aplicación. 
+
+Eliges la opción "From Scracht" que viene por defecto y finalmente confirmas la operación clickeando el botón "Create" ubicado abajo a la derecha. 
+
+Deberás esperar algunos minutos necesarios para la creación del entorno.
+
+.. figure:: images/create_app.gif
    :width: 100%
 
 ==========

@@ -1,5 +1,0 @@
-
-Introducción
-============
-
-Introducción sobre Pyplan

@@ -3,60 +3,54 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-
-.. toctree::
-   :hidden:
-   :caption: Acerca de
-   :titlesonly:
-
-   overview
-
-
-.. toctree::
-   :hidden:
-   :caption: Guia de usuario
-   
-   user_guide/index
-   file_manager/index
-
-.. toctree::
-   :hidden:
-   :caption: Ejemplos de RST
-   :titlesonly:
-
-   samples
-
-
-
 .. figure:: images/logo.png
    :width: 300
 
+.. toctree::
+   :hidden:
+   :caption: Indice de Contenidos
+   :titlesonly:
 
-Bienvenido a la documentación de Pyplan
-=======================================
+   home/index
+   applications/index
+   code/index
+   interfaces/index
+   file_manager/index
+   task_manager/index
+   user_manager/index
+   samples
+	
 
-Pyplan es una...
+Guia del Usuario de Pyplan
+==========================
 
+Esta guia constituye el repositorio principal de la documentación de funcionamiento de Pyplan.
+Tiene por objeto explicar para que sirve Pyplan y como funciona la plataforma.
 
-=================================
-Generar una aplicación desde cero
-=================================
+No es el proposito de esta guia instruir sobre la programación en Python ni tampoco sobre las multiples librerías de Python utilizadas por Pyplan como por ejemplo Pandas, Xarray, Numpy, Plotly, entre otras.
+Links a la documentación especifica de estas librerías se encuentran incluidos en esta guia para facilitar al usuario el acceso a contenido especifico, relevante para entender alguna funcionalidad de Pyplan.
 
-Desde la página de inicio puedes hacer clic en el ícono ubicado en la parte superior izquierda con un signo + en su interior. 
+.. note:: Para entender el funcionamiento de Pyplan es necesario entender que es y para que sirve esta plataforma.
 
-Se abrirá una ventana en la que podrás tipear el nombre de tu aplicación. 
+==============
+Que es Pyplan?
+==============
+Pyplan es una plataforma de software para crear y compartir aplicaciones de planeamiento y análisis de datos.
 
-Eliges la opción "From Scracht" que viene por defecto y finalmente confirmas la operación clickeando el botón "Create" ubicado abajo a la derecha. 
+==============
+Que es una aplicación de planeamiento y análisis de datos?
+==============
+Una aplicación de planeamiento y/o análisis de datos es un desarrollo de software diseñado para dar soporte cuantitativo a un proceso de toma de decisiones.
+Una aplicación de este tipo esta constituida basicamente por un proceso de inyección de datos proveniente de multiples fuentes, un proceso de cálculo conforme a diferentes reglas de negocio y un proceso de visualización y análisis de resultados.
 
-Deberás esperar algunos minutos necesarios para la creación del entorno.
+==============
+Cual es la diferencia entre una aplicación de planeamiento y una de análisis de datos?
+==============
+Una aplicación de planeamiento es un proceso de cálculo que permite proyectar resultados de acuerdo a reglas de negocio especificamente definidas.
+En una aplicación de análisis de datos en cambio, las reglas de negocio son desconocidas. Estas son inferidas a partir del análisis de datos históricos mediante procesos estadísticos o de inteligencia artificial. 
 
-.. figure:: images/create_app.gif
-   :width: 100%
-
-==========
-Interfaces
-==========
-
-.. figure:: images/pyplan_interfaces_1.png
-   :width: 100%
-
+==============
+Como accedo a Pyplan?
+==============
+Pyplan es una plataforma que se instala en un servidor al que se accede con las correspondientes credenciales de usuario y contraseña.
+Se puede consultar `aquí <https://pyplan.com>`_ las alternativas de licenciamiento de Pyplan.

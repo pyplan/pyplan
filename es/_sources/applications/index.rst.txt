@@ -52,7 +52,7 @@ Al hacer click en crear una aplicación en Pyplan nos aparece un cuadro de dialo
 
 .. figure:: images/crear_analisis.png
 
-En este caso, la aplición de analisis de datos que se crea, tiene definido inciarse mostrando un menu determinado como el que muestra la siguiente imagen:
+En este caso, la aplicación de análisis de datos que se crea, tiene definido iniciarse mostrando un menu determinado como el que muestra la siguiente imagen:
 
 .. figure:: images/menu_app_analisis.png
 

@@ -21,7 +21,7 @@ Eligiendo crear una aplicación de análisis de datos y luego seleccionando la v
 Elementos de la ventana de codificación
 =======================================
 
-Una vez hecho click en el icono de Codigo del menu principal se accede al diagrama de influencia:
+Una vez hecho click en el icono de Código del menu principal se accede al diagrama de influencia:
 
 .. figure:: images/menu_codigo_diagrama.png
 
@@ -30,7 +30,7 @@ Los elementos que constituyen esta sección de la plataforma son:
 1. **Diagrama de influencia**: representación gráfica del procesamiento de datos hasta su transformación en salida
 2. **Tipos de visualización de nodos**: Resultado | Codigo+Resultado | Codigo+Preview
 3. **Bot de ayuda**: Robot asistente que interpreta lenguaje natural para responder a preguntas sobre el uso de Pyplan
-4. **Atajos de Navegación**: Link a Pyplan Home y al Home de la aplicación accesibles al hacer click sobre el logo de Pyplan y el titulo de la aplicacion respectivament.
+4. **Atajos de Navegación**: Link a Pyplan Home y al Home de la aplicación accesibles al hacer click sobre el logo de Pyplan y el titulo de la aplicación respectivamente.
 5. **Propiedades de una aplicación**: desplegables al hacer click en los tres puntos a la derecha del titulo de la app
 
   
@@ -67,7 +67,6 @@ Unidades
 En caso de un nodo contener una medida única, es posible indicar su unidad la que será mostrada entre paréntesis al lado del titulo al momento de mostrar los resultados del nodo. Vale destacar que las unidades solo se incluyen para ser visualizadas no formando parte del calculo de resultados.
 
 .. image:: images/propiedades_grales_nodo.png
----------------------------------------------
 
 Definición
 ----------
@@ -81,7 +80,7 @@ Resultado
 ---------
 Es el resultado que surge de ejecutar el código de la definición. Este resultado puede visualizarse de forma gráfica o de tabla.
 
-.. images:: images/nodo_def_pv_res.png
+.. image:: images/nodo_def_pv_res.png
 
 Documentación
 -------------
@@ -140,7 +139,7 @@ Tabla de entrada de datos.
 
 Botón
 -----
-El boton es un nodo especial que permite ejecutar acciones sobre los nodos.
+El botón es un nodo especial que permite ejecutar acciones sobre los nodos.
 
 Indice
 ------
@@ -177,5 +176,5 @@ Al seleccionar un nodo, haciendo click con el boton derecho del mouse, se despli
 ---------------------------
 Visualización de resultados
 ---------------------------
-Tablas y graficos
+Tablas y gráficos
 

@@ -7,6 +7,7 @@ Creación de la primera aplicación
 
 Pyplan es un ambiente de desarrollo integrado de aplicaciones pensado para usuarios sin conocimientos de programación.
 Es por esto que la forma de construir la lógica de calculo y procesamiento de las aplicaciones es a través de bloques o pasos de cálculo representados por nodos en un diagrama de influencia.
+
 Al hacer click en crear una aplicación en Pyplan nos aparece un cuadro de dialogo que nos permite optar entre crear una aplicación desde cero o a partir de un ejemplo.
 
 .. image:: images/crear_analisis.png
@@ -155,6 +156,11 @@ Módulo
 ------
 Es un tipo de nodo especial que contiene nodos dentro de el. Haciendo doble-click sobre un modulo se entra al mismo. Los módulos pueden estar anidados indefinidamente.
 
+Alias
+-----
+Los Alias son un tipo de nodo que se utilizan para hacer mas explicativos los diagramas de influencia.
+Son un espejo del nodo original. Es decir no solo el resultado que muestran es el mismo sino también que al modificar la definición del alias se modifica la definición del nodo original.
+El Alias se crea al apretar **Ctrl+M** una vez seleccionado un nodo. 
 
 
 ----------------------------------------
@@ -170,11 +176,32 @@ El desplazamiento dentro del diagrama puede ser manual, haciendo doble-click en 
 Inspección de propiedades de nodos
 ----------------------------------
 
-Al seleccionar un nodo, haciendo click con el boton derecho del mouse, se despliega una ventana de propiedades del nodo.
+Al seleccionar un nodo, haciendo click con el botón derecho del mouse, se despliega una ventana de propiedades del nodo.
 
+
+Arrastrar nodos al diagrama
+---------------------------
+Haciendo click en el botón azul del extremo superior izquierdo del diagrama se despliegan los distintos tipos de nodos para arrastrar al diagrama.
+
+.. image:: images/boton_azul.png
+
+Esta es la forma mas utilizada de crear nuevos pasos de calculo en el flujo de procesamiento de datos de la aplicación.
+
+También es posible copiar **<Ctrl+C>**, cortar **<Ctrl+X>** y pegar **<Ctrl+V>** un nodo o grupo de nodos seleccionados.
+Para seleccionar varios nodos se puede ir haciendo click sobre cada uno manteniendo la tecla **<Ctrl>** presionada o también manteniendo la tecla **<Shift>** presionada generando un rectángulo de selección.
 
 ---------------------------
 Visualización de resultados
 ---------------------------
-Tablas y gráficos
+Al seleccionar un nodo podemos saber si este esta evaluado o no de acuerdo a lo que indica la ventana de resultado. 
+
+Un nodo se evalúa al hacer doble-click sobre el mismo o al apretar el icono **Play** que aparece en la ventana de resultado o presionando **<Ctrl+Enter>** una vez seleccionado el nodo.
+
+Existen tres tipos de visualizaciones de un nodo que pueden elegirse en la parte superior derecha de la ventana del diagrama.
+
+.. image:: images/type-of-views.png
+
+* La primera corresponde a la visualización de resultados junto a la documentación.
+* La segunda permite ver la definición (código) del nodo junto al resultado del mismo.
+* La tercera permite ver el código de la definición del nodo junto a una inspección de las características técnicas del objeto resultante.
 

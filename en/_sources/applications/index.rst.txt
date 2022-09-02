@@ -5,9 +5,11 @@ Características de una aplicación
 =================================
 
 Una aplicación en Pyplan es un desarrollo particular para atender un problema específico, 
-que utiliza las funcionalidades que brinda la plataforma.
+que utiliza las funcionalidades que brinda la plataforma. 
+ 
+    Pyplan ha sido utilizado para desarrollar herramientas de Demand Planning, Sales & Operations Planning, Financial Planning, Pricing, Budgeting Planning and Forecasting entre muchas otras aplicaciones.
 
-Puede estar compuesta por diversos elementos entre los que se encuentran:
+Una aplicación en Pyplan puede estar compuesta por diversos elementos entre los que se encuentran:
 
 .. list
 * Lectura de fuentes de datos externas

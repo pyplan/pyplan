@@ -424,6 +424,11 @@ title="Print to PDF"
        Módulo
       </a>
      </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#alias">
+       Alias
+      </a>
+     </li>
     </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -439,6 +444,11 @@ title="Print to PDF"
      <li class="toc-h4 nav-item toc-entry">
       <a class="reference internal nav-link" href="#inspeccion-de-propiedades-de-nodos">
        Inspección de propiedades de nodos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#arrastrar-nodos-al-diagrama">
+       Arrastrar nodos al diagrama
       </a>
      </li>
     </ul>
@@ -576,6 +586,11 @@ title="Print to PDF"
        Módulo
       </a>
      </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#alias">
+       Alias
+      </a>
+     </li>
     </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -591,6 +606,11 @@ title="Print to PDF"
      <li class="toc-h4 nav-item toc-entry">
       <a class="reference internal nav-link" href="#inspeccion-de-propiedades-de-nodos">
        Inspección de propiedades de nodos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#arrastrar-nodos-al-diagrama">
+       Arrastrar nodos al diagrama
       </a>
      </li>
     </ul>
@@ -617,8 +637,8 @@ title="Print to PDF"
 <div class="section" id="creacion-de-la-primera-aplicacion">
 <h2>Creación de la primera aplicación<a class="headerlink" href="#creacion-de-la-primera-aplicacion" title="Permalink to this headline">#</a></h2>
 <p>Pyplan es un ambiente de desarrollo integrado de aplicaciones pensado para usuarios sin conocimientos de programación.
-Es por esto que la forma de construir la lógica de calculo y procesamiento de las aplicaciones es a través de bloques o pasos de cálculo representados por nodos en un diagrama de influencia.
-Al hacer click en crear una aplicación en Pyplan nos aparece un cuadro de dialogo que nos permite optar entre crear una aplicación desde cero o a partir de un ejemplo.</p>
+Es por esto que la forma de construir la lógica de calculo y procesamiento de las aplicaciones es a través de bloques o pasos de cálculo representados por nodos en un diagrama de influencia.</p>
+<p>Al hacer click en crear una aplicación en Pyplan nos aparece un cuadro de dialogo que nos permite optar entre crear una aplicación desde cero o a partir de un ejemplo.</p>
 <img alt="../_images/crear_analisis1.png" src="../_images/crear_analisis1.png" />
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -744,6 +764,12 @@ Tienen un funcionamiento particular cuando se los incluye en interfaces.</p>
 <h4>Módulo<a class="headerlink" href="#modulo" title="Permalink to this headline">#</a></h4>
 <p>Es un tipo de nodo especial que contiene nodos dentro de el. Haciendo doble-click sobre un modulo se entra al mismo. Los módulos pueden estar anidados indefinidamente.</p>
 </div>
+<div class="section" id="alias">
+<h4>Alias<a class="headerlink" href="#alias" title="Permalink to this headline">#</a></h4>
+<p>Los Alias son un tipo de nodo que se utilizan para hacer mas explicativos los diagramas de influencia.
+Son un espejo del nodo original. Es decir no solo el resultado que muestran es el mismo sino también que al modificar la definición del alias se modifica la definición del nodo original.
+El Alias se crea al apretar <strong>Ctrl+M</strong> una vez seleccionado un nodo.</p>
+</div>
 </div>
 <div class="section" id="operaciones-en-el-diagrama-de-influencia">
 <h3>Operaciones en el Diagrama de Influencia<a class="headerlink" href="#operaciones-en-el-diagrama-de-influencia" title="Permalink to this headline">#</a></h3>
@@ -754,12 +780,28 @@ El desplazamiento dentro del diagrama puede ser manual, haciendo doble-click en 
 </div>
 <div class="section" id="inspeccion-de-propiedades-de-nodos">
 <h4>Inspección de propiedades de nodos<a class="headerlink" href="#inspeccion-de-propiedades-de-nodos" title="Permalink to this headline">#</a></h4>
-<p>Al seleccionar un nodo, haciendo click con el boton derecho del mouse, se despliega una ventana de propiedades del nodo.</p>
+<p>Al seleccionar un nodo, haciendo click con el botón derecho del mouse, se despliega una ventana de propiedades del nodo.</p>
+</div>
+<div class="section" id="arrastrar-nodos-al-diagrama">
+<h4>Arrastrar nodos al diagrama<a class="headerlink" href="#arrastrar-nodos-al-diagrama" title="Permalink to this headline">#</a></h4>
+<p>Haciendo click en el botón azul del extremo superior izquierdo del diagrama se despliegan los distintos tipos de nodos para arrastrar al diagrama.</p>
+<img alt="../_images/boton_azul.png" src="../_images/boton_azul.png" />
+<p>Esta es la forma mas utilizada de crear nuevos pasos de calculo en el flujo de procesamiento de datos de la aplicación.</p>
+<p>También es posible copiar <strong>&lt;Ctrl+C&gt;</strong>, cortar <strong>&lt;Ctrl+X&gt;</strong> y pegar <strong>&lt;Ctrl+V&gt;</strong> un nodo o grupo de nodos seleccionados.
+Para seleccionar varios nodos se puede ir haciendo click sobre cada uno manteniendo la tecla <strong>&lt;Ctrl&gt;</strong> presionada o también manteniendo la tecla <strong>&lt;Shift&gt;</strong> presionada generando un rectángulo de selección.</p>
 </div>
 </div>
 <div class="section" id="visualizacion-de-resultados">
 <h3>Visualización de resultados<a class="headerlink" href="#visualizacion-de-resultados" title="Permalink to this headline">#</a></h3>
-<p>Tablas y gráficos</p>
+<p>Al seleccionar un nodo podemos saber si este esta evaluado o no de acuerdo a lo que indica la ventana de resultado.</p>
+<p>Un nodo se evalúa al hacer doble-click sobre el mismo o al apretar el icono <strong>Play</strong> que aparece en la ventana de resultado o presionando <strong>&lt;Ctrl+Enter&gt;</strong> una vez seleccionado el nodo.</p>
+<p>Existen tres tipos de visualizaciones de un nodo que pueden elegirse en la parte superior derecha de la ventana del diagrama.</p>
+<img alt="../_images/type-of-views.png" src="../_images/type-of-views.png" />
+<ul class="simple">
+<li><p>La primera corresponde a la visualización de resultados junto a la documentación.</p></li>
+<li><p>La segunda permite ver la definición (código) del nodo junto al resultado del mismo.</p></li>
+<li><p>La tercera permite ver el código de la definición del nodo junto a una inspección de las características técnicas del objeto resultante.</p></li>
+</ul>
 </div>
 </div>
 </div>

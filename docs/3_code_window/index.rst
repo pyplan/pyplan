@@ -195,6 +195,11 @@ Visualización de resultados
 ---------------------------
 Al seleccionar un nodo podemos saber si este esta evaluado o no de acuerdo a lo que indica la ventana de resultado. 
 
+.. image:: images/not-calc-node.png
+
+.. warning:: (aqui debieramos linkear a un paso a paso que muestre estas funcionalidades)
+
+
 Un nodo se evalúa al hacer doble-click sobre el mismo o al apretar el icono **Play** que aparece en la ventana de resultado o presionando **<Ctrl+Enter>** una vez seleccionado el nodo.
 
 Existen tres tipos de visualizaciones de un nodo que pueden elegirse en la parte superior derecha de la ventana del diagrama.
@@ -204,4 +209,3 @@ Existen tres tipos de visualizaciones de un nodo que pueden elegirse en la parte
 * La primera corresponde a la visualización de resultados junto a la documentación.
 * La segunda permite ver la definición (código) del nodo junto al resultado del mismo.
 * La tercera permite ver el código de la definición del nodo junto a una inspección de las características técnicas del objeto resultante.
-

@@ -1,0 +1,876 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ventana de Codificación</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
+    <script src="../_static/custom.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Codificando en Pyplan" href="../4_low_code_no_code/index.html" />
+    <link rel="prev" title="Aplicaciones" href="../2_applications/index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Indice de Contenidos
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../1_home/index.html">
+   Acceso a Pyplan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2_applications/index.html">
+   Aplicaciones
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Ventana de Codificación
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../4_low_code_no_code/index.html">
+   Codificando en Pyplan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../5_visualization_configuration/index.html">
+   Análisis y Visualización
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../6_interfaces/index.html">
+   Interfaces en Pyplan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../7_file_manager/index.html">
+   Administrador de archivos
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../8_task_manager/index.html">
+   Tareas programadas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../9_user_manager/index.html">
+   Administracion de Usuarios
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../samples.html">
+   Ejemplos .RST
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/pyplan/pyplan"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/pyplan/pyplan/issues/new?title=Issue%20on%20page%20%2F3_code_window/index.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/pyplan/pyplan/edit/master/docs/3_code_window/index.rst"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/3_code_window/index.rst.txt"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.rst</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#creacion-de-la-primera-aplicacion">
+   Creación de la primera aplicación
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#elementos-de-la-ventana-de-codificacion">
+   Elementos de la ventana de codificación
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#diagrama-de-influencia">
+     Diagrama de influencia
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#caracteristicas-de-un-nodo">
+     Características de un Nodo
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#titulo-del-nodo">
+       Titulo del nodo
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id-del-nodo">
+       Id del nodo
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#unidades">
+       Unidades
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#definicion">
+       Definición
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#vista-previa">
+       Vista Previa
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#resultado">
+       Resultado
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#documentacion">
+       Documentación
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#entradas">
+       Entradas
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#salidas">
+       Salidas
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tipos-de-nodo">
+     Tipos de Nodo
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#variable">
+       Variable
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lectura-de-datos">
+       Lectura de datos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#entrada-de-datos">
+       Entrada de datos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#boton">
+       Botón
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#indice">
+       Indice
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#texto">
+       Texto
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#modulo">
+       Módulo
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#alias">
+       Alias
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#operaciones-en-el-diagrama-de-influencia">
+     Operaciones en el Diagrama de Influencia
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#navegacion">
+       Navegación
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#inspeccion-de-propiedades-de-nodos">
+       Inspección de propiedades de nodos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#arrastrar-nodos-al-diagrama">
+       Arrastrar nodos al diagrama
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visualizacion-de-resultados">
+     Visualización de resultados
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Ventana de Codificación</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#creacion-de-la-primera-aplicacion">
+   Creación de la primera aplicación
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#elementos-de-la-ventana-de-codificacion">
+   Elementos de la ventana de codificación
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#diagrama-de-influencia">
+     Diagrama de influencia
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#caracteristicas-de-un-nodo">
+     Características de un Nodo
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#titulo-del-nodo">
+       Titulo del nodo
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id-del-nodo">
+       Id del nodo
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#unidades">
+       Unidades
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#definicion">
+       Definición
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#vista-previa">
+       Vista Previa
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#resultado">
+       Resultado
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#documentacion">
+       Documentación
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#entradas">
+       Entradas
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#salidas">
+       Salidas
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tipos-de-nodo">
+     Tipos de Nodo
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#variable">
+       Variable
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lectura-de-datos">
+       Lectura de datos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#entrada-de-datos">
+       Entrada de datos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#boton">
+       Botón
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#indice">
+       Indice
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#texto">
+       Texto
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#modulo">
+       Módulo
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#alias">
+       Alias
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#operaciones-en-el-diagrama-de-influencia">
+     Operaciones en el Diagrama de Influencia
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#navegacion">
+       Navegación
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#inspeccion-de-propiedades-de-nodos">
+       Inspección de propiedades de nodos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#arrastrar-nodos-al-diagrama">
+       Arrastrar nodos al diagrama
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visualizacion-de-resultados">
+     Visualización de resultados
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <div class="section" id="ventana-de-codificacion">
+<h1>Ventana de Codificación<a class="headerlink" href="#ventana-de-codificacion" title="Permalink to this headline">#</a></h1>
+<div class="section" id="creacion-de-la-primera-aplicacion">
+<h2>Creación de la primera aplicación<a class="headerlink" href="#creacion-de-la-primera-aplicacion" title="Permalink to this headline">#</a></h2>
+<p>Pyplan es un ambiente de desarrollo integrado de aplicaciones pensado para usuarios sin conocimientos de programación.
+Es por esto que la forma de construir la lógica de calculo y procesamiento de las aplicaciones es a través de bloques o pasos de cálculo representados por nodos en un diagrama de influencia.</p>
+<p>Al hacer click en crear una aplicación en Pyplan nos aparece un cuadro de dialogo que nos permite optar entre crear una aplicación desde cero o a partir de un ejemplo.</p>
+<img alt="../_images/crear_analisis1.png" src="../_images/crear_analisis1.png" />
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>(esta imagen de arriba debiera ser un Gif o incluir un link a un GIF paso a paso)</p>
+</div>
+<p>Eligiendo crear una aplicación de análisis de datos y luego seleccionando la visualización del código se llega a una ventana como la siguiente:</p>
+<div class="figure align-default">
+<img alt="../_images/diagrama+nodo.png" src="../_images/diagrama+nodo.png" />
+</div>
+</div>
+<div class="section" id="elementos-de-la-ventana-de-codificacion">
+<h2>Elementos de la ventana de codificación<a class="headerlink" href="#elementos-de-la-ventana-de-codificacion" title="Permalink to this headline">#</a></h2>
+<p>Una vez hecho click en el icono de Código del menu principal se accede al diagrama de influencia:</p>
+<div class="figure align-default">
+<img alt="../_images/menu_codigo_diagrama.png" src="../_images/menu_codigo_diagrama.png" />
+</div>
+<p>Los elementos que constituyen esta sección de la plataforma son:</p>
+<ol class="arabic simple">
+<li><p><strong>Diagrama de influencia</strong>: representación gráfica del procesamiento de datos hasta su transformación en salida</p></li>
+<li><p><strong>Tipos de visualización de nodos</strong>: Resultado | Codigo+Resultado | Codigo+Preview</p></li>
+<li><p><strong>Bot de ayuda</strong>: Robot asistente que interpreta lenguaje natural para responder a preguntas sobre el uso de Pyplan</p></li>
+<li><p><strong>Atajos de Navegación</strong>: Link a Pyplan Home y al Home de la aplicación accesibles al hacer click sobre el logo de Pyplan y el titulo de la aplicación respectivamente.</p></li>
+<li><p><strong>Propiedades de una aplicación</strong>: desplegables al hacer click en los tres puntos a la derecha del titulo de la app</p></li>
+</ol>
+<div class="section" id="diagrama-de-influencia">
+<h3>Diagrama de influencia<a class="headerlink" href="#diagrama-de-influencia" title="Permalink to this headline">#</a></h3>
+<p>Es la representación gráfica del proceso de cálculo.
+Cada nodo representa un paso de calculo en el proceso de transformación de los datos.
+Un nodo se selecciona haciendo click sobre el mismo.
+Al hacer doble-click sobre un nodo, este es evaluado y su resultado se muestra a pantalla completa de acuerdo a su configuración de visualización predeterminada.
+Los vínculos (flechas) entre nodos son generados automáticamente el invocar un nodo dentro de la definición de otro.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>(aquí debiéramos incluir un link a una de las lecciones que te muestren paso a paso esta sección)</p>
+</div>
+</div>
+<div class="section" id="caracteristicas-de-un-nodo">
+<h3>Características de un Nodo<a class="headerlink" href="#caracteristicas-de-un-nodo" title="Permalink to this headline">#</a></h3>
+<p>Un nodo es la unidad mínima de construcción del proceso de cálculo.
+Para agregar un nodo se arrastra el mismo sobre el diagrama.</p>
+<p>Cuenta con las siguientes propiedades:</p>
+<div class="section" id="titulo-del-nodo">
+<h4>Titulo del nodo<a class="headerlink" href="#titulo-del-nodo" title="Permalink to this headline">#</a></h4>
+<p>Es el texto que se visualiza dentro del nodo en el diagrama</p>
+</div>
+<div class="section" id="id-del-nodo">
+<h4>Id del nodo<a class="headerlink" href="#id-del-nodo" title="Permalink to this headline">#</a></h4>
+<p>Es el identificador del nodo, es la forma en la que un nodo es invocado en la definición de otro nodo. El Id del nodo se genera automáticamente a partir del titulo, pero puede ser cambiado por el usuario.</p>
+</div>
+<div class="section" id="unidades">
+<h4>Unidades<a class="headerlink" href="#unidades" title="Permalink to this headline">#</a></h4>
+<p>En caso de un nodo contener una medida única, es posible indicar su unidad la que será mostrada entre paréntesis al lado del titulo al momento de mostrar los resultados del nodo. Vale destacar que las unidades solo se incluyen para ser visualizadas no formando parte del calculo de resultados.</p>
+<img alt="../_images/propiedades_grales_nodo.png" src="../_images/propiedades_grales_nodo.png" />
+</div>
+<div class="section" id="definicion">
+<h4>Definición<a class="headerlink" href="#definicion" title="Permalink to this headline">#</a></h4>
+<p>Es la operación de transformación ejecutada al evaluar un nodo. Su código esta escrito en lenguaje Python. Termina con la definición de su resultado <strong>“result=”</strong></p>
+</div>
+<div class="section" id="vista-previa">
+<h4>Vista Previa<a class="headerlink" href="#vista-previa" title="Permalink to this headline">#</a></h4>
+<p>Es la descripción técnica de la salida del proceso de cálculo.</p>
+</div>
+<div class="section" id="resultado">
+<h4>Resultado<a class="headerlink" href="#resultado" title="Permalink to this headline">#</a></h4>
+<p>Es el resultado que surge de ejecutar el código de la definición. Este resultado puede visualizarse de forma gráfica o de tabla.</p>
+<img alt="../_images/nodo_def_pv_res.png" src="../_images/nodo_def_pv_res.png" />
+</div>
+<div class="section" id="documentacion">
+<h4>Documentación<a class="headerlink" href="#documentacion" title="Permalink to this headline">#</a></h4>
+<p>Es el texto que describe conceptualmente cada paso de cálculo y se despliega en la parte inferior de la vista de resultados.</p>
+<img alt="../_images/resultado+doc.png" src="../_images/resultado+doc.png" />
+</div>
+<div class="section" id="entradas">
+<h4>Entradas<a class="headerlink" href="#entradas" title="Permalink to this headline">#</a></h4>
+<p>listado de nodos utilizados en la definición de un nodo</p>
+</div>
+<div class="section" id="salidas">
+<h4>Salidas<a class="headerlink" href="#salidas" title="Permalink to this headline">#</a></h4>
+<p>listado de nodos que utilizan el resultado del nodo seleccionado</p>
+<img alt="../_images/propiedades_sa-_nodo.png" src="../_images/propiedades_sa-_nodo.png" />
+<p>A estas propiedades de nodo se accede haciendo click y seleccionándolo. Haciendo doble-click evaluándolo o haciendo click con el botón derecho del mouse una vez seleccionado el nodo.</p>
+</div>
+</div>
+<div class="section" id="tipos-de-nodo">
+<h3>Tipos de Nodo<a class="headerlink" href="#tipos-de-nodo" title="Permalink to this headline">#</a></h3>
+<p>Existen diferentes tipos de nodos para diferentes propósitos. Sus funcionalidades han sido diseñadas para facilitar la definición de los parámetros necesarios para su ejecución.</p>
+<img alt="../_images/tipos_nodo.png" src="../_images/tipos_nodo.png" />
+<div class="section" id="variable">
+<h4>Variable<a class="headerlink" href="#variable" title="Permalink to this headline">#</a></h4>
+<p>Los nodos de tipo variable son los más utilizados dado que tienen la función de contener un proceso de calculo genérico.
+Son de color azul inicialmente. Este color cambia a gris en caso que un nodo no tenga salidas y se lo considera un reporte.
+Por otra parte, cambia a un color rojo en caso que las salidas del nodo se encuentren fuera del modulo al que pertenece.</p>
+</div>
+<div class="section" id="lectura-de-datos">
+<h4>Lectura de datos<a class="headerlink" href="#lectura-de-datos" title="Permalink to this headline">#</a></h4>
+<p>Nodo que al arrastrarlo despliega un asistente para conectarse a distintas fuentes de datos</p>
+<img alt="../_images/nodo_lectura.png" src="../_images/nodo_lectura.png" />
+<img alt="../_images/asistente_csv.png" src="../_images/asistente_csv.png" />
+</div>
+<div class="section" id="entrada-de-datos">
+<h4>Entrada de datos<a class="headerlink" href="#entrada-de-datos" title="Permalink to this headline">#</a></h4>
+<p>Nodo que permite crear un proceso de entrada de datos manuales.</p>
+<img alt="../_images/tipo_de_ent_datos.png" src="../_images/tipo_de_ent_datos.png" />
+<p>Una vez elegido el tipo de entrada de datos se despliega un asistente para su configuración. En este caso se muestra el asistente para crear una
+Tabla de entrada de datos.</p>
+<img alt="../_images/entrada_tabla.png" src="../_images/entrada_tabla.png" />
+</div>
+<div class="section" id="boton">
+<h4>Botón<a class="headerlink" href="#boton" title="Permalink to this headline">#</a></h4>
+<p>El botón es un nodo especial que permite ejecutar acciones sobre los nodos.</p>
+</div>
+<div class="section" id="indice">
+<h4>Indice<a class="headerlink" href="#indice" title="Permalink to this headline">#</a></h4>
+<p>El nodo indice es la forma en que Pyplan almacena las dimensiones que son utilizadas a traves de todo el proceso de calculo.
+Su definición conduce a la determinación de una lista de elementos que constituyen la dimensión.
+Tienen un funcionamiento particular cuando se los incluye en interfaces.</p>
+</div>
+<div class="section" id="texto">
+<h4>Texto<a class="headerlink" href="#texto" title="Permalink to this headline">#</a></h4>
+<p>El cuadro de texto es un elemento de construcción del diagrama con fines solamente de organización del diagrama de influencia.</p>
+</div>
+<div class="section" id="modulo">
+<h4>Módulo<a class="headerlink" href="#modulo" title="Permalink to this headline">#</a></h4>
+<p>Es un tipo de nodo especial que contiene nodos dentro de el. Haciendo doble-click sobre un modulo se entra al mismo. Los módulos pueden estar anidados indefinidamente.</p>
+</div>
+<div class="section" id="alias">
+<h4>Alias<a class="headerlink" href="#alias" title="Permalink to this headline">#</a></h4>
+<p>Los Alias son un tipo de nodo que se utilizan para hacer mas explicativos los diagramas de influencia.
+Son un espejo del nodo original. Es decir no solo el resultado que muestran es el mismo sino también que al modificar la definición del alias se modifica la definición del nodo original.
+El Alias se crea al apretar <strong>Ctrl+M</strong> una vez seleccionado un nodo.</p>
+</div>
+</div>
+<div class="section" id="operaciones-en-el-diagrama-de-influencia">
+<h3>Operaciones en el Diagrama de Influencia<a class="headerlink" href="#operaciones-en-el-diagrama-de-influencia" title="Permalink to this headline">#</a></h3>
+<div class="section" id="navegacion">
+<h4>Navegación<a class="headerlink" href="#navegacion" title="Permalink to this headline">#</a></h4>
+<p>El diagrama de influencia es una representación jerárquica de la lógica de calculo.
+El desplazamiento dentro del diagrama puede ser manual, haciendo doble-click en el modulo que se quiera entrar o haciendo click en el camino generado a partir de la navegación para subir a las jerarquías superiores.</p>
+</div>
+<div class="section" id="inspeccion-de-propiedades-de-nodos">
+<h4>Inspección de propiedades de nodos<a class="headerlink" href="#inspeccion-de-propiedades-de-nodos" title="Permalink to this headline">#</a></h4>
+<p>Al seleccionar un nodo, haciendo click con el botón derecho del mouse, se despliega una ventana de propiedades del nodo.</p>
+</div>
+<div class="section" id="arrastrar-nodos-al-diagrama">
+<h4>Arrastrar nodos al diagrama<a class="headerlink" href="#arrastrar-nodos-al-diagrama" title="Permalink to this headline">#</a></h4>
+<p>Haciendo click en el botón azul del extremo superior izquierdo del diagrama se despliegan los distintos tipos de nodos para arrastrar al diagrama.</p>
+<img alt="../_images/boton_azul.png" src="../_images/boton_azul.png" />
+<p>Esta es la forma mas utilizada de crear nuevos pasos de calculo en el flujo de procesamiento de datos de la aplicación.</p>
+<p>También es posible copiar <strong>&lt;Ctrl+C&gt;</strong>, cortar <strong>&lt;Ctrl+X&gt;</strong> y pegar <strong>&lt;Ctrl+V&gt;</strong> un nodo o grupo de nodos seleccionados.
+Para seleccionar varios nodos se puede ir haciendo click sobre cada uno manteniendo la tecla <strong>&lt;Ctrl&gt;</strong> presionada o también manteniendo la tecla <strong>&lt;Shift&gt;</strong> presionada generando un rectángulo de selección.</p>
+</div>
+</div>
+<div class="section" id="visualizacion-de-resultados">
+<h3>Visualización de resultados<a class="headerlink" href="#visualizacion-de-resultados" title="Permalink to this headline">#</a></h3>
+<p>Al seleccionar un nodo podemos saber si este esta evaluado o no de acuerdo a lo que indica la ventana de resultado.</p>
+<img alt="../_images/not-calc-node.png" src="../_images/not-calc-node.png" />
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>(aqui debieramos linkear a un paso a paso que muestre estas funcionalidades)</p>
+</div>
+<p>Un nodo se evalúa al hacer doble-click sobre el mismo o al apretar el icono <strong>Play</strong> que aparece en la ventana de resultado o presionando <strong>&lt;Ctrl+Enter&gt;</strong> una vez seleccionado el nodo.</p>
+<p>Existen tres tipos de visualizaciones de un nodo que pueden elegirse en la parte superior derecha de la ventana del diagrama.</p>
+<img alt="../_images/type-of-views.png" src="../_images/type-of-views.png" />
+<ul class="simple">
+<li><p>La primera corresponde a la visualización de resultados junto a la documentación.</p></li>
+<li><p>La segunda permite ver la definición (código) del nodo junto al resultado del mismo.</p></li>
+<li><p>La tercera permite ver el código de la definición del nodo junto a una inspección de las características técnicas del objeto resultante.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../2_applications/index.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Aplicaciones</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../4_low_code_no_code/index.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Codificando en Pyplan</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Pyplan Inc.<br/>
+  
+      &copy; Copyright 2022, Pyplan.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

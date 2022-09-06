@@ -1,6 +1,6 @@
 Acceso a Pyplan
 ===================
-Al acceder a la dirección de internet del servidor donde se encuentra instalado `Pyplan <https://dev.pyplan.com>`_, se presenta la página de inicio para introducir las credenciales de acceso.
+Al acceder a la dirección de internet del servidor donde se encuentra instalado, se presenta la página de inicio para introducir las credenciales de acceso.
 
 Pyplan posee la funcionalidad de **"Single Sign On"**. Esto significa que los usuarios que pertenezcan a un servidor de dominio serán automáticamente reconocidos.
 

@@ -26,7 +26,7 @@ Una vez hecho click en el icono de **código** del menú principal, se accede al
 Los elementos que constituyen esta sección de la plataforma son:
 
 1. **Diagrama de influencia**: Representación gráfica del procesamiento de datos hasta su transformación en salida.
-2. **Tipos de visualización de nodos**: Resultado | Codigo+Resultado | Codigo+Preview.
+2. **Tipos de visualización de nodos**: Resultado | Código+Resultado | Código+Preview.
 3. **Bot de ayuda**: Robot asistente que interpreta lenguaje natural para responder a preguntas sobre el uso de Pyplan.
 4. **Atajos de Navegación**: Link a Pyplan Home y al Home de la aplicación, accesibles al hacer click sobre el logo de Pyplan y el título de la aplicación, respectivamente.
 5. **Propiedades de una aplicación**: Desplegables al hacer click en los tres puntos a la derecha del título de la app.
@@ -39,8 +39,8 @@ Diagrama de Influencia
 Es la representación gráfica del proceso de cálculo. 
 Cada nodo representa un paso de cálculo en el proceso de transformación de los datos.
 Un nodo se selecciona haciendo click sobre el mismo.
-Al hacer doble-click sobre un nodo, este es evaluado y su resultado se muestra a pantalla completa de acuerdo a su configuración de visualización predeterminada.
-Los vínculos (flechas) entre nodos son generados automáticamente el invocar un nodo dentro de la definición de otro.
+Al hacer doble-click sobre un nodo, este es evaluado. Su resultado se muestra en pantalla completa de acuerdo con su configuración de visualización predeterminada.
+Los vínculos (flechas) entre nodos son generados automáticamente al invocar un nodo dentro de la definición de otro.
 
 .. warning:: (aquí debiéramos incluir un link a una de las lecciones que te muestren paso a paso esta sección)
 
@@ -62,7 +62,7 @@ Es el identificador del nodo, es la forma en la que un nodo es invocado en la de
 
 Unidades
 --------
-En caso de que un nodo contenga una medida única es posible indicar su unidad, que será mostrada entre paréntesis al lado del título al momento de mostrar los resultados del nodo. Vale destacar que las unidades solo se incluyen para ser visualizadas, no formando parte del calculo de resultados.
+En caso de que un nodo contenga una medida única, es posible indicar su unidad. Esta será mostrada entre paréntesis al lado del título al momento de mostrar los resultados del nodo. Vale destacar que las unidades solo se incluyen para ser visualizadas, no forman parte del cálculo de resultados.
 
 .. image:: images/propiedades_grales_nodo.png
 ---------------------------------------------
@@ -113,13 +113,13 @@ Existen diferentes tipos de nodos para diferentes propósitos. Sus funcionalidad
 Variable
 --------
 Los nodos de tipo variable son los más utilizados, dado que tienen la función de contener un proceso de cálculo genérico.
-Son de color azul inicialmente. Este color cambia a gris en caso que un nodo no tenga salidas y se lo considera un reporte.
-Por otra parte, cambia a un color rojo en caso que las salidas del nodo se encuentren fuera del modulo al que pertenece.
+Son de color azul inicialmente. En caso de que no tenga salidas, este color cambia a gris y se lo considera un reporte.
+Cambia a color rojo en caso de que las salidas del nodo se encuentren fuera del módulo al que pertenece.
 
 Lectura de datos
 ----------------
 
-Nodo que al arrastrarlo despliega un asistente para conectarse a distintas fuentes de datos.
+Nodo que al arrastrarse despliega un asistente para conectarse a distintas fuentes de datos:
 
 .. image:: images/nodo_lectura.png
 
@@ -148,7 +148,7 @@ Tienen un funcionamiento particular cuando se los incluye en interfaces.
 
 Texto
 -----
-El cuadro de texto es un elemento de construcción del diagrama con fines solamente de organización del diagrama de influencia.
+El cuadro de texto es un elemento de construcción del diagrama con el único fin de facilitar la organización del diagrama de influencia.
 
 Módulo
 ------
@@ -162,10 +162,10 @@ Navegación
 ----------
 
 El diagrama de influencia es una representación jerárquica de la lógica de cálculo. 
-El desplazamiento dentro del diagrama puede ser manual, haciendo doble-click en el módulo que se quiera entrar o haciendo click en el camino generado a partir de la navegación para subir a las jerarquías superiores.
+El desplazamiento dentro del diagrama puede ser manual: se hace doble-click en el módulo al que se quiere ingresar o click en el camino generado a partir de la navegación para subir a las jerarquías superiores.
 
 Inspección de propiedades de nodos
 ----------------------------------
 
-Al seleccionar un nodo, haciendo click con el boton derecho del mouse, se despliega una ventana de propiedades del nodo.
+Al seleccionar un nodo (click con el boton derecho del mouse), se despliega una ventana de propiedades del nodo.
 

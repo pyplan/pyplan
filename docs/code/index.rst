@@ -39,7 +39,7 @@ Diagrama de Influencia
 Es la representación gráfica del proceso de cálculo. 
 Cada nodo representa un paso de cálculo en el proceso de transformación de los datos.
 Un nodo se selecciona haciendo click sobre el mismo.
-Al hacer doble-click sobre un nodo, este es evaluado. Su resultado se muestra en pantalla completa de acuerdo con su configuración de visualización predeterminada.
+Al hacer doble-click sobre un nodo, este es calculado. Su resultado se muestra en pantalla completa de acuerdo con su configuración de visualización predeterminada.
 Los vínculos (flechas) entre nodos son generados automáticamente al invocar un nodo dentro de la definición de otro.
 
 .. warning:: (aquí debiéramos incluir un link a una de las lecciones que te muestren paso a paso esta sección)
@@ -162,10 +162,41 @@ Navegación
 ----------
 
 El diagrama de influencia es una representación jerárquica de la lógica de cálculo. 
-El desplazamiento dentro del diagrama puede ser manual: se hace doble-click en el módulo al que se quiere ingresar o click en el camino generado a partir de la navegación para subir a las jerarquías superiores.
+El desplazamiento dentro del diagrama puede ser manual, haciendo doble-click en el módulo que se quiera entrar o haciendo click en el camino generado a partir de la navegación para subir a las jerarquías superiores.
 
 Inspección de propiedades de nodos
 ----------------------------------
 
-Al seleccionar un nodo (click con el boton derecho del mouse), se despliega una ventana de propiedades del nodo.
+Al seleccionar un nodo, haciendo click con el botón derecho del mouse, se despliega una ventana de propiedades del nodo.
 
+
+Arrastrar nodos al diagrama
+---------------------------
+Haciendo click en el botón azul del extremo superior izquierdo se despliegan los distintos tipos de nodos para arrastrar al diagrama.
+
+.. image:: images/boton_azul.png
+
+Esta es la forma más utilizada de crear nuevos pasos de cálculo en el flujo de procesamiento de datos de la aplicación.
+
+También es posible copiar **<Ctrl+C>**, cortar **<Ctrl+X>** y pegar **<Ctrl+V>** un nodo o grupo de nodos seleccionados.
+Para seleccionar varios nodos se puede ir haciendo click sobre cada uno manteniendo la tecla **<Ctrl>** presionada. También se puede generar un rectángulo de selección manteniendo presionada la tecla **<Shift>**.
+
+---------------------------
+Visualización de resultados
+---------------------------
+Al seleccionar un nodo, podemos saber si este está calculado o no, según lo que indica la ventana de resultado:
+
+.. image:: images/not-calc-node.png
+
+.. warning:: (aqui debieramos linkear a un paso a paso que muestre estas funcionalidades)
+
+
+Un nodo se calcula al hacer doble-click sobre el mismo o al apretar el icono **Play** que aparece en la ventana de resultado o presionando **<Ctrl+Enter>** una vez seleccionado el nodo.
+
+Existen tres tipos de visualizaciones de un nodo que pueden elegirse en la parte superior derecha de la ventana del diagrama.
+
+.. image:: images/type-of-views.png
+
+* La primera corresponde a la visualización de resultados junto a la documentación.
+* La segunda permite ver la definición (código) del nodo junto al resultado del mismo.
+* La tercera permite ver el código de la definición del nodo junto a una inspección de las características técnicas del objeto resultante.

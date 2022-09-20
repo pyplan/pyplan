@@ -44,21 +44,3 @@ El administrador de aplicaciones permite navegar por las aplicaciones accesibles
 Ademas de crear nuevas aplicaciones, es posible realizar las siguientes acciones sobre ellas:
 
 .. figure:: images/opciones_de_apps.png
-
-=================================
-Creación de la primera aplicación
-=================================
-
-Pyplan es un ambiente de desarrollo integrado de aplicaciones, pensado para usuarios sin conocimientos de programación.
-Es por esto que la forma de construir la lógica de cálculo y procesamiento de las aplicaciones se produce a través de bloques o pasos de cálculo, representados por nodos en un diagrama de influencia.
-Al hacer click en **crear una aplicación**, aparece un cuadro de diálogo que permite optar entre crear una aplicación desde cero o a partir de un ejemplo.
-
-.. figure:: images/crear_app.png
-
-En este caso, la aplicación de análisis de datos que se crea, tiene definido iniciarse mostrando un menu determinado como el que muestra la siguiente imagen:
-
-.. figure:: images/menu_app_analisis.png
-
-Haciendo click sobre **"View Code"** se accede al diagrama de influencia que representa los diferentes pasos de procesamiento de datos y cálculos que se realizan para generar las salidas de información.
-
-.. figure:: images/first_diagram.png

@@ -23,36 +23,36 @@
    samples
 	
 
-Guia del Usuario de Pyplan
+Guía del Usuario de Pyplan
 ==========================
 
 Esta guía constituye el repositorio principal de la documentación de funcionamiento de Pyplan.
-Tiene por objeto explicar para que sirve Pyplan y como funciona la plataforma.
+Tiene por objeto explicar para qué sirve Pyplan y cómo funciona la plataforma.
 
-No es el propósito de esta guía instruir sobre la programación en Python ni tampoco sobre las multiples librerías de Python utilizadas por Pyplan como por ejemplo Pandas, Xarray, Numpy, Plotly, entre otras.
-Links a la documentación especifica de estas librerías se encuentran incluidos en esta guía para facilitar al usuario el acceso a contenido especifico, relevante para entender alguna funcionalidad de Pyplan.
+No es el propósito de esta guía instruir sobre la programación en Python ni tampoco sobre las múltiples librerías de Python utilizadas por Pyplan, como por ejemplo Pandas, Xarray, Numpy, Plotly, entre otras.
+Los links a la documentación específica de estas librerías se encuentran incluidos en esta guía para facilitar al usuario el acceso al contenido específico, relevante para entender alguna funcionalidad de Pyplan.
 
-.. note:: Para entender el funcionamiento de Pyplan es necesario entender que es y para que sirve esta plataforma.
+.. note:: Para entender el funcionamiento de Pyplan es necesario entender qué es y para qué sirve esta plataforma.
 
 ==============
-Que es Pyplan?
+¿Qué es Pyplan?
 ==============
 Pyplan es una plataforma de software para crear y compartir aplicaciones de planeamiento y análisis de datos.
 
 ==============
-Que es una aplicación de planeamiento y análisis de datos?
+¿Qué es una aplicación de planeamiento y análisis de datos?
 ==============
 Una aplicación de planeamiento y/o análisis de datos es un desarrollo de software diseñado para dar soporte cuantitativo a un proceso de toma de decisiones.
-Una aplicación de este tipo esta constituida basicamente por un proceso de inyección de datos proveniente de multiples fuentes, un proceso de cálculo conforme a diferentes reglas de negocio y un proceso de visualización y análisis de resultados.
+Una aplicación de este tipo está constituida básicamente por un proceso de inyección de datos proveniente de múltiples fuentes, un proceso de cálculo conforme a diferentes reglas de negocio y un proceso de visualización y análisis de resultados.
 
 ==============
-Cual es la diferencia entre una aplicación de planeamiento y una de análisis de datos?
+¿Cuál es la diferencia entre una aplicación de planeamiento y una de análisis de datos?
 ==============
-Una aplicación de planeamiento es un proceso de cálculo que permite proyectar resultados de acuerdo a reglas de negocio especificamente definidas.
-En una aplicación de análisis de datos en cambio, las reglas de negocio son desconocidas. Estas son inferidas a partir del análisis de datos históricos mediante procesos estadísticos o de inteligencia artificial. 
+Una aplicación de planeamiento es un proceso de cálculo que permite proyectar resultados de acuerdo a reglas de negocio específicamente definidas.
+En una aplicación de análisis de datos, en cambio, las reglas de negocio son desconocidas. Estas son inferidas a partir del análisis de datos históricos mediante procesos estadísticos o de inteligencia artificial. 
 
 ==============
-Como accedo a Pyplan?
+¿Cómo accedo a Pyplan?
 ==============
 Pyplan es una plataforma que se instala en un servidor al que se accede con las correspondientes credenciales de usuario y contraseña.
 Se puede consultar `aquí <https://pyplan.com>`_ las alternativas de licenciamiento de Pyplan.

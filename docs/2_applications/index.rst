@@ -20,8 +20,10 @@ Una aplicación en Pyplan puede estar compuesta por diversos elementos entre los
 
 Estos elementos son almacenados en un espacio de trabajo.
 
-| Todos los usuarios tienen como mínimo acceso a dos espacios de trabajo:
+| Todos los usuarios con permisos de creación de aplicaciones tienen como mínimo acceso a dos espacios de trabajo:
+
 .. list
+
 * Un espacio público denominado **"Public"** donde se comparten aplicaciones accesibles para todos los usuarios.
 * Un espacio Privado denominado **"My Workspace"**, donde cada usuario puede crear o modificar aplicaciones en un ambiente solo accesible para él mismo.
 | Además, los usuarios tienen acceso a espacios de trabajos de equipos a los que pertenecen: **"Teams"**. Estos equipos son la forma de compartir información con restricción de acceso a determinados usuarios.

@@ -714,7 +714,8 @@ Para agregar un nodo se arrastra el mismo sobre el diagrama.</p>
 </div>
 <div class="section" id="resultado">
 <h4>Resultado<a class="headerlink" href="#resultado" title="Enlazar permanentemente con este título">#</a></h4>
-<p>Es el resultado que surge de ejecutar el código de la definición. Este resultado puede visualizarse de forma gráfica o de tabla.</p>
+<p>Es el resultado que surge de ejecutar el código de la definición. Cuando este resultado es un objeto interpretado por Pyplan (un dataframe de Pandas, una matriz de Numpy, o una matriz con dimensiones designadas de Xarray),
+este puede visualizarse de forma gráfica o de tabla.</p>
 </div>
 <div class="section" id="documentacion">
 <h4>Documentación<a class="headerlink" href="#documentacion" title="Enlazar permanentemente con este título">#</a></h4>
@@ -736,7 +737,7 @@ Para agregar un nodo se arrastra el mismo sobre el diagrama.</p>
 <div class="section" id="tipos-de-nodo">
 <h4>Tipos de Nodo<a class="headerlink" href="#tipos-de-nodo" title="Enlazar permanentemente con este título">#</a></h4>
 <p>Existen diferentes tipos de nodos para diferentes propósitos. Sus funcionalidades han sido diseñadas para facilitar la definición de los parámetros necesarios para su ejecución.</p>
-<img alt="../_images/types_node.png" src="../_images/types_node.png" />
+<img alt="../_images/tipos_nodo.png" src="../_images/tipos_nodo.png" />
 </div>
 <div class="section" id="variable">
 <h4>Variable<a class="headerlink" href="#variable" title="Enlazar permanentemente con este título">#</a></h4>
@@ -770,11 +771,11 @@ Tienen un funcionamiento particular cuando se los incluye en interfaces.</p>
 </div>
 <div class="section" id="texto">
 <h4>Texto<a class="headerlink" href="#texto" title="Enlazar permanentemente con este título">#</a></h4>
-<p>El cuadro de texto es un elemento de construcción del diagrama con el único fin de facilitar la organización del diagrama de influencia.</p>
+<p>El cuadro de texto es un elemento de construcción del diagrama con el único fin de facilitar la interpretación del diagrama de influencia.</p>
 </div>
 <div class="section" id="modulo">
 <h4>Módulo<a class="headerlink" href="#modulo" title="Enlazar permanentemente con este título">#</a></h4>
-<p>Es un tipo de nodo especial que contiene nodos en su interior. Se ingresa a un módulo haciendo doble-click sobre él. Los módulos pueden estar anidados indefinidamente.</p>
+<p>Es un tipo de nodo especial que permite contener nodos en su interior. Sirve para organizar jerarquicamente un calculo complejo. A un módulo se ingresa haciendo doble-click sobre él. Los módulos pueden estar anidados indefinidamente.</p>
 </div>
 </div>
 <div class="section" id="operaciones-en-el-diagrama-de-influencia">
@@ -782,7 +783,7 @@ Tienen un funcionamiento particular cuando se los incluye en interfaces.</p>
 <div class="section" id="navegacion">
 <h4>Navegación<a class="headerlink" href="#navegacion" title="Enlazar permanentemente con este título">#</a></h4>
 <p>El diagrama de influencia es una representación jerárquica de la lógica de cálculo.
-El desplazamiento dentro del diagrama puede ser manual, haciendo doble-click en el módulo que se quiera entrar o haciendo click en el camino generado a partir de la navegación para subir a las jerarquías superiores.</p>
+El desplazamiento dentro del diagrama se realiza, haciendo doble-click en el módulo que se quiera entrar o haciendo click en el camino generado a partir de la navegación para subir a las jerarquías superiores.</p>
 </div>
 <div class="section" id="inspeccion-de-propiedades-de-nodos">
 <h4>Inspección de propiedades de nodos<a class="headerlink" href="#inspeccion-de-propiedades-de-nodos" title="Enlazar permanentemente con este título">#</a></h4>
@@ -794,7 +795,7 @@ El desplazamiento dentro del diagrama puede ser manual, haciendo doble-click en 
 <img alt="../_images/boton_azul.png" src="../_images/boton_azul.png" />
 <p>Esta es la forma más utilizada de crear nuevos pasos de cálculo en el flujo de procesamiento de datos de la aplicación.</p>
 <p>También es posible copiar <strong>&lt;Ctrl+C&gt;</strong>, cortar <strong>&lt;Ctrl+X&gt;</strong> y pegar <strong>&lt;Ctrl+V&gt;</strong> un nodo o grupo de nodos seleccionados.
-Para seleccionar varios nodos se puede ir haciendo click sobre cada uno manteniendo la tecla <strong>&lt;Ctrl&gt;</strong> presionada. También se puede generar un rectángulo de selección manteniendo presionada la tecla <strong>&lt;Shift&gt;</strong>.</p>
+Para seleccionar varios nodos se debe hacer click sobre cada uno manteniendo la tecla <strong>&lt;Ctrl&gt;</strong> presionada. También se puede generar un rectángulo de selección manteniendo presionada la tecla <strong>&lt;Shift&gt;</strong> y haciendo click sobre el diagrama y luego desplazándose para delimitar el rectángulo.</p>
 </div>
 </div>
 <div class="section" id="visualizacion-de-resultados">

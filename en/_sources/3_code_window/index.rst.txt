@@ -77,7 +77,8 @@ Es la descripción técnica de la salida del proceso de cálculo.
 
 Resultado
 ---------
-Es el resultado que surge de ejecutar el código de la definición. Este resultado puede visualizarse de forma gráfica o de tabla.
+Es el resultado que surge de ejecutar el código de la definición. Cuando este resultado es un objeto interpretado por Pyplan (un dataframe de Pandas, una matriz de Numpy, o una matriz con dimensiones designadas de Xarray), 
+este puede visualizarse de forma gráfica o de tabla.
 
 .. images:: images/nodo_def_pv_res.png
 
@@ -106,7 +107,7 @@ Tipos de Nodo
 
 Existen diferentes tipos de nodos para diferentes propósitos. Sus funcionalidades han sido diseñadas para facilitar la definición de los parámetros necesarios para su ejecución.
 
-.. image:: images/types_node.png
+.. image:: images/tipos_nodo.png
 
 
 Variable
@@ -147,11 +148,11 @@ Tienen un funcionamiento particular cuando se los incluye en interfaces.
 
 Texto
 -----
-El cuadro de texto es un elemento de construcción del diagrama con el único fin de facilitar la organización del diagrama de influencia.
+El cuadro de texto es un elemento de construcción del diagrama con el único fin de facilitar la interpretación del diagrama de influencia.
 
 Módulo
 ------
-Es un tipo de nodo especial que contiene nodos en su interior. Se ingresa a un módulo haciendo doble-click sobre él. Los módulos pueden estar anidados indefinidamente.
+Es un tipo de nodo especial que permite contener nodos en su interior. Sirve para organizar jerarquicamente un calculo complejo. A un módulo se ingresa haciendo doble-click sobre él. Los módulos pueden estar anidados indefinidamente.
 
 ----------------------------------------
 Operaciones en el Diagrama de Influencia
@@ -161,7 +162,7 @@ Navegación
 ----------
 
 El diagrama de influencia es una representación jerárquica de la lógica de cálculo. 
-El desplazamiento dentro del diagrama puede ser manual, haciendo doble-click en el módulo que se quiera entrar o haciendo click en el camino generado a partir de la navegación para subir a las jerarquías superiores.
+El desplazamiento dentro del diagrama se realiza, haciendo doble-click en el módulo que se quiera entrar o haciendo click en el camino generado a partir de la navegación para subir a las jerarquías superiores.
 
 Inspección de propiedades de nodos
 ----------------------------------
@@ -178,7 +179,7 @@ Haciendo click en el botón azul del extremo superior izquierdo se despliegan lo
 Esta es la forma más utilizada de crear nuevos pasos de cálculo en el flujo de procesamiento de datos de la aplicación.
 
 También es posible copiar **<Ctrl+C>**, cortar **<Ctrl+X>** y pegar **<Ctrl+V>** un nodo o grupo de nodos seleccionados.
-Para seleccionar varios nodos se puede ir haciendo click sobre cada uno manteniendo la tecla **<Ctrl>** presionada. También se puede generar un rectángulo de selección manteniendo presionada la tecla **<Shift>**.
+Para seleccionar varios nodos se debe hacer click sobre cada uno manteniendo la tecla **<Ctrl>** presionada. También se puede generar un rectángulo de selección manteniendo presionada la tecla **<Shift>** y haciendo click sobre el diagrama y luego desplazándose para delimitar el rectángulo.
 
 ---------------------------
 Visualización de resultados

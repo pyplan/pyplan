@@ -8,23 +8,25 @@ Pyplan posee la funcionalidad de **"Single Sign On"**. Esto significa que los us
 
 Una vez dentro de la plataforma se despliega la siguiente pantalla con sus elementos:
 
+.. warning:: incluir imagen con numeros indicando las funcionalidades que se describen abajo
+
 .. figure:: images/home.png
 
 .. list
-* Menú de acceso a diversas funcionalidades:
+1. Menú de acceso a diversas funcionalidades:
 
 .. figure:: images/menu.png
 
-* Creación de una nueva aplicación, en el signo "+", ubicado arriba a la izquierda.
-* Tabs de acceso a las aplicaciones recientemente abiertas, aplicaciones propias y aplicaciones públicas.
-* Acceso al Chatbot de ayuda. 
+2. Creación de una nueva aplicación, en el signo "+", ubicado arriba a la izquierda.
+3. Tabs de acceso a las aplicaciones recientemente abiertas, aplicaciones propias y aplicaciones públicas.
+4. Acceso al Chatbot de ayuda. 
 
 .. figure:: images/chatbot.png
 
-* Acceso a recursos para el aprendizaje de Pyplan.
+5. Acceso a recursos para el aprendizaje de Pyplan.
 
 .. figure:: images/resources.png
 
-* Cerrar la sesión en el servidor.
+6. Cerrar la sesión en el servidor.
 
 

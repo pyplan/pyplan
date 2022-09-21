@@ -30,7 +30,7 @@ Esta guía constituye el repositorio principal de la documentación de funcionam
 Tiene por objeto explicar para qué sirve Pyplan y cómo funciona la plataforma.
 
 No es el propósito de esta guía instruir sobre la programación en Python ni tampoco sobre las múltiples librerías de Python utilizadas por Pyplan, como por ejemplo Pandas, Xarray, Numpy, Plotly, entre otras.
-Los links a la documentación específica de estas librerías se encuentran incluidos en esta guía para facilitar al usuario el acceso al contenido específico, relevante para entender alguna funcionalidad de Pyplan.
+Los links a la documentación específica de estas librerías se encuentran incluidos en esta guía para facilitar al usuario el acceso al contenido relevante para entender alguna funcionalidad de Pyplan.
 
 .. note:: Para entender el funcionamiento de Pyplan es necesario entender qué es y para qué sirve esta plataforma.
 

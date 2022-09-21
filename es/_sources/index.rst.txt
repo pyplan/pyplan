@@ -14,8 +14,8 @@
    1_home/index
    2_applications/index
    3_code_window/index
-   4_low_code_no_code/index
-   5_visualization_configuration/index
+   4_visualization_configuration/index
+   5_low_code_no_code/index
    6_interfaces/index
    7_file_manager/index
    8_task_manager/index

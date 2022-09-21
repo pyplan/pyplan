@@ -36,8 +36,8 @@
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Índice" href="../genindex.html" />
     <link rel="search" title="Búsqueda" href="../search.html" />
-    <link rel="next" title="Interfaces en Pyplan" href="../6_interfaces/index.html" />
-    <link rel="prev" title="Codificando en Pyplan" href="../4_low_code_no_code/index.html" />
+    <link rel="next" title="Codificando en Pyplan" href="../5_low_code_no_code/index.html" />
+    <link rel="prev" title="Ventana de Codificación" href="../3_code_window/index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="es">
     
@@ -108,14 +108,14 @@
    Ventana de Codificación
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../4_low_code_no_code/index.html">
-   Codificando en Pyplan
-  </a>
- </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Análisis y Visualización
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../5_low_code_no_code/index.html">
+   Codificando en Pyplan
   </a>
  </li>
  <li class="toctree-l1">
@@ -229,7 +229,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/pyplan/pyplan/issues/new?title=Issue%20on%20page%20%2F5_visualization_configuration/index.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/pyplan/pyplan/issues/new?title=Issue%20on%20page%20%2F4_visualization_configuration/index.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -246,7 +246,7 @@ title="Open an issue"
       </li>
       
       <li>
-        <a href="https://github.com/pyplan/pyplan/edit/master/docs/5_visualization_configuration/index.rst"
+        <a href="https://github.com/pyplan/pyplan/edit/master/docs/4_visualization_configuration/index.rst"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -274,7 +274,7 @@ title="Edit this page"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/5_visualization_configuration/index.rst.txt"
+        <a href="../_sources/4_visualization_configuration/index.rst.txt"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -334,8 +334,8 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#objetos-nativos-de-pyplan">
-   Objetos nativos de Pyplan
+  <a class="reference internal nav-link" href="#manipulacion-de-una-tabla">
+   Manipulación de una Tabla
   </a>
  </li>
 </ul>
@@ -358,8 +358,8 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#objetos-nativos-de-pyplan">
-   Objetos nativos de Pyplan
+  <a class="reference internal nav-link" href="#manipulacion-de-una-tabla">
+   Manipulación de una Tabla
   </a>
  </li>
 </ul>
@@ -374,19 +374,31 @@ title="Print to PDF"
                 
   <div class="section" id="analisis-y-visualizacion">
 <h1>Análisis y Visualización<a class="headerlink" href="#analisis-y-visualizacion" title="Enlazar permanentemente con este título">#</a></h1>
-<p>Uno de los objetivos de Pyplan es proveer transparencia a la lógica de cálculo. Para ello permite no solo navegar por el proceso de calculo sino también la posibilidad de evaluar y visualizar los resultados de cada paso.
+<p>Uno de los objetivos de Pyplan es proveer transparencia a la lógica de cálculo. Para ello permite no solo navegar por el proceso de calculo para entender conceptualmente su flujo,
+sino también permite evaluar y visualizar los resultados de cada paso.
 Esta visualización puede ser en forma de tabla o gráfico, transitoria o permanente.</p>
-<p>El modelo de calculo</p>
-<p>Para entender como configurar la visualización de un nodo es necesario entender primero los tipos de objetos que Pyplan interpreta de forma nativa.
-Estos son:</p>
+<p>Pyplan es una plataforma <strong>No-code / Low-code</strong> pensada para usuarios sin conocimientos de programación por lo que permite hacer muchas tareas de manipulación y procesamiento de datos sin necesidad de codificación.</p>
+<div class="section" id="manipulacion-de-una-tabla">
+<h2>Manipulación de una Tabla<a class="headerlink" href="#manipulacion-de-una-tabla" title="Enlazar permanentemente con este título">#</a></h2>
+<p>Haciendo click sobre el nodo verde con titulo «Data» veremos lo siguiente:</p>
+<img alt="../_images/table_data.png" src="../_images/table_data.png" />
+<p>Maximizando la ventana de visualización (1) y luego haciendo click en (2) accedemos a los datos:</p>
+<img alt="../_images/fed_data.png" src="../_images/fed_data.png" />
+<p>Donde podemos ver cada campo y medida de la Tabla, el tipo de campo (Numerico # o Texto T), y la función de agrupamiento que se ejecutará en caso de ser necesario (Suma, Max, Min, Promedio o Conteo)</p>
+<p>Arrastrando el campo «Years» a la casilla de columnas y luego de definir el Promedio como función de agregación del campo «atp ranking» lo arrastramos a la casilla de «Medidas» obtendremos una tabla como muestra la siguiente imagen:</p>
+<img alt="../_images/year_rank.png" src="../_images/year_rank.png" />
+<p>Esta tabla describe la evolución en el tiempo del ranking promedio anual de «Roger Federer»
+Cualquier campo puede ser desplegado como Columna o Fila provocando la agrupación de las medidas visualizadas correspondiente.</p>
+<div class="admonition warning">
+<p class="admonition-title">Advertencia</p>
+<p>Insertar un link a un micro-curso que explique como operar con las tablas</p>
+</div>
+<p>Grafico</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://pandas.pydata.org/docs/user_guide/dsintro.html#intro-to-data-structures">Dataframe y Series</a> de Pandas</p></li>
 <li><p><a class="reference external" href="https://docs.xarray.dev/en/stable/user-guide/data-structures.html">DataArray</a> de Xarray</p></li>
 <li><p><a class="reference external" href="https://numpy.org/doc/stable/reference/arrays.html">Array</a> de Numpy</p></li>
 </ul>
-<p>En pocas palabras un Dataframe es una estructura del tipo tabla donde cada columna corresponde a un atributo o medida. Cada fila corresponde a un registro particular de esos atributos o medidas.</p>
-<div class="section" id="objetos-nativos-de-pyplan">
-<h2>Objetos nativos de Pyplan<a class="headerlink" href="#objetos-nativos-de-pyplan" title="Enlazar permanentemente con este título">#</a></h2>
 </div>
 </div>
 
@@ -398,17 +410,17 @@ Estos son:</p>
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="../4_low_code_no_code/index.html" title="anterior página">
+    <a class='left-prev' id="prev-link" href="../3_code_window/index.html" title="anterior página">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">anterior</p>
-            <p class="prev-next-title">Codificando en Pyplan</p>
+            <p class="prev-next-title">Ventana de Codificación</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../6_interfaces/index.html" title="siguiente página">
+    <a class='right-next' id="next-link" href="../5_low_code_no_code/index.html" title="siguiente página">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">siguiente</p>
-        <p class="prev-next-title">Interfaces en Pyplan</p>
+        <p class="prev-next-title">Codificando en Pyplan</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

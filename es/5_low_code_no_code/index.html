@@ -1,11 +1,11 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Análisis y Visualización</title>
+    <title>Codificando en Pyplan</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -32,13 +32,14 @@
     <script src="../_static/doctools.js"></script>
     <script src="../_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
     <script src="../_static/custom.js"></script>
+    <script src="../_static/translations.js"></script>
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-    <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
     <link rel="next" title="Interfaces en Pyplan" href="../6_interfaces/index.html" />
-    <link rel="prev" title="Codificando en Pyplan" href="../4_low_code_no_code/index.html" />
+    <link rel="prev" title="Análisis y Visualización" href="../4_visualization_configuration/index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en">
+    <meta name="docsearch:language" content="es">
     
 
     <!-- Google Analytics -->
@@ -108,13 +109,13 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="../4_low_code_no_code/index.html">
-   Codificando en Pyplan
+  <a class="reference internal" href="../4_visualization_configuration/index.html">
+   Análisis y Visualización
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Análisis y Visualización
+   Codificando en Pyplan
   </a>
  </li>
  <li class="toctree-l1">
@@ -228,7 +229,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/pyplan/pyplan/issues/new?title=Issue%20on%20page%20%2F5_visualization_configuration/index.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/pyplan/pyplan/issues/new?title=Issue%20on%20page%20%2F5_low_code_no_code/index.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -245,7 +246,7 @@ title="Open an issue"
       </li>
       
       <li>
-        <a href="https://github.com/pyplan/pyplan/edit/master/docs/5_visualization_configuration/index.rst"
+        <a href="https://github.com/pyplan/pyplan/edit/master/docs/5_low_code_no_code/index.rst"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -273,7 +274,7 @@ title="Edit this page"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/5_visualization_configuration/index.rst.txt"
+        <a href="../_sources/5_low_code_no_code/index.rst.txt"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -333,9 +334,26 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#objetos-nativos-de-pyplan">
-   Objetos nativos de Pyplan
+  <a class="reference internal nav-link" href="#no-code">
+   No-code
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#low-code">
+   Low-code
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tablas">
+     Tablas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#cubos">
+     Cubos
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -346,7 +364,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Análisis y Visualización</h1>
+                <h1>Codificando en Pyplan</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -357,9 +375,26 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#objetos-nativos-de-pyplan">
-   Objetos nativos de Pyplan
+  <a class="reference internal nav-link" href="#no-code">
+   No-code
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#low-code">
+   Low-code
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tablas">
+     Tablas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#cubos">
+     Cubos
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -371,21 +406,45 @@ title="Print to PDF"
                 
               <div>
                 
-  <div class="section" id="analisis-y-visualizacion">
-<h1>Análisis y Visualización<a class="headerlink" href="#analisis-y-visualizacion" title="Permalink to this headline">#</a></h1>
-<p>Uno de los objetivos de Pyplan es proveer transparencia a la lógica de cálculo. Para ello permite no solo navegar por el proceso de calculo sino también la posibilidad de evaluar y visualizar los resultados de cada paso.
-Esta visualización puede ser en forma de tabla o gráfico, transitoria o permanente.</p>
-<p>El modelo de calculo</p>
-<p>Para entender como configurar la visualización de un nodo es necesario entender primero los tipos de objetos que Pyplan interpreta de forma nativa.
-Estos son:</p>
+  <div class="section" id="codificando-en-pyplan">
+<h1>Codificando en Pyplan<a class="headerlink" href="#codificando-en-pyplan" title="Enlazar permanentemente con este título">#</a></h1>
+<p>Pyplan es una plataforma <strong>No-code / Low-code</strong> pensada para usuarios sin conocimientos de programación por lo que permite hacer muchas tareas de manipulación y procesamiento de datos sin necesidad de codificación.</p>
+<div class="section" id="no-code">
+<h2>No-code<a class="headerlink" href="#no-code" title="Enlazar permanentemente con este título">#</a></h2>
+<p>Desarrollar todo lo que se puede hacer antes de modificar el codigo</p>
+</div>
+<div class="section" id="low-code">
+<h2>Low-code<a class="headerlink" href="#low-code" title="Enlazar permanentemente con este título">#</a></h2>
+<p>Pyplan interpreta de forma nativa algunas estructuras de datos del tipo Tablas y Cubos proveniente de las librerías de Python mas difundidas (Pandas, Numpy, Xarray).
+Los Cubos de datos pueden tener cualquier numero de dimensiones. Estas dimensiones a su vez pueden estar nominadas o ser indefinidas.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>incluir un grafico que ilustre una tabla, un cubo xarray y un cubo numpy</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://pandas.pydata.org/docs/user_guide/dsintro.html#intro-to-data-structures">Dataframe y Series</a> de Pandas</p></li>
-<li><p><a class="reference external" href="https://docs.xarray.dev/en/stable/user-guide/data-structures.html">DataArray</a> de Xarray</p></li>
-<li><p><a class="reference external" href="https://numpy.org/doc/stable/reference/arrays.html">Array</a> de Numpy</p></li>
+<li><p>Tablas <a class="reference external" href="https://pandas.pydata.org/docs/user_guide/dsintro.html#intro-to-data-structures">Dataframe</a> de Pandas</p></li>
+<li><dl class="simple">
+<dt>Cubos de datos (n-dimensiones)</dt><dd><ul>
+<li><p>Dimensiones nominadas <a class="reference external" href="https://docs.xarray.dev/en/stable/user-guide/data-structures.html">DataArray</a> de Xarray</p></li>
+<li><p>Dimensiones indefinidas <a class="reference external" href="https://numpy.org/doc/stable/reference/arrays.html">Array</a> de Numpy</p></li>
 </ul>
-<p>En pocas palabras un Dataframe es una estructura del tipo tabla donde cada columna corresponde a un atributo o medida. Cada fila corresponde a un registro particular de esos atributos o medidas.</p>
-<div class="section" id="objetos-nativos-de-pyplan">
-<h2>Objetos nativos de Pyplan<a class="headerlink" href="#objetos-nativos-de-pyplan" title="Permalink to this headline">#</a></h2>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="tablas">
+<h3>Tablas<a class="headerlink" href="#tablas" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Una tabla se asemeja a una tabla en base de datos, es decir es una estructura de datos donde cada columna representa un atributo o medida y donde cada fila corresponde a un registro particular de esos atributos o medidas.</p>
+<img alt="../_images/table_nd_cube.png" src="../_images/table_nd_cube.png" />
+<p>Las tablas de datos en Pyplan corresponden al objeto <strong>Dataframe</strong> de la librería Pandas, una de las librerías mas utilizadas en Data Science. Documentación sobre las funcionalidades de de los <a class="reference external" href="https://pandas.pydata.org/docs/user_guide/dsintro.html#intro-to-data-structures">Dataframes en Pandas puede consultarse aquí.</a></p>
+<p>La principal diferencia entre una tabla en base de datos y un Dataframe es que este último reside en memoria y no en disco. De ahi proviene su velocidad de procesamiento.</p>
+<p>Cuando un nodo es calculado y su resultado devuelve un objeto Dataframe de Pandas, Pyplan presenta automáticamente un conjunto de herramientas para operar con ese Dataframe.</p>
+<img alt="../_images/tabla_wizard.png" src="../_images/tabla_wizard.png" />
+<p>Al utilizar esos asistentes para la operación deseada, el usuario podrá observar como el código de definición se va generando.</p>
+</div>
+<div class="section" id="cubos">
+<h3>Cubos<a class="headerlink" href="#cubos" title="Enlazar permanentemente con este título">#</a></h3>
+</div>
 </div>
 </div>
 
@@ -397,16 +456,16 @@ Estos son:</p>
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="../4_low_code_no_code/index.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../4_visualization_configuration/index.html" title="anterior página">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Codificando en Pyplan</p>
+            <p class="prev-next-subtitle">anterior</p>
+            <p class="prev-next-title">Análisis y Visualización</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../6_interfaces/index.html" title="next page">
+    <a class='right-next' id="next-link" href="../6_interfaces/index.html" title="siguiente página">
     <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-subtitle">siguiente</p>
         <p class="prev-next-title">Interfaces en Pyplan</p>
     </div>
     <i class="fas fa-angle-right"></i>

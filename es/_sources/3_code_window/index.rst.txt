@@ -152,7 +152,13 @@ El cuadro de texto es un elemento de construcción del diagrama con el único fi
 
 Módulo
 ------
-Es un tipo de nodo especial que permite contener nodos en su interior. Sirve para organizar jerarquicamente un calculo complejo. A un módulo se ingresa haciendo doble-click sobre él. Los módulos pueden estar anidados indefinidamente.
+Es un tipo de nodo especial que permite contener nodos en su interior. Sirve para organizar jerárquicamente un calculo complejo. A un módulo se ingresa haciendo doble-click sobre él. Los módulos pueden estar anidados indefinidamente.
+
+Alias
+-----
+Los Alias son un tipo de nodo que se utilizan para hacer mas explicativos los diagramas de influencia.
+Son un espejo del nodo original. Es decir no solo el resultado que muestran es el mismo sino también que al modificar la definición del alias se modifica la definición del nodo original.
+El Alias se crea al apretar **Ctrl+M** una vez seleccionado un nodo. 
 
 ----------------------------------------
 Operaciones en el Diagrama de Influencia

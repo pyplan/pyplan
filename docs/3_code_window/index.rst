@@ -6,7 +6,8 @@ Creación de la primera aplicación
 =================================
 
 Pyplan es un ambiente de desarrollo integrado de aplicaciones, pensado para usuarios sin conocimientos de programación.
-Es por esto que la forma de construir la lógica de cálculo y procesamiento de las aplicaciones se produce a través de bloques o pasos de cálculo, representados por nodos en un diagrama de influencia.
+Es por esto que la lógica de cálculo y procesamiento de datos de las aplicaciones se construye arrastrando diferentes tipos de nodos en un diagrama de influencia.
+
 Al hacer click en **crear una aplicación**, aparece un cuadro de diálogo que permite optar entre crear una aplicación desde cero o a partir de un ejemplo.
 
 .. figure:: images/create_appg.gif
@@ -42,7 +43,7 @@ Un nodo se selecciona haciendo click sobre el mismo.
 Al hacer doble-click sobre un nodo, este es calculado. Su resultado se muestra en pantalla completa de acuerdo con su configuración de visualización predeterminada.
 Los vínculos (flechas) entre nodos son generados automáticamente al invocar un nodo dentro de la definición de otro.
 
-.. warning:: (aquí debiéramos incluir un link a una de las lecciones que te muestren paso a paso esta sección)
+#.. warning:: (aquí debiéramos incluir un link a una de las lecciones que te muestren paso a paso esta sección)
 
 --------------------------
 Características de un Nodo
@@ -194,7 +195,7 @@ Al seleccionar un nodo, podemos saber si este está calculado o no, según lo qu
 
 .. image:: images/not-calc-node.png
 
-.. warning:: (aquí debieramos linkear a un paso a paso que muestre estas funcionalidades)
+#.. warning:: (aquí debieramos linkear a un paso a paso que muestre estas funcionalidades)
 
 
 Un nodo se calcula al hacer doble-click sobre el mismo o al apretar el icono **Play** que aparece en la ventana de resultado o presionando **<Ctrl+Enter>** una vez seleccionado el nodo.

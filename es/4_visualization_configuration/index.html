@@ -334,9 +334,48 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#manipulacion-de-una-tabla">
-   Manipulación de una Tabla
+  <a class="reference internal nav-link" href="#visualizacion-en-formato-de-tabla">
+   Visualización en formato de Tabla
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#formato-de-tabla">
+     Formato de Tabla
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#formato-condicional">
+     Formato condicional
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#heatmap">
+     Heatmap
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#progress-bar">
+     Progress Bar
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#visualizacion-en-formato-de-grafico">
+   Visualización en formato de Gráfico
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#configuracion-de-la-visualizacion">
+     Configuración de la Visualización
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#codificando-visualizaciones">
+     Codificando Visualizaciones
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -358,9 +397,48 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#manipulacion-de-una-tabla">
-   Manipulación de una Tabla
+  <a class="reference internal nav-link" href="#visualizacion-en-formato-de-tabla">
+   Visualización en formato de Tabla
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#formato-de-tabla">
+     Formato de Tabla
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#formato-condicional">
+     Formato condicional
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#heatmap">
+     Heatmap
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#progress-bar">
+     Progress Bar
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#visualizacion-en-formato-de-grafico">
+   Visualización en formato de Gráfico
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#configuracion-de-la-visualizacion">
+     Configuración de la Visualización
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#codificando-visualizaciones">
+     Codificando Visualizaciones
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -374,31 +452,92 @@ title="Print to PDF"
                 
   <div class="section" id="analisis-y-visualizacion">
 <h1>Análisis y Visualización<a class="headerlink" href="#analisis-y-visualizacion" title="Enlazar permanentemente con este título">#</a></h1>
-<p>Uno de los objetivos de Pyplan es proveer transparencia a la lógica de cálculo. Para ello permite no solo navegar por el proceso de calculo para entender conceptualmente su flujo,
-sino también permite evaluar y visualizar los resultados de cada paso.
-Esta visualización puede ser en forma de tabla o gráfico, transitoria o permanente.</p>
-<p>Pyplan es una plataforma <strong>No-code / Low-code</strong> pensada para usuarios sin conocimientos de programación por lo que permite hacer muchas tareas de manipulación y procesamiento de datos sin necesidad de codificación.</p>
-<div class="section" id="manipulacion-de-una-tabla">
-<h2>Manipulación de una Tabla<a class="headerlink" href="#manipulacion-de-una-tabla" title="Enlazar permanentemente con este título">#</a></h2>
+<p>Pyplan es una plataforma <strong>No-code / Low-code</strong> pensada para usuarios sin conocimientos de programación
+por lo que permite hacer muchas tareas de manipulación y procesamiento de datos sin necesidad de codificar.</p>
+<p>Uno de los objetivos de Pyplan es proveer transparencia a la lógica de cálculo, permitiendo para ello,
+no solo navegar por el proceso de calculo para entender conceptualmente su flujo,
+sino también seleccionar ejecutar y visualizar los resultados de cada paso.
+Esta visualización puede ser en forma de tabla o gráfico.</p>
+<p>Al navegar el diagrama de influencia se puede seleccionar cualquier nodo, ejecutarlo y visualizar su resultado.</p>
+<p>pivoteo, filtrado y funciones de agregacion
+configuracion tabla (estilos)
+visualizacion grafico y configuracion
+vista por defecto</p>
+<div class="section" id="visualizacion-en-formato-de-tabla">
+<h2>Visualización en formato de Tabla<a class="headerlink" href="#visualizacion-en-formato-de-tabla" title="Enlazar permanentemente con este título">#</a></h2>
 <p>Haciendo click sobre el nodo verde con titulo «Data» veremos lo siguiente:</p>
+<img alt="../_images/data_no_calc.png" src="../_images/data_no_calc.png" />
+<p>Para ejecutar el nodo se debe hacer click en el icono de evaluación indicado en (1) en el gráfico.
+Luego que el mismo se ejecute aparecerá una tabla como la que se muestra en la siguiente captura:</p>
 <img alt="../_images/table_data.png" src="../_images/table_data.png" />
-<p>Maximizando la ventana de visualización (1) y luego haciendo click en (2) accedemos a los datos:</p>
+<p>Maximizando la ventana de visualización (1) y luego haciendo click en (2) accedemos a los campos de esta tabla de datos:</p>
 <img alt="../_images/fed_data.png" src="../_images/fed_data.png" />
 <p>Donde podemos ver cada campo y medida de la Tabla, el tipo de campo (Numerico # o Texto T), y la función de agrupamiento que se ejecutará en caso de ser necesario (Suma, Max, Min, Promedio o Conteo)</p>
 <p>Arrastrando el campo «Years» a la casilla de columnas y luego de definir el Promedio como función de agregación del campo «atp ranking» lo arrastramos a la casilla de «Medidas» obtendremos una tabla como muestra la siguiente imagen:</p>
 <img alt="../_images/year_rank.png" src="../_images/year_rank.png" />
 <p>Esta tabla describe la evolución en el tiempo del ranking promedio anual de «Roger Federer»
 Cualquier campo puede ser desplegado como Columna o Fila provocando la agrupación de las medidas visualizadas correspondiente.</p>
-<div class="admonition warning">
-<p class="admonition-title">Advertencia</p>
-<p>Insertar un link a un micro-curso que explique como operar con las tablas</p>
+<div class="section" id="formato-de-tabla">
+<h3>Formato de Tabla<a class="headerlink" href="#formato-de-tabla" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Haciendo click en (3) se despliegan las alternativas de formatación de la tabla de datos. Las mismas se agrupan en: General, Data, Styles, Index sync.</p>
+<img alt="../_images/table_config.png" src="../_images/table_config.png" />
+<p>El lector puede investigar las opciones de configuración agrupadas en General y Data por su propia cuenta.</p>
+<p>La sección Styles agrupa las configuraciones de estilo de la tabla con un comportamiento particular que le otorga mucha flexibilidad y consiste en lo siguiente:</p>
+<p>Una primera sección encabezada por «Apply to» indica el objetivo o destino de la configuración establecida mas abajo.
+Por defecto este objetivo es «All» que significa que lo que se configure a continuación aplicará a toda la tabla.
+En este caso particular podríamos establecer con el formato de numero entero a toda la tabla.</p>
+<img alt="../_images/table_style.png" class="align-center" src="../_images/table_style.png" />
+<p>De igual manera podríamos establecer un formato particular para una condición específica de alguna dimensión.
+En este caso por ejemplo definir con fondo verde los resultados que corresponden a la superficie «Grass»</p>
+<img alt="../_images/style_conditions.png" src="../_images/style_conditions.png" />
+<p>Definiendo el estilo correspondiente lograremos el resultado mostrado en la siguiente imagen:</p>
+<img alt="../_images/grass_style.png" src="../_images/grass_style.png" />
 </div>
-<p>Grafico</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://pandas.pydata.org/docs/user_guide/dsintro.html#intro-to-data-structures">Dataframe y Series</a> de Pandas</p></li>
-<li><p><a class="reference external" href="https://docs.xarray.dev/en/stable/user-guide/data-structures.html">DataArray</a> de Xarray</p></li>
-<li><p><a class="reference external" href="https://numpy.org/doc/stable/reference/arrays.html">Array</a> de Numpy</p></li>
-</ul>
+<div class="section" id="formato-condicional">
+<h3>Formato condicional<a class="headerlink" href="#formato-condicional" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Es posible establecer formatos basados en condiciones particulares de los valores de la tabla.
+Para ello se deben agregar las condiciones y el formato de acuerdo a lo que indica la siguiente imagen:</p>
+<img alt="../_images/Conditional_format.png" src="../_images/Conditional_format.png" />
+<p>Dos casos particulares del formato condicional que vienen  predefinidos dentro de Pyplan son el Heatmap y el Progress Bar.</p>
+</div>
+<div class="section" id="heatmap">
+<h3>Heatmap<a class="headerlink" href="#heatmap" title="Enlazar permanentemente con este título">#</a></h3>
+<p>La opción de formatear la tabla con un heatmap aparece deplazandose hacia abajo entre las opciones de estilo.</p>
+<img alt="../_images/heatmap.png" src="../_images/heatmap.png" />
+</div>
+<div class="section" id="progress-bar">
+<h3>Progress Bar<a class="headerlink" href="#progress-bar" title="Enlazar permanentemente con este título">#</a></h3>
+<p>La visualización de la tabla con un formato de Progress Bar puede ser configurada como lo indica la figura abajo:</p>
+<img alt="../_images/progress_bar.png" src="../_images/progress_bar.png" />
+</div>
+</div>
+<div class="section" id="visualizacion-en-formato-de-grafico">
+<h2>Visualización en formato de Gráfico<a class="headerlink" href="#visualizacion-en-formato-de-grafico" title="Enlazar permanentemente con este título">#</a></h2>
+<p>Haciendo click en el icono indicado en la figura (1) se intercambia la vista de tabla a gráfico. Toda vez que el tipo de grafico seleccionado lo permite, Pyplan asigna automaticamente campos de la tabla al gráfico.</p>
+<img alt="../_images/view_chart.png" src="../_images/view_chart.png" />
+<div class="section" id="configuracion-de-la-visualizacion">
+<h3>Configuración de la Visualización<a class="headerlink" href="#configuracion-de-la-visualizacion" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Existen multiples tipos de gráficos que pueden ser configurados como alternativas de visualización de los datos como lo muestra la siguiente figura.
+Cada tipo de gráfico tiene sus sub-tipos y en función de esta elección se definen las propiedades que deben ser indicadas para permitir la construcción del gráfico.</p>
+<img alt="../_images/tipos_grafico.png" src="../_images/tipos_grafico.png" />
+<p>Una vez elegido el tipo de gráfico, sus propiedades son agrupadas en las siguiente secciones:</p>
+<img alt="../_images/chart_properties.png" class="align-center" src="../_images/chart_properties.png" />
+</div>
+<div class="section" id="codificando-visualizaciones">
+<h3>Codificando Visualizaciones<a class="headerlink" href="#codificando-visualizaciones" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Pyplan permite a traves de la interfaz de usuario la configuración de los parámetros de uso mas frecuentes de cada tipo de gráfico.
+No obstante ello, existen muchas otras propiedades de los gráficos que pueden definirse desde el código de cada elemento de visualización.</p>
+<p>Para acceder a personalizar el código de visualización se debe hacer click sobre el icono</p>
+  Para acceder a personalizar el código de visualización se debe hacer click sobre el icono &nbsp; <i class="fa fa-ellipsis-v" aria-hidden="true"></i>&nbsp;&nbsp;
+
+y luego elegir <i class="fa fa-solid fa-code"></i> <b> Show component code</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+  </embed><img alt="../_images/show_comp_code.png" class="align-center" src="../_images/show_comp_code.png" />
+<p>Una guia completa de las propiedades configurables de cada grafico puede encontrarse aqui:
+<a class="reference external" href="https://plotly.com/python/plotly-express/">Plotly Express in Python</a></p>
+<p>Una vez hecho esto, y luego de mover el switch de Code desde Default a Custom, podremos comenzar a modificar el código de comportamiento de la visualización gráfica.</p>
+<img alt="../_images/graph_code.png" src="../_images/graph_code.png" />
+</div>
 </div>
 </div>
 

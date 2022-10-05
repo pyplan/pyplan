@@ -70,6 +70,10 @@ True   False  False
 =====  =====  =======
 
 
+* `Dataframe y Series <https://pandas.pydata.org/docs/user_guide/dsintro.html#intro-to-data-structures>`_ de Pandas
+* `DataArray <https://docs.xarray.dev/en/stable/user-guide/data-structures.html>`_ de Xarray
+* `Array <https://numpy.org/doc/stable/reference/arrays.html>`_ de Numpy
+
 
 
 

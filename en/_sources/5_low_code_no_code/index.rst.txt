@@ -1,12 +1,31 @@
 Codificando en Pyplan
 =====================
 
-Pyplan es una plataforma **No-code / Low-code** pensada para usuarios sin conocimientos de programación por lo que permite hacer muchas tareas de manipulación y procesamiento de datos sin necesidad de codificación.
+Pyplan es una plataforma **No-code / Low-code** pensada para que usuarios sin conocimientos de programación 
+puedan construir y compartir aplicaciones de Data Analytics y Planning.
+Para esto permite hacer muchas tareas tanto de manipulación y procesamiento de datos, como de construcción de interfaces de usuario, sin necesidad de codificación.
 
 =======
 No-code
 =======
 Desarrollar todo lo que se puede hacer antes de modificar el codigo 
+Construccion
+============
+
+    - entrada de datos (tipos) formulario = tabla  + persistencia en DB
+    - conexion a fuentes de datos externas (comentar las opciones con wizards)
+    - variable (conectar a la lectura, ejecutar, explicar wizards, mostrar la alteracion de codigo)
+    - Index se vera mas adelante
+
+Organizacion del diagrama
+=========================
+Text
+Modulo (arrastrar, cortar y pegar)
+Color de los nodos funcionamiento
+
+Ejecucion de nodos
+==================
+Funcionamiento del mecanismo de calculo
 
 ========
 Low-code
@@ -21,6 +40,7 @@ Los Cubos de datos pueden tener cualquier numero de dimensiones. Estas dimension
  * Cubos de datos (n-dimensiones)
     - Dimensiones nominadas `DataArray <https://docs.xarray.dev/en/stable/user-guide/data-structures.html>`_ de Xarray
     - Dimensiones indefinidas `Array <https://numpy.org/doc/stable/reference/arrays.html>`_ de Numpy
+
 
 Tablas
 ------
@@ -41,3 +61,24 @@ Al utilizar esos asistentes para la operación deseada, el usuario podrá observ
 
 Cubos
 -----
+- Desarrollar el concepto de cubo
+- Mostrar herramientas de creacion de cubos e indices a partir del dataframe
+- input dataarray mencionar
+- operaciones con cubos (broadcasting de dimensiones)
+- funcionamiento del dynamic
+
+Ayudas a la codificacion 
+------------------------
+- intellisense
+- tooltips
+- shortcuts de navegacion (Ctrl+click, alt/option + click, pineado de nodos)
+- bot 
+- asistente de codigo
+- preview
+- consola de errores
+
+manejo de librerias
+-------------------
+importacion y uso de librerias
+
+libreria

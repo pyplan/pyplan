@@ -129,12 +129,11 @@ Codificando Visualizaciones
 Pyplan permite a traves de la interfaz de usuario la configuración de los parámetros de uso mas frecuentes de cada tipo de gráfico.
 No obstante ello, existen muchas otras propiedades de los gráficos que pueden definirse desde el código de cada elemento de visualización.
 
-Para acceder a personalizar el código de visualización se debe hacer click sobre el icono 
 
 .. raw:: html
     <embed>
 
-    Para acceder a personalizar el código de visualización se debe hacer click sobre el icono &nbsp; <i class="fa fa-ellipsis-v" aria-hidden="true"></i>&nbsp;&nbsp;
+  Para acceder a personalizar el código de visualización se debe hacer click sobre el icono &nbsp; <i class="fa fa-ellipsis-v" aria-hidden="true"></i>&nbsp;&nbsp;
 
   y luego elegir <i class="fa fa-solid fa-code"></i> <b> Show component code</b> <br>
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -143,12 +142,10 @@ Para acceder a personalizar el código de visualización se debe hacer click sob
 
 .. image:: images/show_comp_code.png 
     :align: center
-
-
-Una guia completa de las propiedades configurables de cada grafico puede encontrarse aqui:
-`Plotly Express in Python <https://plotly.com/python/plotly-express/>`_ 
-
+    
 Una vez hecho esto, y luego de mover el switch de Code desde Default a Custom, podremos comenzar a modificar el código de comportamiento de la visualización gráfica.
 
 .. image:: images/graph_code.png
 
+Una guia completa de las propiedades configurables de cada gráfico puede encontrarse aquí:
+`Plotly Express in Python <https://plotly.com/python/plotly-express/>`_ 

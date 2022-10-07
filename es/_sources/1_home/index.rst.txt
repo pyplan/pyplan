@@ -1,5 +1,6 @@
+===============
 Acceso a Pyplan
-===================
+===============
 Al acceder a la dirección de internet del servidor donde se encuentra instalado, se presenta la página de inicio para introducir las credenciales de acceso.
 
 Pyplan posee la funcionalidad de **"Single Sign On"**. Esto significa que los usuarios que pertenezcan a un servidor de dominio serán automáticamente reconocidos.
@@ -7,8 +8,6 @@ Pyplan posee la funcionalidad de **"Single Sign On"**. Esto significa que los us
 .. figure:: images/login.png
 
 Una vez dentro de la plataforma se despliega la siguiente pantalla con sus elementos:
-
-.. warning:: incluir imagen con numeros indicando las funcionalidades que se describen abajo
 
 .. figure:: images/home.png
 

@@ -1,7 +1,7 @@
+=======================
 Ventana de Codificación
 =======================
 
-=================================
 Creación de la primera aplicación
 =================================
 
@@ -16,7 +16,7 @@ Eligiendo crear una aplicación de análisis de datos y luego seleccionando la *
 
 .. figure:: images/diagrama+nodo.png
    
-=======================================
+
 Elementos de la ventana de codificación
 =======================================
 
@@ -81,7 +81,7 @@ Resultado
 Es el resultado que surge de ejecutar el código de la definición. Cuando este resultado es un objeto interpretado por Pyplan (un dataframe de Pandas, una matriz de Numpy, o una matriz con dimensiones designadas de Xarray), 
 este puede visualizarse de forma gráfica o de tabla.
 
-.. images:: images/nodo_def_pv_res.png
+.. image:: images/nodo_def_pv_res.png
 
 Documentación
 -------------
@@ -194,9 +194,6 @@ Visualización de resultados
 Al seleccionar un nodo, podemos saber si este está calculado o no, según lo que indica la ventana de resultado:
 
 .. image:: images/not-calc-node.png
-
-#.. warning:: (aquí debieramos linkear a un paso a paso que muestre estas funcionalidades)
-
 
 Un nodo se calcula al hacer doble-click sobre el mismo o al apretar el icono **Play** que aparece en la ventana de resultado o presionando **<Ctrl+Enter>** una vez seleccionado el nodo.
 

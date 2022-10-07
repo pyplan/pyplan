@@ -1,6 +1,7 @@
+============
 Aplicaciones
-===================
-=================================
+============
+
 Características de una aplicación
 =================================
 
@@ -29,13 +30,13 @@ Estos elementos son almacenados en un espacio de trabajo.
 | Además, los usuarios tienen acceso a espacios de trabajos de equipos a los que pertenecen: **"Teams"**. Estos equipos son la forma de compartir información con restricción de acceso a determinados usuarios.
 
 
-===================
+
 Equipos de trabajo
 ===================
 Los equipos de trabajos son creados por el administrador del sistema y los permisos de acceso otorgados por **"Departamento"** al que pertenece un usuario.
 Un mismo usuario puede formar parte de varios **"Departamentos"**
 
-=============================
+
 Administrador de aplicaciones
 =============================
 El administrador de aplicaciones permite navegar por las aplicaciones accesibles para cada usuario:

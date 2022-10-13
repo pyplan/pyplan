@@ -85,7 +85,7 @@ Entrada de un Formulario
 El formulario es la herramienta mas potente y versátil de entrada de datos manuales ya que permite combinar columnas de entrada de datos
 junto con columnas calculadas que sirven de referencia o guía para el dato que esta siendo ingresado.
 Por ejemplo si estamos creando una herramienta para ingresar datos de un presupuesto de ventas, 
-puede ser de ayuda para quien ira a ingresar esos datos tener como referencia la ventas del año anterior.
+puede ser de ayuda para quien irá a ingresar esos datos tener como referencia la ventas del año anterior.
 El formulario, a diferencia de la Tabla, es almacenado un una base de datos, permitiendo por lo tanto que multiples usuarios ingresen datos de forma simultanea.
 
 Al arrastrar un nodo de entrada de datos, y luego de haber elegido Formulario como elemento de entrada se muestra el siguiente asistente para su creación:
@@ -102,7 +102,7 @@ Adicionalmente el formulario permite definir los siguientes parametros:
 
 Entrada de un Cubo
 ------------------
-Un cubo de datos es un objeto entrada particular que permite el ingreso de un solo parámetro para todas las combinaciones de las dimensiones del cubo.
+Un cubo de datos es un objeto de entrada particular que permite el ingreso de un solo parámetro para todas las combinaciones de las dimensiones del cubo.
 Es por esto que para su definición es necesario indicar cuales son las dimensiones del cubo de datos de entrada.
 Su uso es indicado cuando se quiere enfatizar la entrada de datos en todos los elementos de las dimensiones de apertura.
 
@@ -112,21 +112,96 @@ Su uso es indicado cuando se quiere enfatizar la entrada de datos en todos los e
 Lectura de fuente de Datos
 --------------------------
 
-conexión a fuentes de datos externas (comentar las opciones con wizards)
+Otra de las formas de ingreso de datos a Pyplan es a través de la conexión a fuentes de datos externas las cuales son leídas al momento de ejecutar el código correspondiente.
+Para este fin se arrastra un nodo denominado "Data Reading" de color verde que nos desplegará, luego de definir su título, un cuadro de dialogo como el siguiente:
+
+.. image:: images/data_reading.png
+
+.. image:: images/wizard-data-reading.png
+
+Las opciones de uso mas frecuente (csv, Excel) cuentan además con un asistente específico que permite configurar todos los parámetros de lectura.
+
+.. image:: images/wizard-csv.png
+
+Otras opciones de uso menos frecuente se inicializan con el código base que, luego de completar los parámetros necesarios, permiten la lectura de datos correspondiente.
+
+
 
 ------------------------------------
 Manipulación y Operaciones con Datos
 ------------------------------------
+Una vez generadas las entradas de datos el siguiente paso es su análisis y procesamiento, para este fin se utilizan los nodos de tipo **"Variable"**.
+Este tipo de nodo es el mas general de todos y permite alojar en su definición cualquier tipo de codificación.
+Al arrastrar y soltar un nodo **"Variable"**, nos pedirá definir su título y luego obtendremos un nodo con una definición como la siguiente: 
 
-- variable (conectar a la lectura, ejecutar, explicar wizards, mostrar la alteracion de codigo)
-- Index se vera mas adelante
+::
+
+    result = 0
+
+Para vincular este nuevo nodo con otro que sea su fuente de datos, podemos escribir el Id del nodo en su definición o 
+una vez posicionado donde queremos insertar la llamada a otro nodo apretando la tecla **<Alt>** hacemos click sobre el nodo al que queremos vincularlo, esto trae el Id de ese nodo a la definicion.
+
+Aceptando los cambios veremos que aparece una flecha que indica el vinculo entre nodos y el color del nodo variable cambia a **"Gris"** para indicar que ese proceso no tiene otra salida mas allá del propio nodo.
+
+.. figure:: images/link-data.png
+
+   *La variable "first variable" toma los datos del nodo "Data"*
+
+El nodo de tipo Variable permite escribir código Python libremente en su definición.
+No obstante ello, Pyplan provee una serie de asistentes que permiten realizar operaciones de transformación de los datos a traves del uso de 
+interfaces preparadas para este fin. 
+
+Estas interfaces dependen de la estructura de datos con la que estemos trabajando (objeto), 
+es por esto que necesitamos evaluar el nodo primero para que Pyplan pueda determinar los asistentes que nos presentará para trabajar.
+
+Estos asistentes se identifican como **"Wizards"** y se despliegan una vez ejecutado el nodo, haciendo click en el icono indicado en la siguiente figura:
+
+.. figure:: images/wizards-code.png
+
+Al utilizar estos asistentes se podrá observar como el código de definición del nodo cambia con las instrucciones apropiadas para generar el proceso buscado.
+Este procedimiento, equivalente al grabado de Macros en una planilla de calculo, permite al usuario que no conoce el lenguaje Python introducirse en sus funciones y sintaxis.
+Por ejemplo, si en este caso, luego de ejecutar el nodo **"first node"** desplegamos los wizards y elegimos sort **"by Year"**
+
+.. figure:: images/sort-wizard.png
+
+Veremos que el resultado es el ordenamiento por año de la tabla y su código final queda definido asi:
+
+
+.. figure:: images/code-sort.png
+
+
+El usuario podría continuar interactuando con el objeto de datos y analizar los cambios que provoca en la definicion del nodo y de esa manera ir aprendiendo el lenguage Python.
+
+
 
 -------------------------
-Organizacion del diagrama
+Organización del diagrama
 -------------------------
-Text
-Modulo (arrastrar, cortar y pegar)
-Color de los nodos funcionamiento
+El diagrama o **"workflow"** es la forma en que el código se organiza en Pyplan.
+Una convención general para ayudar a la lectura, es mantener el sentido de las flechas / flujo de la información,  de izquierda a derecha y de arriba hacia abajo.
+Ademas de los títulos para explicar de forma resumida el proceso o información alojada en un nodo, es posible incluir cuadros de texto
+que ayudan a interpretar un conjunto de nodos.
+
+.. figure:: images/diagram.png
+
+Como regla general es deseable no tener mas de 20 nodos en un diagrama. Toda vez que esto suceda se recomienda el uso de **"Modulos"** para agrupar
+nodos cuyo proceso comparten un fin especifico y por lo tanto pueden ser agrupados.
+
+En el diagrama de arriba podríamos crear un modulo denominado **"Outputs"** que agrupe los 3 nodos de salida. 
+Y luego cortar y pegar los nodos de salida dentro del nuevo modulo. Estos 3 pasos se describen en la siguiente imagen:
+
+
+.. figure:: images/module.png 
+
+Los nodos son coloreados de forma automática para facilitar la comprensión de su propósito y función.
+
+Todos los nodos mantienen su color original, que es el desplegado en el menu desde donde se arrastran con excepcion del nodo Variable.
+Este nodo puede tomar tres colores de acuerdo a su función:
+.. list::
+    
+- celeste: cuando forma parte de un proceso de en el diagrama que lo contiene
+- gris: cuando el nodo en cuestión no tiene salidas
+- rojo: cuando las salidas del nodo se encuentra fuera del modulo que lo contiene
 
 ------------------
 Ejecucion de nodos
@@ -152,14 +227,7 @@ Tablas
 ------
 Una tabla se asemeja a una tabla en base de datos, es decir es una estructura de datos donde cada columna representa un atributo o medida y donde cada fila corresponde a un registro particular de esos atributos o medidas.
 
-.. raw:: html
-    <embed>
-        Lorem ipsum dolor sit amet,         
-        <img src="open_node_drag.png" hspace="5" vspace="5" style="float: none;" />
-        Lorem ipsum dolor sit amet, 
-    </embed>
-    
-texto anterior
+
 
 .. image:: images/open_node_drag.png
     :alt: alternate text to be displayed

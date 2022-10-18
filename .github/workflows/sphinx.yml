@@ -19,6 +19,9 @@ jobs:
     - name: Copy index
       run: sudo cp docs/_static/index.html docs/_build/html/
       shell: bash
+    - name: Copy CNAME
+      run: sudo cp docs/_static/CNAME docs/_build/html/
+      shell: bash
     - name: Upload artifacts
       uses: actions/upload-artifact@v1
       with:

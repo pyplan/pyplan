@@ -333,8 +333,43 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#copiar-y-mover-archivos">
-   Copiar y mover archivos
+  <a class="reference internal nav-link" href="#vistas">
+   Vistas
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#abrir-aplicaciones">
+   Abrir aplicaciones
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#filtrar-y-buscar">
+   Filtrar y buscar
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#crear-carpetas-y-renombrar-archivos">
+   Crear carpetas y renombrar archivos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#copiar-y-mover">
+   Copiar y mover
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#duplicar-y-eliminar">
+   Duplicar y eliminar
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#subir-y-descargar">
+   Subir y descargar
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#comprimir-y-descomprimir">
+   Comprimir y descomprimir
   </a>
  </li>
 </ul>
@@ -357,8 +392,43 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#copiar-y-mover-archivos">
-   Copiar y mover archivos
+  <a class="reference internal nav-link" href="#vistas">
+   Vistas
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#abrir-aplicaciones">
+   Abrir aplicaciones
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#filtrar-y-buscar">
+   Filtrar y buscar
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#crear-carpetas-y-renombrar-archivos">
+   Crear carpetas y renombrar archivos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#copiar-y-mover">
+   Copiar y mover
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#duplicar-y-eliminar">
+   Duplicar y eliminar
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#subir-y-descargar">
+   Subir y descargar
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#comprimir-y-descomprimir">
+   Comprimir y descomprimir
   </a>
  </li>
 </ul>
@@ -373,17 +443,129 @@ title="Print to PDF"
                 
   <div class="section" id="administrador-de-archivos">
 <h1>Administrador de archivos<a class="headerlink" href="#administrador-de-archivos" title="Permalink to this headline">#</a></h1>
-<p>Pyplan … filemanager</p>
-<div class="figure align-default">
-<a class="reference internal image-reference" href="../_images/file_manager.png"><img alt="Alternative text" src="../_images/file_manager.png" style="width: 200px;" /></a>
+<p>El administrador de archivos de Pyplan esta diseñado para gestionar de manera fácil y transparente los archivos, carpetas y aplicaciones,
+que pueden visualizarse en un árbol jerárquico basado en su estructura de directorios.
+Nos permite ordenar en carpetas y subcarpetas, cambiar nombres, copiar, mover, eliminar y buscar archivos.</p>
+<img alt="Alternative text" src="../_images/filemanageroverview.png" />
+<div class="line-block">
+<div class="line"><br /></div>
 </div>
-<div class="section" id="copiar-y-mover-archivos">
-<h2>Copiar y mover archivos<a class="headerlink" href="#copiar-y-mover-archivos" title="Permalink to this headline">#</a></h2>
+<ol class="arabic simple">
+<li><p><strong>My Workspace</strong>: Carpeta personal donde se pueden guardar todas las aplicaciones del usuario.</p></li>
+<li><p><strong>Carpeta seleccionada</strong>: Carpeta seleccionada que podremos examinar en la parte derecha del administrador de archivos.</p></li>
+<li><p><strong>Carpeta pública de la empresa</strong>: Carpeta que contiene las aplicaciones disponibles a todos los usuarios de la empresa.</p></li>
+</ol>
+<div class="section" id="vistas">
+<h2>Vistas<a class="headerlink" href="#vistas" title="Permalink to this headline">#</a></h2>
+<p>La vista por defecto del explorador nos muestra los archivos en formato lista, con distintos datos de cada archivo o carpeta.
+Más específicamente, el tipo de archivo, el nombre, el tamaño y la fecha de la última modificación.</p>
+<img alt="../_images/list_view.png" src="../_images/list_view.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Además de la vista del explorador como lista de archivos, por defecto, tenemos disponible la vista mosaico. En esta podremos
+ver en primera instancia las las carpetas y luego los mosaicos que representan los archivos con el correspondiente icono de
+cada tipo de archivo.</p>
+<img alt="../_images/mosaic_view.png" src="../_images/mosaic_view.png" />
+</div>
+<div class="section" id="abrir-aplicaciones">
+<h2>Abrir aplicaciones<a class="headerlink" href="#abrir-aplicaciones" title="Permalink to this headline">#</a></h2>
+<p>Desde el administrador de archivo, podemos identificar las aplicaciones por el ícono que aparece a la derecha del nombre.
+Al seleccionar una carpeta que corresponda a una aplicación nos aparecerá en el menú superior un botón con la opción <strong>Open app</strong>,
+alternativamente también estará disponible en el menú contextual.</p>
+<img alt="../_images/open_app.png" src="../_images/open_app.png" />
+</div>
+<div class="section" id="filtrar-y-buscar">
+<h2>Filtrar y buscar<a class="headerlink" href="#filtrar-y-buscar" title="Permalink to this headline">#</a></h2>
+<p>Para facilitar la navegación entre los archivos, tenemos la opción de filtrar por tipo de datos. Esto nos permitirá ver
+solamente los archivos con los tipos de datos especificados</p>
+<img alt="../_images/filter.png" src="../_images/filter.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>También es posible utilizar el buscador para encontrar archivos o carpetas. Ingresando un texto parcial obtendremos todos los
+archivos que contengan el texto correspondiente en su nombre.</p>
+<img alt="../_images/search_files.png" src="../_images/search_files.png" />
+</div>
+<div class="section" id="crear-carpetas-y-renombrar-archivos">
+<h2>Crear carpetas y renombrar archivos<a class="headerlink" href="#crear-carpetas-y-renombrar-archivos" title="Permalink to this headline">#</a></h2>
+<p>Para organizar nuestros archivos tenemos la opción de crear nuevas carpetas. Para esto debemos ubicarnos en el directorio donde
+deseamos crear la carpeta y debemos seleccionar la opción <strong>New folder</strong>, se nos abrirá una ventana donde podremos elegir el nombre
+de la nueva carpeta. Al confirmar el nombre, la carpeta aparecerá en el directorio.</p>
+<img alt="../_images/new_folder.png" src="../_images/new_folder.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>También tenemos la posibilidad de renombrar carpetas y archivos. Debemos seleccionar el archivo/carpeta que deseamos renombrar y
+hacer click en la opción <strong>Rename</strong>. Una vez hecho esto, se habilitará una ventana de edición, una vez que cambiemos el nombre,
+confirmamos los cambios marcando la opción de confirmación.</p>
+<img alt="../_images/rename_files.png" src="../_images/rename_files.png" />
+</div>
+<div class="section" id="copiar-y-mover">
+<h2>Copiar y mover<a class="headerlink" href="#copiar-y-mover" title="Permalink to this headline">#</a></h2>
+<p>Al igual que en cualquier administrador de archivos, podremos copiar y mover archivos entre las distintas carpetas. Para ello disponemos
+de las opciones <strong>copy</strong> y <strong>move</strong> en el menú contextual  <i class="fa fa-ellipsis-v fa-xs"> </i>  al seleccionar un archivo o carpeta en el directorio.</p>
+<img alt="../_images/copyfiles.png" src="../_images/copyfiles.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Para copiar o mover varios archivos se pueden seleccionar y luego desde el menú  <i class="fa fa-ellipsis-v fa-xs"> </i>  en la parte superior buscar las opciones <strong>copy</strong> o <strong>move</strong>
+según se necesite.</p>
+<img alt="../_images/copymultiplefiles.png" src="../_images/copymultiplefiles.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Una vez que hayamos seleccionado la opción copiar o mover, podemos usar el navegador para ir hasta la ubicación donde deseamos
+pegar el archivo. Luego debemos hacer click en la opción <strong>paste here</strong> para pegar el archivo o carpeta en la ubicación actual.</p>
+<img alt="../_images/paste_file.png" src="../_images/paste_file.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Para copiar muchos archivos se puede….</p>
+<p>Otra forma de manipular archivos es utilizar los comandos <strong>Ctrl + C</strong> (copiar), <strong>Ctrl + X</strong> (mover) y
+<strong>Ctrl + V</strong> (pegar).</p>
 </div>
-<p>Otra <strong>forma</strong> de copiar archivos es…</p>
+</div>
+<div class="section" id="duplicar-y-eliminar">
+<h2>Duplicar y eliminar<a class="headerlink" href="#duplicar-y-eliminar" title="Permalink to this headline">#</a></h2>
+<p>La opción <strong>Duplicate</strong> nos permite crear una copia del archivo o carpeta dentro del mismo directorio.</p>
+<img alt="../_images/duplicate_file.png" src="../_images/duplicate_file.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Una vez seleccionada esta opción aparecera en el directorio una copia del archivo o carpeta que hayamos seleccionado, y tendrá
+como nombre el prefijo <em>Copy of …</em> seguido del nombre del archivo original.</p>
+<img alt="../_images/duplicated_file.png" src="../_images/duplicated_file.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Cuando necesitemos eliminar algún elemento del directorio, podremos hacerlo desde la opción <strong>Delete</strong> del menú contextual.</p>
+<img alt="../_images/delete_file.png" src="../_images/delete_file.png" />
+</div>
+<div class="section" id="subir-y-descargar">
+<h2>Subir y descargar<a class="headerlink" href="#subir-y-descargar" title="Permalink to this headline">#</a></h2>
+<p>Para subir archivos desde la computadora, debemos acceder a la opción <strong>Upload</strong>, donde se nos abrirá una ventana donde podremos arrastrar
+o seleccionar desde nuestra computadora los archivos que vamos a subir.</p>
+<img alt="../_images/upload.png" src="../_images/upload.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Para descargar archivos y/o carpetas desde Pyplan tenemos que seleccionarlos, en el menú contextual seleccionar <strong>Download</strong> y automáticamente
+comenzará la descarga de los ítems seleccionados en un archivo en formato <em>zip</em>.</p>
+<img alt="../_images/download.png" src="../_images/download.png" />
+</div>
+<div class="section" id="comprimir-y-descomprimir">
+<h2>Comprimir y descomprimir<a class="headerlink" href="#comprimir-y-descomprimir" title="Permalink to this headline">#</a></h2>
+<p>En caso de necesitarlo tenemos la posibilidad de comprimir archivos dentro del directorio de Pyplan. Para ello seleccionamos los archivos
+que deseamos comprimir y hacemos click en <strong>Zip it</strong>, a continuación se creará el archivo comprimido dentro del directorio.</p>
+<img alt="../_images/zip_file.png" src="../_images/zip_file.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>En caso de querer descomprimir un archivo <em>zip</em>, debemos seleccionar el archivo con formato zip y en la parte superior del directorio nos
+aparecerá el botón <strong>Unzip</strong> para descomprimirlo.</p>
+<img alt="../_images/unzip_file.png" src="../_images/unzip_file.png" />
 </div>
 </div>
 

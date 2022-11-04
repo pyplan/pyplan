@@ -20,6 +20,7 @@
    7_file_manager/index
    8_task_manager/index
    9_user_manager/index
+   10_environments/index
    samples
 	
 

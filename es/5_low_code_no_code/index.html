@@ -391,15 +391,57 @@ title="Print to PDF"
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ejecucion-de-nodos">
-     Ejecucion de nodos
+    <a class="reference internal nav-link" href="#coloracion-de-nodos">
+     Coloración de Nodos
     </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ejecucion-de-nodos">
+     Ejecución de nodos
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#estructuras-de-datos-soportadas">
+     Estructuras de datos soportadas
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#tablas-de-datos">
+       Tablas de datos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#operaciones-asistidas-con-tablas">
+       Operaciones asistidas con Tablas
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#cubos-de-datos">
+       Cubos de datos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#creacion-de-un-cubo-a-partir-de-una-tabla-de-datos">
+       Creación de un Cubo a partir de una Tabla de datos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#operaciones-con-cubos">
+       Operaciones con cubos
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#low-code">
    Low-code
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#temas-a-desarrollar">
+   Temas a desarrollar
   </a>
  </li>
 </ul>
@@ -474,15 +516,57 @@ title="Print to PDF"
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ejecucion-de-nodos">
-     Ejecucion de nodos
+    <a class="reference internal nav-link" href="#coloracion-de-nodos">
+     Coloración de Nodos
     </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ejecucion-de-nodos">
+     Ejecución de nodos
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#estructuras-de-datos-soportadas">
+     Estructuras de datos soportadas
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#tablas-de-datos">
+       Tablas de datos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#operaciones-asistidas-con-tablas">
+       Operaciones asistidas con Tablas
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#cubos-de-datos">
+       Cubos de datos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#creacion-de-un-cubo-a-partir-de-una-tabla-de-datos">
+       Creación de un Cubo a partir de una Tabla de datos
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#operaciones-con-cubos">
+       Operaciones con cubos
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#low-code">
    Low-code
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#temas-a-desarrollar">
+   Temas a desarrollar
   </a>
  </li>
 </ul>
@@ -504,16 +588,16 @@ donde cada nodo representa alguna etapa en la carga o procesamiento de la inform
 o generado automáticamente por un asistente de Pyplan al parametrizar o manipular interfaces desarrolladas para este fin.</p>
 <p>El diagrama se construye arrastrando los diferentes tipos de nodo sobre la hoja del diagrama.
 La ventana de nodos se despliega haciendo click sobre este <a class="reference internal" href="../_images/desplegar_nodos.png"><img alt="desplegar" src="../_images/desplegar_nodos.png" style="width: 22.400000000000002px; height: 22.400000000000002px;" /></a> icono que aparece en el extremo superior izquierdo del diagrama.</p>
-<p>Las flechas que indican la relación entre nodos son generadas automaticamente al referenciar una variable como fuente de datos de entrada de un proceso subsiguiente.</p>
+<p>Las flechas que indican la relación entre nodos son generadas automáticamente al referenciar una variable como fuente de datos de entrada de un proceso subsiguiente.</p>
 <p>Los nodos tienen diferentes colores que ayudan a entender la función que cumplen dentro del diagrama.</p>
 <div class="section" id="no-code">
 <h2>No-code<a class="headerlink" href="#no-code" title="Enlazar permanentemente con este título">#</a></h2>
 <p>Pyplan es una plataforma pensada para que usuarios sin conocimientos de programación puedan construir y compartir aplicaciones de Data Analytics y Planning.</p>
-<p>La construcción de una aplicación requiere como primer paso la entrada de datos, la cual puede ser manual o por lectura de una fuente de datos externa.</p>
+<p>La construcción de una aplicación requiere como primer paso la entrada de datos, la cual puede ser manual o a través de la lectura de una fuente de datos externa.</p>
 <div class="section" id="entrada-de-datos-manuales">
 <h3>Entrada de Datos Manuales<a class="headerlink" href="#entrada-de-datos-manuales" title="Enlazar permanentemente con este título">#</a></h3>
-<p>La entrada de datos manuales se construye arrastrando un nodo de color amarillo «Input Data».
-Este tipo de nodo, una vez definido un título, abre un asistente que permite definir que tipo de dato manual se pretende ingresar.</p>
+<p>La entrada de datos manuales se construye arrastrando un nodo del tipo: <a class="reference internal" href="../_images/Input_data.png"><img alt="Input_data" src="../_images/Input_data.png" style="width: 137.6px; height: 29.6px;" /></a></p>
+<p>Este tipo de nodo, una vez definido un título, abre un asistente que permite definir que tipo de dato manual se pretende ingresar.</p>
 <div class="figure align-default" id="id1">
 <img alt="../_images/manual_input.png" src="../_images/manual_input.png" />
 <p class="caption"><span class="caption-text"><em>Asistente de entrada de datos manuales</em></span><a class="headerlink" href="#id1" title="Enlace permanente a esta imagen">#</a></p>
@@ -564,49 +648,40 @@ Su uso es indicado cuando se quiere enfatizar la entrada de datos en todos los e
 </div>
 <div class="section" id="lectura-de-fuente-de-datos">
 <h3>Lectura de fuente de Datos<a class="headerlink" href="#lectura-de-fuente-de-datos" title="Enlazar permanentemente con este título">#</a></h3>
-<p>Otra de las formas de ingreso de datos a Pyplan es a través de la conexión a fuentes de datos externas las cuales son leídas al momento de ejecutar el código correspondiente.
-Para este fin se arrastra un nodo denominado «Data Reading» de color verde que nos desplegará, luego de definir su título, un cuadro de dialogo como el siguiente:</p>
-<img alt="../_images/data_reading.png" src="../_images/data_reading.png" />
+<p>Otra de las formas de ingreso de datos a Pyplan es a través de la conexión a fuentes de datos externas las cuales son leídas al momento de ejecutar el código correspondiente.</p>
+<p>Para este fin se arrastra un nodo denominado <a class="reference internal" href="../_images/Data_reading_node.png"><img alt="Data_reading" src="../_images/Data_reading_node.png" style="width: 137.6px; height: 29.6px;" /></a> que nos desplegará, luego de definir su título, un cuadro de dialogo como el siguiente:</p>
 <img alt="../_images/wizard-data-reading.png" src="../_images/wizard-data-reading.png" />
 <p>Las opciones de uso mas frecuente (csv, Excel) cuentan además con un asistente específico que permite configurar todos los parámetros de lectura.</p>
 <img alt="../_images/wizard-csv.png" src="../_images/wizard-csv.png" />
 <p>Otras opciones de uso menos frecuente se inicializan con el código base que, luego de completar los parámetros necesarios, permiten la lectura de datos correspondiente.</p>
+<img alt="../_images/data_reading.png" src="../_images/data_reading.png" />
 </div>
 <div class="section" id="manipulacion-y-operaciones-con-datos">
 <h3>Manipulación y Operaciones con Datos<a class="headerlink" href="#manipulacion-y-operaciones-con-datos" title="Enlazar permanentemente con este título">#</a></h3>
-<p>Una vez generadas las entradas de datos el siguiente paso es su análisis y procesamiento, para este fin se utilizan los nodos de tipo <strong>«Variable»</strong>.
+<p>Una vez generadas las entradas de datos el siguiente paso es su análisis y procesamiento, para este fin se utilizan los nodos de tipo <a class="reference internal" href="../_images/variable_node.png"><img alt="Variable" src="../_images/variable_node.png" style="width: 137.6px; height: 29.6px;" /></a>.
 Este tipo de nodo es el mas general de todos y permite alojar en su definición cualquier tipo de codificación.
 Al arrastrar y soltar un nodo <strong>«Variable»</strong>, nos pedirá definir su título y luego obtendremos un nodo con una definición como la siguiente:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="mi">0</span>
 </pre></div>
 </div>
-<p>Para vincular este nuevo nodo con otro que sea su fuente de datos, podemos escribir el Id del nodo en su definición o
-una vez posicionado donde queremos insertar la llamada a otro nodo apretando la tecla <strong>&lt;Alt&gt;</strong> hacemos click sobre el nodo al que queremos vincularlo, esto trae el Id de ese nodo a la definicion.</p>
+<p>Para vincular este nuevo nodo con otro que sea su fuente de datos, podemos escribir el identificador (Id) del nodo en su definición o
+una vez posicionado donde queremos insertar la llamada a otro nodo, apretando la tecla <strong>&lt;Alt&gt;</strong> hacemos click sobre el nodo al que queremos vincularlo, esto traerá el Id de ese nodo a la definición.</p>
 <p>Aceptando los cambios veremos que aparece una flecha que indica el vinculo entre nodos y el color del nodo variable cambia a <strong>«Gris»</strong> para indicar que ese proceso no tiene otra salida mas allá del propio nodo.</p>
 <div class="figure align-default" id="id2">
 <img alt="../_images/link-data.png" src="../_images/link-data.png" />
 <p class="caption"><span class="caption-text"><em>La variable «first variable» toma los datos del nodo «Data»</em></span><a class="headerlink" href="#id2" title="Enlace permanente a esta imagen">#</a></p>
 </div>
 <p>El nodo de tipo Variable permite escribir código Python libremente en su definición.
-No obstante ello, Pyplan provee una serie de asistentes que permiten realizar operaciones de transformación de los datos a traves del uso de
+No obstante ello, Pyplan provee una serie de asistentes que ayudan a realizar operaciones de transformación de los datos a través del uso de
 interfaces preparadas para este fin.</p>
-<p>Estas interfaces dependen de la estructura de datos con la que estemos trabajando (objeto),
+<p>Estos asistentes dependen de la estructura de datos con la que estemos trabajando (objeto),
 es por esto que necesitamos evaluar el nodo primero para que Pyplan pueda determinar los asistentes que nos presentará para trabajar.</p>
 <p>Estos asistentes se identifican como <strong>«Wizards»</strong> y se despliegan una vez ejecutado el nodo, haciendo click en el icono indicado en la siguiente figura:</p>
 <div class="figure align-default">
 <img alt="../_images/wizards-code.png" src="../_images/wizards-code.png" />
 </div>
 <p>Al utilizar estos asistentes se podrá observar como el código de definición del nodo cambia con las instrucciones apropiadas para generar el proceso buscado.
-Este procedimiento, equivalente al grabado de Macros en una planilla de calculo, permite al usuario que no conoce el lenguaje Python introducirse en sus funciones y sintaxis.
-Por ejemplo, si en este caso, luego de ejecutar el nodo <strong>«first node»</strong> desplegamos los wizards y elegimos sort <strong>«by Year»</strong></p>
-<div class="figure align-default">
-<img alt="../_images/sort-wizard.png" src="../_images/sort-wizard.png" />
-</div>
-<p>Veremos que el resultado es el ordenamiento por año de la tabla y su código final queda definido asi:</p>
-<div class="figure align-default">
-<img alt="../_images/code-sort.png" src="../_images/code-sort.png" />
-</div>
-<p>El usuario podría continuar interactuando con el objeto de datos y analizar los cambios que provoca en la definicion del nodo y de esa manera ir aprendiendo el lenguage Python.</p>
+Este procedimiento, equivalente al grabado de Macros en una planilla de calculo, permite al usuario que no conoce el lenguaje Python introducirse en sus funciones y sintaxis.</p>
 </div>
 <div class="section" id="organizacion-del-diagrama">
 <h3>Organización del diagrama<a class="headerlink" href="#organizacion-del-diagrama" title="Enlazar permanentemente con este título">#</a></h3>
@@ -619,33 +694,44 @@ que ayudan a interpretar un conjunto de nodos.</p>
 </div>
 <p>Como regla general es deseable no tener mas de 20 nodos en un diagrama. Toda vez que esto suceda se recomienda el uso de <strong>«Modulos»</strong> para agrupar
 nodos cuyo proceso comparten un fin especifico y por lo tanto pueden ser agrupados.</p>
-<p>En el diagrama de arriba podríamos crear un modulo denominado <strong>«Outputs»</strong> que agrupe los 3 nodos de salida.
-Y luego cortar y pegar los nodos de salida dentro del nuevo modulo. Estos 3 pasos se describen en la siguiente imagen:</p>
+<p>En el diagrama de arriba podríamos crear un modulo denominado <strong>«Outputs»</strong> (1) que agrupe los 3 nodos de salida.
+Y luego cortar (2) y pegar (3) los nodos de salida dentro del nuevo modulo.</p>
+<p>Estos 3 pasos se describen en la siguiente imagen:</p>
 <div class="figure align-default">
 <img alt="../_images/module.png" src="../_images/module.png" />
 </div>
-<p>Los nodos son coloreados de forma automática para facilitar la comprensión de su propósito y función.</p>
-<p>Todos los nodos mantienen su color original, que es el desplegado en el menu desde donde se arrastran con excepcion del nodo Variable.
-Este nodo puede tomar tres colores de acuerdo a su función:
-.. list:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span> <span class="n">celeste</span><span class="p">:</span> <span class="n">cuando</span> <span class="n">forma</span> <span class="n">parte</span> <span class="n">de</span> <span class="n">un</span> <span class="n">proceso</span> <span class="n">de</span> <span class="n">en</span> <span class="n">el</span> <span class="n">diagrama</span> <span class="n">que</span> <span class="n">lo</span> <span class="n">contiene</span>
-<span class="o">-</span> <span class="n">gris</span><span class="p">:</span> <span class="n">cuando</span> <span class="n">el</span> <span class="n">nodo</span> <span class="n">en</span> <span class="n">cuestión</span> <span class="n">no</span> <span class="n">tiene</span> <span class="n">salidas</span>
-<span class="o">-</span> <span class="n">rojo</span><span class="p">:</span> <span class="n">cuando</span> <span class="n">las</span> <span class="n">salidas</span> <span class="k">del</span> <span class="n">nodo</span> <span class="n">se</span> <span class="n">encuentra</span> <span class="n">fuera</span> <span class="k">del</span> <span class="n">modulo</span> <span class="n">que</span> <span class="n">lo</span> <span class="n">contiene</span>
-</pre></div>
 </div>
+<div class="section" id="coloracion-de-nodos">
+<h3>Coloración de Nodos<a class="headerlink" href="#coloracion-de-nodos" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Los nodos son coloreados de forma automática para facilitar la comprensión de su propósito y función.</p>
+<p>Todos los nodos mantienen su color original, que es el desplegado en el menu desde donde se arrastran con excepción del nodo tipo Variable.
+Este nodo puede tomar tres colores de acuerdo a su función:</p>
+<ul class="simple">
+<li><p>celeste: cuando forma parte de un proceso de cálculo en el diagrama que lo contiene</p></li>
+<li><p>gris: cuando el nodo en cuestión no tiene salidas</p></li>
+<li><p>rojo: cuando las salidas del nodo se encuentra fuera del modulo que lo contiene</p></li>
+</ul>
 </div>
 <div class="section" id="ejecucion-de-nodos">
-<h3>Ejecucion de nodos<a class="headerlink" href="#ejecucion-de-nodos" title="Enlazar permanentemente con este título">#</a></h3>
-<p>Funcionamiento del mecanismo de calculo</p>
+<h3>Ejecución de nodos<a class="headerlink" href="#ejecucion-de-nodos" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Un nodo puede tener dos estados: No Calculado o Calculado.</p>
+<p>Al abrir una aplicación todos los nodos están pendientes de ejecución, hasta que algún comando lo indique.
+Al mandar a calcular un nodo (ejecutarlo), Pyplan recorre de forma recursiva todo el diagrama de influencia preguntando si
+los nodos que alimentan el nodo que se quiere ejecutar están calculados, sino es asi, va un paso hacia atrás en el proceso de calculo preguntando lo mismo.</p>
+<p>Una vez llegada a la frontera de la aplicación o la frontera de nodos calculados comienza a calcular aguas abajo para poder finalmente presentar el resultado del nodo indagado.</p>
+<p>Este proceso garantiza que el resultado de un nodo al ser calculado es siempre el mismo y no que su valor depende de la secuencia de ejecución de los nodos precedentes.</p>
+<p>Por otro lado este mecanismo le provee mucha eficiencia de computo ya que al cambiarse alguna variable intermedia en el calculo garantiza que
+solo son recalculados aquellos nodos cuyo valor ha sido afectado por el cambio en la variable mencionada.</p>
+<p>El estado Calculado / No calculado puede ser inspeccionado al seleccionar un nodo. En la vista de resultados nos mostrará la salida del nodo en caso de estar calculado
+y sino un mensaje indicando que el nodo no esta calculado.</p>
 </div>
-</div>
-<div class="section" id="low-code">
-<h2>Low-code<a class="headerlink" href="#low-code" title="Enlazar permanentemente con este título">#</a></h2>
-<p>Pyplan interpreta de forma nativa algunas estructuras de datos del tipo Tablas y Cubos proveniente de las librerías de Python mas difundidas (Pandas, Numpy, Xarray).
-Los Cubos de datos pueden tener cualquier numero de dimensiones. Estas dimensiones a su vez pueden estar nominadas o ser indefinidas.</p>
-<div class="admonition note">
-<p class="admonition-title">Nota</p>
-<p>incluir un grafico que ilustre una tabla, un cubo xarray y un cubo numpy</p>
+<div class="section" id="estructuras-de-datos-soportadas">
+<h3>Estructuras de datos soportadas<a class="headerlink" href="#estructuras-de-datos-soportadas" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Pyplan interpreta de forma nativa algunas estructuras de datos del tipo Tablas y Cubos proveniente de las librerías de Python mas difundidas (Pandas, Numpy, Xarray).</p>
+<p>Las Tablas de datos son la estructura típica de una base de datos, con atributos definidos por columnas, donde cada fila corresponde a un registro.</p>
+<p>Los Cubos de datos pueden tener cualquier numero de dimensiones. Estas dimensiones a su vez pueden estar nominadas o ser indefinidas.</p>
+<div class="admonition-estructuras-de-datos-mas-utilizadas admonition">
+<p class="admonition-title">Estructuras de datos mas utilizadas</p>
 <ul class="simple">
 <li><p>Tablas <a class="reference external" href="https://pandas.pydata.org/docs/user_guide/dsintro.html#intro-to-data-structures">Dataframe</a> de Pandas</p></li>
 <li><dl class="simple">
@@ -658,22 +744,105 @@ Los Cubos de datos pueden tener cualquier numero de dimensiones. Estas dimension
 </li>
 </ul>
 </div>
+<div class="section" id="tablas-de-datos">
+<h4>Tablas de datos<a class="headerlink" href="#tablas-de-datos" title="Enlazar permanentemente con este título">#</a></h4>
 <p>Una tabla se asemeja a una tabla en base de datos, es decir es una estructura de datos donde cada columna representa un atributo o medida y donde cada fila corresponde a un registro particular de esos atributos o medidas.</p>
-<img alt="alternate text to be displayed" class="with-shadow float-right" src="../_images/open_node_drag.png" />
-<p>texto posterior cubriendo la parte no ocupada por la imagen se renderiza de esta forma</p>
 <img alt="../_images/table_nd_cube.png" src="../_images/table_nd_cube.png" />
-<p>Las tablas de datos en Pyplan corresponden al objeto <strong>Dataframe</strong> de la librería Pandas, una de las librerías mas utilizadas en Data Science. Documentación sobre las funcionalidades de de los <a class="reference external" href="https://pandas.pydata.org/docs/user_guide/dsintro.html#intro-to-data-structures">Dataframes en Pandas puede consultarse aquí.</a></p>
-<p>La principal diferencia entre una tabla en base de datos y un Dataframe es que este último reside en memoria y no en disco. De ahi proviene su velocidad de procesamiento.</p>
-<p>Cuando un nodo es calculado y su resultado devuelve un objeto Dataframe de Pandas, Pyplan presenta automáticamente un conjunto de herramientas para operar con ese Dataframe.</p>
-<img alt="../_images/tabla_wizard.png" src="../_images/tabla_wizard.png" />
-<p>Al utilizar esos asistentes para la operación deseada, el usuario podrá observar como el código de definición se va generando.</p>
-<ul class="simple">
-<li><p>Desarrollar el concepto de cubo</p></li>
-<li><p>Mostrar herramientas de creacion de cubos e indices a partir del dataframe</p></li>
-<li><p>input dataarray mencionar</p></li>
-<li><p>operaciones con cubos (broadcasting de dimensiones)</p></li>
-<li><p>funcionamiento del dynamic</p></li>
-</ul>
+<p><br />
+Las tablas de datos en Pyplan corresponden al objeto <strong>Dataframe</strong> de la librería <strong>Pandas</strong>, una de las librerías mas utilizadas en Data Science.
+Algunas funcionalidades básicas de operaciones con Dataframes son las facilitadas por los asistentes de Pyplan.
+Existen sin embargo muchas otras operaciones que pueden realizarse a traves de la codificación en Python utilizando la librería Pandas.</p>
+<div class="admonition-introduccion-rapida-a-pandas admonition">
+<p class="admonition-title">Introducción rápida a Pandas</p>
+<p>Una guía rápida de introducción a las funcionalidades de Pandas puede consultarse <a class="reference external" href="https://pandas.pydata.org/pandas-docs/version/1.3/user_guide/10min.html#minutes-to-pandas">aquí.</a></p>
+</div>
+</div>
+<div class="section" id="operaciones-asistidas-con-tablas">
+<h4>Operaciones asistidas con Tablas<a class="headerlink" href="#operaciones-asistidas-con-tablas" title="Enlazar permanentemente con este título">#</a></h4>
+<p>Un nodo que al ser evaluado devuelve como resultado una Tabla (DataFrame) presentará como asistentes las siguientes opciones:</p>
+<div class="figure align-default">
+<img alt="../_images/table_wizard.png" src="../_images/table_wizard.png" />
+</div>
+<p>Siguiendo con el ejemplo, si creamos una variable  <strong>«first variable»</strong>,
+cambiamos su definición vinculándola al nodo <strong>data</strong> tal que:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">result</span> <span class="o">=</span> <span class="n">data</span>
+</pre></div>
+</div>
+<p>luego de ejecutar este nodo para permitir que Pyplan identifique el objeto resultante, desplegamos los wizards y elegimos sort <strong>«by Year»</strong></p>
+<div class="figure align-default">
+<img alt="../_images/sort-wizard.png" src="../_images/sort-wizard.png" />
+</div>
+<p>Veremos que el resultado es el ordenamiento por año de la tabla y su código final queda definido asi:</p>
+<div class="figure align-default">
+<img alt="../_images/code-sort.png" src="../_images/code-sort.png" />
+</div>
+<p>El usuario podría continuar interactuando con el objeto de datos y analizar los cambios que provoca en la definicion del nodo y de esa manera ir aprendiendo el lenguage Python.</p>
+</div>
+<div class="section" id="cubos-de-datos">
+<h4>Cubos de datos<a class="headerlink" href="#cubos-de-datos" title="Enlazar permanentemente con este título">#</a></h4>
+<p>El cubo de datos es también un objeto nativamente soportado por Pyplan. El objeto utilizado es el <strong>DataArray</strong> de la librería <strong>XArray</strong>.
+Un cubo de datos nominado es una estructura de datos que contiene un registro indexado por n-dimensiones identificadas.
+Estas dimensiones en Pyplan se denominan Indices y se identifican con este tipo de nodo <a class="reference internal" href="../_images/index_node.png"><img alt="index" src="../_images/index_node.png" style="width: 64.2px; height: 22.2px;" /></a> en el diagrama.</p>
+<p>Por ejemplo podríamos pensar en un cubo de datos de <strong>«Count of Win»</strong> indexado por las dimensiones <strong>[Tournament Country, Surface, Year]</strong></p>
+<p>Este cubo, siguiendo el ejemplo desarrollado hasta aquí sería:</p>
+<div class="figure align-default">
+<img alt="../_images/cube_win.png" src="../_images/cube_win.png" />
+</div>
+<p>Los cubos de datos se crean por transformación de tablas (Dataframes) en cubos de datos, por entradas directas (Input Table),
+o por operaciones entre cubos.</p>
+</div>
+<div class="section" id="creacion-de-un-cubo-a-partir-de-una-tabla-de-datos">
+<h4>Creación de un Cubo a partir de una Tabla de datos<a class="headerlink" href="#creacion-de-un-cubo-a-partir-de-una-tabla-de-datos" title="Enlazar permanentemente con este título">#</a></h4>
+<p>Al hacer click con el botón derecho del mouse sobre un nodo que evaluado resulta en una tabla de datos se despliega el siguiente menu:</p>
+<div class="figure align-default">
+<img alt="../_images/cube_from_table.png" src="../_images/cube_from_table.png" />
+</div>
+<p>Haciendo click sobre la opción <strong>«Create Cube»</strong> se despliega el siguiente cuadro de dialogo:</p>
+<div class="figure align-default">
+<img alt="../_images/cube_from_table_asist.png" src="../_images/cube_from_table_asist.png" />
+</div>
+<p>En el se listan todas las columnas del dataframe, el tipo de datos, el indice (en caso de existir) que recogerá los valores de esa columna,
+la opción de crear un indice para el caso en que este no exista y por ultimo la función de agregación que se utilizará para agrupar el valor del hecho o variable a representar.</p>
+<p>Para crear un cubo de datos en Pyplan es necesario que existan, de forma anticipada, las dimensiones (Index) que caracterizan ese cubo de datos.
+Es por esa razón que el asistente nos ofrece crear los indices basados en los datos de las columnas en caso que este no exista.</p>
+</div>
+<div class="section" id="operaciones-con-cubos">
+<h4>Operaciones con cubos<a class="headerlink" href="#operaciones-con-cubos" title="Enlazar permanentemente con este título">#</a></h4>
+<p>Al igual que con los objetos tipo Tabla, Pyplan provee asistentes para operar con Cubos de datos, que se despliegan automaticamente en el mismo lugar, cuando el objeto resultante es un Cubo de datos de tipo XArray.</p>
+<p>Adicionalmente, a diferencia de las Tablas, los Cubos de datos permiten operaciones matemáticas entre ellos que dan como resultado nuevos Cubos.
+Es importante entender como funcionan estas operaciones entre cubos para asi, poder construir el proceso de calculo deseado.</p>
+<p>Las operaciones entre</p>
+<p>Para ilustrar estos conceptos</p>
+<p>El listado completo de operaciones con Cubos puede consultarse en la documentación de la librería XArray.</p>
+<p>(broadcasting de dimensiones)
+- funcionamiento del dynamic</p>
+</div>
+</div>
+</div>
+<div class="section" id="low-code">
+<h2>Low-code<a class="headerlink" href="#low-code" title="Enlazar permanentemente con este título">#</a></h2>
+<p>Siguiendo con el ejemplo en desarrollo, al seleccionar el nodo «Calculate Wins and Double Faults %» como se muestra en la figura,
+se observa un ejemplo de codificación:</p>
+<div class="figure align-default">
+<img alt="../_images/code_example.png" src="../_images/code_example.png" />
+</div>
+<p>En la definición del código (Code) puede verse como se crean dos columnas nuevas a partir del Dataframe original de acuerdo a las siguientes instrucciones:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Assign dataframe to the variable &#39;_df&#39;.</span>
+<span class="n">_df</span> <span class="o">=</span> <span class="n">data</span>
+
+<span class="c1"># Create new column that checks if Federer won.</span>
+<span class="n">_df</span><span class="p">[</span><span class="s1">&#39;win&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">_df</span><span class="p">[</span><span class="s1">&#39;winner&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Roger Federer&#39;</span>
+
+<span class="c1"># Create new column that calculates the % of double faults in each match.</span>
+<span class="n">_df</span><span class="p">[</span><span class="s1">&#39;dblfaults&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">_df</span><span class="p">[</span><span class="s1">&#39;player1 double faults&#39;</span><span class="p">]</span> <span class="o">/</span> <span class="n">_df</span><span class="p">[</span><span class="s1">&#39;player1 total points total&#39;</span><span class="p">]</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="n">_df</span>
+</pre></div>
+</div>
+<p>El usuario puede experimentar alterar el código en la definición del nodo y visualizar el impacto en los resultados</p>
+</div>
+<div class="section" id="temas-a-desarrollar">
+<h2>Temas a desarrollar<a class="headerlink" href="#temas-a-desarrollar" title="Enlazar permanentemente con este título">#</a></h2>
 <ul class="simple">
 <li><p>intellisense</p></li>
 <li><p>tooltips</p></li>
@@ -682,9 +851,8 @@ Los Cubos de datos pueden tener cualquier numero de dimensiones. Estas dimension
 <li><p>asistente de codigo</p></li>
 <li><p>preview</p></li>
 <li><p>consola de errores</p></li>
+<li><p>manejo de librerias</p></li>
 </ul>
-<p>importacion y uso de librerias</p>
-<p>libreria</p>
 </div>
 </div>
 

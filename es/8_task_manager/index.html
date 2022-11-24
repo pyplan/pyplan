@@ -316,12 +316,46 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tareas">
+   Tareas
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#app-pool">
+   App pool
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#editar-y-ver-logs">
+   Editar y ver logs
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
@@ -333,6 +367,29 @@ title="Print to PDF"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tareas">
+   Tareas
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#app-pool">
+   App pool
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#editar-y-ver-logs">
+   Editar y ver logs
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -342,7 +399,98 @@ title="Print to PDF"
                 
   <div class="section" id="tareas-programadas">
 <h1>Tareas programadas<a class="headerlink" href="#tareas-programadas" title="Enlazar permanentemente con este título">#</a></h1>
-<p>Pyplan cuanta con un adiministrador de tareas para programar actividades de forma automatica….</p>
+<p>Pyplan cuenta con un adiministrador de tareas para programar actividades de forma automática.
+Esta herramienta se encuentra disponible en la barra lateral izquierda, debajo de menú <strong>Tools</strong>, en la opción de <strong>Schedule tasks</strong>.</p>
+<img alt="../_images/open_task_manager.png" src="../_images/open_task_manager.png" />
+<div class="section" id="tareas">
+<h2>Tareas<a class="headerlink" href="#tareas" title="Enlazar permanentemente con este título">#</a></h2>
+<p>Para crear una tarea programada debemos seleccionar la opción <strong>Add task</strong> en la parte superior.</p>
+<img alt="../_images/create_task.png" src="../_images/create_task.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>A continuación se nos abrirá el menú de creación de tareas. En la parte de <strong>General options</strong> podemos
+elegir un nombre para nuestra tarea y tenemos la posibilidad de elegir si queremos que la tarea esté habilitada o no.</p>
+<img alt="../_images/name_task.png" src="../_images/name_task.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Luego, en la opción de <strong>App path</strong> debemos seleccionar la aplicación y el nodo correspondiente que
+queremos que se ejecute con la tarea programada.</p>
+<img alt="../_images/app_path.png" src="../_images/app_path.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Ahora en la opción de Scheduler podemos seleccionar en qué forma queremos que se ejecute nuestra tarea. Para ello disponemos de 3 opciones</p>
+<ol class="arabic simple">
+<li><p><strong>Interval</strong>: Nos permite ejecutar nuestra tarea cada cierto intervalo de tiempo, por ejemplo, cada día o cada hora.</p></li>
+<li><p><strong>Custom</strong>: Nos da la mayor libertad para programar nuestra tarea, podemos seleccionar desde a que hora o días de la semana queremos que se ejecute</p></li>
+<li><p><strong>Clocked</strong>: Para correr la tarea en un día y hora específicos.</p></li>
+</ol>
+<img alt="../_images/scheduler.png" src="../_images/scheduler.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Por último en el apartado <strong>Params</strong>, en caso de que el nodo que vamos a ejecutar en la tarea programada sea una función que dependa de
+ciertos parámetros, podemos especificar tales parámetros al momento de ejecutarla.</p>
+<ol class="arabic simple">
+<li><p><strong>Select</strong>: Posibilita seleccionar los parámetros entre una lista predeterminada.</p></li>
+<li><p><strong>Input</strong>: Permite que el usuario pueda ingresar el valor del parámetro.</p></li>
+<li><p><strong>Checkbox</strong>: El usuario podrá ingresar parámetros que puede tomar valores True o False mediante un checkbox.</p></li>
+</ol>
+<img alt="../_images/params.png" src="../_images/params.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Finalmente podremos ver la tarea creada en el <strong>task manager</strong>, donde también podremos monitorear la ejecución,
+habilitar/deshabilitar, editar o eliminar nuestra tarea, entre otras cosas.</p>
+<img alt="../_images/created_task.png" src="../_images/created_task.png" />
+</div>
+<div class="section" id="app-pool">
+<h2>App pool<a class="headerlink" href="#app-pool" title="Enlazar permanentemente con este título">#</a></h2>
+<p>Una app pool es similar a una tarea programada, pero con la diferencia de que las instancias usadas
+para ejecutar un nodo de una aplicación pueden quedar ejecutandose y podemos acceder a ellas una vez que se haya terminado
+de ejecutar el nodo correspondiente.
+Para crear un pool de aplicaciones debemos seleccionar la opción <strong>Add app pool</strong> en la parte superior.</p>
+<img alt="../_images/add_app_pool.png" src="../_images/add_app_pool.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>En la parte de <strong>General options</strong> podemos elegir un nombre para nuestra app pool y tenemos la posibilidad de
+elegir si queremos que la app pool esté disponible para todos los usuarios o solo para alguno en particular.
+También podemos elegir cuantas instancias estarán disponibles de la app. Y por último también podemos seleccionar,
+si lo deseamos, una fecha de expiración para las instancias.</p>
+<img alt="../_images/app_pool_gen.png" src="../_images/app_pool_gen.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Al igual que con las tareas programadas, en las opción de <strong>App path</strong> debemos seleccionar la aplicación y
+el nodo correspondiente que queremos que se ejecute.</p>
+<img alt="../_images/app_pool_path.png" src="../_images/app_pool_path.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>En el apartado <strong>Params</strong>, en caso de que el nodo que vamos a ejecutar en la app pool sea una función que dependa de
+ciertos parámetros, podemos especificar tales parámetros al momento de ejecutarla.</p>
+<ol class="arabic simple">
+<li><p><strong>Select</strong>: Posibilita seleccionar los parámetros entre una lista predeterminada.</p></li>
+<li><p><strong>Input</strong>: Permite que el usuario pueda ingresar el valor del parámetro.</p></li>
+<li><p><strong>Checkbox</strong>: El usuario podrá ingresar parámetros que puede tomar valores True o False mediante un checkbox.</p></li>
+</ol>
+<img alt="../_images/app_params.png" src="../_images/app_params.png" />
+</div>
+<div class="section" id="editar-y-ver-logs">
+<h2>Editar y ver logs<a class="headerlink" href="#editar-y-ver-logs" title="Enlazar permanentemente con este título">#</a></h2>
+<p>En caso de ser necesario, podemos editar alguna de las tareas o app pool, seleccionandola y haciendo click en la opción <strong>Edit task</strong>,
+donde podremos modificar todas las opciones que seleccionamos al crearla.</p>
+<img alt="../_images/edit_and_logs.png" src="../_images/edit_and_logs.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Además podremos monitorizar los logs de la tarea/app pool desde la opción <strong>Show task logs</strong>, donde nos aparecerán las últimas veces
+que fue ejecutada y podremos revisar los logs.</p>
+<img alt="../_images/logs.png" src="../_images/logs.png" />
+</div>
 </div>
 
 

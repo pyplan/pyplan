@@ -13,16 +13,6 @@ Esta visualización puede ser en forma de tabla o gráfico.
 
 Al navegar el diagrama de influencia se puede seleccionar cualquier nodo, ejecutarlo y visualizar su resultado. 
 
-
-
-pivoteo, filtrado y funciones de agregacion
-configuracion tabla (estilos)
-visualizacion grafico y configuracion
-vista por defecto
-
-
-
-
 Visualización en formato de Tabla
 =================================
 Haciendo click sobre el nodo verde con titulo "Data" veremos lo siguiente:
@@ -47,7 +37,7 @@ Arrastrando el campo "Years" a la casilla de columnas y luego de definir el Prom
  
 
 Esta tabla describe la evolución en el tiempo del ranking promedio anual de "Roger Federer"
-Cualquier campo puede ser desplegado como Columna o Fila provocando la agrupación de las medidas visualizadas correspondiente.
+Cualquier campo puede ser desplegado como Columna o Fila provocando la agrupación de las medidas visualizadas correspondientes.
 
 Formato de Tabla
 ----------------

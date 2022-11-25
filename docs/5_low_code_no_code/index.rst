@@ -383,6 +383,7 @@ En el ejemplo de arriba se observa como el Cubo B, que no tiene la dimension Reg
 
 El listado completo de operaciones con Cubos puede consultarse en la `documentación de la librería XArray. <https://docs.xarray.dev/en/stable/user-guide/computation.html>`_
 
+
 Low-code 
 =========
 

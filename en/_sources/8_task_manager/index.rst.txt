@@ -9,38 +9,38 @@ Esta herramienta se encuentra disponible en la barra lateral izquierda, debajo d
 
 Tareas
 ------ 
-Para crear una tarea programada debemos seleccionar la opción **Add task** en la parte superior.
+Para crear una tarea programada se debe seleccionar la opción **Add task** en la parte superior.
 
 .. image:: images/create_task.png
 
 |
 
-A continuación se nos abrirá el menú de creación de tareas. En la parte de **General options** podemos 
-elegir un nombre para nuestra tarea y tenemos la posibilidad de elegir si queremos que la tarea esté habilitada o no.
+A continuación se abre el menú de creación de tareas. En la parte de **General options** se puede 
+elegir un nombre para la tarea y se indica si la tarea estará habilitada o no.
 
 .. image:: images/name_task.png
 
 |
     
-Luego, en la opción de **App path** debemos seleccionar la aplicación y el nodo correspondiente que 
-queremos que se ejecute con la tarea programada.
+Luego, en la opción de **App path** se debe seleccionar la aplicación y el nodo correspondiente que 
+se establece ejecutar con la tarea programada.
 
 
 .. image:: images/app_path.png
 
 |
 
-Ahora en la opción de Scheduler podemos seleccionar en qué forma queremos que se ejecute nuestra tarea. Para ello disponemos de 3 opciones
+Rn la opción de Scheduler se puede seleccionar la periodicidad de ejecución de la tarea. Para ello se dispone de 3 opciones
 
-1. **Interval**: Nos permite ejecutar nuestra tarea cada cierto intervalo de tiempo, por ejemplo, cada día o cada hora.
-2. **Custom**: Nos da la mayor libertad para programar nuestra tarea, podemos seleccionar desde a que hora o días de la semana queremos que se ejecute
+1. **Interval**: Permite ejecutar la tarea cada cierto intervalo de tiempo, por ejemplo, cada día o cada hora.
+2. **Custom**: Libre para programar la ejecución de la tarea, se puede seleccionar desde hora o días de la semana queremos que se ejecute
 3. **Clocked**: Para correr la tarea en un día y hora específicos. 
 
 .. image:: images/scheduler.png
 
 |
 
-Por último en el apartado **Params**, en caso de que el nodo que vamos a ejecutar en la tarea programada sea una función que dependa de 
+Por último en el apartado **Params**, en caso de que el nodo a ejecutar en la tarea programada sea una función que dependa de 
 ciertos parámetros, podemos especificar tales parámetros al momento de ejecutarla.
 
 1. **Select**: Posibilita seleccionar los parámetros entre una lista predeterminada. 
@@ -53,7 +53,7 @@ ciertos parámetros, podemos especificar tales parámetros al momento de ejecuta
 |
 
 
-Finalmente podremos ver la tarea creada en el **task manager**, donde también podremos monitorear la ejecución, 
+Finalmente se puede ver la tarea creada en el **task manager**, donde también se puede monitorear su ejecución, 
 habilitar/deshabilitar, editar o eliminar nuestra tarea, entre otras cosas.
 
 

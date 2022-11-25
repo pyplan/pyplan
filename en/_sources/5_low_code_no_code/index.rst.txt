@@ -11,7 +11,7 @@ Los nodos son los repositorios de porciones de código que puede ser introducido
 o generado automáticamente por un asistente de Pyplan al parametrizar o manipular interfaces desarrolladas para este fin.
 
 El diagrama se construye arrastrando los diferentes tipos de nodo sobre la hoja del diagrama.
-La ventana de nodos se despliega haciendo click sobre este |desplegar| icono que aparece en el extremo superior izquierdo del diagrama.
+La ventana de nodos se despliega haciendo click sobre este icono |desplegar| que aparece en el extremo superior izquierdo del diagrama.
 
 .. |desplegar| image:: images/desplegar_nodos.png
                :scale: 80%
@@ -298,7 +298,7 @@ El usuario podría continuar interactuando con el objeto de datos y analizar los
 Cubos de datos
 --------------
 El cubo de datos es también un objeto nativamente soportado por Pyplan. El objeto utilizado es el **DataArray** de la librería **XArray**.
-Un cubo de datos nominado es una estructura de datos que contiene un registro indexado por n-dimensiones identificadas. 
+Un cubo de datos nominado es una estructura de datos que contiene un valores indexados por n-dimensiones identificadas. 
 Estas dimensiones en Pyplan se denominan Indices y se identifican con este tipo de nodo |index| en el diagrama.
 
 Por ejemplo podríamos pensar en un cubo de datos de **"Count of Win"** indexado por las dimensiones **[Tournament Country, Surface, Year]**
@@ -333,24 +333,56 @@ Es por esa razón que el asistente nos ofrece crear los indices basados en los d
 Operaciones con cubos 
 ---------------------
 
-Al igual que con los objetos tipo Tabla, Pyplan provee asistentes para operar con Cubos de datos, que se despliegan automaticamente en el mismo lugar, cuando el objeto resultante es un Cubo de datos de tipo XArray.
+Al igual que con los objetos tipo Tabla, Pyplan provee asistentes para operar con Cubos de datos, que se despliegan automáticamente en el mismo lugar, cuando el objeto resultante es un Cubo de datos de tipo XArray.
 
 Adicionalmente, a diferencia de las Tablas, los Cubos de datos permiten operaciones matemáticas entre ellos que dan como resultado nuevos Cubos.
-Es importante entender como funcionan estas operaciones entre cubos para asi, poder construir el proceso de calculo deseado.
+Es importante entender como funcionan estas operaciones entre cubos de datos para asi, poder construir el proceso de calculo deseado.
 
-Las operaciones entre
+Operaciones matemáticas entre cubos de datos
+--------------------------------------------
 
-Para ilustrar estos conceptos 
+Operaciones entre un escalar y un cubo
+______________________________________
+
+Al sumar, restar, multiplicar o cualquier otra operación matemática sobre un cubo de datos, la misma es ejecutada entre el escalar y cada elemento del cubo de datos.
+
+.. image:: images/Original_cube.png
+   :scale: 50%
+
+Puede observarse en la siguiente imagen la definición del nodo que establece:
+
+.. code-block::
+
+    result = cube + scalar
+
+El valor del escalar, 5 en este caso, es sumado a cada elemento del cubo original dando como resultado:
+
+.. figure:: images/Operation_w_scalar.png
 
 
 
+Operaciones entre dos cubos de iguales dimensiones
+__________________________________________________
+
+En caso que los cubos tengan las mismas dimensiones, la operación indicada es ejecutada entre los elementos de las mismas celdas de ambos cubos
+
+.. figure:: images/cube_cube.png
+
+En este caso se observa como la primera celda del Cubo C es el resultado de la suma de la primera celda del Cubo A mas la primera celda del Cubo B.
+
+Operaciones entre dos cubos de distintas dimensiones
+____________________________________________________
+
+Cuando se operan con cubos de distintas dimensiones, la dimension faltante en uno de los cubos opera de forma escalar sobre el otro de los cubos.
+Un ejemplo permite explicar mejor esta forma de operar:
+
+.. figure:: images/cube_broadcasting1.png
+
+En el ejemplo de arriba se observa como el Cubo B, que no tiene la dimension Region, es utilizado de forma escalar respecto de esta dimension al operar con el Cubo A.
 
 
+El listado completo de operaciones con Cubos puede consultarse en la `documentación de la librería XArray. <https://docs.xarray.dev/en/stable/user-guide/computation.html>`_
 
-El listado completo de operaciones con Cubos puede consultarse en la documentación de la librería XArray.
-
-(broadcasting de dimensiones)
-- funcionamiento del dynamic
 
 Low-code 
 =========

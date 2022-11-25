@@ -1,6 +1,6 @@
 Tareas programadas
 ===================
-Pyplan cuenta con un adiministrador de tareas para programar actividades de forma automática.
+Pyplan cuenta con un administrador de tareas para programar actividades de forma automática.
 Esta herramienta se encuentra disponible en la barra lateral izquierda, debajo de menú **Tools**, en la opción de **Schedule tasks**.
 
 .. image:: images/open_task_manager.png

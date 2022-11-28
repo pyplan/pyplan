@@ -330,16 +330,13 @@ la opción de crear un indice para el caso en que este no exista y por ultimo la
 Para crear un cubo de datos en Pyplan es necesario que existan, de forma anticipada, las dimensiones (Index) que caracterizan ese cubo de datos.
 Es por esa razón que el asistente nos ofrece crear los indices basados en los datos de las columnas en caso que este no exista.
 
-Operaciones con cubos 
----------------------
+Operaciones con cubos de datos
+------------------------------
 
 Al igual que con los objetos tipo Tabla, Pyplan provee asistentes para operar con Cubos de datos, que se despliegan automáticamente en el mismo lugar, cuando el objeto resultante es un Cubo de datos de tipo XArray.
 
 Adicionalmente, a diferencia de las Tablas, los Cubos de datos permiten operaciones matemáticas entre ellos que dan como resultado nuevos Cubos.
 Es importante entender como funcionan estas operaciones entre cubos de datos para asi, poder construir el proceso de calculo deseado.
-
-Operaciones matemáticas entre cubos de datos
---------------------------------------------
 
 Operaciones entre un escalar y un cubo
 ______________________________________
@@ -386,13 +383,20 @@ El listado completo de operaciones con Cubos puede consultarse en la `documentac
 
 Low-code 
 =========
+Si bien a través de los asistentes es posible realizar una gran cantidad de operaciones, 
+para tareas mas sofisticadas puede ser necesario alterar el código de los nodos. Para ello Pyplan incluye un completo editor de código accesible con las vistas **Code+Result** o **Code+Preview**.
 
-Siguiendo con el ejemplo en desarrollo, al seleccionar el nodo "Calculate Wins and Double Faults %" como se muestra en la figura, 
+
+----------------
+Editor de Código
+----------------
+
+Siguiendo con el ejemplo en desarrollo, al seleccionar el nodo "Calculate Wins and Double Faults %" como se muestra en la figura, y luego haciendo click en la vista **Code+Result**
 se observa un ejemplo de codificación:
 
 .. figure:: images/code_example.png
 
-En la definición del código (Code) puede verse como se crean dos columnas nuevas a partir del Dataframe original de acuerdo a las siguientes instrucciones:
+En la definición del código (Ventana Code) puede verse como se crean dos columnas nuevas **"win"** y **"dblfaults"** a partir de la tabla de datos (Dataframe) original de acuerdo a las siguientes instrucciones:
 
 ::
 
@@ -407,16 +411,62 @@ En la definición del código (Code) puede verse como se crean dos columnas nuev
 
     result = _df
 
-El usuario puede experimentar alterar el código en la definición del nodo y visualizar el impacto en los resultados
+El usuario puede experimentar alterar el código en la definición del nodo y visualizar el impacto en los resultados.
 
-Temas a desarrollar
-===================
+------------------------
+Ayudas a la codificación
+------------------------
 
-- intellisense
-- tooltips
-- shortcuts de navegacion (Ctrl+click, alt/option + click, pineado de nodos)
-- bot 
-- asistente de codigo
-- preview
-- consola de errores
-- manejo de librerias
+Tooltip
+-------
+
+Al desplegar el código de un nodo se puede observar que al momento de situar el cursor sobre alguna de las variables, 
+esperando unos segundos se despliega una vista de previsualización o ayuda sobre la variable o función que esa siendo inspeccionada.
+
+.. figure:: images/tooltip.png
+   :scale: 50%
+
+
+Intellisense
+------------
+
+IntelliSense es un auxiliar de finalización de código que incluye una serie de características: 
+Lista de miembros, Información de parámetros, Información rápida y Palabra completa. 
+
+Estas características permiten obtener más información sobre el código que usa, 
+realizar el seguimiento de los parámetros que escribe y agregar llamadas a propiedades y a métodos con tan solo presionar unas teclas.
+
+Después de escribir un carácter desencadenador (por ejemplo, un punto .) , aparece una lista de los miembros válidos de un tipo (o espacio de nombres). 
+Si sigue escribiendo caracteres, la lista se filtrará y solo incluirá los miembros que empiecen por esos caracteres 
+o donde el principio de cualquier palabra del nombre empiece por esos caracteres. 
+
+IntelliSense también efectúa búsquedas de coincidencias "camel case", 
+por lo que puede escribir la primera letra de cada palabra con camel case del nombre del miembro para ver las coincidencias.
+Después de seleccionar un elemento, puede insertarlo en el código presionando la tecla TAB o insertando un espacio. 
+Si selecciona un elemento y escribe un punto, el elemento aparece seguido del punto, con lo que se muestra otra lista de miembros. 
+Cuando seleccione un elemento, obtendrá la información rápida del mismo antes de insertarlo.
+
+.. figure:: images/intellisense.png
+
+Buscador de Código
+------------------
+Pyplan cuenta con una base de conocimiento que puede ser consultada con preguntas en lenguaje natural (ingles) sobre como codificar.
+La pregunta se inserta como comentario, es decir precedida por el símbolo **#**. Una vez finalizada la pregunta se debe presionar **Control** y **Espacio** para lanzar la búsqueda. 
+Los resultados a esas preguntas son listados para que el usuario pueda navegarlos y determinar si alguno puede resultarle util para el caso que este intentando resolver.
+
+
+.. figure:: images/code_search.png
+
+
+------------------
+Consola de errores
+------------------
+
+Cuando se produce un error en la ejecución del código el mismo es indicado con un signo de advertencia (A) 
+como lo indica la siguiente imagen, 
+Al hacer click en este indicador se despliega la consola de error en la parte inferior. 
+Además es subrayado en rojo dentro del código la línea con error (B). También es marcado el nodo que contiene el error (C).
+
+.. figure:: images/console_error.png
+
+

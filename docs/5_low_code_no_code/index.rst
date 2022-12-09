@@ -170,7 +170,62 @@ Estos asistentes se identifican como **"Wizards"** y se despliegan una vez ejecu
 .. figure:: images/wizards-code.png
 
 Al utilizar estos asistentes se podrá observar como el código de definición del nodo cambia con las instrucciones apropiadas para generar el proceso buscado.
-Este procedimiento, equivalente al grabado de Macros en una planilla de calculo, permite al usuario que no conoce el lenguaje Python introducirse en sus funciones y sintaxis.
+Este procedimiento, equivalente al grabado de Macros en una planilla de cálculo, permite al usuario que no conoce el lenguaje Python introducirse en sus funciones y sintaxis.
+
+-------
+Indices
+-------
+Los indices o dimensiones, son la forma en que los datos son estructurados. Es decir son los encabezados de filas y columnas de una tabla que describen de que se trata el valor que vemos un su intersección.
+Ejemplos de indices son el listado de productos, regiones, periodos de tiempo, etc.
+Sirven para caracterizar a los datos o hechos que con los que se opera.
+
+En Pyplan los indices se generan arrastrando un tipo de nodo específico para este fin identificado como |Indice|.
+
+.. |Indice| image:: images/Index.png
+            :scale: 60%
+
+Luego de indicar un titulo para el Indice se despliega un asistente que permite definir los elementos del indice.
+
+Lista
+-----
+Permite la entrada manual de los elementos del indice. También es posible copiarlos desde una tabla y pegarlos indicando su primera posición. 
+El rango de datos se extenderá en caso de ser mayor al numero de elementos mostrados.
+
+
+.. figure:: images/index_list.png
+   :scale: 50%
+
+
+Range
+-----
+
+Permite generar el indice de forma automática a traves de al definición de los parámetros de un rango.
+Este rango puede ser de tipo texto, numero o fecha 
+
+.. figure:: images/index_range_types.png
+
+.. figure:: images/index_range.png
+
+
+Jerarquia de indices
+--------------------
+
+Los indices pueden ademas tener jerarquías, es decir niveles superiores de agregación. Por ejemplo la jerarquía natural de un indice País es Region o Continente, 
+o la de un indice Mes es Trimestre, Semestre o Año.
+
+La correspondencia entre un indice y su jerarquía superior se establece a través de una tabla donde se indica para cada elemento de la jerarquia inferior su correspondiente en la superior.
+La siguiente imagen ilustra el caso para un indice **"Countries"** y su jerarquia superior **"Regions"**
+
+.. figure:: images/hierarchy_map.png
+
+Haciendo click derecho sobre el indice de menor jerarquia, en sus propiedades se indica cual es la tabla que contiene la relacion de correspondencia con la jerarquia superior, siguiendo el ejemplo:
+
+.. figure:: images/properties_hierarchies.png
+
+Todo indice que contiene una relacion jerarquica se identifica con un icono dentro del nodo como muestra la siguiente imagen en el nodo **Countries**
+
+.. figure:: images/index_icon.png
+
 
 -------------------------
 Organización del diagrama

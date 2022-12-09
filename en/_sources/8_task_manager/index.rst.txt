@@ -30,7 +30,7 @@ se establece ejecutar con la tarea programada.
 
 |
 
-Rn la opción de Scheduler se puede seleccionar la periodicidad de ejecución de la tarea. Para ello se dispone de 3 opciones
+En la opción de Scheduler se puede seleccionar la periodicidad de ejecución de la tarea. Para ello se dispone de 3 opciones
 
 1. **Interval**: Permite ejecutar la tarea cada cierto intervalo de tiempo, por ejemplo, cada día o cada hora.
 2. **Custom**: Libre para programar la ejecución de la tarea, se puede seleccionar desde hora o días de la semana queremos que se ejecute
@@ -41,7 +41,7 @@ Rn la opción de Scheduler se puede seleccionar la periodicidad de ejecución de
 |
 
 Por último en el apartado **Params**, en caso de que el nodo a ejecutar en la tarea programada sea una función que dependa de 
-ciertos parámetros, podemos especificar tales parámetros al momento de ejecutarla.
+ciertos parámetros, se puede especificar tales parámetros al momento de ejecutarla.
 
 1. **Select**: Posibilita seleccionar los parámetros entre una lista predeterminada. 
 2. **Input**: Permite que el usuario pueda ingresar el valor del parámetro.
@@ -65,34 +65,34 @@ habilitar/deshabilitar, editar o eliminar nuestra tarea, entre otras cosas.
 App pool
 --------
 
-Una app pool es similar a una tarea programada, pero con la diferencia de que las instancias usadas 
-para ejecutar un nodo de una aplicación pueden quedar ejecutandose y podemos acceder a ellas una vez que se haya terminado
-de ejecutar el nodo correspondiente.
-Para crear un pool de aplicaciones debemos seleccionar la opción **Add app pool** en la parte superior.
+Una app pool es una herramienta que permite ejecutar un nodo de una aplicación y que dicha aplicación 
+quede disponible para que otros usuarios puedan acceder a ella y seguir trabajando una vez que se haya 
+terminado de ejecutar el nodo correspondiente.
+Para crear una app pool se debe seleccionar la opción **Add app pool** en la parte superior.
 
 
 .. image:: images/add_app_pool.png
 
 |
 
-En la parte de **General options** podemos elegir un nombre para nuestra app pool y tenemos la posibilidad de 
-elegir si queremos que la app pool esté disponible para todos los usuarios o solo para alguno en particular. 
-También podemos elegir cuantas instancias estarán disponibles de la app. Y por último también podemos seleccionar, 
-si lo deseamos, una fecha de expiración para las instancias.
+En la parte de **General options** se puede elegir un nombre para la app pool y se tiene la posibilidad de 
+elegir si se quiere que la app pool esté disponible para todos los usuarios o solo para alguno en particular. 
+También se pueden establecer cuántas instancias de la app estarán disponibles para su uso. Y por último también se puede, 
+en caso de ser necesario, especificar una fecha de expiración para las instancias.
 
 .. image:: images/app_pool_gen.png
 
 |
 
-Al igual que con las tareas programadas, en las opción de **App path** debemos seleccionar la aplicación y 
-el nodo correspondiente que queremos que se ejecute.
+Al igual que con las tareas programadas, en las opción de **App path** se debe seleccionar la aplicación y 
+el nodo correspondiente que se quiere ejecutar.
 
 .. image:: images/app_pool_path.png
 
 |
 
 En el apartado **Params**, en caso de que el nodo que vamos a ejecutar en la app pool sea una función que dependa de 
-ciertos parámetros, podemos especificar tales parámetros al momento de ejecutarla.
+ciertos parámetros, se puede especificar tales parámetros al momento de ejecutarla.
 
 1. **Select**: Posibilita seleccionar los parámetros entre una lista predeterminada. 
 2. **Input**: Permite que el usuario pueda ingresar el valor del parámetro.
@@ -103,15 +103,15 @@ ciertos parámetros, podemos especificar tales parámetros al momento de ejecuta
 Editar y ver logs 
 -----------------
 
-En caso de ser necesario, podemos editar alguna de las tareas o app pool, seleccionandola y haciendo click en la opción **Edit task**, 
-donde podremos modificar todas las opciones que seleccionamos al crearla.
+En caso de ser necesario, se puede editar alguna de las tareas o app pool, seleccionandola y haciendo click en la opción **Edit task**, 
+donde se pueden modificar todas las opciones que se hayan seleecionado al momento de ser creadas.
 
 .. image:: images/edit_and_logs.png
 
 |
 
-Además podremos monitorizar los logs de la tarea/app pool desde la opción **Show task logs**, donde nos aparecerán las últimas veces 
-que fue ejecutada y podremos revisar los logs.
+Además se pueden monitorizar los logs de la tarea/app pool desde la opción **Show task logs**, donde se puede obersrvar las últimas 
+veces que fue ejecutada y se pueden revisar los logs de las correspondientes ejecuciones.
 
 .. image:: images/logs.png
 

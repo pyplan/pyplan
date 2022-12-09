@@ -415,7 +415,7 @@ se establece ejecutar con la tarea programada.</p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>Rn la opción de Scheduler se puede seleccionar la periodicidad de ejecución de la tarea. Para ello se dispone de 3 opciones</p>
+<p>En la opción de Scheduler se puede seleccionar la periodicidad de ejecución de la tarea. Para ello se dispone de 3 opciones</p>
 <ol class="arabic simple">
 <li><p><strong>Interval</strong>: Permite ejecutar la tarea cada cierto intervalo de tiempo, por ejemplo, cada día o cada hora.</p></li>
 <li><p><strong>Custom</strong>: Libre para programar la ejecución de la tarea, se puede seleccionar desde hora o días de la semana queremos que se ejecute</p></li>
@@ -426,7 +426,7 @@ se establece ejecutar con la tarea programada.</p>
 <div class="line"><br /></div>
 </div>
 <p>Por último en el apartado <strong>Params</strong>, en caso de que el nodo a ejecutar en la tarea programada sea una función que dependa de
-ciertos parámetros, podemos especificar tales parámetros al momento de ejecutarla.</p>
+ciertos parámetros, se puede especificar tales parámetros al momento de ejecutarla.</p>
 <ol class="arabic simple">
 <li><p><strong>Select</strong>: Posibilita seleccionar los parámetros entre una lista predeterminada.</p></li>
 <li><p><strong>Input</strong>: Permite que el usuario pueda ingresar el valor del parámetro.</p></li>
@@ -442,30 +442,30 @@ habilitar/deshabilitar, editar o eliminar nuestra tarea, entre otras cosas.</p>
 </div>
 <div class="section" id="app-pool">
 <h2>App pool<a class="headerlink" href="#app-pool" title="Permalink to this headline">#</a></h2>
-<p>Una app pool es similar a una tarea programada, pero con la diferencia de que las instancias usadas
-para ejecutar un nodo de una aplicación pueden quedar ejecutandose y podemos acceder a ellas una vez que se haya terminado
-de ejecutar el nodo correspondiente.
-Para crear un pool de aplicaciones debemos seleccionar la opción <strong>Add app pool</strong> en la parte superior.</p>
+<p>Una app pool es una herramienta que permite ejecutar un nodo de una aplicación y que dicha aplicación
+quede disponible para que otros usuarios puedan acceder a ella y seguir trabajando una vez que se haya
+terminado de ejecutar el nodo correspondiente.
+Para crear una app pool se debe seleccionar la opción <strong>Add app pool</strong> en la parte superior.</p>
 <img alt="../_images/add_app_pool.png" src="../_images/add_app_pool.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>En la parte de <strong>General options</strong> podemos elegir un nombre para nuestra app pool y tenemos la posibilidad de
-elegir si queremos que la app pool esté disponible para todos los usuarios o solo para alguno en particular.
-También podemos elegir cuantas instancias estarán disponibles de la app. Y por último también podemos seleccionar,
-si lo deseamos, una fecha de expiración para las instancias.</p>
+<p>En la parte de <strong>General options</strong> se puede elegir un nombre para la app pool y se tiene la posibilidad de
+elegir si se quiere que la app pool esté disponible para todos los usuarios o solo para alguno en particular.
+También se pueden establecer cuántas instancias de la app estarán disponibles para su uso. Y por último también se puede,
+en caso de ser necesario, especificar una fecha de expiración para las instancias.</p>
 <img alt="../_images/app_pool_gen.png" src="../_images/app_pool_gen.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>Al igual que con las tareas programadas, en las opción de <strong>App path</strong> debemos seleccionar la aplicación y
-el nodo correspondiente que queremos que se ejecute.</p>
+<p>Al igual que con las tareas programadas, en las opción de <strong>App path</strong> se debe seleccionar la aplicación y
+el nodo correspondiente que se quiere ejecutar.</p>
 <img alt="../_images/app_pool_path.png" src="../_images/app_pool_path.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>En el apartado <strong>Params</strong>, en caso de que el nodo que vamos a ejecutar en la app pool sea una función que dependa de
-ciertos parámetros, podemos especificar tales parámetros al momento de ejecutarla.</p>
+ciertos parámetros, se puede especificar tales parámetros al momento de ejecutarla.</p>
 <ol class="arabic simple">
 <li><p><strong>Select</strong>: Posibilita seleccionar los parámetros entre una lista predeterminada.</p></li>
 <li><p><strong>Input</strong>: Permite que el usuario pueda ingresar el valor del parámetro.</p></li>
@@ -475,14 +475,14 @@ ciertos parámetros, podemos especificar tales parámetros al momento de ejecuta
 </div>
 <div class="section" id="editar-y-ver-logs">
 <h2>Editar y ver logs<a class="headerlink" href="#editar-y-ver-logs" title="Permalink to this headline">#</a></h2>
-<p>En caso de ser necesario, podemos editar alguna de las tareas o app pool, seleccionandola y haciendo click en la opción <strong>Edit task</strong>,
-donde podremos modificar todas las opciones que seleccionamos al crearla.</p>
+<p>En caso de ser necesario, se puede editar alguna de las tareas o app pool, seleccionandola y haciendo click en la opción <strong>Edit task</strong>,
+donde se pueden modificar todas las opciones que se hayan seleecionado al momento de ser creadas.</p>
 <img alt="../_images/edit_and_logs.png" src="../_images/edit_and_logs.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>Además podremos monitorizar los logs de la tarea/app pool desde la opción <strong>Show task logs</strong>, donde nos aparecerán las últimas veces
-que fue ejecutada y podremos revisar los logs.</p>
+<p>Además se pueden monitorizar los logs de la tarea/app pool desde la opción <strong>Show task logs</strong>, donde se puede obersrvar las últimas
+veces que fue ejecutada y se pueden revisar los logs de las correspondientes ejecuciones.</p>
 <img alt="../_images/logs.png" src="../_images/logs.png" />
 </div>
 </div>

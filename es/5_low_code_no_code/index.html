@@ -143,11 +143,6 @@
    Entornos virtuales
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../samples.html">
-   Ejemplos .RST
-  </a>
- </li>
 </ul>
 
     </div>
@@ -386,6 +381,28 @@ title="Print to PDF"
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#indices">
+     Indices
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lista">
+       Lista
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#range">
+       Range
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#jerarquia-de-indices">
+       Jerarquia de indices
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#organizacion-del-diagrama">
      Organización del diagrama
     </a>
@@ -555,6 +572,28 @@ title="Print to PDF"
     <a class="reference internal nav-link" href="#manipulacion-y-operaciones-con-datos">
      Manipulación y Operaciones con Datos
     </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#indices">
+     Indices
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#lista">
+       Lista
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#range">
+       Range
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#jerarquia-de-indices">
+       Jerarquia de indices
+      </a>
+     </li>
+    </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#organizacion-del-diagrama">
@@ -773,7 +812,52 @@ es por esto que necesitamos evaluar el nodo primero para que Pyplan pueda determ
 <img alt="../_images/wizards-code.png" src="../_images/wizards-code.png" />
 </div>
 <p>Al utilizar estos asistentes se podrá observar como el código de definición del nodo cambia con las instrucciones apropiadas para generar el proceso buscado.
-Este procedimiento, equivalente al grabado de Macros en una planilla de calculo, permite al usuario que no conoce el lenguaje Python introducirse en sus funciones y sintaxis.</p>
+Este procedimiento, equivalente al grabado de Macros en una planilla de cálculo, permite al usuario que no conoce el lenguaje Python introducirse en sus funciones y sintaxis.</p>
+</div>
+<div class="section" id="indices">
+<h3>Indices<a class="headerlink" href="#indices" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Los indices o dimensiones, son la forma en que los datos son estructurados. Es decir son los encabezados de filas y columnas de una tabla que describen de que se trata el valor que vemos un su intersección.
+Ejemplos de indices son el listado de productos, regiones, periodos de tiempo, etc.
+Sirven para caracterizar a los datos o hechos que con los que se opera.</p>
+<p>En Pyplan los indices se generan arrastrando un tipo de nodo específico para este fin identificado como <a class="reference internal" href="../_images/Index.png"><img alt="Indice" src="../_images/Index.png" style="width: 65.39999999999999px; height: 21.599999999999998px;" /></a>.</p>
+<p>Luego de indicar un titulo para el Indice se despliega un asistente que permite definir los elementos del indice.</p>
+<div class="section" id="lista">
+<h4>Lista<a class="headerlink" href="#lista" title="Enlazar permanentemente con este título">#</a></h4>
+<p>Permite la entrada manual de los elementos del indice. También es posible copiarlos desde una tabla y pegarlos indicando su primera posición.
+El rango de datos se extenderá en caso de ser mayor al numero de elementos mostrados.</p>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="../_images/index_list.png"><img alt="../_images/index_list.png" src="../_images/index_list.png" style="width: 797.0px; height: 579.0px;" /></a>
+</div>
+</div>
+<div class="section" id="range">
+<h4>Range<a class="headerlink" href="#range" title="Enlazar permanentemente con este título">#</a></h4>
+<p>Permite generar el indice de forma automática a traves de al definición de los parámetros de un rango.
+Este rango puede ser de tipo texto, numero o fecha</p>
+<div class="figure align-default">
+<img alt="../_images/index_range_types.png" src="../_images/index_range_types.png" />
+</div>
+<div class="figure align-default">
+<img alt="../_images/index_range.png" src="../_images/index_range.png" />
+</div>
+</div>
+<div class="section" id="jerarquia-de-indices">
+<h4>Jerarquia de indices<a class="headerlink" href="#jerarquia-de-indices" title="Enlazar permanentemente con este título">#</a></h4>
+<p>Los indices pueden ademas tener jerarquías, es decir niveles superiores de agregación. Por ejemplo la jerarquía natural de un indice País es Region o Continente,
+o la de un indice Mes es Trimestre, Semestre o Año.</p>
+<p>La correspondencia entre un indice y su jerarquía superior se establece a través de una tabla donde se indica para cada elemento de la jerarquia inferior su correspondiente en la superior.
+La siguiente imagen ilustra el caso para un indice <strong>«Countries»</strong> y su jerarquia superior <strong>«Regions»</strong></p>
+<div class="figure align-default">
+<img alt="../_images/hierarchy_map.png" src="../_images/hierarchy_map.png" />
+</div>
+<p>Haciendo click derecho sobre el indice de menor jerarquia, en sus propiedades se indica cual es la tabla que contiene la relacion de correspondencia con la jerarquia superior, siguiendo el ejemplo:</p>
+<div class="figure align-default">
+<img alt="../_images/properties_hierarchies.png" src="../_images/properties_hierarchies.png" />
+</div>
+<p>Todo indice que contiene una relacion jerarquica se identifica con un icono dentro del nodo como muestra la siguiente imagen en el nodo <strong>Countries</strong></p>
+<div class="figure align-default">
+<img alt="../_images/index_icon.png" src="../_images/index_icon.png" />
+</div>
+</div>
 </div>
 <div class="section" id="organizacion-del-diagrama">
 <h3>Organización del diagrama<a class="headerlink" href="#organizacion-del-diagrama" title="Enlazar permanentemente con este título">#</a></h3>

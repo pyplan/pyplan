@@ -12,9 +12,10 @@ Una vez dentro de la plataforma se despliega la siguiente pantalla con sus eleme
 .. figure:: images/home.png
 
 .. list
-1. Menú de acceso a diversas funcionalidades:
 
-.. figure:: images/menu.png
+1. Menú de acceso a diversas funcionalidades:
+   
+  .. figure:: images/menu.png
 
 2. Creación de una nueva aplicación, en el signo "+", ubicado arriba a la izquierda.
 3. Tabs de acceso a las aplicaciones recientemente abiertas, aplicaciones propias y aplicaciones públicas.

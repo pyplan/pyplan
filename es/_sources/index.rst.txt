@@ -21,7 +21,7 @@
    8_task_manager/index
    9_user_manager/index
    10_environments/index
-   samples
+   
 	
 
 Guía del Usuario de Pyplan

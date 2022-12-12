@@ -13,6 +13,7 @@ que utiliza las funcionalidades que brinda la plataforma.
 Una aplicación en Pyplan puede estar compuesta por diversos elementos entre los que se encuentran:
 
 .. list
+
 * Lectura de fuentes de datos externas.
 * Formularios de carga de datos.
 * Módulos de cálculo y procesamiento.

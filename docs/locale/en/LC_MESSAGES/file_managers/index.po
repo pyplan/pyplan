@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Pyplan
+# This file is distributed under the same license as the Pyplan package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pyplan \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-04 17:42-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../file_managers/index.rst:2
+msgid "Administrador de archivos"
+msgstr ""
+
+#: ../../file_managers/index.rst:4
+msgid "Pyplan ... filemanager"
+msgstr ""
+
+msgid "Alternative text"
+msgstr ""
+
+#: ../../file_managers/index.rst:13
+msgid "Copiar y mover archivos"
+msgstr ""
+
+#: ../../file_managers/index.rst:15
+msgid "Para copiar muchos archivos se puede...."
+msgstr ""
+
+#: ../../file_managers/index.rst:17
+msgid "Otra **forma** de copiar archivos es..."
+msgstr ""
+

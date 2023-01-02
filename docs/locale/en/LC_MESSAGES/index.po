@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Pyplan
+# This file is distributed under the same license as the Pyplan package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pyplan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 16:53-0300\n"
+"PO-Revision-Date: 2023-01-02 10:02-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: ../../index.rst:9
+msgid "Indice de Contenidos"
+msgstr "Table of Contents"
+
+#: ../../index.rst:28
+msgid "Guía del Usuario de Pyplan"
+msgstr "Pyplan User Guide"
+
+#: ../../index.rst:30
+msgid ""
+"Esta guía constituye el repositorio principal de la documentación de "
+"funcionamiento de Pyplan. Tiene por objeto explicar para qué sirve "
+"Pyplan y cómo funciona la plataforma."
+msgstr ""
+"This guide is the main repository for the documentation on how Pyplan "
+"works. Its purpose is to explain what Pyplan is used for and how the "
+"platform works."
+
+#: ../../index.rst:33
+msgid ""
+"No es el propósito de esta guía instruir sobre la programación en Python "
+"ni tampoco sobre las múltiples librerías de Python utilizadas por "
+"Pyplan, como por ejemplo Pandas, Xarray, Numpy, Plotly, entre otras. Los "
+"links a la documentación específica de estas librerías se encuentran "
+"incluidos en esta guía para facilitar al usuario el acceso al contenido "
+"relevante para entender alguna funcionalidad de Pyplan."
+msgstr ""
+"It is not the purpose of this guide to instruct on programming in Python "
+"or on the multiple Python libraries used by Pyplan, such as Pandas, "
+"Xarray, Numpy, Plotly, among others. Links to the specific documentation "
+"for these libraries are included in this guide to facilitate the user's "
+"access to the relevant content for understanding some functionality of "
+"Pyplan."
+
+#: ../../index.rst:36
+msgid ""
+"Para entender el funcionamiento de Pyplan es necesario entender qué es y "
+"para qué sirve esta plataforma."
+msgstr ""
+"To understand how Pyplan works, it is necessary to understand what it is "
+"and what this platform is used for."
+
+#: ../../index.rst:40
+msgid "¿Qué es Pyplan?"
+msgstr "What is Pyplan?"
+
+#: ../../index.rst:41
+msgid ""
+"Pyplan es una plataforma de software para crear y compartir aplicaciones "
+"de planeamiento y análisis de datos."
+msgstr ""
+"Pyplan is a software platform for creating and sharing planning and data "
+"analysis applications."
+
+#: ../../index.rst:45
+msgid "¿Qué es una aplicación de planeamiento y análisis de datos?"
+msgstr "What is a planning and data analysis application?"
+
+#: ../../index.rst:46
+msgid ""
+"Una aplicación de planeamiento y/o análisis de datos es un desarrollo de "
+"software diseñado para dar soporte cuantitativo a un proceso de toma de "
+"decisiones. Una aplicación de este tipo está constituida básicamente por "
+"un proceso de inyección de datos proveniente de múltiples fuentes, un "
+"proceso de cálculo conforme a diferentes reglas de negocio y un proceso "
+"de visualización y análisis de resultados."
+msgstr ""
+"A planning and/or data analysis application is a software development "
+"designed to provide quantitative support for a decision-making process. "
+"An application of this type is basically constituted by a data injection "
+"process from multiple sources, a calculation process according to "
+"different business rules, and a visualization and analysis process of "
+"results."
+
+#: ../../index.rst:51
+msgid ""
+"¿Cuál es la diferencia entre una aplicación de planeamiento y una de "
+"análisis de datos?"
+msgstr ""
+"What is the difference between a planning application and a data "
+"analysis application?"
+
+#: ../../index.rst:52
+msgid ""
+"Una aplicación de planeamiento es un proceso de cálculo que permite "
+"proyectar resultados de acuerdo a reglas de negocio específicamente "
+"definidas. En una aplicación de análisis de datos, en cambio, las reglas "
+"de negocio son desconocidas. Estas son inferidas a partir del análisis "
+"de datos históricos mediante procesos estadísticos o de inteligencia "
+"artificial."
+msgstr ""
+"A planning application is a calculation process that allows for "
+"projecting results according to specifically defined business rules. In "
+"a data analysis application, on the other hand, the business rules are "
+"unknown. These are inferred from the analysis of historical data using "
+"statistical or artificial intelligence processes."
+
+#: ../../index.rst:57
+msgid "¿Cómo accedo a Pyplan?"
+msgstr "How do I access Pyplan?"
+
+#: ../../index.rst:58
+msgid ""
+"Pyplan es una plataforma que se instala en un servidor al que se accede "
+"con las correspondientes credenciales de usuario y contraseña. Se puede "
+"consultar `aquí <https://pyplan.com>`_ las alternativas de "
+"licenciamiento de Pyplan."
+msgstr ""
+"Pyplan is a platform that is installed on a server that is accessed with "
+"the corresponding user credentials and password. You can read `here "
+"<https://pyplan.com>` about Pyplan licensing alternatives."

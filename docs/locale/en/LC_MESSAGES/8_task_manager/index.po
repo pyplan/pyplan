@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Pyplan
+# This file is distributed under the same license as the Pyplan package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pyplan \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 16:53-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../8_task_manager/index.rst:2
+msgid "Tareas programadas"
+msgstr ""
+
+#: ../../8_task_manager/index.rst:3
+msgid ""
+"Pyplan cuenta con un administrador de tareas para programar actividades "
+"de forma automática. Esta herramienta se encuentra disponible en la barra"
+" lateral izquierda, debajo de menú **Tools**, en la opción de **Schedule "
+"tasks**."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:11
+msgid "Tareas"
+msgstr ""
+
+#: ../../8_task_manager/index.rst:12
+msgid ""
+"Para crear una tarea programada se debe seleccionar la opción **Add "
+"task** en la parte superior."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:18
+msgid ""
+"A continuación se abre el menú de creación de tareas. En la parte de "
+"**General options** se puede elegir un nombre para la tarea y se indica "
+"si la tarea estará habilitada o no."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:25
+msgid ""
+"Luego, en la opción de **App path** se debe seleccionar la aplicación y "
+"el nodo correspondiente que se establece ejecutar con la tarea "
+"programada."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:33
+msgid ""
+"En la opción de Scheduler se puede seleccionar la periodicidad de "
+"ejecución de la tarea. Para ello se dispone de 3 opciones"
+msgstr ""
+
+#: ../../8_task_manager/index.rst:35
+msgid ""
+"**Interval**: Permite ejecutar la tarea cada cierto intervalo de tiempo, "
+"por ejemplo, cada día o cada hora."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:36
+msgid ""
+"**Custom**: Libre para programar la ejecución de la tarea, se puede "
+"seleccionar desde hora o días de la semana queremos que se ejecute"
+msgstr ""
+
+#: ../../8_task_manager/index.rst:37
+msgid "**Clocked**: Para correr la tarea en un día y hora específicos."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:43
+msgid ""
+"Por último en el apartado **Params**, en caso de que el nodo a ejecutar "
+"en la tarea programada sea una función que dependa de ciertos parámetros,"
+" se puede especificar tales parámetros al momento de ejecutarla."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:46 ../../8_task_manager/index.rst:97
+msgid ""
+"**Select**: Posibilita seleccionar los parámetros entre una lista "
+"predeterminada."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:47 ../../8_task_manager/index.rst:98
+msgid "**Input**: Permite que el usuario pueda ingresar el valor del parámetro."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:48 ../../8_task_manager/index.rst:99
+msgid ""
+"**Checkbox**: El usuario podrá ingresar parámetros que puede tomar "
+"valores True o False mediante un checkbox."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:56
+msgid ""
+"Finalmente se puede ver la tarea creada en el **task manager**, donde "
+"también se puede monitorear su ejecución, habilitar/deshabilitar, editar "
+"o eliminar nuestra tarea, entre otras cosas."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:66
+msgid "App pool"
+msgstr ""
+
+#: ../../8_task_manager/index.rst:68
+msgid ""
+"Una app pool es una herramienta que permite ejecutar un nodo de una "
+"aplicación y que dicha aplicación quede disponible para que otros "
+"usuarios puedan acceder a ella y seguir trabajando una vez que se haya "
+"terminado de ejecutar el nodo correspondiente. Para crear una app pool se"
+" debe seleccionar la opción **Add app pool** en la parte superior."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:78
+msgid ""
+"En la parte de **General options** se puede elegir un nombre para la app "
+"pool y se tiene la posibilidad de elegir si se quiere que la app pool "
+"esté disponible para todos los usuarios o solo para alguno en particular."
+" También se pueden establecer cuántas instancias de la app estarán "
+"disponibles para su uso. Y por último también se puede, en caso de ser "
+"necesario, especificar una fecha de expiración para las instancias."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:87
+msgid ""
+"Al igual que con las tareas programadas, en las opción de **App path** se"
+" debe seleccionar la aplicación y el nodo correspondiente que se quiere "
+"ejecutar."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:94
+msgid ""
+"En el apartado **Params**, en caso de que el nodo que vamos a ejecutar en"
+" la app pool sea una función que dependa de ciertos parámetros, se puede "
+"especificar tales parámetros al momento de ejecutarla."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:104
+msgid "Editar y ver logs"
+msgstr ""
+
+#: ../../8_task_manager/index.rst:106
+msgid ""
+"En caso de ser necesario, se puede editar alguna de las tareas o app "
+"pool, seleccionandola y haciendo click en la opción **Edit task**, donde "
+"se pueden modificar todas las opciones que se hayan seleecionado al "
+"momento de ser creadas."
+msgstr ""
+
+#: ../../8_task_manager/index.rst:113
+msgid ""
+"Además se pueden monitorizar los logs de la tarea/app pool desde la "
+"opción **Show task logs**, donde se puede obersrvar las últimas veces que"
+" fue ejecutada y se pueden revisar los logs de las correspondientes "
+"ejecuciones."
+msgstr ""
+

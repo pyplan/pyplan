@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Pyplan
+# This file is distributed under the same license as the Pyplan package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pyplan \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 16:53-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../7_file_manager/index.rst:2
+msgid "Administrador de archivos"
+msgstr ""
+
+#: ../../7_file_manager/index.rst:10
+msgid ""
+"El administrador de archivos de Pyplan esta diseñado para gestionar de "
+"manera fácil y transparente los archivos, carpetas y aplicaciones, que "
+"pueden visualizarse en un árbol jerárquico basado en su estructura de "
+"directorios. Nos permite ordenar en carpetas y subcarpetas, cambiar "
+"nombres, copiar, mover, eliminar y buscar archivos."
+msgstr ""
+
+msgid "Alternative text"
+msgstr ""
+
+#: ../../7_file_manager/index.rst:19
+msgid ""
+"**My Workspace**: Carpeta personal donde se pueden guardar todas las "
+"aplicaciones del usuario."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:20
+msgid ""
+"**Carpeta seleccionada**: Carpeta seleccionada que podremos examinar en "
+"la parte derecha del administrador de archivos."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:21
+msgid ""
+"**Carpeta pública de la empresa**: Carpeta que contiene las aplicaciones "
+"disponibles a todos los usuarios de la empresa."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:24
+msgid "Vistas"
+msgstr ""
+
+#: ../../7_file_manager/index.rst:25
+msgid ""
+"La vista por defecto del explorador nos muestra los archivos en formato "
+"lista, con distintos datos de cada archivo o carpeta. Más "
+"específicamente, el tipo de archivo, el nombre, el tamaño y la fecha de "
+"la última modificación."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:32
+msgid ""
+"Además de la vista del explorador como lista de archivos, por defecto, "
+"tenemos disponible la vista mosaico. En esta podremos ver en primera "
+"instancia las las carpetas y luego los mosaicos que representan los "
+"archivos con el correspondiente icono de cada tipo de archivo."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:39
+msgid "Abrir aplicaciones"
+msgstr ""
+
+#: ../../7_file_manager/index.rst:41
+msgid ""
+"Desde el administrador de archivo, podemos identificar las aplicaciones "
+"por el ícono que aparece a la derecha del nombre. Al seleccionar una "
+"carpeta que corresponda a una aplicación nos aparecerá en el menú "
+"superior un botón con la opción **Open app**, alternativamente también "
+"estará disponible en el menú contextual."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:51
+msgid "Filtrar y buscar"
+msgstr ""
+
+#: ../../7_file_manager/index.rst:53
+msgid ""
+"Para facilitar la navegación entre los archivos, tenemos la opción de "
+"filtrar por tipo de datos. Esto nos permitirá ver solamente los archivos "
+"con los tipos de datos especificados"
+msgstr ""
+
+#: ../../7_file_manager/index.rst:61
+msgid ""
+"También es posible utilizar el buscador para encontrar archivos o "
+"carpetas. Ingresando un texto parcial obtendremos todos los archivos que "
+"contengan el texto correspondiente en su nombre."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:68
+msgid "Crear carpetas y renombrar archivos"
+msgstr ""
+
+#: ../../7_file_manager/index.rst:70
+msgid ""
+"Para organizar nuestros archivos tenemos la opción de crear nuevas "
+"carpetas. Para esto debemos ubicarnos en el directorio donde deseamos "
+"crear la carpeta y debemos seleccionar la opción **New folder**, se nos "
+"abrirá una ventana donde podremos elegir el nombre de la nueva carpeta. "
+"Al confirmar el nombre, la carpeta aparecerá en el directorio."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:78
+msgid ""
+"También tenemos la posibilidad de renombrar carpetas y archivos. Debemos "
+"seleccionar el archivo/carpeta que deseamos renombrar y hacer click en la"
+" opción **Rename**. Una vez hecho esto, se habilitará una ventana de "
+"edición, una vez que cambiemos el nombre, confirmamos los cambios "
+"marcando la opción de confirmación."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:86
+msgid "Copiar y mover"
+msgstr ""
+
+#: ../../7_file_manager/index.rst:88
+msgid ""
+"Al igual que en cualquier administrador de archivos, podremos copiar y "
+"mover archivos entre las distintas carpetas. Para ello disponemos de las "
+"opciones **copy** y **move** en el menú contextual  |elipsis|  al "
+"seleccionar un archivo o carpeta en el directorio."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:97
+msgid ""
+"Para copiar o mover varios archivos se pueden seleccionar y luego desde "
+"el menú  |elipsis|  en la parte superior buscar las opciones **copy** o "
+"**move** según se necesite."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:105
+msgid ""
+"Una vez que hayamos seleccionado la opción copiar o mover, podemos usar "
+"el navegador para ir hasta la ubicación donde deseamos pegar el archivo. "
+"Luego debemos hacer click en la opción **paste here** para pegar el "
+"archivo o carpeta en la ubicación actual."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:113
+msgid ""
+"Otra forma de manipular archivos es utilizar los comandos **Ctrl + C** "
+"(copiar), **Ctrl + X** (mover) y **Ctrl + V** (pegar)."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:118
+msgid "Duplicar y eliminar"
+msgstr ""
+
+#: ../../7_file_manager/index.rst:120
+msgid ""
+"La opción **Duplicate** nos permite crear una copia del archivo o carpeta"
+" dentro del mismo directorio."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:126
+msgid ""
+"Una vez seleccionada esta opción aparecera en el directorio una copia del"
+" archivo o carpeta que hayamos seleccionado, y tendrá como nombre el "
+"prefijo *Copy of ...* seguido del nombre del archivo original."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:133
+msgid ""
+"Cuando necesitemos eliminar algún elemento del directorio, podremos "
+"hacerlo desde la opción **Delete** del menú contextual."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:140
+msgid "Subir y descargar"
+msgstr ""
+
+#: ../../7_file_manager/index.rst:142
+msgid ""
+"Para subir archivos desde la computadora, debemos acceder a la opción "
+"**Upload**, donde se nos abrirá una ventana donde podremos arrastrar o "
+"seleccionar desde nuestra computadora los archivos que vamos a subir."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:149
+msgid ""
+"Para descargar archivos y/o carpetas desde Pyplan tenemos que "
+"seleccionarlos, en el menú contextual seleccionar **Download** y "
+"automáticamente comenzará la descarga de los ítems seleccionados en un "
+"archivo en formato *zip*."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:156
+msgid "Comprimir y descomprimir"
+msgstr ""
+
+#: ../../7_file_manager/index.rst:158
+msgid ""
+"En caso de necesitarlo tenemos la posibilidad de comprimir archivos "
+"dentro del directorio de Pyplan. Para ello seleccionamos los archivos que"
+" deseamos comprimir y hacemos click en **Zip it**, a continuación se "
+"creará el archivo comprimido dentro del directorio."
+msgstr ""
+
+#: ../../7_file_manager/index.rst:165
+msgid ""
+"En caso de querer descomprimir un archivo *zip*, debemos seleccionar el "
+"archivo con formato zip y en la parte superior del directorio nos "
+"aparecerá el botón **Unzip** para descomprimirlo."
+msgstr ""
+

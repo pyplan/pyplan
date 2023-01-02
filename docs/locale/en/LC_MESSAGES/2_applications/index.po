@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Pyplan
+# This file is distributed under the same license as the Pyplan package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pyplan \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 18:22-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../2_applications/index.rst:3
+msgid "Aplicaciones"
+msgstr ""
+
+#: ../../2_applications/index.rst:6
+msgid "Características de una aplicación"
+msgstr ""
+
+#: ../../2_applications/index.rst:8
+msgid ""
+"Una aplicación en Pyplan es un desarrollo particular para atender un "
+"problema específico, que utiliza las funcionalidades que brinda la "
+"plataforma."
+msgstr ""
+
+#: ../../2_applications/index.rst:11
+msgid ""
+"Pyplan ha sido utilizado para desarrollar herramientas de Demand "
+"Planning, Sales & Operations Planning, Financial Planning, Pricing, "
+"Budgeting Planning and Forecasting entre muchas otras aplicaciones."
+msgstr ""
+
+#: ../../2_applications/index.rst:13
+msgid ""
+"Una aplicación en Pyplan puede estar compuesta por diversos elementos "
+"entre los que se encuentran:"
+msgstr ""
+
+#: ../../2_applications/index.rst:17
+msgid "Lectura de fuentes de datos externas."
+msgstr ""
+
+#: ../../2_applications/index.rst:18
+msgid "Formularios de carga de datos."
+msgstr ""
+
+#: ../../2_applications/index.rst:19
+msgid "Módulos de cálculo y procesamiento."
+msgstr ""
+
+#: ../../2_applications/index.rst:20
+msgid "Interfaces de visualización."
+msgstr ""
+
+#: ../../2_applications/index.rst:23
+msgid "Estos elementos son almacenados en un espacio de trabajo."
+msgstr ""
+
+#: ../../2_applications/index.rst:25
+msgid ""
+"Todos los usuarios con permisos de creación de aplicaciones tienen como "
+"mínimo acceso a dos espacios de trabajo:"
+msgstr ""
+
+#: ../../2_applications/index.rst:29
+msgid ""
+"Un espacio público denominado **\"Public\"** donde se comparten "
+"aplicaciones accesibles para todos los usuarios."
+msgstr ""
+
+#: ../../2_applications/index.rst:30
+msgid ""
+"Un espacio Privado denominado **\"My Workspace\"**, donde cada usuario "
+"puede crear o modificar aplicaciones en un ambiente solo accesible para "
+"él mismo."
+msgstr ""
+
+#: ../../2_applications/index.rst:31
+msgid ""
+"Además, los usuarios tienen acceso a espacios de trabajos de equipos a "
+"los que pertenecen: **\"Teams\"**. Estos equipos son la forma de "
+"compartir información con restricción de acceso a determinados usuarios."
+msgstr ""
+
+#: ../../2_applications/index.rst:36
+msgid "Equipos de trabajo"
+msgstr ""
+
+#: ../../2_applications/index.rst:37
+msgid ""
+"Los equipos de trabajos son creados por el administrador del sistema y "
+"los permisos de acceso otorgados por **\"Departamento\"** al que "
+"pertenece un usuario. Un mismo usuario puede formar parte de varios "
+"**\"Departamentos\"**"
+msgstr ""
+
+#: ../../2_applications/index.rst:42
+msgid "Administrador de aplicaciones"
+msgstr ""
+
+#: ../../2_applications/index.rst:43
+msgid ""
+"El administrador de aplicaciones permite navegar por las aplicaciones "
+"accesibles para cada usuario:"
+msgstr ""
+
+#: ../../2_applications/index.rst:48
+msgid ""
+"Ademas de crear nuevas aplicaciones, es posible realizar las siguientes "
+"acciones sobre ellas:"
+msgstr ""
+

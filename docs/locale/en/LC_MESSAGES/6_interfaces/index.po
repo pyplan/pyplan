@@ -3,243 +3,302 @@
 # This file is distributed under the same license as the Pyplan package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Pyplan \n"
+"Project-Id-Version: Pyplan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-12 16:53-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-02 16:06-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: ../../6_interfaces/index.rst:3
 msgid "Interfaces en Pyplan"
-msgstr ""
+msgstr "Interfaces in Pyplan"
 
 #: ../../6_interfaces/index.rst:6
 msgid "Introducción a las interfaces"
-msgstr ""
+msgstr "Introduction to interfaces"
 
 #: ../../6_interfaces/index.rst:8
 msgid ""
-"En esta sección es donde se crean y administran las herramientas de "
-"entrada y salida de datos de las aplicaciones creadas con Pyplan. Las "
-"interfaces están compuestas por componentes (widgets) que se arrastran "
-"desde una caja de herramientas a la pantalla de la futura interfaz. Estos"
-" componentes dialogan de forma permanente con las reglas de calculo para "
-"permitir la interacción entre el usuario y la aplicación. Es asi que al "
-"modificar un parámetro de entrada, esa alteración es computada en tiempo "
-"real y el resultado de salida presentado al usuario."
+"En esta sección es donde se crean y administran las herramientas de entrada "
+"y salida de datos de las aplicaciones creadas con Pyplan. Las interfaces "
+"están compuestas por componentes (widgets) que se arrastran desde una caja "
+"de herramientas a la pantalla de la futura interfaz. Estos componentes "
+"dialogan de forma permanente con las reglas de calculo para permitir la "
+"interacción entre el usuario y la aplicación. Es asi que al modificar un "
+"parámetro de entrada, esa alteración es computada en tiempo real y el "
+"resultado de salida presentado al usuario."
 msgstr ""
+"In this section is where the input and output data tools of the applications "
+"created with Pyplan are created and managed. The interfaces are composed of "
+"components (widgets) that are dragged from a toolbox to the screen of the "
+"future interface. These components permanently communicate with the "
+"calculation rules to allow interaction between the user and the application. "
+"It is in this way that when modifying an input parameter, that alteration is "
+"computed in real time and the output result presented to the user."
 
 #: ../../6_interfaces/index.rst:13
 msgid ""
-"Para acceder al modulo de interfaces se debe hacer hacer click en la "
-"sección denominada **\"Interfaces\"** del menu principal."
+"Para acceder al modulo de interfaces se debe hacer hacer click en la sección "
+"denominada **\"Interfaces\"** del menu principal."
 msgstr ""
+"To access the interfaces module, click on the section called **\"Interfaces"
+"\"** in the main menu."
 
 #: ../../6_interfaces/index.rst:18
 msgid ""
-"Continuando con el ejemplo en desarrollo sobre Data Analytics - "
-"Estadísticas de Roger Federer, al abrir la seccion \"Interfaces\" nos "
-"encontramos con las siguientes opciones:"
+"Continuando con el ejemplo en desarrollo sobre Data Analytics - Estadísticas "
+"de Roger Federer, al abrir la seccion \"Interfaces\" nos encontramos con las "
+"siguientes opciones:"
 msgstr ""
+"Continuing with the example in development on Data Analytics - Roger Federer "
+"Statistics, when opening the \"Interfaces\" section we find the following "
+"options:"
 
 #: ../../6_interfaces/index.rst:23
 msgid ""
-"Haciendo click sobre Federer's Statistics se despliega la siguiente "
-"interfas:"
-msgstr ""
+"Haciendo click sobre Federer's Statistics se despliega la siguiente interfas:"
+msgstr "Clicking on Federer's Statistics displays the following interface:"
 
 #: ../../6_interfaces/index.rst:27
 msgid ""
-"Aquí se pueden ver en una primera linea diferentes componentes de entrada"
-" para seleccionar un periodo de tiempo (\"Years\"), una superficie de "
-"juego (\"Surface\"), o un continente (\"Tournament Continent\"). "
-"Interactuando con estos componentes se puede apreciar el impacto en los "
-"gráficos de salidas que están abajo. En el extremos superior derecho se "
-"puede ver el icono para entrar en el modo de edición de una interfaz:"
+"Aquí se pueden ver en una primera linea diferentes componentes de entrada "
+"para seleccionar un periodo de tiempo (\"Years\"), una superficie de juego "
+"(\"Surface\"), o un continente (\"Tournament Continent\"). Interactuando con "
+"estos componentes se puede apreciar el impacto en los gráficos de salidas "
+"que están abajo. En el extremos superior derecho se puede ver el icono para "
+"entrar en el modo de edición de una interfaz:"
 msgstr ""
+"Here you can see in a first line different input components to select a "
+"period of time (\"Years\"), a playing surface (\"Surface\"), or a continent "
+"(\"Tournament Continent\"). Interacting with these components you can see "
+"the impact on the output graphics below. In the upper right corner you can "
+"see the icon to enter the editing mode of an interface:"
 
 #: ../../6_interfaces/index.rst:35
 msgid ""
 "Al hacer click en el icono de edición se pueden apreciar los diferentes "
 "componentes y el menu de creación:"
 msgstr ""
+"By clicking on the edit icon you can see the different components and the "
+"creation menu:"
 
 #: ../../6_interfaces/index.rst:40
 msgid "Creación de una interfaz"
-msgstr ""
+msgstr "Creation of an interface"
 
 #: ../../6_interfaces/index.rst:41
 msgid ""
-"Para comenzar a crear una interfaz haremos click sobre el botón "
-"**\"Create\"**"
-msgstr ""
+"Para comenzar a crear una interfaz haremos click sobre el botón **\"Create"
+"\"**"
+msgstr "To start creating an interface, click on the **\"Create \"** button"
 
 #: ../../6_interfaces/index.rst:46
 msgid ""
 "Luego se debe asignar un nombre a la interfaz y elegir un icono que la "
 "represente"
 msgstr ""
+"Then you must assign a name to the interface and choose an icon to represent "
+"it"
 
 #: ../../6_interfaces/index.rst:50
 msgid ""
-"Finalmente se puede comenzar el diseño de la interfaz haciendo click en "
-"el icono de edición"
+"Finalmente se puede comenzar el diseño de la interfaz haciendo click en el "
+"icono de edición"
 msgstr ""
+"Finally, you can start the interface design by clicking on the edit icon"
 
 #: ../../6_interfaces/index.rst:54
 msgid ""
 "En el siguiente video se aprecia como se crea una interfaz, se inicia su "
 "edición y se agrega un componente dentro de la misma."
 msgstr ""
+"The following video shows how to create an interface, start editing it, and "
+"add a component within it."
 
 #: ../../6_interfaces/index.rst:60
 msgid "Elementos a incluir en una interfaz"
-msgstr ""
+msgstr "Elements to include in an interface"
 
 #: ../../6_interfaces/index.rst:62
 msgid "Existen diferentes componentes que pueden insertarse en una interfaz"
-msgstr ""
+msgstr "There are different components that can be inserted into an interface"
 
 #: ../../6_interfaces/index.rst:68
 msgid "Node"
-msgstr ""
+msgstr "Node"
 
 #: ../../6_interfaces/index.rst:70
 msgid ""
-"Es el caso mas general. Cuando arrastramos un nodo, el mismo se presenta "
-"en la interfaz con la misma configuración de visualización que se "
-"determinó en el diagrama. Esta vista puede posteriormente configurarse de"
-" forma diferente y los cambios no afectaran la vista del diagrama."
+"Es el caso mas general. Cuando arrastramos un nodo, el mismo se presenta en "
+"la interfaz con la misma configuración de visualización que se determinó en "
+"el diagrama. Esta vista puede posteriormente configurarse de forma diferente "
+"y los cambios no afectaran la vista del diagrama."
 msgstr ""
+"This is the most general case. When we drag a node, it is presented in the "
+"interface with the same display configuration that was determined in the "
+"diagram. This view can later be configured differently and the changes will "
+"not affect the diagram view."
 
 #: ../../6_interfaces/index.rst:75
 msgid "Index"
-msgstr ""
+msgstr "Index"
 
 #: ../../6_interfaces/index.rst:77
 msgid ""
-"Cuando arrastramos un índice, el mismo será automáticamente considerado "
-"como una interfaz de filtrado de todo otro elemento (gráfico o tabla) que"
-" posea esa dimensión en su estructura de datos. Si este no fuera el "
-"comportamiento deseado se puede indicar la no sincronización de un "
-"elemento en relación a uno o varios indices."
+"Cuando arrastramos un índice, el mismo será automáticamente considerado como "
+"una interfaz de filtrado de todo otro elemento (gráfico o tabla) que posea "
+"esa dimensión en su estructura de datos. Si este no fuera el comportamiento "
+"deseado se puede indicar la no sincronización de un elemento en relación a "
+"uno o varios indices."
 msgstr ""
+"When an index is dragged, it will automatically be considered as a filtering "
+"interface for all other elements (graph or table) that have that dimension "
+"in their data structure. If this is not the desired behavior, you can "
+"indicate the non-synchronization of an element in relation to one or more "
+"indexes."
 
 #: ../../6_interfaces/index.rst:82
 msgid ""
-"El primer atributo a configurar es si el selector será de un único "
-"elemento o muchos:"
+"El primer atributo a configurar es si el selector será de un único elemento "
+"o muchos:"
 msgstr ""
+"The first attribute to configure is whether the selector will be a single "
+"element or many:"
 
 #: ../../6_interfaces/index.rst:87
 msgid ""
-"Adicionalmente se puede elegir algunas opciones de representación de este"
-" selector en función de las necesidades de visualización:"
+"Adicionalmente se puede elegir algunas opciones de representación de este "
+"selector en función de las necesidades de visualización:"
 msgstr ""
+"Additionally, it is possible to choose some representation options of this "
+"selector according to the visualization needs:"
 
 #: ../../6_interfaces/index.rst:97
 msgid "Chart, Table or Indicator"
-msgstr ""
+msgstr "Chart, Table or Indicator"
 
 #: ../../6_interfaces/index.rst:99
 msgid ""
 "Cuando se arrastra un componente de tipo gráfico, table o indicador, la "
-"vista por defecto del nodo no es considerada (aun cuando esta sea de tipo"
-" gráfico, tabla o indicador). Una vez localizado el componente se puede "
-"comenzar con la configuración del mismo de acuerdo al comportamiento "
-"deseado."
+"vista por defecto del nodo no es considerada (aun cuando esta sea de tipo "
+"gráfico, tabla o indicador). Una vez localizado el componente se puede "
+"comenzar con la configuración del mismo de acuerdo al comportamiento deseado."
 msgstr ""
+"When dragging a graphic, table or indicator type component, the default view "
+"of the node is not considered (even if it is a graphic, table or indicator "
+"type). Once the component is located, you can start configuring it according "
+"to the desired behavior."
 
 #: ../../6_interfaces/index.rst:102
 msgid ""
-"Ademas de las configuraciones de estilo es posible definir el vinculo "
-"entre las dimensiones de un nodo en particular y los indices explícitos "
-"en esa interfaz."
+"Ademas de las configuraciones de estilo es posible definir el vinculo entre "
+"las dimensiones de un nodo en particular y los indices explícitos en esa "
+"interfaz."
 msgstr ""
+"In addition to the style settings it is possible to define the link between "
+"the dimensions of a particular node and the explicit indices in that "
+"interface."
 
 #: ../../6_interfaces/index.rst:106
 msgid ""
 "Por ejemplo en este caso se ve como al haber de-seleccionado la "
-"sincronización del indice **\"Surface\"** al accionar sobre el mismo no "
-"se produce el filtrado en el gráfico."
+"sincronización del indice **\"Surface\"** al accionar sobre el mismo no se "
+"produce el filtrado en el gráfico."
 msgstr ""
+"For example, in this case you can see how when you have de-selected the "
+"synchronization of the **\"Surface\"** index, when you click on it, no "
+"filtering is produced in the graph."
 
 #: ../../6_interfaces/index.rst:109
 msgid "Eventos en gráficos"
-msgstr ""
+msgstr "Events in charts"
 
 #: ../../6_interfaces/index.rst:111
 msgid ""
-"En la configuración de gráficos es posible utilizar activar algunos "
-"eventos para configurar el comportamiento de otros gráficos."
+"En la configuración de gráficos es posible utilizar activar algunos eventos "
+"para configurar el comportamiento de otros gráficos."
 msgstr ""
+"In the charts configuration it is possible to activate some events to "
+"configure the behavior of other graphics."
 
 #: ../../6_interfaces/index.rst:113
 msgid "Existen tres tipos de eventos:"
-msgstr ""
+msgstr "There are three types of events:"
 
 #: ../../6_interfaces/index.rst:118
 msgid ""
-"**Drilldown:** al hacer doble-click sobre un gráfico permite navegar "
-"otras dimensiones que han sido agrupadas."
+"**Drilldown:** al hacer doble-click sobre un gráfico permite navegar otras "
+"dimensiones que han sido agrupadas."
 msgstr ""
+"**Drilldown:** double-clicking on a chart allows you to browse other "
+"dimensions that have been grouped together."
 
 #: ../../6_interfaces/index.rst:119
 msgid ""
-"**Selection event:** al activar este casillero, la selección efectuada en"
-" este gráfico es automáticamente aplicada a cualquier otro gráfico con "
+"**Selection event:** al activar este casillero, la selección efectuada en "
+"este gráfico es automáticamente aplicada a cualquier otro gráfico con "
 "dimensiones compartidas."
 msgstr ""
+"**Selection event:** by checking this box, the selection made on this chart "
+"is automatically applied to any other chart with shared dimensions."
 
 #: ../../6_interfaces/index.rst:120
 msgid ""
 "**Hover event:** permite identificar lo que esta siendo señalado en un "
 "gráfico y lo utiliza para que actúe como filtro en otro gráfico."
 msgstr ""
+"**Hover event:** allows you to identify what is being pointed out in a chart "
+"and use it to act as a filter in another chart."
 
 #: ../../6_interfaces/index.rst:125
 msgid "Input data"
-msgstr ""
+msgstr "Input data"
 
 #: ../../6_interfaces/index.rst:127
 msgid "Desde aquí se incluyen y configuran las interfaces de entrada de datos."
 msgstr ""
+"Desde aquí se incluyen y configuran las interfaces de entrada de datos."
 
 #: ../../6_interfaces/index.rst:131
 msgid "Html"
-msgstr ""
+msgstr "Html"
 
 #: ../../6_interfaces/index.rst:133
 msgid ""
-"Es un objeto que permite insertar hipertexto dentro de un cuadro. Su "
-"función principal es la de permitir información complementaria y "
-"personalización de la apariencia de las interfaces."
+"Es un objeto que permite insertar hipertexto dentro de un cuadro. Su función "
+"principal es la de permitir información complementaria y personalización de "
+"la apariencia de las interfaces."
 msgstr ""
+"It is an object that allows inserting hypertext inside a frame. Its main "
+"function is to allow complementary information and customization of the "
+"appearance of the interfaces."
 
 #: ../../6_interfaces/index.rst:137
 msgid "Button"
-msgstr ""
+msgstr "Button"
 
 #: ../../6_interfaces/index.rst:140
 msgid ""
 "Este objeto permite ejecutar código que opere con la aplicación para "
-"diferentes tipos de procesos, por ejemplo enviar mensajes de correo, "
-"correr modelos y salvar resultados, etc."
+"diferentes tipos de procesos, por ejemplo enviar mensajes de correo, correr "
+"modelos y salvar resultados, etc."
 msgstr ""
+"This object allows executing code that operates with the application for "
+"different types of processes, for example sending mail messages, running "
+"models and saving results, etc."
 
 #: ../../6_interfaces/index.rst:142
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: ../../6_interfaces/index.rst:144
 msgid "Este objeto permite crear menus de navegación de interfaces."
-msgstr ""
-
+msgstr "This object allows you to create interface navigation menus."

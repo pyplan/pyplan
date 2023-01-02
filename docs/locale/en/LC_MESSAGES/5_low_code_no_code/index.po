@@ -8,9 +8,10 @@ msgstr ""
 "Project-Id-Version: Pyplan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-12 16:53-0300\n"
-"PO-Revision-Date: 2023-01-02 12:51-0300\n"
+"PO-Revision-Date: 2023-01-02 15:35-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -479,7 +480,7 @@ msgid ""
 "fecha"
 msgstr ""
 "Allows to generate the index automatically by defining the parameters of a "
-"range. This range can be of type text, number or date."
+"range. This range can be of type text, number or date"
 
 #: ../../5_low_code_no_code/index.rst:211
 msgid "Jerarquia de indices"
@@ -506,7 +507,7 @@ msgstr ""
 "through a table where for each element of the lower hierarchy its "
 "corresponding element in the upper hierarchy is indicated. The following "
 "image illustrates the case for an index **\"Countries\"** and its upper "
-"hierarchy **\"Regions\"**."
+"hierarchy **\"Regions\"**"
 
 #: ../../5_low_code_no_code/index.rst:221
 msgid ""
@@ -524,7 +525,7 @@ msgid ""
 "dentro del nodo como muestra la siguiente imagen en el nodo **Countries**"
 msgstr ""
 "Any index containing a hierarchical relationship is identified with an icon "
-"inside the node as shown in the following image in the **Countries** node."
+"inside the node as shown in the following image in the **Countries** node"
 
 #: ../../5_low_code_no_code/index.rst:232
 msgid "Organización del diagrama"
@@ -609,7 +610,7 @@ msgstr "gray: when the node in question has no outputs"
 msgid ""
 "rojo: cuando las salidas del nodo se encuentra fuera del modulo que lo "
 "contiene"
-msgstr "red: when the node's outputs are outside the module that contains it."
+msgstr "red: when the node's outputs are outside the module that contains it"
 
 #: ../../5_low_code_no_code/index.rst:266
 msgid "Ejecución de nodos"
@@ -808,7 +809,7 @@ msgid ""
 "resultante, desplegamos los wizards y elegimos sort **\"by Year\"**"
 msgstr ""
 "after executing this node to allow Pyplan to identify the resulting object, "
-"we deploy the wizards and choose sort **\"by Year\"**."
+"we deploy the wizards and choose sort **\"by Year\"**"
 
 #: ../../5_low_code_no_code/index.rst:344
 msgid ""
@@ -887,6 +888,8 @@ msgid ""
 "Haciendo click sobre la opción **\"Create Cube\"** se despliega el siguiente "
 "cuadro de dialogo:"
 msgstr ""
+"Clicking on the **\"Create Cube \"** option displays the following dialog "
+"box:"
 
 #: ../../5_low_code_no_code/index.rst:382
 msgid ""
@@ -896,6 +899,10 @@ msgid ""
 "función de agregación que se utilizará para agrupar el valor del hecho o "
 "variable a representar."
 msgstr ""
+"It lists all the columns of the dataframe, the type of data, the index (if "
+"it exists) that will collect the values of that column, the option to create "
+"an index in case it does not exist and finally the aggregation function that "
+"will be used to group the value of the fact or variable to be represented."
 
 #: ../../5_low_code_no_code/index.rst:385
 msgid ""
@@ -904,10 +911,14 @@ msgid ""
 "por esa razón que el asistente nos ofrece crear los indices basados en los "
 "datos de las columnas en caso que este no exista."
 msgstr ""
+"To create a data cube in Pyplan it is necessary to have, in advance, the "
+"dimensions (Index) that characterize the data cube. It is for this reason "
+"that the wizard offers us to create the indexes based on the column data in "
+"case it does not exist."
 
 #: ../../5_low_code_no_code/index.rst:389
 msgid "Operaciones con cubos de datos"
-msgstr ""
+msgstr "Operations with data cubes"
 
 #: ../../5_low_code_no_code/index.rst:391
 msgid ""
@@ -915,6 +926,9 @@ msgid ""
 "operar con Cubos de datos, que se despliegan automáticamente en el mismo "
 "lugar, cuando el objeto resultante es un Cubo de datos de tipo XArray."
 msgstr ""
+"As with Table type objects, Pyplan provides wizards to operate with Data "
+"Cubes, which are automatically deployed in the same place, when the "
+"resulting object is a Data Cube of type XArray."
 
 #: ../../5_low_code_no_code/index.rst:393
 msgid ""
@@ -923,10 +937,14 @@ msgid ""
 "importante entender como funcionan estas operaciones entre cubos de datos "
 "para asi, poder construir el proceso de calculo deseado."
 msgstr ""
+"Additionally, unlike Tables, Data Cubes allow mathematical operations "
+"between them that result in new Cubes. It is important to understand how "
+"these operations between data cubes work in order to build the desired "
+"calculation process."
 
 #: ../../5_low_code_no_code/index.rst:397
 msgid "Operaciones entre un escalar y un cubo"
-msgstr ""
+msgstr "Operations between a scalar and a cube"
 
 #: ../../5_low_code_no_code/index.rst:399
 msgid ""
@@ -934,37 +952,46 @@ msgid ""
 "cubo de datos, la misma es ejecutada entre el escalar y cada elemento del "
 "cubo de datos."
 msgstr ""
+"When adding, subtracting, multiplying or any other mathematical operation on "
+"a data cube, it is performed between the scalar and each element of the data "
+"cube."
 
 #: ../../5_low_code_no_code/index.rst:404
 msgid ""
 "Puede observarse en la siguiente imagen la definición del nodo que establece:"
-msgstr ""
+msgstr "The following image shows the definition of the node it establishes:"
 
 #: ../../5_low_code_no_code/index.rst:410
 msgid ""
 "El valor del escalar, 5 en este caso, es sumado a cada elemento del cubo "
 "original dando como resultado:"
 msgstr ""
+"The value of the scalar, 5 in this case, is added to each element of the "
+"original cube giving as a result:"
 
 #: ../../5_low_code_no_code/index.rst:417
 msgid "Operaciones entre dos cubos de iguales dimensiones"
-msgstr ""
+msgstr "Operations between two cubes of equal dimensions"
 
 #: ../../5_low_code_no_code/index.rst:419
 msgid ""
 "En caso que los cubos tengan las mismas dimensiones, la operación indicada "
 "es ejecutada entre los elementos de las mismas celdas de ambos cubos"
 msgstr ""
+"In case the cubes have the same dimensions, the indicated operation is "
+"performed between the elements of the same cells of both cubes"
 
 #: ../../5_low_code_no_code/index.rst:423
 msgid ""
 "En este caso se observa como la primera celda del Cubo C es el resultado de "
 "la suma de la primera celda del Cubo A mas la primera celda del Cubo B."
 msgstr ""
+"In this case we can see how the first cell of Cube C is the result of the "
+"sum of the first cell of Cube A plus the first cell of Cube B."
 
 #: ../../5_low_code_no_code/index.rst:426
 msgid "Operaciones entre dos cubos de distintas dimensiones"
-msgstr ""
+msgstr "Operations between two cubes of different dimensions"
 
 #: ../../5_low_code_no_code/index.rst:428
 msgid ""
@@ -972,6 +999,9 @@ msgid ""
 "en uno de los cubos opera de forma escalar sobre el otro de los cubos. Un "
 "ejemplo permite explicar mejor esta forma de operar:"
 msgstr ""
+"When operating with cubes of different dimensions, the missing dimension in "
+"one of the cubes operates scalarly on the other cube. An example allows to "
+"better explain this way of operating:"
 
 #: ../../5_low_code_no_code/index.rst:433
 msgid ""
@@ -979,6 +1009,9 @@ msgid ""
 "Region, es utilizado de forma escalar respecto de esta dimension al operar "
 "con el Cubo A."
 msgstr ""
+"In the example above you can see how Cube B, which does not have the "
+"dimension Region, is used in a scalar way with respect to this dimension "
+"when operating with Cube A."
 
 #: ../../5_low_code_no_code/index.rst:436
 msgid ""
@@ -986,10 +1019,13 @@ msgid ""
 "`documentación de la librería XArray. <https://docs.xarray.dev/en/stable/"
 "user-guide/computation.html>`_"
 msgstr ""
+"The complete list of operations with Cubes can be found in the "
+"``documentation of the XArray library. <https://docs.xarray.dev/en/stable/"
+"user-guide/computation.html>`_"
 
 #: ../../5_low_code_no_code/index.rst:440
 msgid "Low-code"
-msgstr ""
+msgstr "Low-code"
 
 #: ../../5_low_code_no_code/index.rst:441
 msgid ""
@@ -998,10 +1034,14 @@ msgid ""
 "código de los nodos. Para ello Pyplan incluye un completo editor de código "
 "accesible con las vistas **Code+Result** o **Code+Preview**."
 msgstr ""
+"While a large number of operations can be performed through the wizards, for "
+"more sophisticated tasks it may be necessary to alter the code of the nodes. "
+"For this purpose Pyplan includes a complete code editor accessible with the "
+"**Code+Result** or **Code+Preview** views."
 
 #: ../../5_low_code_no_code/index.rst:447
 msgid "Editor de Código"
-msgstr ""
+msgstr "Code Editor"
 
 #: ../../5_low_code_no_code/index.rst:449
 msgid ""
@@ -1009,6 +1049,9 @@ msgid ""
 "Wins and Double Faults %\" como se muestra en la figura, y luego haciendo "
 "click en la vista **Code+Result** se observa un ejemplo de codificación:"
 msgstr ""
+"Continuing with the example under development, selecting the \"Calculate "
+"Wins and Double Faults %\" node as shown in the figure, and then clicking on "
+"the **Code+Result** view shows an example of coding:"
 
 #: ../../5_low_code_no_code/index.rst:454
 msgid ""
@@ -1016,20 +1059,25 @@ msgid ""
 "columnas nuevas **\"win\"** y **\"dblfaults\"** a partir de la tabla de "
 "datos (Dataframe) original de acuerdo a las siguientes instrucciones:"
 msgstr ""
+"In the code definition (Code Window) you can see how two new columns **\"win"
+"\"** and **\"dblfaults\"** are created from the original Dataframe according "
+"to the following instructions:"
 
 #: ../../5_low_code_no_code/index.rst:469
 msgid ""
 "El usuario puede experimentar alterar el código en la definición del nodo y "
 "visualizar el impacto en los resultados."
 msgstr ""
+"The user can experiment with altering the code in the node definition and "
+"visualize the impact on the results."
 
 #: ../../5_low_code_no_code/index.rst:473
 msgid "Ayudas a la codificación"
-msgstr ""
+msgstr "Coding assistance"
 
 #: ../../5_low_code_no_code/index.rst:476
 msgid "Tooltip"
-msgstr ""
+msgstr "Tooltip"
 
 #: ../../5_low_code_no_code/index.rst:478
 msgid ""
@@ -1038,10 +1086,13 @@ msgid ""
 "despliega una vista de previsualización o ayuda sobre la variable o función "
 "que esa siendo inspeccionada."
 msgstr ""
+"When displaying the code of a node, it can be observed that when the cursor "
+"is placed over one of the variables, a preview or help view of the variable "
+"or function being inspected is displayed after waiting a few seconds."
 
 #: ../../5_low_code_no_code/index.rst:486
 msgid "Intellisense"
-msgstr ""
+msgstr "Intellisense"
 
 #: ../../5_low_code_no_code/index.rst:488
 msgid ""
@@ -1049,6 +1100,8 @@ msgid ""
 "de características: Lista de miembros, Información de parámetros, "
 "Información rápida y Palabra completa."
 msgstr ""
+"IntelliSense is a code completion assistant that includes a number of "
+"features: Member List, Parameter Information, Quick Info and Full Word."
 
 #: ../../5_low_code_no_code/index.rst:491
 msgid ""
@@ -1056,6 +1109,9 @@ msgid ""
 "usa, realizar el seguimiento de los parámetros que escribe y agregar "
 "llamadas a propiedades y a métodos con tan solo presionar unas teclas."
 msgstr ""
+"These features allow you to learn more about the code you use, keep track of "
+"the parameters you write, and add property and method calls with a few "
+"keystrokes."
 
 #: ../../5_low_code_no_code/index.rst:494
 msgid ""
@@ -1065,6 +1121,11 @@ msgid ""
 "miembros que empiecen por esos caracteres o donde el principio de cualquier "
 "palabra del nombre empiece por esos caracteres."
 msgstr ""
+"After typing a trigger character (for example, a dot .) , a list of valid "
+"members of a type (or namespace) appears. If you continue to type "
+"characters, the list will be filtered and will only include members that "
+"begin with those characters or where the beginning of any word in the name "
+"begins with those characters."
 
 #: ../../5_low_code_no_code/index.rst:498
 msgid ""
@@ -1077,10 +1138,17 @@ msgid ""
 "miembros. Cuando seleccione un elemento, obtendrá la información rápida del "
 "mismo antes de insertarlo."
 msgstr ""
+"IntelliSense also performs \"camel case\" match searches, so you can type "
+"the first letter of each camel case word in the member's name to see the "
+"matches. After selecting an item, you can insert it into the code by "
+"pressing the TAB key or inserting a space. If you select an item and type a "
+"period, the item appears followed by the period, thus displaying another "
+"list of members. When you select an item, you will get quick information "
+"about the item before inserting it."
 
 #: ../../5_low_code_no_code/index.rst:507
 msgid "Buscador de Código"
-msgstr ""
+msgstr "Code Search"
 
 #: ../../5_low_code_no_code/index.rst:508
 msgid ""
@@ -1092,10 +1160,16 @@ msgid ""
 "usuario pueda navegarlos y determinar si alguno puede resultarle util para "
 "el caso que este intentando resolver."
 msgstr ""
+"Pyplan has a knowledge base that can be queried with natural language "
+"questions on how to code. The question is inserted as a comment, i.e. "
+"preceded by the symbol **#**. Once the question is finished, press "
+"**Control** and **Space** to launch the search. The results to these "
+"questions are listed so that the user can browse them and determine if any "
+"of them may be useful for the case he/she is trying to solve."
 
 #: ../../5_low_code_no_code/index.rst:518
 msgid "Consola de errores"
-msgstr ""
+msgstr "Error console"
 
 #: ../../5_low_code_no_code/index.rst:520
 msgid ""
@@ -1105,3 +1179,8 @@ msgid ""
 "inferior. Además es subrayado en rojo dentro del código la línea con error "
 "(B). También es marcado el nodo que contiene el error (C)."
 msgstr ""
+"When an error occurs in the execution of the code, it is indicated with a "
+"warning sign (A) as shown in the following image. Clicking on this indicator "
+"displays the error console at the bottom. In addition, the line with error "
+"(B) is underlined in red inside the code. The node containing the error (C) "
+"is also marked."

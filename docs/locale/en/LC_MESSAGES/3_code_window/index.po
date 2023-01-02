@@ -3,427 +3,521 @@
 # This file is distributed under the same license as the Pyplan package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Pyplan \n"
+"Project-Id-Version: Pyplan\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-12 16:53-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2023-01-02 10:56-0300\n"
+"PO-Revision-Date: 2023-01-02 11:26-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: ../../3_code_window/index.rst:3
 msgid "Ventana de Codificación"
-msgstr ""
+msgstr "Coding Window"
 
 #: ../../3_code_window/index.rst:6
 msgid "Creación de la primera aplicación"
-msgstr ""
+msgstr "Creating the first application"
 
 #: ../../3_code_window/index.rst:8
 msgid ""
-"Pyplan es un ambiente de desarrollo integrado de aplicaciones, pensado "
-"para usuarios sin conocimientos de programación. Es por esto que la "
-"lógica de cálculo y procesamiento de datos de las aplicaciones se "
-"construye arrastrando diferentes tipos de nodos en un diagrama de "
-"influencia."
+"Pyplan es un ambiente de desarrollo integrado de aplicaciones, pensado para "
+"usuarios sin conocimientos de programación. Es por esto que la lógica de "
+"cálculo y procesamiento de datos de las aplicaciones se construye arrastrando "
+"diferentes tipos de nodos en un diagrama de influencia."
 msgstr ""
+"Pyplan is an integrated development environment for applications, designed for "
+"users without programming knowledge. This is why the calculation logic and data "
+"processing of the applications is built by dragging different types of nodes in "
+"an influence diagram."
 
 #: ../../3_code_window/index.rst:11
 msgid ""
-"Al hacer click en **crear una aplicación**, aparece un cuadro de diálogo "
-"que permite optar entre crear una aplicación desde cero o a partir de un "
-"ejemplo."
+"Al hacer click en **crear una aplicación**, aparece un cuadro de diálogo que "
+"permite optar entre crear una aplicación desde cero o a partir de un ejemplo."
 msgstr ""
+"By clicking **create an application**, a dialog box appears that allows you to "
+"choose between creating an application from scratch or from an example."
 
 #: ../../3_code_window/index.rst:15
 msgid ""
-"Eligiendo crear una aplicación de análisis de datos y luego seleccionando"
-" la **visualización del código** se llega a una ventana como la "
-"siguiente:"
+"Eligiendo crear una aplicación de análisis de datos y luego seleccionando la "
+"**visualización del código** se llega a una ventana como la siguiente:"
 msgstr ""
+"By choosing to create a data analysis application and then selecting the **code "
+"visualization**, you will reach a window like the following:"
 
 #: ../../3_code_window/index.rst:21
 msgid "Elementos de la ventana de codificación"
-msgstr ""
+msgstr "Elements of the coding window"
 
 #: ../../3_code_window/index.rst:23
 msgid ""
-"Una vez hecho click en el icono de **código** del menú principal, se "
-"accede al diagrama de influencia:"
+"Una vez hecho click en el icono de **código** del menú principal, se accede al "
+"diagrama de influencia:"
 msgstr ""
+"Once you have clicked on the **code** icon in the main menu, you will access "
+"the influence diagram:"
 
 #: ../../3_code_window/index.rst:27
 msgid "Los elementos que constituyen esta sección de la plataforma son:"
-msgstr ""
+msgstr "The elements that make up this section of the platform are:"
 
 #: ../../3_code_window/index.rst:29
 msgid ""
-"**Diagrama de influencia**: Representación gráfica del procesamiento de "
-"datos hasta su transformación en salida."
+"**Diagrama de influencia**: Representación gráfica del procesamiento de datos "
+"hasta su transformación en salida."
 msgstr ""
+"**Influence diagram**: Graphical representation of data processing up to its "
+"transformation into output."
 
 #: ../../3_code_window/index.rst:30
 msgid ""
-"**Tipos de visualización de nodos**: Resultado | Código+Resultado | "
-"Código+Preview."
-msgstr ""
+"**Tipos de visualización de nodos**: Resultado | Código+Resultado | Código"
+"+Preview."
+msgstr "**Node display types**: Result | Code+Result | Code+Preview."
 
 #: ../../3_code_window/index.rst:31
 msgid ""
 "**Bot de ayuda**: Robot asistente que interpreta lenguaje natural para "
 "responder a preguntas sobre el uso de Pyplan."
 msgstr ""
+"**Help bot**: Robot assistant that interprets natural language to answer "
+"questions about the use of Pyplan."
 
 #: ../../3_code_window/index.rst:32
 msgid ""
 "**Atajos de Navegación**: Link a Pyplan Home y al Home de la aplicación, "
-"accesibles al hacer click sobre el logo de Pyplan y el título de la "
-"aplicación, respectivamente."
+"accesibles al hacer click sobre el logo de Pyplan y el título de la aplicación, "
+"respectivamente."
 msgstr ""
+"**Navigation Shortcuts**: Link to Pyplan Home and application Home, accessible "
+"by clicking on the Pyplan logo and the application title, respectively."
 
 #: ../../3_code_window/index.rst:33
 msgid ""
-"**Propiedades de una aplicación**: Desplegables al hacer click en los "
-"tres puntos a la derecha del título de la app."
+"**Propiedades de una aplicación**: Desplegables al hacer click en los tres "
+"puntos a la derecha del título de la app."
 msgstr ""
+"**Properties of an application**: Drop-down menus when you click on the three "
+"dots to the right of the app title."
 
 #: ../../3_code_window/index.rst:38
 msgid "Diagrama de Influencia"
-msgstr ""
+msgstr "Influence Diagram"
 
 #: ../../3_code_window/index.rst:40
 msgid ""
-"Es la representación gráfica del proceso de cálculo. Cada nodo representa"
-" un paso de cálculo en el proceso de transformación de los datos. Un nodo"
-" se selecciona haciendo click sobre el mismo. Al hacer doble-click sobre "
-"un nodo, este es calculado. Su resultado se muestra en pantalla completa "
-"de acuerdo con su configuración de visualización predeterminada. Los "
-"vínculos (flechas) entre nodos son generados automáticamente al invocar "
-"un nodo dentro de la definición de otro."
+"Es la representación gráfica del proceso de cálculo. Cada nodo representa un "
+"paso de cálculo en el proceso de transformación de los datos. Un nodo se "
+"selecciona haciendo click sobre el mismo. Al hacer doble-click sobre un nodo, "
+"este es calculado. Su resultado se muestra en pantalla completa de acuerdo con "
+"su configuración de visualización predeterminada. Los vínculos (flechas) entre "
+"nodos son generados automáticamente al invocar un nodo dentro de la definición "
+"de otro."
 msgstr ""
+"It is the graphical representation of the calculation process. Each node "
+"represents a calculation step in the data transformation process. A node is "
+"selected by clicking on it. By double-clicking on a node, it is calculated. Its "
+"result is displayed in full screen according to your default display settings. "
+"Links (arrows) between nodes are automatically generated when invoking a node "
+"within the definition of another node."
 
 #: ../../3_code_window/index.rst:46
 msgid ""
-"#.. warning:: (aquí debiéramos incluir un link a una de las lecciones que"
-" te muestren paso a paso esta sección)"
+"#.. warning:: (aquí debiéramos incluir un link a una de las lecciones que te "
+"muestren paso a paso esta sección)"
 msgstr ""
+"#.. warning::  (todo: include a link to one of the lessons that show you step "
+"by step this section)"
 
 #: ../../3_code_window/index.rst:50
 msgid "Características de un Nodo"
-msgstr ""
+msgstr "Features of a Node"
 
 #: ../../3_code_window/index.rst:51
 msgid ""
 "Un nodo es la unidad mínima de construcción del proceso de cálculo. Para "
 "agregar un nodo se arrastra el mismo sobre el diagrama."
 msgstr ""
+"A node is the smallest unit of construction of the calculation process. To add "
+"a node, drag it onto the diagram."
 
 #: ../../3_code_window/index.rst:54
 msgid "Cada nodo cuenta con las siguientes propiedades:"
-msgstr ""
+msgstr "Each node has the following properties:"
 
 #: ../../3_code_window/index.rst:57
 msgid "Título del nodo"
-msgstr ""
+msgstr "Node title"
 
 #: ../../3_code_window/index.rst:58
 msgid "Es el texto que se visualiza dentro del nodo en el diagrama"
-msgstr ""
+msgstr "It is the text displayed inside the node in the diagram"
 
 #: ../../3_code_window/index.rst:61
 msgid "Id del nodo"
-msgstr ""
+msgstr "Node Id"
 
 #: ../../3_code_window/index.rst:62
 msgid ""
-"Es el identificador del nodo, es decir, la forma en la que un nodo es "
-"invocado en la definición de otro nodo. El Id del nodo se genera "
-"automáticamente a partir del título, pero puede ser cambiado por el "
-"usuario."
+"Es el identificador del nodo, es decir, la forma en la que un nodo es invocado "
+"en la definición de otro nodo. El Id del nodo se genera automáticamente a "
+"partir del título, pero puede ser cambiado por el usuario."
 msgstr ""
+"It is the identifier of the node, that is, the way in which a node is invoked "
+"in the definition of another node. The node's Id is automatically generated "
+"from the title, but can be changed by the user."
 
 #: ../../3_code_window/index.rst:65
 msgid "Unidades"
-msgstr ""
+msgstr "Unit"
 
 #: ../../3_code_window/index.rst:66
 msgid ""
-"En caso de que un nodo contenga una medida única, es posible indicar su "
-"unidad. Esta será mostrada entre paréntesis al lado del título al momento"
-" de mostrar los resultados del nodo. Vale destacar que las unidades solo "
-"se incluyen para ser visualizadas, no forman parte del cálculo de "
-"resultados."
+"En caso de que un nodo contenga una medida única, es posible indicar su unidad. "
+"Esta será mostrada entre paréntesis al lado del título al momento de mostrar "
+"los resultados del nodo. Vale destacar que las unidades solo se incluyen para "
+"ser visualizadas, no forman parte del cálculo de resultados."
 msgstr ""
+"If a node contains a single measure, it is possible to indicate its unit. This "
+"will be shown in parentheses next to the title when the node's results are "
+"displayed. It is worth noting that units are only included for visualization "
+"purposes, they are not part of the calculation of results."
 
 #: ../../3_code_window/index.rst:72
 msgid "Definición"
-msgstr ""
+msgstr "Definition"
 
 #: ../../3_code_window/index.rst:73
 msgid ""
-"Es la operación de transformación ejecutada al evaluar un nodo. Su código"
-" esta escrito en lenguaje Python. Termina con la definición de su "
-"resultado **\"result=\"**"
+"Es la operación de transformación ejecutada al evaluar un nodo. Su código esta "
+"escrito en lenguaje Python. Termina con la definición de su resultado **"
+"\"result=\"**"
 msgstr ""
+"It is the transformation operation executed when evaluating a node. Its code is "
+"written in Python language. It ends with the definition of its result **"
+"\"result=\"**"
 
 #: ../../3_code_window/index.rst:76
 msgid "Vista Previa"
-msgstr ""
+msgstr "Preview"
 
 #: ../../3_code_window/index.rst:77
 msgid "Es la descripción técnica de la salida del proceso de cálculo."
-msgstr ""
+msgstr "It is the technical description of the output of the calculation process."
 
 #: ../../3_code_window/index.rst:80
 msgid "Resultado"
-msgstr ""
+msgstr "Result"
 
 #: ../../3_code_window/index.rst:81
 msgid ""
-"Es el resultado que surge de ejecutar el código de la definición. Cuando "
-"este resultado es un objeto interpretado por Pyplan (un dataframe de "
-"Pandas, una matriz de Numpy, o una matriz con dimensiones designadas de "
-"Xarray), este puede visualizarse de forma gráfica o de tabla."
+"Es el resultado que surge de ejecutar el código de la definición. Cuando este "
+"resultado es un objeto interpretado por Pyplan (un dataframe de Pandas, una "
+"matriz de Numpy, o una matriz con dimensiones designadas de Xarray), este puede "
+"visualizarse de forma gráfica o de tabla."
 msgstr ""
+"It is the result of executing the code of the definition. When this result is "
+"an object interpreted by Pyplan (a Pandas dataframe, a Numpy matrix, or a "
+"matrix with designated dimensions of Xarray), it can be visualized graphically "
+"or in table form."
 
 #: ../../3_code_window/index.rst:87
 msgid "Documentación"
-msgstr ""
+msgstr "Documentation"
 
 #: ../../3_code_window/index.rst:88
 msgid ""
-"Es el texto que describe conceptualmente cada paso de cálculo y se "
-"despliega en la parte inferior de la vista de resultados."
+"Es el texto que describe conceptualmente cada paso de cálculo y se despliega en "
+"la parte inferior de la vista de resultados."
 msgstr ""
+"It is the text that conceptually describes each calculation step and is "
+"displayed at the bottom of the result view."
 
 #: ../../3_code_window/index.rst:93
 msgid "Entradas"
-msgstr ""
+msgstr "Inputs"
 
 #: ../../3_code_window/index.rst:95
 msgid "Listado de nodos utilizados en la definición de un nodo."
-msgstr ""
+msgstr "List of nodes used in the definition of a node."
 
 #: ../../3_code_window/index.rst:98
 msgid "Salidas"
-msgstr ""
+msgstr "Outputs"
 
 #: ../../3_code_window/index.rst:100
 msgid "Listado de nodos que utilizan el resultado del nodo seleccionado"
-msgstr ""
+msgstr "List of nodes that use the result of the selected node"
 
-#: ../../3_code_window/index.rst:105
+#: ../../3_code_window/index.rst:104
 msgid ""
-"Para acceder a todas estas propiedades se puede hacer click sobre el nodo"
-" para seleccionarlo, luego click derecho o doble-click sobre él. También "
-"se visualizan las propiedades al calcular el nodo."
+"Se puede acceder a todas estas propiedades haciendo click derecho sobre el nodo "
+"y luego click en propiedades."
 msgstr ""
+"You can access all of these properties by right-clicking on the node and then "
+"clicking on properties."
 
-#: ../../3_code_window/index.rst:107
+#: ../../3_code_window/index.rst:108
 msgid "Tipos de Nodo"
-msgstr ""
+msgstr "Node types"
 
-#: ../../3_code_window/index.rst:109
+#: ../../3_code_window/index.rst:110
 msgid ""
 "Existen diferentes tipos de nodos para diferentes propósitos. Sus "
 "funcionalidades han sido diseñadas para facilitar la definición de los "
 "parámetros necesarios para su ejecución."
 msgstr ""
-
-#: ../../3_code_window/index.rst:115
-msgid "Variable"
-msgstr ""
+"There are different types of nodes for different purposes. Their functionality "
+"has been designed to facilitate the definition of the parameters necessary for "
+"its execution."
 
 #: ../../3_code_window/index.rst:116
-msgid ""
-"Los nodos de tipo variable son los más utilizados, dado que tienen la "
-"función de contener un proceso de cálculo genérico. Son de color azul "
-"inicialmente. En caso de que no tenga salidas, este color cambia a gris y"
-" se lo considera un reporte. Cambia a color rojo en caso de que las "
-"salidas del nodo se encuentren fuera del módulo al que pertenece."
-msgstr ""
+msgid "Variable"
+msgstr "Variable"
 
-#: ../../3_code_window/index.rst:121
+#: ../../3_code_window/index.rst:117
+msgid ""
+"Los nodos de tipo variable son los más utilizados, dado que tienen la función "
+"de contener un proceso de cálculo genérico. Son de color azul inicialmente. En "
+"caso de que no tenga salidas, este color cambia a gris y se lo considera un "
+"reporte. Cambia a color rojo en caso de que las salidas del nodo se encuentren "
+"fuera del módulo al que pertenece."
+msgstr ""
+"Variable type nodes are the most commonly used, as they have the function of "
+"containing a generic calculation process. They are blue in color initially. If "
+"it does not have outputs, this color changes to gray and it is considered a "
+"report. It changes to red if the outputs of the node are outside the module to "
+"which it belongs."
+
+#: ../../3_code_window/index.rst:122
 msgid "Lectura de datos"
-msgstr ""
+msgstr "Data reading"
 
-#: ../../3_code_window/index.rst:123
+#: ../../3_code_window/index.rst:124
 msgid ""
-"Nodo que al arrastrarse despliega un asistente para conectarse a "
-"distintas fuentes de datos:"
+"Nodo que al arrastrarse despliega un asistente para conectarse a distintas "
+"fuentes de datos:"
 msgstr ""
-
-#: ../../3_code_window/index.rst:130
-msgid "Entrada de datos"
-msgstr ""
+"Node that when dragged displays an assistant to connect to different data "
+"sources:"
 
 #: ../../3_code_window/index.rst:131
+msgid "Entrada de datos"
+msgstr "Input data"
+
+#: ../../3_code_window/index.rst:132
 msgid "Nodo que permite crear un proceso de entrada de datos manuales."
-msgstr ""
+msgstr "Node that allows to create a manual data entry process."
 
-#: ../../3_code_window/index.rst:135
+#: ../../3_code_window/index.rst:136
 msgid ""
-"Una vez elegido el tipo de entrada de datos se despliega un asistente "
-"para su configuración. En este caso se muestra el asistente para crear "
-"una Tabla de entrada de datos."
+"Una vez elegido el tipo de entrada de datos se despliega un asistente para su "
+"configuración. En este caso se muestra el asistente para crear una Tabla de "
+"entrada de datos."
 msgstr ""
-
-#: ../../3_code_window/index.rst:141
-msgid "Botón"
-msgstr ""
+"Once the type of data input is chosen, an assistant is displayed for its "
+"configuration. In this case, the assistant for creating a Data Input Table is "
+"shown."
 
 #: ../../3_code_window/index.rst:142
-msgid ""
-"El boton es un nodo especial que permite ejecutar acciones sobre los "
-"nodos."
-msgstr ""
+msgid "Botón"
+msgstr "Button"
 
-#: ../../3_code_window/index.rst:145
-msgid "Índice"
+#: ../../3_code_window/index.rst:143
+msgid ""
+"El botón es un nodo especial que permite ejecutar código python cada vez que el "
+"usuario lo presiona. En este tipo de nodos, el resultado no persiste en memoria."
 msgstr ""
+"The button is a special node that allows you to execute Python code each time "
+"the user presses it. In this type of nodes, the result does not persist in "
+"memory."
 
 #: ../../3_code_window/index.rst:146
-msgid ""
-"El nodo índice es la forma en que Pyplan almacena las dimensiones que son"
-" utilizadas a través de todo el proceso de cálculo. Su definición conduce"
-" a la determinación de una lista de elementos que constituyen la "
-"dimensión. Tienen un funcionamiento particular cuando se los incluye en "
-"interfaces."
-msgstr ""
+msgid "Índice"
+msgstr "Index"
 
-#: ../../3_code_window/index.rst:151
-msgid "Texto"
+#: ../../3_code_window/index.rst:147
+msgid ""
+"El nodo índice es la forma en que Pyplan almacena las dimensiones que son "
+"utilizadas a través de todo el proceso de cálculo. Su definición conduce a la "
+"determinación de una lista de elementos que constituyen la dimensión. Tienen un "
+"funcionamiento particular cuando se los incluye en interfaces."
 msgstr ""
+"The index node is the way Pyplan stores dimensions that are used throughout the "
+"calculation process. Its definition leads to the determination of a list of "
+"elements that constitute the dimension. They have a particular functioning when "
+"included in interfaces."
 
 #: ../../3_code_window/index.rst:152
-msgid ""
-"El cuadro de texto es un elemento de construcción del diagrama con el "
-"único fin de facilitar la interpretación del diagrama de influencia."
-msgstr ""
+msgid "Texto"
+msgstr "Text"
 
-#: ../../3_code_window/index.rst:155
-msgid "Módulo"
+#: ../../3_code_window/index.rst:153
+msgid ""
+"El cuadro de texto es un elemento de construcción del diagrama con el único fin "
+"de facilitar la interpretación del diagrama de influencia."
 msgstr ""
+"The text box is a construction element of the diagram for the sole purpose of "
+"facilitating the interpretation of the influence diagram."
 
 #: ../../3_code_window/index.rst:156
+msgid "Módulo"
+msgstr "Module"
+
+#: ../../3_code_window/index.rst:157
 msgid ""
-"Es un tipo de nodo especial que permite contener nodos en su interior. "
-"Sirve para organizar jerárquicamente un calculo complejo. A un módulo se "
-"ingresa haciendo doble-click sobre él. Los módulos pueden estar anidados "
+"Es un tipo de nodo especial que permite contener nodos en su interior. Sirve "
+"para organizar jerárquicamente un calculo complejo. A un módulo se ingresa "
+"haciendo doble-click sobre él. Los módulos pueden estar anidados "
 "indefinidamente."
 msgstr ""
-
-#: ../../3_code_window/index.rst:159
-msgid "Alias"
-msgstr ""
+"It is a special type of node that allows you to contain nodes inside it. It "
+"serves to hierarchically organize a complex calculation. A module is entered by "
+"double-clicking on it. Modules can be nested indefinitely."
 
 #: ../../3_code_window/index.rst:160
-msgid ""
-"Los Alias son un tipo de nodo que se utilizan para hacer mas explicativos"
-" los diagramas de influencia. Son un espejo del nodo original. Es decir "
-"no solo el resultado que muestran es el mismo sino también que al "
-"modificar la definición del alias se modifica la definición del nodo "
-"original. El Alias se crea al apretar **Ctrl+M** una vez seleccionado un "
-"nodo."
-msgstr ""
+msgid "Alias"
+msgstr "Alias"
 
-#: ../../3_code_window/index.rst:166
+#: ../../3_code_window/index.rst:161
+msgid ""
+"Los Alias son un tipo de nodo que se utilizan para hacer mas explicativos los "
+"diagramas de influencia. Son un espejo del nodo original. Es decir no solo el "
+"resultado que muestran es el mismo sino también que al modificar la definición "
+"del alias se modifica la definición del nodo original. El Alias se crea al "
+"apretar **Ctrl+M** una vez seleccionado un nodo."
+msgstr ""
+"Aliases are a type of node that are used to make influence diagrams more "
+"explanatory. They are a mirror of the original node. That is, not only does the "
+"result they show match the original, but modifying the definition of the alias "
+"also modifies the definition of the original node. The Alias is created by "
+"pressing **Ctrl+M** once a node is selected"
+
+#: ../../3_code_window/index.rst:167
 msgid "Operaciones en el Diagrama de Influencia"
-msgstr ""
+msgstr "Operations in the Influence Diagram"
 
-#: ../../3_code_window/index.rst:169
+#: ../../3_code_window/index.rst:170
 msgid "Navegación"
-msgstr ""
+msgstr "Navigation"
 
-#: ../../3_code_window/index.rst:171
+#: ../../3_code_window/index.rst:172
 msgid ""
-"El diagrama de influencia es una representación jerárquica de la lógica "
-"de cálculo. El desplazamiento dentro del diagrama se realiza, haciendo "
-"doble-click en el módulo que se quiera entrar o haciendo click en el "
-"camino generado a partir de la navegación para subir a las jerarquías "
-"superiores."
+"El diagrama de influencia es una representación jerárquica de la lógica de "
+"cálculo. El desplazamiento dentro del diagrama se realiza, haciendo doble-click "
+"en el módulo que se quiera entrar o haciendo click en el camino generado a "
+"partir de la navegación para subir a las jerarquías superiores."
 msgstr ""
+"The influence diagram is a hierarchical representation of the calculation "
+"logic. Scrolling within the diagram is done by double-clicking on the module "
+"you want to enter or by clicking on the path generated from the navigation to "
+"move up to the higher hierarchies."
 
-#: ../../3_code_window/index.rst:175
+#: ../../3_code_window/index.rst:176
 msgid "Inspección de propiedades de nodos"
-msgstr ""
+msgstr "Inspection of node properties"
 
-#: ../../3_code_window/index.rst:177
+#: ../../3_code_window/index.rst:178
 msgid ""
-"Al seleccionar un nodo, haciendo click con el botón derecho del mouse, se"
-" despliega una ventana de propiedades del nodo."
+"Al seleccionar un nodo, haciendo click con el botón derecho del mouse, se "
+"despliega una ventana de propiedades del nodo."
 msgstr ""
-
-#: ../../3_code_window/index.rst:181
-msgid "Arrastrar nodos al diagrama"
-msgstr ""
+"When selecting a node, right-clicking on it displays a node properties window."
 
 #: ../../3_code_window/index.rst:182
-msgid ""
-"Haciendo click en el botón azul del extremo superior izquierdo se "
-"despliegan los distintos tipos de nodos para arrastrar al diagrama."
-msgstr ""
+msgid "Arrastrar nodos al diagrama"
+msgstr "Drag nodes to the diagram"
 
-#: ../../3_code_window/index.rst:186
+#: ../../3_code_window/index.rst:183
 msgid ""
-"Esta es la forma más utilizada de crear nuevos pasos de cálculo en el "
-"flujo de procesamiento de datos de la aplicación."
+"Haciendo click en el botón azul del extremo superior izquierdo se despliegan "
+"los distintos tipos de nodos para arrastrar al diagrama."
 msgstr ""
+"Clicking on the blue button at the upper left corner displays the different "
+"types of nodes to drag onto the diagram."
 
-#: ../../3_code_window/index.rst:188
+#: ../../3_code_window/index.rst:187
 msgid ""
-"También es posible copiar **<Ctrl+C>**, cortar **<Ctrl+X>** y pegar "
-"**<Ctrl+V>** un nodo o grupo de nodos seleccionados. Para seleccionar "
-"varios nodos se debe hacer click sobre cada uno manteniendo la tecla "
-"**<Ctrl>** presionada. También se puede generar un rectángulo de "
-"selección manteniendo presionada la tecla **<Shift>** y haciendo click "
-"sobre el diagrama y luego desplazándose para delimitar el rectángulo."
+"Esta es la forma más utilizada de crear nuevos pasos de cálculo en el flujo de "
+"procesamiento de datos de la aplicación."
 msgstr ""
+"This is the most commonly used way to create new calculation steps in the data "
+"processing flow of the application."
 
-#: ../../3_code_window/index.rst:193
-msgid "Visualización de resultados"
+#: ../../3_code_window/index.rst:189
+msgid ""
+"También es posible copiar **<Ctrl+C>**, cortar **<Ctrl+X>** y pegar **<Ctrl"
+"+V>** un nodo o grupo de nodos seleccionados. Para seleccionar varios nodos se "
+"debe hacer click sobre cada uno manteniendo la tecla **<Ctrl>** presionada. "
+"También se puede generar un rectángulo de selección manteniendo presionada la "
+"tecla **<Shift>** y haciendo click sobre el diagrama y luego desplazándose para "
+"delimitar el rectángulo."
 msgstr ""
+"It is also possible to copy **<Ctrl+C>**, cut **<Ctrl+X>** and paste **<Ctrl"
+"+V>** a selected node or group of nodes. To select multiple nodes, click on "
+"each node while keeping the **<Ctrl>** key pressed. You can also generate a "
+"selection rectangle by holding down the **<Shift>** key and clicking on the "
+"diagram and then scrolling to delimit the rectangle."
 
 #: ../../3_code_window/index.rst:194
-msgid ""
-"Al seleccionar un nodo, podemos saber si este está calculado o no, según "
-"lo que indica la ventana de resultado:"
-msgstr ""
+msgid "Visualización de resultados"
+msgstr "Results display"
 
-#: ../../3_code_window/index.rst:198
+#: ../../3_code_window/index.rst:195
 msgid ""
-"Un nodo se calcula al hacer doble-click sobre el mismo o al apretar el "
-"icono **Play** que aparece en la ventana de resultado o presionando "
-"**<Ctrl+Enter>** una vez seleccionado el nodo."
+"Al seleccionar un nodo, podemos saber si este está calculado o no, según lo que "
+"indica la ventana de resultado:"
 msgstr ""
+"By selecting a node, we can know if it is calculated or not, as indicated in "
+"the result window:"
 
-#: ../../3_code_window/index.rst:200
+#: ../../3_code_window/index.rst:199
 msgid ""
-"Existen tres tipos de visualizaciones de un nodo que pueden elegirse en "
-"la parte superior derecha de la ventana del diagrama."
+"Un nodo se calcula al hacer doble-click sobre el mismo o al apretar el icono "
+"**Play** que aparece en la ventana de resultado o presionando **<Ctrl+Enter>** "
+"una vez seleccionado el nodo."
 msgstr ""
+"A node is calculated by double-clicking on it or by pressing the **Play** icon "
+"that appears in the result window or by pressing **<Ctrl+Enter>** once the node "
+"is selected."
 
-#: ../../3_code_window/index.rst:204
+#: ../../3_code_window/index.rst:201
+msgid ""
+"Existen tres tipos de visualizaciones de un nodo que pueden elegirse en la "
+"parte superior derecha de la ventana del diagrama."
+msgstr ""
+"There are three types of visualizations of a node that can be chosen in the "
+"upper right part of the diagram window."
+
+#: ../../3_code_window/index.rst:205
 msgid ""
 "La primera corresponde a la visualización de resultados junto a la "
 "documentación."
 msgstr ""
-
-#: ../../3_code_window/index.rst:205
-msgid ""
-"La segunda permite ver la definición (código) del nodo junto al resultado"
-" del mismo."
-msgstr ""
+"The first corresponds to the display of results together with the documentation."
 
 #: ../../3_code_window/index.rst:206
+msgid ""
+"La segunda permite ver la definición (código) del nodo junto al resultado del "
+"mismo."
+msgstr ""
+"The second one allows you to see the definition (code) of the node together "
+"with the result of the node."
+
+#: ../../3_code_window/index.rst:207
 msgid ""
 "La tercera permite ver el código de la definición del nodo junto a una "
 "inspección de las características técnicas del objeto resultante."
 msgstr ""
-
+"The third one allows to view the code of the node definition together with an "
+"inspection of the technical characteristics of the resulting object."

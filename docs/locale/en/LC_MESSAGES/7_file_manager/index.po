@@ -3,23 +3,23 @@
 # This file is distributed under the same license as the Pyplan package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Pyplan \n"
+"Project-Id-Version: Pyplan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-12 16:53-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-02 16:17-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: ../../7_file_manager/index.rst:2
 msgid "Administrador de archivos"
-msgstr ""
+msgstr "File Manager"
 
 #: ../../7_file_manager/index.rst:10
 msgid ""
@@ -29,31 +29,42 @@ msgid ""
 "directorios. Nos permite ordenar en carpetas y subcarpetas, cambiar "
 "nombres, copiar, mover, eliminar y buscar archivos."
 msgstr ""
+"Pyplan's file manager is designed to easily and transparently manage "
+"files, folders and applications, which can be displayed in a "
+"hierarchical tree based on their directory structure. It allows us to "
+"sort into folders and subfolders, rename, copy, move, delete and search "
+"for files."
 
 msgid "Alternative text"
-msgstr ""
+msgstr "Alternative text"
 
 #: ../../7_file_manager/index.rst:19
 msgid ""
 "**My Workspace**: Carpeta personal donde se pueden guardar todas las "
 "aplicaciones del usuario."
 msgstr ""
+"**My Workspace**: Personal folder where all the user's applications can "
+"be stored."
 
 #: ../../7_file_manager/index.rst:20
 msgid ""
 "**Carpeta seleccionada**: Carpeta seleccionada que podremos examinar en "
 "la parte derecha del administrador de archivos."
 msgstr ""
+"**Selected folder**: Selected folder that we can browse in the right "
+"part of the file manager."
 
 #: ../../7_file_manager/index.rst:21
 msgid ""
 "**Carpeta pública de la empresa**: Carpeta que contiene las aplicaciones "
 "disponibles a todos los usuarios de la empresa."
 msgstr ""
+"**Company public folder**: Folder containing the applications available "
+"to all company users."
 
 #: ../../7_file_manager/index.rst:24
 msgid "Vistas"
-msgstr ""
+msgstr "Views"
 
 #: ../../7_file_manager/index.rst:25
 msgid ""
@@ -62,6 +73,9 @@ msgid ""
 "específicamente, el tipo de archivo, el nombre, el tamaño y la fecha de "
 "la última modificación."
 msgstr ""
+"The default view of the explorer shows us the files in list format, with "
+"different data for each file or folder. More specifically, the file "
+"type, name, size and date of last modification."
 
 #: ../../7_file_manager/index.rst:32
 msgid ""
@@ -70,10 +84,14 @@ msgid ""
 "instancia las las carpetas y luego los mosaicos que representan los "
 "archivos con el correspondiente icono de cada tipo de archivo."
 msgstr ""
+"In addition to the explorer view as a list of files, by default, we have "
+"the mosaic view available. In this view we can first see the folders and "
+"then the tiles that represent the files with the corresponding icon for "
+"each type of file."
 
 #: ../../7_file_manager/index.rst:39
 msgid "Abrir aplicaciones"
-msgstr ""
+msgstr "Open applications"
 
 #: ../../7_file_manager/index.rst:41
 msgid ""
@@ -83,10 +101,15 @@ msgid ""
 "superior un botón con la opción **Open app**, alternativamente también "
 "estará disponible en el menú contextual."
 msgstr ""
+"From the file manager, we can identify the applications by the icon that "
+"appears to the right of the name. When selecting a folder corresponding "
+"to an application, a button with the option **Open app** will appear in "
+"the top menu, alternatively it will also be available in the contextual "
+"menu."
 
 #: ../../7_file_manager/index.rst:51
 msgid "Filtrar y buscar"
-msgstr ""
+msgstr "Filter and search"
 
 #: ../../7_file_manager/index.rst:53
 msgid ""
@@ -94,6 +117,9 @@ msgid ""
 "filtrar por tipo de datos. Esto nos permitirá ver solamente los archivos "
 "con los tipos de datos especificados"
 msgstr ""
+"To make it easier to navigate between files, we have the option to "
+"filter by data type. This will allow us to see only the files with the "
+"specified data types"
 
 #: ../../7_file_manager/index.rst:61
 msgid ""
@@ -101,10 +127,13 @@ msgid ""
 "carpetas. Ingresando un texto parcial obtendremos todos los archivos que "
 "contengan el texto correspondiente en su nombre."
 msgstr ""
+"It is also possible to use the search engine to find files or folders. "
+"Entering a partial text will retrieve all files that contain the "
+"corresponding text in their name."
 
 #: ../../7_file_manager/index.rst:68
 msgid "Crear carpetas y renombrar archivos"
-msgstr ""
+msgstr "Create folders and rename files"
 
 #: ../../7_file_manager/index.rst:70
 msgid ""
@@ -114,19 +143,28 @@ msgid ""
 "abrirá una ventana donde podremos elegir el nombre de la nueva carpeta. "
 "Al confirmar el nombre, la carpeta aparecerá en el directorio."
 msgstr ""
+"To organize our files we have the option to create new folders. For this "
+"we must locate in the directory where we want to create the folder and "
+"we must select the option **New folder**, a window will open where we "
+"will be able to choose the name of the new folder. When confirming the "
+"name, the folder will appear in the directory."
 
 #: ../../7_file_manager/index.rst:78
 msgid ""
 "También tenemos la posibilidad de renombrar carpetas y archivos. Debemos "
-"seleccionar el archivo/carpeta que deseamos renombrar y hacer click en la"
-" opción **Rename**. Una vez hecho esto, se habilitará una ventana de "
+"seleccionar el archivo/carpeta que deseamos renombrar y hacer click en "
+"la opción **Rename**. Una vez hecho esto, se habilitará una ventana de "
 "edición, una vez que cambiemos el nombre, confirmamos los cambios "
 "marcando la opción de confirmación."
 msgstr ""
+"We also have the possibility to rename folders and files. We must select "
+"the file/folder we want to rename and click on the **Rename** option. "
+"Once this is done, an editing window will be enabled, once we change the "
+"name, we confirm the changes by checking the confirmation option."
 
 #: ../../7_file_manager/index.rst:86
 msgid "Copiar y mover"
-msgstr ""
+msgstr "Copy and move"
 
 #: ../../7_file_manager/index.rst:88
 msgid ""
@@ -135,6 +173,10 @@ msgid ""
 "opciones **copy** y **move** en el menú contextual  |elipsis|  al "
 "seleccionar un archivo o carpeta en el directorio."
 msgstr ""
+"As in any file manager, we will be able to copy and move files between "
+"the different folders. To do this we have the options **copy** and "
+"**move** in the context menu |ellipsis| when selecting a file or folder "
+"in the directory."
 
 #: ../../7_file_manager/index.rst:97
 msgid ""
@@ -142,6 +184,9 @@ msgid ""
 "el menú  |elipsis|  en la parte superior buscar las opciones **copy** o "
 "**move** según se necesite."
 msgstr ""
+"To copy or move several files you can select them and then from the |"
+"ellipsis| menu at the top look for the **copy** or **move** options as "
+"needed."
 
 #: ../../7_file_manager/index.rst:105
 msgid ""
@@ -150,39 +195,52 @@ msgid ""
 "Luego debemos hacer click en la opción **paste here** para pegar el "
 "archivo o carpeta en la ubicación actual."
 msgstr ""
+"Once we have selected the copy or move option, we can use the browser to "
+"go to the location where we want to paste the file. Then we must click "
+"on the **paste here** option to paste the file or folder in the current "
+"location."
 
 #: ../../7_file_manager/index.rst:113
 msgid ""
 "Otra forma de manipular archivos es utilizar los comandos **Ctrl + C** "
 "(copiar), **Ctrl + X** (mover) y **Ctrl + V** (pegar)."
 msgstr ""
+"Another way to manipulate files is to use the commands **Ctrl + C** "
+"(copy), **Ctrl + X** (move) and **Ctrl + V** (paste)."
 
 #: ../../7_file_manager/index.rst:118
 msgid "Duplicar y eliminar"
-msgstr ""
+msgstr "Duplicate and delete"
 
 #: ../../7_file_manager/index.rst:120
 msgid ""
-"La opción **Duplicate** nos permite crear una copia del archivo o carpeta"
-" dentro del mismo directorio."
+"La opción **Duplicate** nos permite crear una copia del archivo o "
+"carpeta dentro del mismo directorio."
 msgstr ""
+"The **Duplicate** option allows us to create a copy of the file or "
+"folder within the same directory."
 
 #: ../../7_file_manager/index.rst:126
 msgid ""
-"Una vez seleccionada esta opción aparecera en el directorio una copia del"
-" archivo o carpeta que hayamos seleccionado, y tendrá como nombre el "
+"Una vez seleccionada esta opción aparecera en el directorio una copia "
+"del archivo o carpeta que hayamos seleccionado, y tendrá como nombre el "
 "prefijo *Copy of ...* seguido del nombre del archivo original."
 msgstr ""
+"Once this option is selected, a copy of the selected file or folder will "
+"appear in the directory, and will be named with the prefix *Copy of ...* "
+"followed by the name of the original file."
 
 #: ../../7_file_manager/index.rst:133
 msgid ""
 "Cuando necesitemos eliminar algún elemento del directorio, podremos "
 "hacerlo desde la opción **Delete** del menú contextual."
 msgstr ""
+"When we need to delete some element of the directory, we will be able to "
+"do it from the **Delete** option of the contextual menu."
 
 #: ../../7_file_manager/index.rst:140
 msgid "Subir y descargar"
-msgstr ""
+msgstr "Upload and download"
 
 #: ../../7_file_manager/index.rst:142
 msgid ""
@@ -190,6 +248,9 @@ msgid ""
 "**Upload**, donde se nos abrirá una ventana donde podremos arrastrar o "
 "seleccionar desde nuestra computadora los archivos que vamos a subir."
 msgstr ""
+"To upload files from the computer, we must access the **Upload** option, "
+"where a window will open where we will be able to drag or select from "
+"our computer the files to be uploaded."
 
 #: ../../7_file_manager/index.rst:149
 msgid ""
@@ -198,18 +259,25 @@ msgid ""
 "automáticamente comenzará la descarga de los ítems seleccionados en un "
 "archivo en formato *zip*."
 msgstr ""
+"To download files and/or folders from Pyplan we have to select them, in "
+"the contextual menu select **Download** and it will automatically start "
+"downloading the selected items in a *zip* file format."
 
 #: ../../7_file_manager/index.rst:156
 msgid "Comprimir y descomprimir"
-msgstr ""
+msgstr "Compress and decompress"
 
 #: ../../7_file_manager/index.rst:158
 msgid ""
 "En caso de necesitarlo tenemos la posibilidad de comprimir archivos "
-"dentro del directorio de Pyplan. Para ello seleccionamos los archivos que"
-" deseamos comprimir y hacemos click en **Zip it**, a continuación se "
+"dentro del directorio de Pyplan. Para ello seleccionamos los archivos "
+"que deseamos comprimir y hacemos click en **Zip it**, a continuación se "
 "creará el archivo comprimido dentro del directorio."
 msgstr ""
+"In case we need it, we have the possibility to compress files inside the "
+"Pyplan directory. To do this we select the files we want to compress and "
+"click on **Zip it**, then the compressed file will be created inside the "
+"directory."
 
 #: ../../7_file_manager/index.rst:165
 msgid ""
@@ -217,4 +285,6 @@ msgid ""
 "archivo con formato zip y en la parte superior del directorio nos "
 "aparecerá el botón **Unzip** para descomprimirlo."
 msgstr ""
-
+"In case you want to decompress a *zip* file, you must select the zip "
+"format file and the **Unzip** button will appear at the top of the "
+"directory to decompress it."

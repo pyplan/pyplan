@@ -1,0 +1,924 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Pyplan
+# This file is distributed under the same license as the Pyplan package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pyplan \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 16:53-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../5_low_code_no_code/index.rst:3
+msgid "Codificando en Pyplan"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:5
+msgid ""
+"Uno de los aspectos distintivos de Pyplan es la forma en que el código es"
+" organizado a través de un diagrama de influencia jerárquico, donde cada "
+"nodo representa alguna etapa en la carga o procesamiento de la "
+"información."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:10
+msgid ""
+"Los nodos son los repositorios de porciones de código que puede ser "
+"introducido de forma directa por el usuario o generado automáticamente "
+"por un asistente de Pyplan al parametrizar o manipular interfaces "
+"desarrolladas para este fin."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:13
+msgid ""
+"El diagrama se construye arrastrando los diferentes tipos de nodo sobre "
+"la hoja del diagrama. La ventana de nodos se despliega haciendo click "
+"sobre este icono |desplegar| que aparece en el extremo superior izquierdo"
+" del diagrama."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:16
+msgid "desplegar"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:19
+msgid ""
+"Las flechas que indican la relación entre nodos son generadas "
+"automáticamente al referenciar una variable como fuente de datos de "
+"entrada de un proceso subsiguiente."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:21
+msgid ""
+"Los nodos tienen diferentes colores que ayudan a entender la función que "
+"cumplen dentro del diagrama."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:24
+msgid "No-code"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:26
+msgid ""
+"Pyplan es una plataforma pensada para que usuarios sin conocimientos de "
+"programación puedan construir y compartir aplicaciones de Data Analytics "
+"y Planning."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:28
+msgid ""
+"La construcción de una aplicación requiere como primer paso la entrada de"
+" datos, la cual puede ser manual o a través de la lectura de una fuente "
+"de datos externa."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:32
+msgid "Entrada de Datos Manuales"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:34
+msgid ""
+"La entrada de datos manuales se construye arrastrando un nodo del tipo: "
+"|Input_data|"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:36
+msgid "Input_data"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:39
+msgid ""
+"Este tipo de nodo, una vez definido un título, abre un asistente que "
+"permite definir que tipo de dato manual se pretende ingresar."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:43
+msgid "*Asistente de entrada de datos manuales*"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:48
+msgid "Entrada de un Escalar"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:50
+msgid ""
+"Es la entrada utilizada para ingresar un parámetro único. Una vez "
+"definido el título del nodo se representa asi en el diagrama: |scalar|"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:52
+msgid "scalar"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:58
+msgid "Entrada de un Selector"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:60
+msgid ""
+"Se utiliza para ingresar las diferentes alternativas de elección que se "
+"presentarán en un selector desplegable. Una vez creado aparece asi dentro"
+" del diagrama: |selector|"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:62
+msgid "selector"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:67
+msgid "Entrada de una Tabla"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:69
+msgid ""
+"Se utiliza para ingresar multiples parámetros que son organizados en una "
+"estructura de tabla, donde cada columna representa un atributo y en cada "
+"fila se ingresa un registro. Luego de ingresar un título al nodo, se abre"
+" un asistente que permite definir los campos que constituirán la tabla de"
+" datos y el tipo de datos que sera ingresado."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:76
+msgid "Una vez creado aparecerá asi en el diagrama: |tabla|"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:78
+msgid "tabla"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:80
+msgid ""
+"Seleccionando el nodo tabla, y luego haciendo doble-click sobre el mismo "
+"se abre la tabla a pantalla completa para ingresar datos."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:82
+msgid "Almacenamiento de Tablas"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:84
+msgid ""
+"Los datos aquí cargados son almacenados en un objeto denominado **Pandas "
+"Dataframe** Pyplan interpreta este tipo de objetos de forma nativa, "
+"permitiendo su manipulación y visualización en forma de tabla y gráfico."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:88
+msgid "Entrada de un Formulario"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:89
+msgid ""
+"El formulario es la herramienta mas potente y versátil de entrada de "
+"datos manuales ya que permite combinar columnas de entrada de datos junto"
+" con columnas calculadas que sirven de referencia o guía para el dato que"
+" esta siendo ingresado. Por ejemplo si estamos creando una herramienta "
+"para ingresar datos de un presupuesto de ventas, puede ser de ayuda para "
+"quien irá a ingresar esos datos tener como referencia la ventas del año "
+"anterior. El formulario, a diferencia de la Tabla, es almacenado un una "
+"base de datos, permitiendo por lo tanto que multiples usuarios ingresen "
+"datos de forma simultanea."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:95
+msgid ""
+"Al arrastrar un nodo de entrada de datos, y luego de haber elegido "
+"Formulario como elemento de entrada se muestra el siguiente asistente "
+"para su creación:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:100
+msgid ""
+"Definiendo un titulo para cada campo de entrada, se genera una sugerencia"
+" de nombre de campo, luego el tipo de columna de acuerdo con las opciones"
+" que muestra el cuadro desplegable."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:102
+msgid "Adicionalmente el formulario permite definir los siguientes parametros:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:108
+msgid "Entrada de un Cubo"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:109
+msgid ""
+"Un cubo de datos es un objeto de entrada particular que permite el "
+"ingreso de un solo parámetro para todas las combinaciones de las "
+"dimensiones del cubo. Es por esto que para su definición es necesario "
+"indicar cuales son las dimensiones del cubo de datos de entrada. Su uso "
+"es indicado cuando se quiere enfatizar la entrada de datos en todos los "
+"elementos de las dimensiones de apertura."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:117
+msgid "Lectura de fuente de Datos"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:119
+msgid ""
+"Otra de las formas de ingreso de datos a Pyplan es a través de la "
+"conexión a fuentes de datos externas las cuales son leídas al momento de "
+"ejecutar el código correspondiente."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:121
+msgid ""
+"Para este fin se arrastra un nodo denominado |Data_reading| que nos "
+"desplegará, luego de definir su título, un cuadro de dialogo como el "
+"siguiente:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:123
+msgid "Data_reading"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:129
+msgid ""
+"Las opciones de uso mas frecuente (csv, Excel) cuentan además con un "
+"asistente específico que permite configurar todos los parámetros de "
+"lectura."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:133
+msgid ""
+"Otras opciones de uso menos frecuente se inicializan con el código base "
+"que, luego de completar los parámetros necesarios, permiten la lectura de"
+" datos correspondiente."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:140
+msgid "Manipulación y Operaciones con Datos"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:141
+msgid ""
+"Una vez generadas las entradas de datos el siguiente paso es su análisis "
+"y procesamiento, para este fin se utilizan los nodos de tipo |Variable|. "
+"Este tipo de nodo es el mas general de todos y permite alojar en su "
+"definición cualquier tipo de codificación. Al arrastrar y soltar un nodo "
+"**\"Variable\"**, nos pedirá definir su título y luego obtendremos un "
+"nodo con una definición como la siguiente:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:145
+msgid "Variable"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:152
+msgid ""
+"Para vincular este nuevo nodo con otro que sea su fuente de datos, "
+"podemos escribir el identificador (Id) del nodo en su definición o una "
+"vez posicionado donde queremos insertar la llamada a otro nodo, apretando"
+" la tecla **<Alt>** hacemos click sobre el nodo al que queremos "
+"vincularlo, esto traerá el Id de ese nodo a la definición."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:155
+msgid ""
+"Aceptando los cambios veremos que aparece una flecha que indica el "
+"vinculo entre nodos y el color del nodo variable cambia a **\"Gris\"** "
+"para indicar que ese proceso no tiene otra salida mas allá del propio "
+"nodo."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:159
+msgid "*La variable \"first variable\" toma los datos del nodo \"Data\"*"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:161
+msgid ""
+"El nodo de tipo Variable permite escribir código Python libremente en su "
+"definición. No obstante ello, Pyplan provee una serie de asistentes que "
+"ayudan a realizar operaciones de transformación de los datos a través del"
+" uso de interfaces preparadas para este fin."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:165
+msgid ""
+"Estos asistentes dependen de la estructura de datos con la que estemos "
+"trabajando (objeto), es por esto que necesitamos evaluar el nodo primero "
+"para que Pyplan pueda determinar los asistentes que nos presentará para "
+"trabajar."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:168
+msgid ""
+"Estos asistentes se identifican como **\"Wizards\"** y se despliegan una "
+"vez ejecutado el nodo, haciendo click en el icono indicado en la "
+"siguiente figura:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:172
+msgid ""
+"Al utilizar estos asistentes se podrá observar como el código de "
+"definición del nodo cambia con las instrucciones apropiadas para generar "
+"el proceso buscado. Este procedimiento, equivalente al grabado de Macros "
+"en una planilla de cálculo, permite al usuario que no conoce el lenguaje "
+"Python introducirse en sus funciones y sintaxis."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:177
+msgid "Indices"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:178
+msgid ""
+"Los indices o dimensiones, son la forma en que los datos son "
+"estructurados. Es decir son los encabezados de filas y columnas de una "
+"tabla que describen de que se trata el valor que vemos un su "
+"intersección. Ejemplos de indices son el listado de productos, regiones, "
+"periodos de tiempo, etc. Sirven para caracterizar a los datos o hechos "
+"que con los que se opera."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:182
+msgid ""
+"En Pyplan los indices se generan arrastrando un tipo de nodo específico "
+"para este fin identificado como |Indice|."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:184
+msgid "Indice"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:187
+msgid ""
+"Luego de indicar un titulo para el Indice se despliega un asistente que "
+"permite definir los elementos del indice."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:190
+msgid "Lista"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:191
+msgid ""
+"Permite la entrada manual de los elementos del indice. También es posible"
+" copiarlos desde una tabla y pegarlos indicando su primera posición. El "
+"rango de datos se extenderá en caso de ser mayor al numero de elementos "
+"mostrados."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:200
+msgid "Range"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:202
+msgid ""
+"Permite generar el indice de forma automática a traves de al definición "
+"de los parámetros de un rango. Este rango puede ser de tipo texto, numero"
+" o fecha"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:211
+msgid "Jerarquia de indices"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:213
+msgid ""
+"Los indices pueden ademas tener jerarquías, es decir niveles superiores "
+"de agregación. Por ejemplo la jerarquía natural de un indice País es "
+"Region o Continente, o la de un indice Mes es Trimestre, Semestre o Año."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:216
+msgid ""
+"La correspondencia entre un indice y su jerarquía superior se establece a"
+" través de una tabla donde se indica para cada elemento de la jerarquia "
+"inferior su correspondiente en la superior. La siguiente imagen ilustra "
+"el caso para un indice **\"Countries\"** y su jerarquia superior "
+"**\"Regions\"**"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:221
+msgid ""
+"Haciendo click derecho sobre el indice de menor jerarquia, en sus "
+"propiedades se indica cual es la tabla que contiene la relacion de "
+"correspondencia con la jerarquia superior, siguiendo el ejemplo:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:225
+msgid ""
+"Todo indice que contiene una relacion jerarquica se identifica con un "
+"icono dentro del nodo como muestra la siguiente imagen en el nodo "
+"**Countries**"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:232
+msgid "Organización del diagrama"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:233
+msgid ""
+"El diagrama o **\"workflow\"** es la forma en que el código se organiza "
+"en Pyplan. Una convención general para ayudar a la lectura, es mantener "
+"el sentido de las flechas / flujo de la información,  de izquierda a "
+"derecha y de arriba hacia abajo. Ademas de los títulos para explicar de "
+"forma resumida el proceso o información alojada en un nodo, es posible "
+"incluir cuadros de texto que ayudan a interpretar un conjunto de nodos."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:240
+msgid ""
+"Como regla general es deseable no tener mas de 20 nodos en un diagrama. "
+"Toda vez que esto suceda se recomienda el uso de **\"Modulos\"** para "
+"agrupar nodos cuyo proceso comparten un fin especifico y por lo tanto "
+"pueden ser agrupados."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:243
+msgid ""
+"En el diagrama de arriba podríamos crear un modulo denominado "
+"**\"Outputs\"** (1) que agrupe los 3 nodos de salida. Y luego cortar (2) "
+"y pegar (3) los nodos de salida dentro del nuevo modulo."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:246
+msgid "Estos 3 pasos se describen en la siguiente imagen:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:253
+msgid "Coloración de Nodos"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:255
+msgid ""
+"Los nodos son coloreados de forma automática para facilitar la "
+"comprensión de su propósito y función."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:257
+msgid ""
+"Todos los nodos mantienen su color original, que es el desplegado en el "
+"menu desde donde se arrastran con excepción del nodo tipo Variable. Este "
+"nodo puede tomar tres colores de acuerdo a su función:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:260
+msgid ""
+"celeste: cuando forma parte de un proceso de cálculo en el diagrama que "
+"lo contiene"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:261
+msgid "gris: cuando el nodo en cuestión no tiene salidas"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:262
+msgid ""
+"rojo: cuando las salidas del nodo se encuentra fuera del modulo que lo "
+"contiene"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:266
+msgid "Ejecución de nodos"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:267
+msgid "Un nodo puede tener dos estados: No Calculado o Calculado."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:269
+msgid ""
+"Al abrir una aplicación todos los nodos están pendientes de ejecución, "
+"hasta que algún comando lo indique. Al mandar a calcular un nodo "
+"(ejecutarlo), Pyplan recorre de forma recursiva todo el diagrama de "
+"influencia preguntando si los nodos que alimentan el nodo que se quiere "
+"ejecutar están calculados, sino es asi, va un paso hacia atrás en el "
+"proceso de calculo preguntando lo mismo."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:273
+msgid ""
+"Una vez llegada a la frontera de la aplicación o la frontera de nodos "
+"calculados comienza a calcular aguas abajo para poder finalmente "
+"presentar el resultado del nodo indagado."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:275
+msgid ""
+"Este proceso garantiza que el resultado de un nodo al ser calculado es "
+"siempre el mismo y no que su valor depende de la secuencia de ejecución "
+"de los nodos precedentes."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:277
+msgid ""
+"Por otro lado este mecanismo le provee mucha eficiencia de computo ya que"
+" al cambiarse alguna variable intermedia en el calculo garantiza que solo"
+" son recalculados aquellos nodos cuyo valor ha sido afectado por el "
+"cambio en la variable mencionada."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:280
+msgid ""
+"El estado Calculado / No calculado puede ser inspeccionado al seleccionar"
+" un nodo. En la vista de resultados nos mostrará la salida del nodo en "
+"caso de estar calculado y sino un mensaje indicando que el nodo no esta "
+"calculado."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:285
+msgid "Estructuras de datos soportadas"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:287
+msgid ""
+"Pyplan interpreta de forma nativa algunas estructuras de datos del tipo "
+"Tablas y Cubos proveniente de las librerías de Python mas difundidas "
+"(Pandas, Numpy, Xarray)."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:289
+msgid ""
+"Las Tablas de datos son la estructura típica de una base de datos, con "
+"atributos definidos por columnas, donde cada fila corresponde a un "
+"registro."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:291
+msgid ""
+"Los Cubos de datos pueden tener cualquier numero de dimensiones. Estas "
+"dimensiones a su vez pueden estar nominadas o ser indefinidas."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:298
+msgid "Estructuras de datos mas utilizadas"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:300
+msgid ""
+"Tablas `Dataframe <https://pandas.pydata.org/docs/user_guide/dsintro.html"
+"#intro-to-data-structures>`_ de Pandas"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:302
+msgid "Cubos de datos (n-dimensiones)"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:302
+msgid ""
+"Dimensiones nominadas `DataArray <https://docs.xarray.dev/en/stable/user-"
+"guide/data-structures.html>`_ de Xarray"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:303
+msgid ""
+"Dimensiones indefinidas `Array "
+"<https://numpy.org/doc/stable/reference/arrays.html>`_ de Numpy"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:309
+msgid "Tablas de datos"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:311
+msgid ""
+"Una tabla se asemeja a una tabla en base de datos, es decir es una "
+"estructura de datos donde cada columna representa un atributo o medida y "
+"donde cada fila corresponde a un registro particular de esos atributos o "
+"medidas."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:315
+msgid ""
+"|br| Las tablas de datos en Pyplan corresponden al objeto **Dataframe** "
+"de la librería **Pandas**, una de las librerías mas utilizadas en Data "
+"Science. Algunas funcionalidades básicas de operaciones con Dataframes "
+"son las facilitadas por los asistentes de Pyplan. Existen sin embargo "
+"muchas otras operaciones que pueden realizarse a traves de la "
+"codificación en Python utilizando la librería Pandas."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:320
+msgid "Introducción rápida a Pandas"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:322
+msgid ""
+"Una guía rápida de introducción a las funcionalidades de Pandas puede "
+"consultarse `aquí. <https://pandas.pydata.org/pandas-"
+"docs/version/1.3/user_guide/10min.html#minutes-to-pandas>`_"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:326
+msgid "Operaciones asistidas con Tablas"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:328
+msgid ""
+"Un nodo que al ser evaluado devuelve como resultado una Tabla (DataFrame)"
+" presentará como asistentes las siguientes opciones:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:333
+msgid ""
+"Siguiendo con el ejemplo, si creamos una variable  **\"first "
+"variable\"**, cambiamos su definición vinculándola al nodo **data** tal "
+"que:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:340
+msgid ""
+"luego de ejecutar este nodo para permitir que Pyplan identifique el "
+"objeto resultante, desplegamos los wizards y elegimos sort **\"by "
+"Year\"**"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:344
+msgid ""
+"Veremos que el resultado es el ordenamiento por año de la tabla y su "
+"código final queda definido asi:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:350
+msgid ""
+"El usuario podría continuar interactuando con el objeto de datos y "
+"analizar los cambios que provoca en la definicion del nodo y de esa "
+"manera ir aprendiendo el lenguage Python."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:354
+msgid "Cubos de datos"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:355
+msgid ""
+"El cubo de datos es también un objeto nativamente soportado por Pyplan. "
+"El objeto utilizado es el **DataArray** de la librería **XArray**. Un "
+"cubo de datos nominado es una estructura de datos que contiene un valores"
+" indexados por n-dimensiones identificadas. Estas dimensiones en Pyplan "
+"se denominan Indices y se identifican con este tipo de nodo |index| en el"
+" diagrama."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:361
+msgid "index"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:359
+msgid ""
+"Por ejemplo podríamos pensar en un cubo de datos de **\"Count of Win\"** "
+"indexado por las dimensiones **[Tournament Country, Surface, Year]**"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:364
+msgid "Este cubo, siguiendo el ejemplo desarrollado hasta aquí sería:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:369
+msgid ""
+"Los cubos de datos se crean por transformación de tablas (Dataframes) en "
+"cubos de datos, por entradas directas (Input Table), o por operaciones "
+"entre cubos."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:373
+msgid "Creación de un Cubo a partir de una Tabla de datos"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:374
+msgid ""
+"Al hacer click con el botón derecho del mouse sobre un nodo que evaluado "
+"resulta en una tabla de datos se despliega el siguiente menu:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:378
+msgid ""
+"Haciendo click sobre la opción **\"Create Cube\"** se despliega el "
+"siguiente cuadro de dialogo:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:382
+msgid ""
+"En el se listan todas las columnas del dataframe, el tipo de datos, el "
+"indice (en caso de existir) que recogerá los valores de esa columna, la "
+"opción de crear un indice para el caso en que este no exista y por ultimo"
+" la función de agregación que se utilizará para agrupar el valor del "
+"hecho o variable a representar."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:385
+msgid ""
+"Para crear un cubo de datos en Pyplan es necesario que existan, de forma "
+"anticipada, las dimensiones (Index) que caracterizan ese cubo de datos. "
+"Es por esa razón que el asistente nos ofrece crear los indices basados en"
+" los datos de las columnas en caso que este no exista."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:389
+msgid "Operaciones con cubos de datos"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:391
+msgid ""
+"Al igual que con los objetos tipo Tabla, Pyplan provee asistentes para "
+"operar con Cubos de datos, que se despliegan automáticamente en el mismo "
+"lugar, cuando el objeto resultante es un Cubo de datos de tipo XArray."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:393
+msgid ""
+"Adicionalmente, a diferencia de las Tablas, los Cubos de datos permiten "
+"operaciones matemáticas entre ellos que dan como resultado nuevos Cubos. "
+"Es importante entender como funcionan estas operaciones entre cubos de "
+"datos para asi, poder construir el proceso de calculo deseado."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:397
+msgid "Operaciones entre un escalar y un cubo"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:399
+msgid ""
+"Al sumar, restar, multiplicar o cualquier otra operación matemática sobre"
+" un cubo de datos, la misma es ejecutada entre el escalar y cada elemento"
+" del cubo de datos."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:404
+msgid ""
+"Puede observarse en la siguiente imagen la definición del nodo que "
+"establece:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:410
+msgid ""
+"El valor del escalar, 5 en este caso, es sumado a cada elemento del cubo "
+"original dando como resultado:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:417
+msgid "Operaciones entre dos cubos de iguales dimensiones"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:419
+msgid ""
+"En caso que los cubos tengan las mismas dimensiones, la operación "
+"indicada es ejecutada entre los elementos de las mismas celdas de ambos "
+"cubos"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:423
+msgid ""
+"En este caso se observa como la primera celda del Cubo C es el resultado "
+"de la suma de la primera celda del Cubo A mas la primera celda del Cubo "
+"B."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:426
+msgid "Operaciones entre dos cubos de distintas dimensiones"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:428
+msgid ""
+"Cuando se operan con cubos de distintas dimensiones, la dimension "
+"faltante en uno de los cubos opera de forma escalar sobre el otro de los "
+"cubos. Un ejemplo permite explicar mejor esta forma de operar:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:433
+msgid ""
+"En el ejemplo de arriba se observa como el Cubo B, que no tiene la "
+"dimension Region, es utilizado de forma escalar respecto de esta "
+"dimension al operar con el Cubo A."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:436
+msgid ""
+"El listado completo de operaciones con Cubos puede consultarse en la "
+"`documentación de la librería XArray. <https://docs.xarray.dev/en/stable"
+"/user-guide/computation.html>`_"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:440
+msgid "Low-code"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:441
+msgid ""
+"Si bien a través de los asistentes es posible realizar una gran cantidad "
+"de operaciones, para tareas mas sofisticadas puede ser necesario alterar "
+"el código de los nodos. Para ello Pyplan incluye un completo editor de "
+"código accesible con las vistas **Code+Result** o **Code+Preview**."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:447
+msgid "Editor de Código"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:449
+msgid ""
+"Siguiendo con el ejemplo en desarrollo, al seleccionar el nodo "
+"\"Calculate Wins and Double Faults %\" como se muestra en la figura, y "
+"luego haciendo click en la vista **Code+Result** se observa un ejemplo de"
+" codificación:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:454
+msgid ""
+"En la definición del código (Ventana Code) puede verse como se crean dos "
+"columnas nuevas **\"win\"** y **\"dblfaults\"** a partir de la tabla de "
+"datos (Dataframe) original de acuerdo a las siguientes instrucciones:"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:469
+msgid ""
+"El usuario puede experimentar alterar el código en la definición del nodo"
+" y visualizar el impacto en los resultados."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:473
+msgid "Ayudas a la codificación"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:476
+msgid "Tooltip"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:478
+msgid ""
+"Al desplegar el código de un nodo se puede observar que al momento de "
+"situar el cursor sobre alguna de las variables, esperando unos segundos "
+"se despliega una vista de previsualización o ayuda sobre la variable o "
+"función que esa siendo inspeccionada."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:486
+msgid "Intellisense"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:488
+msgid ""
+"IntelliSense es un auxiliar de finalización de código que incluye una "
+"serie de características: Lista de miembros, Información de parámetros, "
+"Información rápida y Palabra completa."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:491
+msgid ""
+"Estas características permiten obtener más información sobre el código "
+"que usa, realizar el seguimiento de los parámetros que escribe y agregar "
+"llamadas a propiedades y a métodos con tan solo presionar unas teclas."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:494
+msgid ""
+"Después de escribir un carácter desencadenador (por ejemplo, un punto .) "
+", aparece una lista de los miembros válidos de un tipo (o espacio de "
+"nombres). Si sigue escribiendo caracteres, la lista se filtrará y solo "
+"incluirá los miembros que empiecen por esos caracteres o donde el "
+"principio de cualquier palabra del nombre empiece por esos caracteres."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:498
+msgid ""
+"IntelliSense también efectúa búsquedas de coincidencias \"camel case\", "
+"por lo que puede escribir la primera letra de cada palabra con camel case"
+" del nombre del miembro para ver las coincidencias. Después de "
+"seleccionar un elemento, puede insertarlo en el código presionando la "
+"tecla TAB o insertando un espacio. Si selecciona un elemento y escribe un"
+" punto, el elemento aparece seguido del punto, con lo que se muestra otra"
+" lista de miembros. Cuando seleccione un elemento, obtendrá la "
+"información rápida del mismo antes de insertarlo."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:507
+msgid "Buscador de Código"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:508
+msgid ""
+"Pyplan cuenta con una base de conocimiento que puede ser consultada con "
+"preguntas en lenguaje natural (ingles) sobre como codificar. La pregunta "
+"se inserta como comentario, es decir precedida por el símbolo **#**. Una "
+"vez finalizada la pregunta se debe presionar **Control** y **Espacio** "
+"para lanzar la búsqueda. Los resultados a esas preguntas son listados "
+"para que el usuario pueda navegarlos y determinar si alguno puede "
+"resultarle util para el caso que este intentando resolver."
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:518
+msgid "Consola de errores"
+msgstr ""
+
+#: ../../5_low_code_no_code/index.rst:520
+msgid ""
+"Cuando se produce un error en la ejecución del código el mismo es "
+"indicado con un signo de advertencia (A) como lo indica la siguiente "
+"imagen, Al hacer click en este indicador se despliega la consola de error"
+" en la parte inferior. Además es subrayado en rojo dentro del código la "
+"línea con error (B). También es marcado el nodo que contiene el error "
+"(C)."
+msgstr ""
+

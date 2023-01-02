@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Pyplan
+# This file is distributed under the same license as the Pyplan package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pyplan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-12 18:22-0300\n"
+"PO-Revision-Date: 2023-01-02 09:53-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: ../../1_home/index.rst:3
+msgid "Acceso a Pyplan"
+msgstr "Access to Pyplan"
+
+#: ../../1_home/index.rst:4
+msgid ""
+"Al acceder a la dirección de internet del servidor donde se encuentra "
+"instalado, se presenta la página de inicio para introducir las "
+"credenciales de acceso."
+msgstr ""
+"Upon accessing the internet address of the server where it is installed, "
+"the homepage is displayed for entering the access credentials."
+
+#: ../../1_home/index.rst:6
+msgid ""
+"Pyplan posee la funcionalidad de **\"Single Sign On\"**. Esto significa "
+"que los usuarios que pertenezcan a un servidor de dominio serán "
+"automáticamente reconocidos."
+msgstr ""
+"Pyplan has the functionality of **\"Single Sign On\"**. This means that "
+"users who belong to a domain server will be automatically recognized."
+
+#: ../../1_home/index.rst:10
+msgid ""
+"Una vez dentro de la plataforma se despliega la siguiente pantalla con "
+"sus elementos:"
+msgstr ""
+"Once inside the platform, the following screen with its elements is "
+"displayed:"
+
+#: ../../1_home/index.rst:16
+msgid "Menú de acceso a diversas funcionalidades:"
+msgstr "Menu for accessing various functionality:"
+
+#: ../../1_home/index.rst:20
+msgid ""
+"Creación de una nueva aplicación, en el signo \"+\", ubicado arriba a la "
+"izquierda."
+msgstr ""
+"Creation of a new application, in the \"+\" sign, located at the top "
+"left."
+
+#: ../../1_home/index.rst:21
+msgid ""
+"Tabs de acceso a las aplicaciones recientemente abiertas, aplicaciones "
+"propias y aplicaciones públicas."
+msgstr ""
+"Tabs for accessing recently opened applications, own applications, and "
+"public applications."
+
+#: ../../1_home/index.rst:22
+msgid "Acceso al Chatbot de ayuda."
+msgstr "Access to the Chatbot for help."
+
+#: ../../1_home/index.rst:26
+msgid "Acceso a recursos para el aprendizaje de Pyplan."
+msgstr "Access to resources for learning Pyplan."
+
+#: ../../1_home/index.rst:30
+msgid "Cerrar la sesión en el servidor."
+msgstr "Log out of the server."

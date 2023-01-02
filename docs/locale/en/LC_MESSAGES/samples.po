@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Pyplan
+# This file is distributed under the same license as the Pyplan package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pyplan \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-04 17:26-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../samples.rst:7
+msgid "Titulo"
+msgstr ""
+
+#: ../../samples.rst:13
+msgid "1 Level subtitle"
+msgstr ""
+
+#: ../../samples.rst:16
+msgid "2 Level subtitle"
+msgstr ""
+
+#: ../../samples.rst:20
+msgid "This is a paragraph"
+msgstr ""
+
+#: ../../samples.rst:24
+msgid "**bold text**"
+msgstr ""
+
+msgid "Alternative text"
+msgstr ""
+
+#: ../../samples.rst:35
+msgid "`Link Title <https://pyplan.com>`_"
+msgstr ""
+
+#: ../../samples.rst:40
+msgid "This is a bulleted list."
+msgstr ""
+
+#: ../../samples.rst:41
+msgid "It has two items, the"
+msgstr ""
+
+#: ../../samples.rst:43 ../../samples.rst:45
+msgid "This is a numbered list."
+msgstr ""
+
+#: ../../samples.rst:44 ../../samples.rst:46
+msgid "It has two items too."
+msgstr ""
+
+#: ../../samples.rst:50
+msgid "These lines are"
+msgstr ""
+
+#: ../../samples.rst:51
+msgid "broken exactly like in"
+msgstr ""
+
+#: ../../samples.rst:52
+msgid "the source file."
+msgstr ""
+
+#: ../../samples.rst:56
+msgid "Attention"
+msgstr ""
+
+#: ../../samples.rst:57
+msgid "Warning"
+msgstr ""
+
+#: ../../samples.rst:58
+msgid "Error"
+msgstr ""
+
+#: ../../samples.rst:59
+msgid "Important"
+msgstr ""
+
+#: ../../samples.rst:60
+msgid "Note"
+msgstr ""
+
+#: ../../samples.rst:61
+msgid "Tip"
+msgstr ""
+
+#: ../../samples.rst:66
+msgid "A"
+msgstr ""
+
+#: ../../samples.rst:66
+msgid "B"
+msgstr ""
+
+#: ../../samples.rst:66
+msgid "A and B"
+msgstr ""
+
+#: ../../samples.rst:68 ../../samples.rst:69
+msgid "False"
+msgstr ""
+
+#: ../../samples.rst:69
+msgid "True"
+msgstr ""
+

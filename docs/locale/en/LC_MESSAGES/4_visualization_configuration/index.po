@@ -3,55 +3,67 @@
 # This file is distributed under the same license as the Pyplan package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Pyplan \n"
+"Project-Id-Version: Pyplan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-12 16:53-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-02 12:12-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: ../../4_visualization_configuration/index.rst:3
 msgid "Análisis y Visualización"
-msgstr ""
+msgstr "Analysis and Visualization"
 
 #: ../../4_visualization_configuration/index.rst:5
 msgid ""
-"Pyplan es una plataforma **No-code / Low-code** pensada para usuarios sin"
-" conocimientos de programación por lo que permite hacer muchas tareas de "
-"manipulación y procesamiento de datos sin necesidad de codificar."
+"Pyplan es una plataforma **No-code / Low-code** pensada para usuarios "
+"sin conocimientos de programación por lo que permite hacer muchas tareas "
+"de manipulación y procesamiento de datos sin necesidad de codificar."
 msgstr ""
+"Pyplan is a **No-code / Low-code** platform designed for users with no "
+"programming knowledge, so it allows many data manipulation and "
+"processing tasks without coding."
 
 #: ../../4_visualization_configuration/index.rst:8
 msgid ""
 "Uno de los objetivos de Pyplan es proveer transparencia a la lógica de "
-"cálculo, permitiendo para ello, no solo navegar por el proceso de calculo"
-" para entender conceptualmente su flujo, sino también seleccionar "
+"cálculo, permitiendo para ello, no solo navegar por el proceso de "
+"calculo para entender conceptualmente su flujo, sino también seleccionar "
 "ejecutar y visualizar los resultados de cada paso. Esta visualización "
 "puede ser en forma de tabla o gráfico."
 msgstr ""
+"One of Pyplan's objectives is to provide transparency to the calculation "
+"logic, allowing not only to navigate through the calculation process to "
+"conceptually understand its flow, but also to select to execute and "
+"visualize the results of each step. This visualization can be in the "
+"form of a table or a graph."
 
 #: ../../4_visualization_configuration/index.rst:14
 msgid ""
-"Al navegar el diagrama de influencia se puede seleccionar cualquier nodo,"
-" ejecutarlo y visualizar su resultado."
+"Al navegar el diagrama de influencia se puede seleccionar cualquier "
+"nodo, ejecutarlo y visualizar su resultado."
 msgstr ""
+"When navigating the influence diagram you can select any node, execute "
+"it and visualize its result."
 
 #: ../../4_visualization_configuration/index.rst:17
 msgid "Visualización en formato de Tabla"
-msgstr ""
+msgstr "Display in Table format"
 
 #: ../../4_visualization_configuration/index.rst:18
 msgid ""
 "Haciendo click sobre el nodo verde con titulo \"Data\" veremos lo "
 "siguiente:"
 msgstr ""
+"By clicking on the green node with the title \"Data\" we will see the "
+"following:"
 
 #: ../../4_visualization_configuration/index.rst:22
 msgid ""
@@ -59,12 +71,17 @@ msgid ""
 "indicado en (1) en el gráfico. Luego que el mismo se ejecute aparecerá "
 "una tabla como la que se muestra en la siguiente captura:"
 msgstr ""
+"To run the node, click on the evaluation icon indicated in (1) in the "
+"graph. After the node is executed, a table will appear as shown in the "
+"following screenshot:"
 
 #: ../../4_visualization_configuration/index.rst:27
 msgid ""
-"Maximizando la ventana de visualización (1) y luego haciendo click en (2)"
-" accedemos a los campos de esta tabla de datos:"
+"Maximizando la ventana de visualización (1) y luego haciendo click en "
+"(2) accedemos a los campos de esta tabla de datos:"
 msgstr ""
+"Maximizing the display window (1) and then clicking on (2) we access the "
+"fields of this data table:"
 
 #: ../../4_visualization_configuration/index.rst:31
 msgid ""
@@ -72,6 +89,9 @@ msgid ""
 "(Numerico # o Texto T), y la función de agrupamiento que se ejecutará en "
 "caso de ser necesario (Suma, Max, Min, Promedio o Conteo)"
 msgstr ""
+"Where we can see each field and measure of the Table, the type of field "
+"(Numeric # or Text T), and the grouping function that will be executed "
+"if necessary (Sum, Max, Min, Average or Count)."
 
 #: ../../4_visualization_configuration/index.rst:33
 msgid ""
@@ -80,6 +100,10 @@ msgid ""
 "lo arrastramos a la casilla de \"Medidas\" obtendremos una tabla como "
 "muestra la siguiente imagen:"
 msgstr ""
+"By dragging the \"Years\" field to the columns box and after defining "
+"the Average as the aggregation function of the \"atp ranking\" field, "
+"drag it to the \"Measures\" box, we will obtain a table as shown in the "
+"following image:"
 
 #: ../../4_visualization_configuration/index.rst:39
 msgid ""
@@ -88,30 +112,40 @@ msgid ""
 "Fila provocando la agrupación de las medidas visualizadas "
 "correspondientes."
 msgstr ""
+"This table describes the evolution over time of the average annual "
+"ranking of \"Roger Federer\". Any field can be displayed as a Column or "
+"Row causing the grouping of the corresponding displayed measures."
 
 #: ../../4_visualization_configuration/index.rst:43
 msgid "Formato de Tabla"
-msgstr ""
+msgstr "Table Format"
 
 #: ../../4_visualization_configuration/index.rst:45
 msgid ""
-"Haciendo click en (3) se despliegan las alternativas de formatación de la"
-" tabla de datos. Las mismas se agrupan en: General, Data, Styles, Index "
-"sync."
+"Haciendo click en (3) se despliegan las alternativas de formatación de "
+"la tabla de datos. Las mismas se agrupan en: General, Data, Styles, "
+"Index sync."
 msgstr ""
+"Clicking on (3) displays the data table formatting alternatives. They "
+"are grouped into: General, Data, Styles, Index sync."
 
 #: ../../4_visualization_configuration/index.rst:49
 msgid ""
 "El lector puede investigar las opciones de configuración agrupadas en "
 "General y Data por su propia cuenta."
 msgstr ""
+"The reader can investigate the configuration options grouped under "
+"General and Data on their own."
 
 #: ../../4_visualization_configuration/index.rst:51
 msgid ""
-"La sección Styles agrupa las configuraciones de estilo de la tabla con un"
-" comportamiento particular que le otorga mucha flexibilidad y consiste en"
-" lo siguiente:"
+"La sección Styles agrupa las configuraciones de estilo de la tabla con "
+"un comportamiento particular que le otorga mucha flexibilidad y consiste "
+"en lo siguiente:"
 msgstr ""
+"La sección Styles agrupa las configuraciones de estilo de la tabla con "
+"un comportamiento particular que le otorga mucha flexibilidad y consiste "
+"en lo siguiente:"
 
 #: ../../4_visualization_configuration/index.rst:53
 msgid ""
@@ -121,6 +155,10 @@ msgid ""
 "aplicará a toda la tabla. En este caso particular podríamos establecer "
 "con el formato de numero entero a toda la tabla."
 msgstr ""
+"A first section headed by \"Apply to\" indicates the target of the "
+"configuration set below. By default this target is \"All\" which means "
+"that whatever is set below will apply to the entire table. In this "
+"particular case we could set with the integer format to the whole table."
 
 #: ../../4_visualization_configuration/index.rst:61
 msgid ""
@@ -129,91 +167,119 @@ msgid ""
 "definir con fondo verde los resultados que corresponden a la superficie "
 "\"Grass\""
 msgstr ""
+"In the same way we could establish a particular format for a specific "
+"condition of some dimension. In this case, for example, define with "
+"green background the results that correspond to the \"Grass\" surface."
 
 #: ../../4_visualization_configuration/index.rst:66
 msgid ""
 "Definiendo el estilo correspondiente lograremos el resultado mostrado en "
 "la siguiente imagen:"
 msgstr ""
+"By defining the corresponding style we will achieve the result shown in "
+"the following image:"
 
 #: ../../4_visualization_configuration/index.rst:71
 msgid "Formato condicional"
-msgstr ""
+msgstr "Conditional format"
 
 #: ../../4_visualization_configuration/index.rst:72
 msgid ""
-"Es posible establecer formatos basados en condiciones particulares de los"
-" valores de la tabla. Para ello se deben agregar las condiciones y el "
+"Es posible establecer formatos basados en condiciones particulares de "
+"los valores de la tabla. Para ello se deben agregar las condiciones y el "
 "formato de acuerdo a lo que indica la siguiente imagen:"
 msgstr ""
+"It is possible to establish formats based on particular conditions of "
+"the table values. To do so, the conditions and formatting must be added "
+"as shown in the following image:"
 
 #: ../../4_visualization_configuration/index.rst:77
 msgid ""
 "Dos casos particulares del formato condicional que vienen  predefinidos "
 "dentro de Pyplan son el Heatmap y el Progress Bar."
 msgstr ""
+"Two particular cases of conditional formatting that come predefined "
+"within Pyplan are the Heatmap and the Progress Bar."
 
 #: ../../4_visualization_configuration/index.rst:80
 msgid "Heatmap"
-msgstr ""
+msgstr "Heatmap"
 
 #: ../../4_visualization_configuration/index.rst:81
 msgid ""
-"La opción de formatear la tabla con un heatmap aparece deplazandose hacia"
-" abajo entre las opciones de estilo."
+"La opción de formatear la tabla con un heatmap aparece deplazandose "
+"hacia abajo entre las opciones de estilo."
 msgstr ""
+"The option to format the table with a heatmap appears by scrolling down "
+"among the style options."
 
 #: ../../4_visualization_configuration/index.rst:86
 msgid "Progress Bar"
-msgstr ""
+msgstr "Progress Bar"
 
 #: ../../4_visualization_configuration/index.rst:87
 msgid ""
 "La visualización de la tabla con un formato de Progress Bar puede ser "
 "configurada como lo indica la figura abajo:"
 msgstr ""
+"The table display with a Progress Bar format can be configured as shown "
+"in the figure below:"
 
 #: ../../4_visualization_configuration/index.rst:95
 msgid "Visualización en formato de Gráfico"
-msgstr ""
+msgstr "Visualization in Graph format"
 
 #: ../../4_visualization_configuration/index.rst:97
 msgid ""
 "Haciendo click en el icono indicado en la figura (1) se intercambia la "
-"vista de tabla a gráfico. Toda vez que el tipo de grafico seleccionado lo"
-" permite, Pyplan asigna automaticamente campos de la tabla al gráfico."
+"vista de tabla a gráfico. Toda vez que el tipo de grafico seleccionado "
+"lo permite, Pyplan asigna automaticamente campos de la tabla al gráfico."
 msgstr ""
+"Clicking on the icon shown in figure (1) switches the view from table to "
+"chart. Whenever the selected chart type allows it, Pyplan automatically "
+"assigns fields from the table to the chart."
 
 #: ../../4_visualization_configuration/index.rst:102
 msgid "Configuración de la Visualización"
-msgstr ""
+msgstr "Visualization Configuration"
 
 #: ../../4_visualization_configuration/index.rst:104
 msgid ""
 "Existen multiples tipos de gráficos que pueden ser configurados como "
 "alternativas de visualización de los datos como lo muestra la siguiente "
 "figura. Cada tipo de gráfico tiene sus sub-tipos y en función de esta "
-"elección se definen las propiedades que deben ser indicadas para permitir"
-" la construcción del gráfico."
+"elección se definen las propiedades que deben ser indicadas para "
+"permitir la construcción del gráfico."
 msgstr ""
+"There are multiple types of graphs that can be configured as "
+"alternatives for data visualization as shown in the following figure. "
+"Each type of chart has its sub-types and depending on this choice, the "
+"properties that must be indicated to allow the construction of the chart "
+"are defined."
 
 #: ../../4_visualization_configuration/index.rst:109
 msgid ""
 "Una vez elegido el tipo de gráfico, sus propiedades son agrupadas en las "
 "siguiente secciones:"
 msgstr ""
+"Once the chart type has been chosen, its properties are grouped in the "
+"following sections:"
 
 #: ../../4_visualization_configuration/index.rst:117
 msgid "Codificando Visualizaciones"
-msgstr ""
+msgstr "Coding Visualizations"
 
 #: ../../4_visualization_configuration/index.rst:119
 msgid ""
-"Pyplan permite a traves de la interfaz de usuario la configuración de los"
-" parámetros de uso mas frecuentes de cada tipo de gráfico. No obstante "
-"ello, existen muchas otras propiedades de los gráficos que pueden "
-"definirse desde el código de cada elemento de visualización."
+"Pyplan permite a traves de la interfaz de usuario la configuración de "
+"los parámetros de uso mas frecuentes de cada tipo de gráfico. No "
+"obstante ello, existen muchas otras propiedades de los gráficos que "
+"pueden definirse desde el código de cada elemento de visualización."
 msgstr ""
+"Pyplan allows through the user interface the configuration of the most "
+"frequently used parameters of each type of chart. However, there are "
+"many other chart properties that can be defined from the code of each "
+"display element."
 
 #: ../../4_visualization_configuration/index.rst:136
 msgid ""
@@ -221,11 +287,16 @@ msgid ""
 "Custom, podremos comenzar a modificar el código de comportamiento de la "
 "visualización gráfica."
 msgstr ""
+"Once this is done, and after moving the Code switch from Default to "
+"Custom, we can start modifying the behavior code of the graphical "
+"display."
 
 #: ../../4_visualization_configuration/index.rst:140
 msgid ""
 "Una guia completa de las propiedades configurables de cada gráfico puede "
-"encontrarse aquí: `Plotly Express in Python <https://plotly.com/python"
-"/plotly-express/>`_"
+"encontrarse aquí: `Plotly Express in Python <https://plotly.com/python/"
+"plotly-express/>`_"
 msgstr ""
-
+"A complete guide to the configurable properties of each plot can be "
+"found here: `Plotly Express in Python <https://plotly.com/python/plotly-"
+"express/>`_"

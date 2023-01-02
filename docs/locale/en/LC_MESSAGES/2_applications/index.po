@@ -3,27 +3,27 @@
 # This file is distributed under the same license as the Pyplan package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Pyplan \n"
+"Project-Id-Version: Pyplan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-12 18:22-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-01-02 12:02-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: ../../2_applications/index.rst:3
 msgid "Aplicaciones"
-msgstr ""
+msgstr "Applications"
 
 #: ../../2_applications/index.rst:6
 msgid "Características de una aplicación"
-msgstr ""
+msgstr "Application features"
 
 #: ../../2_applications/index.rst:8
 msgid ""
@@ -31,6 +31,8 @@ msgid ""
 "problema específico, que utiliza las funcionalidades que brinda la "
 "plataforma."
 msgstr ""
+"A Pyplan application is a particular development to solve a specific "
+"problem, which uses the functionalities provided by the platform."
 
 #: ../../2_applications/index.rst:11
 msgid ""
@@ -38,44 +40,53 @@ msgid ""
 "Planning, Sales & Operations Planning, Financial Planning, Pricing, "
 "Budgeting Planning and Forecasting entre muchas otras aplicaciones."
 msgstr ""
+"Pyplan has been used to develop tools such as: Demand Planning, Sales & "
+"Operations Planning, Financial Planning, Pricing, Budgeting Planning "
+"and Forecasting among many other applications."
 
 #: ../../2_applications/index.rst:13
 msgid ""
 "Una aplicación en Pyplan puede estar compuesta por diversos elementos "
 "entre los que se encuentran:"
 msgstr ""
+"An application in Pyplan can be composed of several elements, among "
+"them:"
 
 #: ../../2_applications/index.rst:17
 msgid "Lectura de fuentes de datos externas."
-msgstr ""
+msgstr "Reading external data sources."
 
 #: ../../2_applications/index.rst:18
 msgid "Formularios de carga de datos."
-msgstr ""
+msgstr "Data input forms."
 
 #: ../../2_applications/index.rst:19
 msgid "Módulos de cálculo y procesamiento."
-msgstr ""
+msgstr "Calculation and processing modules."
 
 #: ../../2_applications/index.rst:20
 msgid "Interfaces de visualización."
-msgstr ""
+msgstr "Visualization interfaces."
 
 #: ../../2_applications/index.rst:23
 msgid "Estos elementos son almacenados en un espacio de trabajo."
-msgstr ""
+msgstr "These elements are stored in a workspace."
 
 #: ../../2_applications/index.rst:25
 msgid ""
 "Todos los usuarios con permisos de creación de aplicaciones tienen como "
 "mínimo acceso a dos espacios de trabajo:"
 msgstr ""
+"All users with application creation permissions have access to at least "
+"two workspaces:"
 
 #: ../../2_applications/index.rst:29
 msgid ""
 "Un espacio público denominado **\"Public\"** donde se comparten "
 "aplicaciones accesibles para todos los usuarios."
 msgstr ""
+"A public space called **\"Public \"** where applications accessible to "
+"all users are shared."
 
 #: ../../2_applications/index.rst:30
 msgid ""
@@ -83,6 +94,8 @@ msgid ""
 "puede crear o modificar aplicaciones en un ambiente solo accesible para "
 "él mismo."
 msgstr ""
+"A private space called **\"My Workspace \"**, where each user can "
+"create or modify applications in an environment only accessible to him."
 
 #: ../../2_applications/index.rst:31
 msgid ""
@@ -90,32 +103,41 @@ msgid ""
 "los que pertenecen: **\"Teams\"**. Estos equipos son la forma de "
 "compartir información con restricción de acceso a determinados usuarios."
 msgstr ""
+"In addition, users have access to workspaces of teams to which they "
+"belong: **\"Teams \"**. These teams are the way to share information "
+"with restricted access to certain users."
 
 #: ../../2_applications/index.rst:36
 msgid "Equipos de trabajo"
-msgstr ""
+msgstr "Teams"
 
 #: ../../2_applications/index.rst:37
 msgid ""
 "Los equipos de trabajos son creados por el administrador del sistema y "
 "los permisos de acceso otorgados por **\"Departamento\"** al que "
-"pertenece un usuario. Un mismo usuario puede formar parte de varios "
-"**\"Departamentos\"**"
+"pertenece un usuario. Un mismo usuario puede formar parte de varios **"
+"\"Departamentos\"**"
 msgstr ""
+"Work teams are created by the system administrator and access "
+"permissions are granted by **\"Department \"** to which a user belongs. "
+"The same user can be part of several **\"Departments \"**"
 
 #: ../../2_applications/index.rst:42
 msgid "Administrador de aplicaciones"
-msgstr ""
+msgstr "Application Manager"
 
 #: ../../2_applications/index.rst:43
 msgid ""
 "El administrador de aplicaciones permite navegar por las aplicaciones "
 "accesibles para cada usuario:"
 msgstr ""
+"The application manager allows you to browse through the applications "
+"accessible to each user:"
 
 #: ../../2_applications/index.rst:48
 msgid ""
 "Ademas de crear nuevas aplicaciones, es posible realizar las siguientes "
 "acciones sobre ellas:"
 msgstr ""
-
+"In addition to creating new applications, it is possible to perform the "
+"following actions on them:"

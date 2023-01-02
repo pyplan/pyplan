@@ -92,14 +92,14 @@ La visualización de la tabla con un formato de Progress Bar puede ser configura
 
 
 Visualización en formato de Gráfico
-=============================
+===================================
 
 Haciendo click en el icono indicado en la figura (1) se intercambia la vista de tabla a gráfico. Toda vez que el tipo de grafico seleccionado lo permite, Pyplan asigna automaticamente campos de la tabla al gráfico.
 
 .. image:: images/view_chart.png
 
 Configuración de la Visualización
-------------------------------
+---------------------------------
 
 Existen multiples tipos de gráficos que pueden ser configurados como alternativas de visualización de los datos como lo muestra la siguiente figura.
 Cada tipo de gráfico tiene sus sub-tipos y en función de esta elección se definen las propiedades que deben ser indicadas para permitir la construcción del gráfico.

@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tareas programadas</title>
+    <title>Scheduled tasks</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -35,8 +35,8 @@
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Administracion de Usuarios" href="../9_user_manager/index.html" />
-    <link rel="prev" title="Administrador de archivos" href="../7_file_manager/index.html" />
+    <link rel="next" title="User Management" href="../9_user_manager/index.html" />
+    <link rel="prev" title="File Manager" href="../7_file_manager/index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en">
     
@@ -99,47 +99,47 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../2_applications/index.html">
-   Aplicaciones
+   Applications
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../3_code_window/index.html">
-   Ventana de Codificación
+   Coding Window
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../4_visualization_configuration/index.html">
-   Análisis y Visualización
+   Analysis and Visualization
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../5_low_code_no_code/index.html">
-   Codificando en Pyplan
+   Coding in Pyplan
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../6_interfaces/index.html">
-   Interfaces en Pyplan
+   Interfaces in Pyplan
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../7_file_manager/index.html">
-   Administrador de archivos
+   File Manager
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Tareas programadas
+   Scheduled tasks
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../9_user_manager/index.html">
-   Administracion de Usuarios
+   User Management
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../10_environments/index.html">
-   Entornos virtuales
+   Virtual environments
   </a>
  </li>
 </ul>
@@ -334,7 +334,7 @@ title="Print to PDF"
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#tareas">
-   Tareas
+   Tasks
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -344,7 +344,7 @@ title="Print to PDF"
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#editar-y-ver-logs">
-   Editar y ver logs
+   Edit and view logs
   </a>
  </li>
 </ul>
@@ -356,7 +356,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Tareas programadas</h1>
+                <h1>Scheduled tasks</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -368,7 +368,7 @@ title="Print to PDF"
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#tareas">
-   Tareas
+   Tasks
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -378,7 +378,7 @@ title="Print to PDF"
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#editar-y-ver-logs">
-   Editar y ver logs
+   Edit and view logs
   </a>
  </li>
 </ul>
@@ -392,97 +392,82 @@ title="Print to PDF"
               <div>
                 
   <div class="section" id="tareas-programadas">
-<h1>Tareas programadas<a class="headerlink" href="#tareas-programadas" title="Permalink to this headline">#</a></h1>
-<p>Pyplan cuenta con un administrador de tareas para programar actividades de forma automática.
-Esta herramienta se encuentra disponible en la barra lateral izquierda, debajo de menú <strong>Tools</strong>, en la opción de <strong>Schedule tasks</strong>.</p>
+<h1>Scheduled tasks<a class="headerlink" href="#tareas-programadas" title="Permalink to this headline">#</a></h1>
+<p>Pyplan has a task manager to schedule activities automatically. This tool is available in the left sidebar, under the <strong>Tools</strong> menu, in the <strong>Schedule tasks</strong> option.</p>
 <img alt="../_images/open_task_manager.png" src="../_images/open_task_manager.png" />
 <div class="section" id="tareas">
-<h2>Tareas<a class="headerlink" href="#tareas" title="Permalink to this headline">#</a></h2>
-<p>Para crear una tarea programada se debe seleccionar la opción <strong>Add task</strong> en la parte superior.</p>
+<h2>Tasks<a class="headerlink" href="#tareas" title="Permalink to this headline">#</a></h2>
+<p>To create a scheduled task, select the <strong>Add task</strong> option at the top.</p>
 <img alt="../_images/create_task.png" src="../_images/create_task.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>A continuación se abre el menú de creación de tareas. En la parte de <strong>General options</strong> se puede
-elegir un nombre para la tarea y se indica si la tarea estará habilitada o no.</p>
+<p>Then the task creation menu opens. In the <strong>General options</strong> part you can choose a name for the task and indicate whether the task will be enabled or not.</p>
 <img alt="../_images/name_task.png" src="../_images/name_task.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>Luego, en la opción de <strong>App path</strong> se debe seleccionar la aplicación y el nodo correspondiente que
-se establece ejecutar con la tarea programada.</p>
+<p>Then, in the <strong>App path</strong> option, select the application and the corresponding node to be executed with the scheduled task.</p>
 <img alt="../_images/app_path.png" src="../_images/app_path.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>En la opción de Scheduler se puede seleccionar la periodicidad de ejecución de la tarea. Para ello se dispone de 3 opciones</p>
+<p>In the Scheduler option you can select the periodicity of execution of the task. There are 3 options available</p>
 <ol class="arabic simple">
-<li><p><strong>Interval</strong>: Permite ejecutar la tarea cada cierto intervalo de tiempo, por ejemplo, cada día o cada hora.</p></li>
-<li><p><strong>Custom</strong>: Libre para programar la ejecución de la tarea, se puede seleccionar desde hora o días de la semana queremos que se ejecute</p></li>
-<li><p><strong>Clocked</strong>: Para correr la tarea en un día y hora específicos.</p></li>
+<li><p><strong>Interval</strong>: Allows the task to be executed every certain time interval, for example, every day or every hour.</p></li>
+<li><p><strong>Custom</strong>: Free to schedule the execution of the task, you can select the time or days of the week you want it to be executed</p></li>
+<li><p><strong>Clocked</strong>: To run the task on a specific day and time.</p></li>
 </ol>
 <img alt="../_images/scheduler.png" src="../_images/scheduler.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>Por último en el apartado <strong>Params</strong>, en caso de que el nodo a ejecutar en la tarea programada sea una función que dependa de
-ciertos parámetros, se puede especificar tales parámetros al momento de ejecutarla.</p>
+<p>Finally, in the <strong>Params</strong> section, if the node to be executed in the scheduled task is a function that depends on certain parameters, these parameters can be specified at the time of execution.</p>
 <ol class="arabic simple">
-<li><p><strong>Select</strong>: Posibilita seleccionar los parámetros entre una lista predeterminada.</p></li>
-<li><p><strong>Input</strong>: Permite que el usuario pueda ingresar el valor del parámetro.</p></li>
-<li><p><strong>Checkbox</strong>: El usuario podrá ingresar parámetros que puede tomar valores True o False mediante un checkbox.</p></li>
+<li><p><strong>Select</strong>: Allows you to select the parameters from a predefined list.</p></li>
+<li><p><strong>Input</strong>: Allows the user to enter the value of the parameter.</p></li>
+<li><p><strong>Checkbox</strong>: The user will be able to enter parameters that can take True or False values through a checkbox.</p></li>
 </ol>
 <img alt="../_images/params.png" src="../_images/params.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>Finalmente se puede ver la tarea creada en el <strong>task manager</strong>, donde también se puede monitorear su ejecución,
-habilitar/deshabilitar, editar o eliminar nuestra tarea, entre otras cosas.</p>
+<p>Finally you can see the task created in the <strong>task manager</strong>, where you can also monitor its execution, enable/disable, edit or delete our task, among other things.</p>
 <img alt="../_images/created_task.png" src="../_images/created_task.png" />
 </div>
 <div class="section" id="app-pool">
 <h2>App pool<a class="headerlink" href="#app-pool" title="Permalink to this headline">#</a></h2>
-<p>Una app pool es una herramienta que permite ejecutar un nodo de una aplicación y que dicha aplicación
-quede disponible para que otros usuarios puedan acceder a ella y seguir trabajando una vez que se haya
-terminado de ejecutar el nodo correspondiente.
-Para crear una app pool se debe seleccionar la opción <strong>Add app pool</strong> en la parte superior.</p>
+<p>An app pool is a tool that allows you to run a node of an application and make it available for other users to access it and continue working once the corresponding node has finished running. To create an app pool, select the <strong>Add app pool</strong> option at the top.</p>
 <img alt="../_images/add_app_pool.png" src="../_images/add_app_pool.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>En la parte de <strong>General options</strong> se puede elegir un nombre para la app pool y se tiene la posibilidad de
-elegir si se quiere que la app pool esté disponible para todos los usuarios o solo para alguno en particular.
-También se pueden establecer cuántas instancias de la app estarán disponibles para su uso. Y por último también se puede,
-en caso de ser necesario, especificar una fecha de expiración para las instancias.</p>
+<p>In the <strong>General options</strong> section you can choose a name for the app pool and you have the possibility to choose whether you want the app pool to be available to all users or only to a particular user. You can also set how many instances of the app will be available for use. Finally, you can also specify an expiration date for the instances, if necessary.</p>
 <img alt="../_images/app_pool_gen.png" src="../_images/app_pool_gen.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>Al igual que con las tareas programadas, en las opción de <strong>App path</strong> se debe seleccionar la aplicación y
-el nodo correspondiente que se quiere ejecutar.</p>
+<p>As with the scheduled tasks, in the <strong>App path</strong> option you must select the application and the corresponding node to be executed.</p>
 <img alt="../_images/app_pool_path.png" src="../_images/app_pool_path.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>En el apartado <strong>Params</strong>, en caso de que el nodo que vamos a ejecutar en la app pool sea una función que dependa de
-ciertos parámetros, se puede especificar tales parámetros al momento de ejecutarla.</p>
+<p>In the <strong>Params</strong> section, if the node to be executed in the app pool is a function that depends on certain parameters, these parameters can be specified at the time of execution.</p>
 <ol class="arabic simple">
-<li><p><strong>Select</strong>: Posibilita seleccionar los parámetros entre una lista predeterminada.</p></li>
-<li><p><strong>Input</strong>: Permite que el usuario pueda ingresar el valor del parámetro.</p></li>
-<li><p><strong>Checkbox</strong>: El usuario podrá ingresar parámetros que puede tomar valores True o False mediante un checkbox.</p></li>
+<li><p><strong>Select</strong>: Allows you to select the parameters from a predefined list.</p></li>
+<li><p><strong>Input</strong>: Allows the user to enter the value of the parameter.</p></li>
+<li><p><strong>Checkbox</strong>: The user will be able to enter parameters that can take True or False values through a checkbox.</p></li>
 </ol>
 <img alt="../_images/app_params.png" src="../_images/app_params.png" />
 </div>
 <div class="section" id="editar-y-ver-logs">
-<h2>Editar y ver logs<a class="headerlink" href="#editar-y-ver-logs" title="Permalink to this headline">#</a></h2>
-<p>En caso de ser necesario, se puede editar alguna de las tareas o app pool, seleccionandola y haciendo click en la opción <strong>Edit task</strong>,
-donde se pueden modificar todas las opciones que se hayan seleecionado al momento de ser creadas.</p>
+<h2>Edit and view logs<a class="headerlink" href="#editar-y-ver-logs" title="Permalink to this headline">#</a></h2>
+<p>If necessary, you can edit any of the tasks or app pool by selecting it and clicking on the <strong>Edit task</strong> option, where you can modify all the options that were selected at the time of creation.</p>
 <img alt="../_images/edit_and_logs.png" src="../_images/edit_and_logs.png" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>Además se pueden monitorizar los logs de la tarea/app pool desde la opción <strong>Show task logs</strong>, donde se puede obersrvar las últimas
-veces que fue ejecutada y se pueden revisar los logs de las correspondientes ejecuciones.</p>
+<p>You can also monitor the logs of the task/app pool from the <strong>Show task logs</strong> option, where you can see the last times it was executed and you can review the logs of the corresponding executions.</p>
 <img alt="../_images/logs.png" src="../_images/logs.png" />
 </div>
 </div>
@@ -499,13 +484,13 @@ veces que fue ejecutada y se pueden revisar los logs de las correspondientes eje
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Administrador de archivos</p>
+            <p class="prev-next-title">File Manager</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="../9_user_manager/index.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Administracion de Usuarios</p>
+        <p class="prev-next-title">User Management</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

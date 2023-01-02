@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Entornos virtuales</title>
+    <title>Virtual environments</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -35,7 +35,7 @@
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Administracion de Usuarios" href="../9_user_manager/index.html" />
+    <link rel="prev" title="User Management" href="../9_user_manager/index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en">
     
@@ -98,47 +98,47 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../2_applications/index.html">
-   Aplicaciones
+   Applications
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../3_code_window/index.html">
-   Ventana de Codificación
+   Coding Window
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../4_visualization_configuration/index.html">
-   Análisis y Visualización
+   Analysis and Visualization
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../5_low_code_no_code/index.html">
-   Codificando en Pyplan
+   Coding in Pyplan
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../6_interfaces/index.html">
-   Interfaces en Pyplan
+   Interfaces in Pyplan
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../7_file_manager/index.html">
-   Administrador de archivos
+   File Manager
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../8_task_manager/index.html">
-   Tareas programadas
+   Scheduled tasks
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../9_user_manager/index.html">
-   Administracion de Usuarios
+   User Management
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Entornos virtuales
+   Virtual environments
   </a>
  </li>
 </ul>
@@ -333,22 +333,22 @@ title="Print to PDF"
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#funcionamiento">
-   Funcionamiento
+   Operation
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#instalar-librerias">
-   Instalar librerías
+   Installing libraries
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#identificador-de-aplicacion">
-   Identificador de aplicación
+   Application identifier
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#utilizando-entornos-por-primera-vez">
-   Utilizando entornos por primera vez
+   Using environments for the first time
   </a>
  </li>
 </ul>
@@ -360,7 +360,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Entornos virtuales</h1>
+                <h1>Virtual environments</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -372,22 +372,22 @@ title="Print to PDF"
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#funcionamiento">
-   Funcionamiento
+   Operation
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#instalar-librerias">
-   Instalar librerías
+   Installing libraries
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#identificador-de-aplicacion">
-   Identificador de aplicación
+   Application identifier
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#utilizando-entornos-por-primera-vez">
-   Utilizando entornos por primera vez
+   Using environments for the first time
   </a>
  </li>
 </ul>
@@ -401,63 +401,56 @@ title="Print to PDF"
               <div>
                 
   <div class="section" id="entornos-virtuales">
-<h1>Entornos virtuales<a class="headerlink" href="#entornos-virtuales" title="Permalink to this headline">#</a></h1>
-<p>Los entornos virtuales son repositorios donde se instalan las librerías de python que utiliza una aplicación.
-Pyplan gestiona estos entornos virtuales de manera automática, recargándolos al momento de abrir una aplicación.</p>
-<p>En Pyplan v3.3.1 o superior, los entornos virtuales son individuales por aplicación. Esto permite que cada aplicación tenga su propio set de librerías.</p>
+<h1>Virtual environments<a class="headerlink" href="#entornos-virtuales" title="Permalink to this headline">#</a></h1>
+<p>Virtual environments are repositories where Python libraries used by an application are installed. Pyplan manages these virtual environments automatically, reloading them when an application is opened.</p>
+<p>In Pyplan v3.3.1 or higher, virtual environments are individual per application. This allows each application to have its own set of libraries.</p>
 <div class="section" id="funcionamiento">
-<h2>Funcionamiento<a class="headerlink" href="#funcionamiento" title="Permalink to this headline">#</a></h2>
-<p>Los repositorios de entornos virtuales se almacenan en la carpeta .environments, ya sea en el espacio público como en el espacio de trabajo del usuario.</p>
-<p>Diferentes escenarios:</p>
+<h2>Operation<a class="headerlink" href="#funcionamiento" title="Permalink to this headline">#</a></h2>
+<p>Virtual environment repositories are stored in the .environments folder, either in the public space or in the user’s workspace.</p>
+<p>Different scenarios:</p>
 <ol class="arabic simple">
-<li><p><strong>Se abre una aplicación desde el espacio público y el entorno para dicha aplicación todavía no existe</strong>: en este caso se creará el entorno en el momento de abrir la aplicación. Como esta tarea puede tardar unos minutos, se puede ver/ocultar el avance de la creación del entorno haciendo click en la opción <strong>Show installation log/Hide installation log</strong>.</p></li>
+<li><p><strong>An application is opened from the public workspace and the environment for this application does not exist yet</strong>: in this case the environment will be created when the application is opened. As this task may take a few minutes, you can view/hide the progress of the environment creation by clicking on the <strong>Show installation log/Hide installation log</strong> option.</p></li>
 </ol>
 <img alt="../_images/show-installation-log-expanded.png" src="../_images/show-installation-log-expanded.png" />
 <ol class="arabic simple" start="2">
-<li><p><strong>Se abre una aplicación desde el espacio público y el entorno para dicha aplicación ya existe</strong>: se monta el entorno virtual correspondiente, se compara el repositorio de librerías con las librerías especificadas en el archivo requirements.txt, si es necesario se instalan nuevas librerías.</p></li>
-<li><p><strong>Se abre una aplicación desde el espacio de trabajo del usuario</strong>: si el entorno correspondiente a la aplicación existe en el espacio de trabajo del usuario, se monta dicho entorno. Si no existe, se intenta montar el entorno correspondiente de la aplicación desde el espacio público. En caso de que éste tampoco exista, se crea el entorno en el espacio de trabajo del usuario.</p></li>
+<li><p><strong>An application is opened from the public workspace and the environment for this application already exists</strong>: the corresponding virtual environment is mounted, the library repository is compared with the libraries specified in the requirements.txt file, new libraries are installed if necessary.</p></li>
+<li><p><strong>An application is opened from the user’s workspace</strong>: if the environment corresponding to the application exists in the user’s workspace, this environment is mounted. If it does not exist, an attempt is made to mount the corresponding environment of the application from the public workspace. If it does not exist either, the environment is created in the user’s workspace.</p></li>
 </ol>
-<p>En el caso 3 antes mencionado, (si la aplicación se abre desde el espacio de trabajo del usuario y se monta el entorno desde el espacio público), si el usuario necesita realizar cambios en las librerías se mostrará el siguiente mensaje:</p>
+<p>In case 3 above (if the application is opened from the user’s workspace and the environment is mounted from the public workspace), if the user needs to make changes to the libraries, the following message will be displayed:</p>
 <img alt="../_images/shared-environment.png" src="../_images/shared-environment.png" />
-<p>Esto indica que para realizar cambios (ya sea instalando una librería utilizando la herramienta “pip install” o modificando el archivo requirements.txt)
-se deberá crear el entorno virtual en el espacio del usuario. Ésta tarea es automática y se inicia haciendo click en el botón: <strong>Yes, perform these tasks</strong>.
-Esto tomará un tiempo y luego el usuario podrá instalar las librerías que sean necesarias.</p>
+<p>This indicates that in order to make changes (either by installing a library using the “pip install” tool or by modifying the requirements.txt file) the virtual environment must be created in the user’s workspace. This task is automatic and is started by clicking on the button: <strong>Yes, perform these tasks</strong>. This will take some time and then the user will be able to install the necessary libraries.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Realize esta acción sólo en el caso de que necesite agregar/modificar librerías.</p>
+<p>Perform this action only in case you need to add/modify libraries.</p>
 </div>
 </div>
 <div class="section" id="instalar-librerias">
-<h2>Instalar librerías<a class="headerlink" href="#instalar-librerias" title="Permalink to this headline">#</a></h2>
-<p>Se puede instalar librerías de dos formas:</p>
+<h2>Installing libraries<a class="headerlink" href="#instalar-librerias" title="Permalink to this headline">#</a></h2>
+<p>There are two ways to install libraries:</p>
 <ol class="arabic simple">
-<li><p>utilizando la pestaña “Install” y escribir el nombre de la librería a instalar</p></li>
+<li><p>using the “Install” tab and type the name of the library to be installed</p></li>
 </ol>
 <img alt="../_images/pip-install.png" src="../_images/pip-install.png" />
 <ol class="arabic simple" start="2">
-<li><p>desde la pestaña “App requirements” puede modificar de manera manual el archivo requirements.txt. Esta última opción brinda mas control sobre las librerías que necesita la aplicación.</p></li>
+<li><p>from the “App requirements” tab you can manually modify the requirements.txt file. This last option provides more control over the libraries needed by the application.</p></li>
 </ol>
 <img alt="../_images/requirements.png" src="../_images/requirements.png" />
-<p>En definitiva, el set de librerías que una aplicación necesita se define en el archivo de requerimientos (requirements.txt).
-Este archivo se genera automáticamente si el usuario quita una librería desde la pestaña “Installed libraries” o agrega una nueva librería utilizando la pestaña “Install”</p>
+<p>Basically, the set of libraries that an application needs is defined in the requirements file (requirements.txt). This file is automatically generated if the user removes a library from the “Installed libraries” tab or adds a new library using the “Install” tab.</p>
 </div>
 <div class="section" id="identificador-de-aplicacion">
-<h2>Identificador de aplicación<a class="headerlink" href="#identificador-de-aplicacion" title="Permalink to this headline">#</a></h2>
-<p>Cada aplicación de Pyplan posee un <strong>identificador único</strong> que se puede visualizar ingresando a la opción de propiedades de la aplicación.</p>
+<h2>Application identifier<a class="headerlink" href="#identificador-de-aplicacion" title="Permalink to this headline">#</a></h2>
+<p>Each Pyplan application has a unique <strong>identifier</strong> that can be viewed by accessing the application properties option.</p>
 <img alt="../_images/app-properties-button.png" src="../_images/app-properties-button.png" />
 <img alt="../_images/app-properties.png" src="../_images/app-properties.png" />
-<p>Este identificador se genera al crear una nueva aplicación y es utilizado para identificar el entorno virtual asociado a la aplicación. Por lo tanto
-es importante asegurarse de que todas las versiones de la misma aplicación tengan el mismo identificador, como así también que todas las aplicaciones
-distintas tengan su propio identificador.</p>
+<p>This identifier is generated when a new application is created and is used to identify the virtual environment associated with the application. It is therefore important to ensure that all versions of the same application have the same identifier, as well as that all different applications have their own identifier.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Si desea crear una aplicación nueva partiendo de otra, utilice la función “crear desde”. De esta manera se asegura de que se genere un nuevo identificador único para la aplicación que se está por crear.</p>
+<p>If you want to create a new application from another one, use the “create from” function. This ensures that a new unique identifier is generated for the application you are about to create.</p>
 </div>
 </div>
 <div class="section" id="utilizando-entornos-por-primera-vez">
-<h2>Utilizando entornos por primera vez<a class="headerlink" href="#utilizando-entornos-por-primera-vez" title="Permalink to this headline">#</a></h2>
-<p>Si está por abrir una aplicación que se creó con una versión anterior a Pyplan 3.3.1, en el proceso de apertura se creará el entorno virtual
-de dicha aplicación. Este proceso puede llevar bastante tiempo, dependiendo de las librerías usadas por la aplicación.</p>
+<h2>Using environments for the first time<a class="headerlink" href="#utilizando-entornos-por-primera-vez" title="Permalink to this headline">#</a></h2>
+<p>If you are about to open an application that was created with a version prior to Pyplan 3.3.1, the application’s virtual environment will be created in the opening process. This process may take some time, depending on the libraries used by the application.</p>
 </div>
 </div>
 
@@ -473,7 +466,7 @@ de dicha aplicación. Este proceso puede llevar bastante tiempo, dependiendo de 
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Administracion de Usuarios</p>
+            <p class="prev-next-title">User Management</p>
         </div>
     </a>
 </div>

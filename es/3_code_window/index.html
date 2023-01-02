@@ -398,16 +398,13 @@ title="Print to PDF"
        Salidas
       </a>
      </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#para-acceder-a-todas-estas-propiedades-se-puede-hacer-click-sobre-el-nodo-para-seleccionarlo-luego-click-derecho-o-doble-click-sobre-el-tambien-se-visualizan-las-propiedades-al-calcular-el-nodo">
-       Para acceder a todas estas propiedades se puede hacer click sobre el nodo para seleccionarlo, luego click derecho o doble-click sobre él. También se visualizan las propiedades al calcular el nodo.
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#tipos-de-nodo">
-       Tipos de Nodo
-      </a>
-     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tipos-de-nodo">
+     Tipos de Nodo
+    </a>
+    <ul class="nav section-nav flex-column">
      <li class="toc-h4 nav-item toc-entry">
       <a class="reference internal nav-link" href="#variable">
        Variable
@@ -563,16 +560,13 @@ title="Print to PDF"
        Salidas
       </a>
      </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#para-acceder-a-todas-estas-propiedades-se-puede-hacer-click-sobre-el-nodo-para-seleccionarlo-luego-click-derecho-o-doble-click-sobre-el-tambien-se-visualizan-las-propiedades-al-calcular-el-nodo">
-       Para acceder a todas estas propiedades se puede hacer click sobre el nodo para seleccionarlo, luego click derecho o doble-click sobre él. También se visualizan las propiedades al calcular el nodo.
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#tipos-de-nodo">
-       Tipos de Nodo
-      </a>
-     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tipos-de-nodo">
+     Tipos de Nodo
+    </a>
+    <ul class="nav section-nav flex-column">
      <li class="toc-h4 nav-item toc-entry">
       <a class="reference internal nav-link" href="#variable">
        Variable
@@ -710,7 +704,6 @@ Para agregar un nodo se arrastra el mismo sobre el diagrama.</p>
 <p>En caso de que un nodo contenga una medida única, es posible indicar su unidad. Esta será mostrada entre paréntesis al lado del título al momento de mostrar los resultados del nodo. Vale destacar que las unidades solo se incluyen para ser visualizadas, no forman parte del cálculo de resultados.</p>
 <img alt="../_images/propiedades_grales_nodo.png" src="../_images/propiedades_grales_nodo.png" />
 </div>
-<hr class="docutils" />
 <div class="section" id="definicion">
 <h4>Definición<a class="headerlink" href="#definicion" title="Enlazar permanentemente con este título">#</a></h4>
 <p>Es la operación de transformación ejecutada al evaluar un nodo. Su código esta escrito en lenguaje Python. Termina con la definición de su resultado <strong>«result=»</strong></p>
@@ -738,15 +731,13 @@ este puede visualizarse de forma gráfica o de tabla.</p>
 <h4>Salidas<a class="headerlink" href="#salidas" title="Enlazar permanentemente con este título">#</a></h4>
 <p>Listado de nodos que utilizan el resultado del nodo seleccionado</p>
 <img alt="../_images/propiedades_sa-_nodo.png" src="../_images/propiedades_sa-_nodo.png" />
+<p>Se puede acceder a todas estas propiedades haciendo click derecho sobre el nodo y luego click en propiedades.</p>
 </div>
-<div class="section" id="para-acceder-a-todas-estas-propiedades-se-puede-hacer-click-sobre-el-nodo-para-seleccionarlo-luego-click-derecho-o-doble-click-sobre-el-tambien-se-visualizan-las-propiedades-al-calcular-el-nodo">
-<h4>Para acceder a todas estas propiedades se puede hacer click sobre el nodo para seleccionarlo, luego click derecho o doble-click sobre él. También se visualizan las propiedades al calcular el nodo.<a class="headerlink" href="#para-acceder-a-todas-estas-propiedades-se-puede-hacer-click-sobre-el-nodo-para-seleccionarlo-luego-click-derecho-o-doble-click-sobre-el-tambien-se-visualizan-las-propiedades-al-calcular-el-nodo" title="Enlazar permanentemente con este título">#</a></h4>
 </div>
 <div class="section" id="tipos-de-nodo">
-<h4>Tipos de Nodo<a class="headerlink" href="#tipos-de-nodo" title="Enlazar permanentemente con este título">#</a></h4>
+<h3>Tipos de Nodo<a class="headerlink" href="#tipos-de-nodo" title="Enlazar permanentemente con este título">#</a></h3>
 <p>Existen diferentes tipos de nodos para diferentes propósitos. Sus funcionalidades han sido diseñadas para facilitar la definición de los parámetros necesarios para su ejecución.</p>
 <img alt="../_images/tipos_nodo.png" src="../_images/tipos_nodo.png" />
-</div>
 <div class="section" id="variable">
 <h4>Variable<a class="headerlink" href="#variable" title="Enlazar permanentemente con este título">#</a></h4>
 <p>Los nodos de tipo variable son los más utilizados, dado que tienen la función de contener un proceso de cálculo genérico.
@@ -769,7 +760,7 @@ Tabla de entrada de datos.</p>
 </div>
 <div class="section" id="boton">
 <h4>Botón<a class="headerlink" href="#boton" title="Enlazar permanentemente con este título">#</a></h4>
-<p>El boton es un nodo especial que permite ejecutar acciones sobre los nodos.</p>
+<p>El botón es un nodo especial que permite ejecutar código python cada vez que el usuario lo presiona. En este tipo de nodos, el resultado no persiste en memoria.</p>
 </div>
 <div class="section" id="indice">
 <h4>Índice<a class="headerlink" href="#indice" title="Enlazar permanentemente con este título">#</a></h4>

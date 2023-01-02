@@ -66,7 +66,7 @@ Unidades
 En caso de que un nodo contenga una medida única, es posible indicar su unidad. Esta será mostrada entre paréntesis al lado del título al momento de mostrar los resultados del nodo. Vale destacar que las unidades solo se incluyen para ser visualizadas, no forman parte del cálculo de resultados.
 
 .. image:: images/propiedades_grales_nodo.png
----------------------------------------------
+
 
 Definición
 ----------
@@ -101,7 +101,8 @@ Listado de nodos que utilizan el resultado del nodo seleccionado
 
 .. image:: images/propiedades_sa-_nodo.png
 
-Para acceder a todas estas propiedades se puede hacer click sobre el nodo para seleccionarlo, luego click derecho o doble-click sobre él. También se visualizan las propiedades al calcular el nodo.
+Se puede acceder a todas estas propiedades haciendo click derecho sobre el nodo y luego click en propiedades.
+
 -------------
 Tipos de Nodo
 -------------
@@ -139,7 +140,7 @@ Tabla de entrada de datos.
 
 Botón
 -----
-El boton es un nodo especial que permite ejecutar acciones sobre los nodos.
+El botón es un nodo especial que permite ejecutar código python cada vez que el usuario lo presiona. En este tipo de nodos, el resultado no persiste en memoria.
 
 Índice
 ------

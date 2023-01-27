@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>User Management</title>
+    <title>Opciones de seguridad</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -134,7 +134,7 @@
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   User Management
+   Opciones de seguridad
   </a>
  </li>
  <li class="toctree-l1">
@@ -315,23 +315,134 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#administrador-de-usuarios">
+   Administrador de usuarios
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creacion-de-usuarios">
+     Creación de usuarios
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#editar-usuarios">
+     Editar usuarios
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#roles">
+   Roles
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#permisos-por-rol">
+   Permisos por rol
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#departamentos">
+   Departamentos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#teams">
+   Teams
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#companias">
+   Compañias
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>User Management</h1>
+                <h1>Opciones de seguridad</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#administrador-de-usuarios">
+   Administrador de usuarios
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creacion-de-usuarios">
+     Creación de usuarios
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#editar-usuarios">
+     Editar usuarios
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#roles">
+   Roles
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#permisos-por-rol">
+   Permisos por rol
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#departamentos">
+   Departamentos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#teams">
+   Teams
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#companias">
+   Compañias
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -339,9 +450,143 @@ title="Print to PDF"
                 
               <div>
                 
-  <div class="section" id="administracion-de-usuarios">
-<h1>User Management<a class="headerlink" href="#administracion-de-usuarios" title="Permalink to this headline">#</a></h1>
-<p>Pyplan cuanta con un adiministrador de usuarios para gestionar permisos….</p>
+  <div class="section" id="opciones-de-seguridad">
+<h1>Opciones de seguridad<a class="headerlink" href="#opciones-de-seguridad" title="Permalink to this headline">#</a></h1>
+<p>Pyplan cuenta con varias opciones de seguridad para administrar usuarios y sus permisos correspondientes.
+Cada usuario puede tener acceso a distintas compañias, y tener distintos departamentos y roles.</p>
+<div class="section" id="administrador-de-usuarios">
+<h2>Administrador de usuarios<a class="headerlink" href="#administrador-de-usuarios" title="Permalink to this headline">#</a></h2>
+<p>Pyplan cuenta con un adiministrador de usuarios para gestionar los usuarios, roles y departamentos correspondientes.
+Se encuentra disponible en el menú <strong>Security options</strong> bajo el nombre <strong>Users</strong>.</p>
+<img alt="../_images/users.png" src="../_images/users.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Dentro del administrador se pueden ver todos los usuarios y, en caso de tener los permisos correspondientes, crear o editar
+usuarios de Pyplan.</p>
+<img alt="../_images/user_manager.png" src="../_images/user_manager.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="creacion-de-usuarios">
+<h3>Creación de usuarios<a class="headerlink" href="#creacion-de-usuarios" title="Permalink to this headline">#</a></h3>
+<p>Para crear un usuario nuevo se debe acceder a la opción de <strong>Add user</strong> dentro de <strong>User manager</strong></p>
+<img alt="../_images/add_user.png" src="../_images/add_user.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Para ello, se tiene que especificar los siguientes campos: <strong>First Name</strong>, <strong>Last Name</strong>,  <strong>Email</strong>, <strong>Username</strong>, <strong>Password</strong>.</p>
+<img alt="../_images/add_user_info.png" src="../_images/add_user_info.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Luego se elige, para cada compañia que se quiera asignar al usuario, los roles y departamentos correspondientes.</p>
+<img alt="../_images/add_user_company.png" src="../_images/add_user_company.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="editar-usuarios">
+<h3>Editar usuarios<a class="headerlink" href="#editar-usuarios" title="Permalink to this headline">#</a></h3>
+<p>También es posible editar usuarios ya existentes. Para ello se debe seleccionar el usuario que se desea editar
+y en el menú superior elegir la opción <strong>edit user</strong>. Además es posible cambiar la contraseña ingresando a
+la opción <strong>change password</strong>.</p>
+<img alt="../_images/edit_user.png" src="../_images/edit_user.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+</div>
+<div class="section" id="roles">
+<h2>Roles<a class="headerlink" href="#roles" title="Permalink to this headline">#</a></h2>
+<p>Un rol es una colección de permisos que se asignan a un usuario dentro de plataforma.
+Los roles pueden ser asignados y personalizados de acuerdo a las necesidades de cada organización.</p>
+<img alt="../_images/roles.png" src="../_images/roles.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Los roles se crean accediendo a la opción <strong>Add role</strong> en el menu superior. Luego se debe seleccionar a que compañia
+va a pertenecer el rol, el nombre y uno de los templates que tiene configurados un conjunto de permisos predeterminados,
+que luego se pueden modificar y personalizar en la opción de <strong>Permissions by role</strong>.</p>
+<img alt="../_images/roles_create.png" src="../_images/roles_create.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="permisos-por-rol">
+<h2>Permisos por rol<a class="headerlink" href="#permisos-por-rol" title="Permalink to this headline">#</a></h2>
+<p>Los permisos asignados a cada rol pueden ser modificados desde la opción <strong>Permissions by role</strong>.
+Al ingresar se puede ver la lista de permisos, que se encuentran agrupados por distintos aspectos de la plataforma,
+como, por ejemplo, <strong>file manager</strong>
+o <strong>interfaces</strong>.</p>
+<img alt="../_images/permissions.png" src="../_images/permissions.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Al desplegar alguno de los grupos, se detallan los permisos y se pueden editar para cada uno de
+los roles de la compañia actual, marcando o desmarcando las casillas de selección correspondientes.</p>
+<img alt="../_images/permissions_detail.png" src="../_images/permissions_detail.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="departamentos">
+<h2>Departamentos<a class="headerlink" href="#departamentos" title="Permalink to this headline">#</a></h2>
+<p>Los departamentos determinan permisos sobre los datos, por ejemplo denegar acceso a ciertas carpetas en
+el administrador de archivos o a ciertas interfaces de una aplicación, asi como también las especificaciones
+de hardware de las instancias que se utilizarán.
+Al abrir el administrador de departamentos se pueden ver los departamentos existentes, y pueden editarse o crearse nuevos.</p>
+<img alt="../_images/departments.png" src="../_images/departments.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Para crear un nuevo departamento, en el menú superior se debe seleccionar la opción <strong>Add department</strong>. Luego se debe
+elegir el nombre del departamento a crear, a que compañia corresponde y la definición del engine.</p>
+<img alt="../_images/departments_creation.png" src="../_images/departments_creation.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="teams">
+<h2>Teams<a class="headerlink" href="#teams" title="Permalink to this headline">#</a></h2>
+<p>Los Teams permiten el trabajo en grupo de ciertos usuarios, compartiendo archivos y aplicaciones dentro de una compañia, solo con
+los usuarios que forman parte de un Team en particular. Cada team cuenta con una carpeta en el administrador de archivos, dentro de la carpeta Teams,
+a la que pueden acceder solo los usuarios que forman parte del Team.
+Cuando se abre el Team manager pueden verse los teams existentes en la compañia. Se pueden agregar nuevos teams o editar
+los ya existentes.</p>
+<img alt="../_images/teams.png" src="../_images/teams.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Para crear un Team nuevo, se debe seleccionar la opción <strong>Add team</strong> y a continuación, elegir un nombre para el nuevo team. Luego se
+pueden agregar distintos departamentos para acceder permisos al team, cada uno con su nivel de acceso (sólo lectura o lectura y escritura).</p>
+<img alt="../_images/teams_creation.png" src="../_images/teams_creation.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="companias">
+<h2>Compañias<a class="headerlink" href="#companias" title="Permalink to this headline">#</a></h2>
+<p>Dentro de Pyplan, cada compañia ofrece un ambiente aislado para que los distintos usuarios de la empresa puedan trabajar en forma
+conjunta, pudiendo compartir archivos y aplicaciones.
+Desde el administrador de compañias pueden crear compañias nuevas y editar las existentes.
+.. image:: images/company.png</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Al crear una compañia nueva se debe elegir el nombre y además el nombre de la carpeta donde se guardaran todos los archivos
+correspondientes de la compañia.</p>
+<img alt="../_images/company_creation.png" src="../_images/company_creation.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Además al crear una compañia nueva se debe proveer una licencia de Pyplan para que la compañia nueva se encuentre activada.
+Esto permite que la compañia este activada por un periodo y para una cierta cantidad de usuarios que vienen determinados por la licencia.</p>
+<img alt="../_images/company_update.png" src="../_images/company_update.png" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
 </div>
 
 

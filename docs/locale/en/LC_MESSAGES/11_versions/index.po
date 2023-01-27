@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Pyplan
+# This file is distributed under the same license as the Pyplan package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pyplan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-27 17:42-0300\n"
+"PO-Revision-Date: 2023-01-27 17:54-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: ../../11_versions/index.rst:2
+msgid "Versiones y escenarios"
+msgstr "Versions and scenarios"
+
+#: ../../11_versions/index.rst:4
+msgid ""
+"Una aplicación puede contener muchas versiones. Cada versión contiene la "
+"lógica, las interfaces, los escenarios, datos y definición de "
+"formularios y otros datos de entrada."
+msgstr ""
+"An application can contain many versions. Each version contains logic, "
+"interfaces, scenarios, data and form definitions and other input data."
+
+#: ../../11_versions/index.rst:6
+msgid "La estructura de una aplicación es la siguiente:"
+msgstr "The structure of an application is as follows:"
+
+#: ../../11_versions/index.rst:12
+msgid "Versiones"
+msgstr "Versions"
+
+#: ../../11_versions/index.rst:16 ../../11_versions/index.rst:67
+msgid "Introducción"
+msgstr "Introduction"
+
+#: ../../11_versions/index.rst:18
+msgid ""
+"Al momento de crear una aplicación, se creará una versión por defecto "
+"(Default). Cada vez que el usuario abra una aplicación, siempre estará "
+"posicionado sobre una versión en particular que se puede visualizar el "
+"la barra superior."
+msgstr ""
+"When creating an application, a default version will be created. Each "
+"time the user opens an application, always will be positioned on a "
+"particular version that can be displayed in the top bar."
+
+#: ../../11_versions/index.rst:21
+msgid ""
+"Las versiones tienen múltiples propósitos y se pueden utilizar como "
+"ciclo de desarrollo, ciclos de planeamiento, etc."
+msgstr ""
+"Versioning has multiple purposes and can be used as a development cycle, "
+"planning cycle, etc."
+
+#: ../../11_versions/index.rst:23
+msgid "Uso simultáneo"
+msgstr "Concurrent use"
+
+#: ../../11_versions/index.rst:25
+msgid ""
+"Dos usuarios pueden trabajar (y guardar cambios) al mismo tiempo en "
+"versiones **distintas** de la misma aplicación."
+msgstr ""
+"Two users can work (and save changes) at the same time on **different** "
+"versions of the same application."
+
+#: ../../11_versions/index.rst:29
+msgid "Administrador de versiones"
+msgstr "Version Manager"
+
+#: ../../11_versions/index.rst:31
+msgid ""
+"Para acceder al administrador de versiones de la aplicación, debe hacer "
+"click en la opción **\"Versiones\"** del menú principal."
+msgstr ""
+"To access the application version manager, click on the **\"Versions\"** "
+"option in the main menu."
+
+#: ../../11_versions/index.rst:35
+msgid ""
+"Desde el administrador podrá crear, editar, exportar e importar "
+"versiones. También podrá de manera simple cambiar el estado de una "
+"versión."
+msgstr ""
+"From the manager you will be able to create, edit, export and import "
+"versions. You can also easily change the status of a version."
+
+#: ../../11_versions/index.rst:37
+msgid ""
+"Para crear una nueva versión debe hacer click en botón **\"Crear versión"
+"\"**. Luego se abrirá una ventana como la siguiente:"
+msgstr ""
+"To create a new version you must click on the **\"Create version\"** "
+"button. Then a window like the following one will open:"
+
+#: ../../11_versions/index.rst:41
+msgid ""
+"Las nuevas versiones siempre toman como base una versión existente, por "
+"lo tanto todo el contenido de la versión seleccionada como base se "
+"copiará a la nueva versión. También puede especificar diferentes "
+"etiquetas (ingresando texto y presionando Enter). Estas etiquetas "
+"facilitarán la búsqueda de la versión."
+msgstr ""
+"New versions always take an existing version as a base, so all the "
+"content of the selected base version will be copied to the new version. "
+"You can also specify different tags (by entering text and pressing "
+"Enter). These tags will make it easier to find the version."
+
+#: ../../11_versions/index.rst:44
+msgid ""
+"La opción \"Establecer como versión por defecto\" permite especificar "
+"que la nueva versión que se está por crear será la versión que se abrirá "
+"al abrir la aplicación."
+msgstr ""
+"The \"Set as default version\" option allows you to specify that the new "
+"version you are about to create will be the version that will be opened "
+"when you open the application."
+
+#: ../../11_versions/index.rst:46
+msgid ""
+"Al confirmar la creación de la nueva versión y si la opción de \"Abrir "
+"luego de crear\" está seleccionada, se abrirá la nueva versión y ya la "
+"podrá visualizar en la barra superior."
+msgstr ""
+"When you confirm the creation of the new version and if the \"Open after "
+"creating\" option is selected, the new version will be opened and you "
+"will be able to see it in the top bar."
+
+#: ../../11_versions/index.rst:52
+msgid "Estado de una versión"
+msgstr "Version status"
+
+#: ../../11_versions/index.rst:54
+msgid "Cada versión puede tener alguno de los siguientes estados:"
+msgstr "Each version can have one of the following statuses:"
+
+#: ../../11_versions/index.rst:56
+msgid "**Activa**: la versión está en uso y puede ser modificada."
+msgstr "**Active**: the version is in use and can be modified."
+
+#: ../../11_versions/index.rst:57
+msgid ""
+"**Cerrada**: la versión está cerrada, por lo tanto no se pueden realizar "
+"cambios en esta versión."
+msgstr ""
+"**Closed**: the version is closed, therefore no changes can be made to "
+"this version."
+
+#: ../../11_versions/index.rst:58
+msgid ""
+"**Archivada**: la versión esta cerrada y archivada. En este caso no se "
+"pueden realizar cambios y se oculta de los principales listados."
+msgstr ""
+"**Archived**: the version is closed and archived. In this case no "
+"changes can be made and it is hidden from the main listings."
+
+#: ../../11_versions/index.rst:63
+msgid "Escenarios"
+msgstr "Scenarios"
+
+#: ../../11_versions/index.rst:69
+msgid ""
+"Un escenario está formado por un conjunto de resultados de determinados "
+"nodos que se almacenan con el fin de ser utilizados posteriormente para "
+"la comparación."
+msgstr ""
+"A scenario consists of a set of results from certain nodes that are "
+"stored in order to be used later for comparison."
+
+#: ../../11_versions/index.rst:71
+msgid ""
+"En una versión pueden existir muchos escenarios. Pyplan permite la "
+"comparación de escenarios incluso entre diferentes versiones de la misma "
+"aplicación."
+msgstr ""
+"Many scenarios can exist in one version. Pyplan allows the comparison of "
+"scenarios even between different versions of the same application."
+
+#: ../../11_versions/index.rst:73
+msgid "Comparación"
+msgstr "Comparison"
+
+#: ../../11_versions/index.rst:75
+msgid ""
+"Para poder comparar dos o mas escenarios, los resultados a comparar "
+"deben tener la misma estructura."
+msgstr ""
+"In order to compare two or more scenarios, the results to be compared "
+"must have the same structure."
+
+#: ../../11_versions/index.rst:80
+msgid "Administrador de escenarios"
+msgstr "Scenario Manager"
+
+#: ../../11_versions/index.rst:82
+msgid ""
+"Para acceder al administrador de escenarios, debe hacer click en la "
+"opción **\"Escenarios\"** del menú principal."
+msgstr ""
+"To access the scenario manager, click on the **\"Scenarios\"** option in "
+"the main menu."
+
+#: ../../11_versions/index.rst:86
+msgid ""
+"Desde el administrador podrá crear, editar, exportar e importar "
+"escenarios."
+msgstr ""
+"From the administrator you can create, edit, export and import scenarios."
+
+#: ../../11_versions/index.rst:88
+msgid ""
+"Para crear un nuevo escenario debe hacer click en botón **\"Crear "
+"escenario\"**. Luego se abrirá una ventana como la siguiente:"
+msgstr ""
+"To create a new scenario you must click on the **\"Create scenario\"** "
+"button. Then a window like the following one will open:"
+
+#: ../../11_versions/index.rst:92
+msgid ""
+"Aquí deberá definir el nombre, el alias (utilizado como etiqueta para la "
+"comparación), una descripción opcional y deberá especificar los nodos de "
+"los cuales se guardarán los resultados."
+msgstr ""
+"Here you must define the name, the alias (used as a label for the "
+"comparison), an optional description and you must specify the nodes from "
+"which the results will be saved."
+
+#: ../../11_versions/index.rst:95
+msgid "Aclaración"
+msgstr "Clarification"
+
+#: ../../11_versions/index.rst:97
+msgid ""
+"En este paso está definiendo el escenario, aunque opcionalmente también "
+"puede guardar el resultado del escenario. Mas adelante veremos como "
+"puede actualizar los resultados de un escenario o generar un nuevo "
+"escenario sin necesidad de ingresar al administrador."
+msgstr ""
+"In this step you are defining the scenario, but optionally you can also "
+"save the scenario result. Later we will see how you can update the "
+"results of a scenario or generate a new scenario without using the "
+"scenario manager."
+
+#: ../../11_versions/index.rst:102
+msgid "Grabar escenario"
+msgstr "Save scenario"
+
+#: ../../11_versions/index.rst:104
+msgid ""
+"Una vez definido un escenario (especificando los nodos que van a "
+"persistir), puede grabar el escenario actual o crear un escenario nuevo "
+"haciendo click en el botón \"Grabar escenario\""
+msgstr ""
+"Once you have defined a scenario (specifying the nodes that will "
+"persist), you can save the current scenario or create a new scenario by "
+"clicking on the \"Save scenario\" button."
+
+#: ../../11_versions/index.rst:110
+msgid "Si selecciona la opción \"Escenario existente\":"
+msgstr "If you select the \"Existing scenario\" option:"
+
+#: ../../11_versions/index.rst:114
+msgid ""
+"al confirmar, se guardarán los resultados de los nodos definidos en el "
+"escenario seleccionado, sobre-escribiendo los resultados anteriores."
+msgstr ""
+"When confirmed, the results of the nodes defined in the selected "
+"scenario will be saved, overwriting the previous results."
+
+#: ../../11_versions/index.rst:116
+msgid "Si selecciona la opción \"Nuevo escenario\":"
+msgstr "If you select the \"New scenario\" option:"
+
+#: ../../11_versions/index.rst:120
+msgid ""
+"deberá especificar el escenario que se tomará como base y asignar un "
+"nombre y alias. Al confirmar se creará un nuevo escenario con los "
+"resultados de los nodos que se especificaron en el escenario "
+"seleccionado como base."
+msgstr ""
+"you must specify the scenario to be taken as a base and assign a name "
+"and alias. When confirmed, a new scenario will be created with the "
+"results of the nodes that were specified in the scenario selected as a "
+"base."
+
+#: ../../11_versions/index.rst:126
+msgid "Comparación de escenarios"
+msgstr "Scenario comparison"
+
+#: ../../11_versions/index.rst:128
+msgid ""
+"Puede comparar diferentes escenarios (incluso de diferentes versiones) "
+"haciendo clic en el botón \"Seleccionar escenarios\":"
+msgstr ""
+"You can compare different scenarios (even from different versions) by "
+"clicking on the \"Select scenarios\" button:"
+
+#: ../../11_versions/index.rst:132
+msgid ""
+"En la siguiente ventana podrá seleccionar los escenarios que desea "
+"comparar, indicando también cuál de estos se tomará como base para la "
+"comparación."
+msgstr ""
+"In the next window you can select the scenarios to be compared, "
+"specifying which of these will be used as the basis for the comparison."
+
+#: ../../11_versions/index.rst:136
+msgid ""
+"Para que un componente (tabla o gráfico) permita la comparación de "
+"escenarios, deberá habilitar la opción de comparación desde las "
+"propiedades del componente:"
+msgstr ""
+"For a component (table or graph) to allow scenario comparison, you must "
+"enable the comparison option from the component properties:"
+
+#: ../../11_versions/index.rst:140
+msgid ""
+"Esta opción agregará una nueva dimension \"Pyplan Scenarios\" la cual "
+"contendrá la lista de escenarios seleccionados. También puede "
+"especificar si se agregan o no los campos calculados de diferencia "
+"(tanto absoluta como porcentual)."
+msgstr ""
+"This option will add a new dimension \"Pyplan Scenarios\" which will "
+"contain the list of selected scenarios. You can also specify whether or "
+"not to add the calculated difference fields (both absolute and "
+"percentage)."

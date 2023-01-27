@@ -3,30 +3,29 @@
 # This file is distributed under the same license as the Pyplan package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Pyplan\n"
+"Project-Id-Version: Pyplan \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-26 20:01-0300\n"
-"PO-Revision-Date: 2023-01-27 11:37-0300\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
-"X-Generator: Poedit 3.2.2\n"
 
 #: ../../11_change_log/index.rst:2
 msgid "Historial de cambios"
-msgstr "Change Log"
+msgstr ""
 
 #: ../../11_change_log/index.rst:4
 msgid ""
-"A continuación se detallan todos los cambios destacables de Pyplan para cada "
-"versión:"
-msgstr "All notable changes to Pyplan will be documented in this file."
+"A continuación se detallan todos los cambios destacables de Pyplan para "
+"cada versión:"
+msgstr ""
 
 #: ../../11_change_log/index.rst:8
 msgid "v3.4.1 - 2023-01-27"
@@ -37,134 +36,125 @@ msgstr ""
 #: ../../11_change_log/index.rst:134 ../../11_change_log/index.rst:173
 #: ../../11_change_log/index.rst:194
 msgid "Novedades"
-msgstr "New Features"
+msgstr ""
 
 #: ../../11_change_log/index.rst:14
 msgid "Versionado de aplicaciones."
-msgstr "Application versioning."
+msgstr ""
 
 #: ../../11_change_log/index.rst:15
 msgid "Posibilidad de definir, guardar y comparar escenarios."
-msgstr "Capability to define, save and compare scenarios."
+msgstr ""
 
 #: ../../11_change_log/index.rst:16
 msgid "Manager de procesos (workflow)."
-msgstr "Process manager (workflow)."
+msgstr ""
 
 #: ../../11_change_log/index.rst:17
 msgid "Nueva vista \"Mis tareas\"."
-msgstr "New \"My Tasks\" view."
+msgstr ""
 
 #: ../../11_change_log/index.rst:18
 msgid "Nuevo diseño de la página de inicio."
-msgstr "New home page design."
+msgstr ""
 
 #: ../../11_change_log/index.rst:19
 msgid "Permitir agregar imágenes en miniatura (thumbnail.png) para aplicaciones."
-msgstr "Allow adding thumbnail images (thumbnail.png) for applications."
+msgstr ""
 
 #: ../../11_change_log/index.rst:20
 msgid "Editor de texto dentro del administrador de archivos."
-msgstr "Text editor inside the file manager."
+msgstr ""
 
 #: ../../11_change_log/index.rst:21
 msgid "Más opciones de formato condicional."
-msgstr "More conditional formatting options."
+msgstr ""
 
 #: ../../11_change_log/index.rst:22
 msgid "Nuevas funciones pp.download() y pp.upload()."
-msgstr "New functions pp.download() and pp.upload()."
+msgstr ""
 
 #: ../../11_change_log/index.rst:23
 msgid "Exportar/importar interfaces."
-msgstr "Export/import interfaces."
+msgstr ""
 
 #: ../../11_change_log/index.rst:24
 msgid "Mejora en las respuestas de pyplan-bot."
-msgstr "Improved pyplan-bot responses."
+msgstr ""
 
 #: ../../11_change_log/index.rst:25
 msgid "Mejora en la documentación de las funciones pp."
-msgstr "Improved documentation of pp functions."
+msgstr ""
 
 #: ../../11_change_log/index.rst:30 ../../11_change_log/index.rst:51
 #: ../../11_change_log/index.rst:61 ../../11_change_log/index.rst:79
 #: ../../11_change_log/index.rst:98 ../../11_change_log/index.rst:121
 #: ../../11_change_log/index.rst:151 ../../11_change_log/index.rst:182
 msgid "Errores corregidos"
-msgstr "Bug fixes"
+msgstr ""
 
 #: ../../11_change_log/index.rst:31
 msgid "Error al crear carpetas con espacio al final del texto."
-msgstr "Error when creating folders with space at the end of the text."
+msgstr ""
 
 #: ../../11_change_log/index.rst:32
 msgid "Paginación en selectores."
-msgstr "Pagination in selectors."
+msgstr ""
 
 #: ../../11_change_log/index.rst:33
 msgid "Error al pegar números formateados desde Excel."
-msgstr "Error when pasting formatted numbers from Excel."
+msgstr ""
 
 #: ../../11_change_log/index.rst:34
 msgid "Error al cancelar cambios en form que no fue confirmado."
-msgstr "Error canceling changes to form that was not confirmed."
+msgstr ""
 
 #: ../../11_change_log/index.rst:35
 msgid ""
 "Al editar el nombre de una carpeta o archivo y presionar delete, intenta "
 "eliminar el archivo."
 msgstr ""
-"When you edit the name of a folder or file and press delete, it attempts to "
-"delete the file."
 
 #: ../../11_change_log/index.rst:36
 msgid ""
-"Al completar default value de una columna de un form y luego borrarlo, da error "
-"el generar definición"
+"Al completar default value de una columna de un form y luego borrarlo, da"
+" error el generar definición"
 msgstr ""
-"When filling in the default value of a column of a form and then deleting it, "
-"the generate definition fails."
 
 #: ../../11_change_log/index.rst:37
 msgid "Problemas de scroll en área de pivoteo de tablas y gráficos."
-msgstr "Scrolling problems in the pivot area of tables and graphs."
+msgstr ""
 
 #: ../../11_change_log/index.rst:38
 msgid ""
-"Error al navegar el diagrama si la definición de un nodo tipo input tiene un "
-"error."
+"Error al navegar el diagrama si la definición de un nodo tipo input tiene"
+" un error."
 msgstr ""
-"Error when navigating the diagram if the definition of an input type node has "
-"an error."
 
 #: ../../11_change_log/index.rst:39
 msgid "No funcionan los selectores relacionados del form basado en un dataframe."
-msgstr "The related selectors of the form based on a dataframe do not work."
+msgstr ""
 
 #: ../../11_change_log/index.rst:40
 msgid ""
-"En menú tipo bloques, no deshabilita bloques para los cuales el usuario no "
-"tiene permisos."
+"En menú tipo bloques, no deshabilita bloques para los cuales el usuario "
+"no tiene permisos."
 msgstr ""
-"In the block type menu, blocks for which the user does not have permissions are "
-"not disabled."
 
 #: ../../11_change_log/index.rst:41
 msgid "No funciona copiar y pegar / duplicar módulos."
-msgstr "Copying and pasting / duplicating modules does not work."
+msgstr ""
 
 #: ../../11_change_log/index.rst:42
 msgid ""
-"No funciona links a dashboards cuando en una interface existe mas de un link."
+"No funciona links a dashboards cuando en una interface existe mas de un "
+"link."
 msgstr ""
-"Links to dashboards do not work when there is more than one link in an "
-"interface."
 
 #: ../../11_change_log/index.rst:43 ../../11_change_log/index.rst:126
 #: ../../11_change_log/index.rst:165
 msgid "Otras correcciones menores."
-msgstr "Other minor fixes."
+msgstr ""
 
 #: ../../11_change_log/index.rst:47
 msgid "v3.3.6 - 2022-12-12"
@@ -172,11 +162,11 @@ msgstr ""
 
 #: ../../11_change_log/index.rst:52
 msgid "Visualización en wizard de creación de indices."
-msgstr "Visualization in the index creation wizard."
+msgstr ""
 
 #: ../../11_change_log/index.rst:53
 msgid "Corrección de errores al visualizar un dataframe no indexado."
-msgstr "Errors fixed when displaying a non-indexed dataframe."
+msgstr ""
 
 #: ../../11_change_log/index.rst:57
 msgid "v3.3.5 - 2022-12-07"
@@ -184,7 +174,7 @@ msgstr ""
 
 #: ../../11_change_log/index.rst:62
 msgid "Error al insertar un valor en un input table."
-msgstr "Error when inserting a value in an input table."
+msgstr ""
 
 #: ../../11_change_log/index.rst:66
 msgid "v3.3.4 - 2022-12-07"
@@ -192,27 +182,27 @@ msgstr ""
 
 #: ../../11_change_log/index.rst:71
 msgid "Nuevo pyplan-bot (OpenAI-GPT3)"
-msgstr "New pyplan-bot (OpenAI-GPT3)"
+msgstr ""
 
 #: ../../11_change_log/index.rst:72
 msgid "Nueva función pp.progressbar()"
-msgstr "New pp.progressbar() function"
+msgstr ""
 
 #: ../../11_change_log/index.rst:73
 msgid "Wizard para realizar cambio de indice."
-msgstr "Wizard to perform index change."
+msgstr ""
 
 #: ../../11_change_log/index.rst:74
 msgid "Ejemplo de aplicaciones en home."
-msgstr "Example of applications in the home."
+msgstr ""
 
 #: ../../11_change_log/index.rst:80
 msgid "Scroll en Filemanager."
-msgstr "Scroll in Filemanager."
+msgstr ""
 
 #: ../../11_change_log/index.rst:81
 msgid "Error al arrastrar componente tipo chart."
-msgstr "Error when dragging chart type component."
+msgstr ""
 
 #: ../../11_change_log/index.rst:86
 msgid "v3.3.3 - 2022-12-02"
@@ -220,26 +210,25 @@ msgstr ""
 
 #: ../../11_change_log/index.rst:91
 msgid "Nuevas variantes de colores de heatmap para tablas."
-msgstr "New heatmap color variants for tables."
+msgstr ""
 
 #: ../../11_change_log/index.rst:92
 msgid "Ajustes en pestaña de Performance."
-msgstr "Fixes in the Performance tab."
+msgstr ""
 
 #: ../../11_change_log/index.rst:93
 msgid "Permitir cambiar el idioma de Pyplan."
-msgstr "Allow to change the Pyplan language."
+msgstr ""
 
 #: ../../11_change_log/index.rst:99
 msgid ""
-"Al cambiar tipo de visualización (tabla -> gráfico -> tabla), no aplica código "
-"personalizado."
+"Al cambiar tipo de visualización (tabla -> gráfico -> tabla), no aplica "
+"código personalizado."
 msgstr ""
-"When changing display type (table -> chart -> table), no custom code is applied."
 
 #: ../../11_change_log/index.rst:100
 msgid "Error en estilos de radio buttons."
-msgstr "Error in radio button styles."
+msgstr ""
 
 #: ../../11_change_log/index.rst:104
 msgid "v3.3.2 - 2022-11-29"
@@ -247,54 +236,53 @@ msgstr ""
 
 #: ../../11_change_log/index.rst:110
 msgid "Asistente de conversión de datarray a dataframe."
-msgstr "Datarray to dataframe conversion wizard."
+msgstr ""
 
 #: ../../11_change_log/index.rst:111
 msgid "Asistente de creación de indices."
-msgstr "Index creation wizard."
+msgstr ""
 
 #: ../../11_change_log/index.rst:112
 msgid "Aplicar formato a ejes y hover en charts."
-msgstr "Apply formatting to axes and hover in charts."
+msgstr ""
 
 #: ../../11_change_log/index.rst:113
 msgid "Unificar componentes inputs."
-msgstr "Standardize input components."
+msgstr ""
 
 #: ../../11_change_log/index.rst:114
 msgid "Agregar documentación a interfaces."
-msgstr "Add documentation to interfaces."
+msgstr ""
 
 #: ../../11_change_log/index.rst:115
 msgid "Nueva funcionalidad análisis de performance."
-msgstr "New performance analysis functionality."
+msgstr ""
 
 #: ../../11_change_log/index.rst:116
 msgid "Cambios en jerarquías de índices."
-msgstr "Changes in index hierarchies."
+msgstr ""
 
 #: ../../11_change_log/index.rst:117
 msgid "Uso de la carpeta Media para almacenar imágenes, documentos, etc."
-msgstr "Use the Media folder to store images, documents, etc."
+msgstr ""
 
 #: ../../11_change_log/index.rst:122
 msgid "No funciona exportar vista de componente como \"Full node\"."
-msgstr "Exporting component view as \"Full node\" does not work."
+msgstr ""
 
 #: ../../11_change_log/index.rst:123
 msgid "En la home y file manager, se pueden ver todos los teams."
-msgstr "In the home and file manager, you can see all the teams."
+msgstr ""
 
 #: ../../11_change_log/index.rst:124
 msgid "Error al intentar visualizar resultado de objetos no serializables."
-msgstr "Error when trying to display results of non-serializable objects."
+msgstr ""
 
 #: ../../11_change_log/index.rst:125
 msgid ""
-"Exportar componente como tabla da error si hay más de una dimensión en columnas."
+"Exportar componente como tabla da error si hay más de una dimensión en "
+"columnas."
 msgstr ""
-"Export component as table gives error if there is more than one dimension in "
-"columns."
 
 #: ../../11_change_log/index.rst:130
 msgid "v3.3.1 - 2022-11-04"
@@ -305,115 +293,108 @@ msgid ""
 "Ahora las librerías a utilizar en una aplicación se pueden definir en el "
 "archivo requirements.txt."
 msgstr ""
-"Now the libraries to be used in an application can be defined in the "
-"requirements.txt file."
 
 #: ../../11_change_log/index.rst:137
 msgid "Permitir configurar colores para cada serie de un gráfico."
-msgstr "Allow to set colors for each series of a chart."
+msgstr ""
 
 #: ../../11_change_log/index.rst:138
 msgid "Asistentes que permiten crear el siguiente paso de cálculo."
-msgstr "Wizards that allow you to create the next calculation step."
+msgstr ""
 
 #: ../../11_change_log/index.rst:139
 msgid "Ajustes al confirmar la definición de un nodo."
-msgstr "Changes when confirming the definition of a node."
+msgstr ""
 
 #: ../../11_change_log/index.rst:140
 msgid "Ajustes en la creación de menu."
-msgstr "Changes in the creation of the menu."
+msgstr ""
 
 #: ../../11_change_log/index.rst:141
 msgid "El componente menu ahora se puede visualizar por bloques."
-msgstr "The menu component can now be displayed in blocks."
+msgstr ""
 
 #: ../../11_change_log/index.rst:142
 msgid "Ajustes en ventanas emergentes."
-msgstr "Changes in pop-up windows."
+msgstr ""
 
 #: ../../11_change_log/index.rst:143
 msgid "Permitir configurar bordes y encabezados en componentes."
-msgstr "Allow setting borders and headers on components."
+msgstr ""
 
 #: ../../11_change_log/index.rst:144
 msgid "Optimización del uso de librerías."
-msgstr "Optimization of the use of libraries."
+msgstr ""
 
 #: ../../11_change_log/index.rst:145
 msgid ""
-"Los selectores ahora soportan la opción \"Seleccionar todos\" para cuando "
-"permiten selección múltiple."
+"Los selectores ahora soportan la opción \"Seleccionar todos\" para cuando"
+" permiten selección múltiple."
 msgstr ""
-"Selectors now support the \"Select All\" option for when multiple selection is "
-"allowed."
 
 #: ../../11_change_log/index.rst:146
 msgid "El menú permite agregar subtítulos."
-msgstr "The menu allows you to add subtitles."
+msgstr ""
 
 #: ../../11_change_log/index.rst:152
 msgid "Al navegar el diagrama, se resetea el nivel de zoom."
-msgstr "When navigating the diagram, the zoom level is reset."
+msgstr ""
 
 #: ../../11_change_log/index.rst:153
 msgid "Error al ejecutar una tarea programada con parámetros."
-msgstr "Error when executing a scheduled task with parameters."
+msgstr ""
 
 #: ../../11_change_log/index.rst:154
 msgid "Error al editar un campo fecha en un formulario"
-msgstr "Error when editing a date field in a form"
+msgstr ""
 
 #: ../../11_change_log/index.rst:155
 msgid ""
-"En algunas ocasiones al copiar/mover un archivo existente no lo sobre-escribe."
-msgstr "Occasionally copying/moving an existing file does not overwrite it."
+"En algunas ocasiones al copiar/mover un archivo existente no lo sobre-"
+"escribe."
+msgstr ""
 
 #: ../../11_change_log/index.rst:156
 msgid ""
-"Los selectores de tipo radio button muestran solo las primeras 10 opciones."
-msgstr "The radio button selectors show only the first 10 options."
+"Los selectores de tipo radio button muestran solo las primeras 10 "
+"opciones."
+msgstr ""
 
 #: ../../11_change_log/index.rst:157
 msgid "No muestra el menu principal al abrir desde nueva instancia."
 msgstr ""
-"When an application is opened in a new instance, the main menu is not displayed."
 
 #: ../../11_change_log/index.rst:158
 msgid "Error al cerrar instancia desde el Instance Manager."
-msgstr "Error closing instance from Instance Manager."
+msgstr ""
 
 #: ../../11_change_log/index.rst:159
 msgid "Si un dataframe tiene un solo índice, no se puede configurar estilos."
-msgstr "If a dataframe has only one index, no styles can be configured."
+msgstr ""
 
 #: ../../11_change_log/index.rst:160
 msgid "Al ordenar columna de una tabla está ordenando la columna de totales."
-msgstr "When sorting a table column, the total column must not be sorted."
+msgstr ""
 
 #: ../../11_change_log/index.rst:161
 msgid ""
-"En algunas ocasiones no se puede editar una tarea programada creada por otro "
-"usuario."
+"En algunas ocasiones no se puede editar una tarea programada creada por "
+"otro usuario."
 msgstr ""
-"Occasionally it is not possible to edit a scheduled task created by another "
-"user."
 
 #: ../../11_change_log/index.rst:162
 msgid "No se visualiza correctamente el breadcrumb cuando se selecciona un Team."
-msgstr "The breadcrumb is not displayed correctly when a Team is selected."
+msgstr ""
 
 #: ../../11_change_log/index.rst:163
 msgid ""
-"En formularios, da error al insertar un valor vacío en columna tipo entero o "
-"decimal"
+"En formularios, da error al insertar un valor vacío en columna tipo "
+"entero o decimal"
 msgstr ""
-"In forms, an error occurs when inserting an empty value in an integer or "
-"decimal column."
 
 #: ../../11_change_log/index.rst:164
 msgid "Instance manager no funciona correctamente"
-msgstr "Instance manager does not work properly"
+msgstr ""
 
 #: ../../11_change_log/index.rst:169
 msgid "v3.2.1 - 2022-07-12"
@@ -421,33 +402,33 @@ msgstr ""
 
 #: ../../11_change_log/index.rst:175
 msgid "Posibilidad de crear campos calculados."
-msgstr "Ability to create calculated fields."
+msgstr ""
 
 #: ../../11_change_log/index.rst:176
 msgid "Reordenar resultado de búsqueda de nodos según criterios."
-msgstr "Reorder search result of nodes according to criteria."
+msgstr ""
 
 #: ../../11_change_log/index.rst:177
 msgid "Exponer resultado de un nodo como API endpoints."
-msgstr "Expose results of a node as API endpoints."
+msgstr ""
 
 #: ../../11_change_log/index.rst:178
 msgid "Posibilidad de resetear la vista de un componente."
-msgstr "Possibility to reset the view of a component."
+msgstr ""
 
 #: ../../11_change_log/index.rst:183
 msgid "Error al hacer drilldowns en tablas."
-msgstr "Error when doing drilldowns on tables."
+msgstr ""
 
 #: ../../11_change_log/index.rst:184
 msgid "Error al cambiar de empresa y volver a file manager."
-msgstr "Error when changing company and returning to file manager."
+msgstr ""
 
 #: ../../11_change_log/index.rst:185
 msgid ""
-"Problemas con diálogo de confirmación de cambios no guardados en interfaces"
+"Problemas con diálogo de confirmación de cambios no guardados en "
+"interfaces"
 msgstr ""
-"Problemas con diálogo de confirmación de cambios no guardados en interfaces"
 
 #: ../../11_change_log/index.rst:190
 msgid "v3.1.1 - 2022-06-17"
@@ -455,52 +436,49 @@ msgstr ""
 
 #: ../../11_change_log/index.rst:196
 msgid "Nueva y moderna interface de usuario."
-msgstr "New and modern user interface."
+msgstr ""
 
 #: ../../11_change_log/index.rst:197
 msgid ""
-"Nuevo concepto de aplicaciones (integrando lógica, interfaces y formularios)."
-msgstr "New concept of applications (integrating logic, interfaces and forms)."
+"Nuevo concepto de aplicaciones (integrando lógica, interfaces y "
+"formularios)."
+msgstr ""
 
 #: ../../11_change_log/index.rst:198
 msgid ""
-"Se agregaron nuevos componentes de tipo gráfico (incluye todos los gráficos de "
-"la librería plotly)."
+"Se agregaron nuevos componentes de tipo gráfico (incluye todos los "
+"gráficos de la librería plotly)."
 msgstr ""
-"New graphic components have been added (including all graphics from the plotly "
-"library)."
 
 #: ../../11_change_log/index.rst:199
 msgid "Interface de usuario para la creación de formularios."
-msgstr "User interface for the creation of forms."
+msgstr ""
 
 #: ../../11_change_log/index.rst:200
 msgid "Posibilidad de personalizar el código de cada componente de una interface."
-msgstr "Allows you to customize the code of each component of an interface."
+msgstr ""
 
 #: ../../11_change_log/index.rst:201
 msgid "Nuevo diagrama de influencia (estandarización de colores de nodos)."
-msgstr "New influence diagram (standardization of node colors)."
+msgstr ""
 
 #: ../../11_change_log/index.rst:202
 msgid "3 vistas de código."
-msgstr "3 code views."
+msgstr ""
 
 #: ../../11_change_log/index.rst:203
 msgid "Ayudas en codificación."
-msgstr "Coding aids."
+msgstr ""
 
 #: ../../11_change_log/index.rst:204
 msgid "Wizards para la creación de nodos."
-msgstr "Wizards for node creation."
+msgstr ""
 
 #: ../../11_change_log/index.rst:205
 msgid "Consola de output y errores."
-msgstr "Output and error console."
+msgstr ""
 
 #: ../../11_change_log/index.rst:206
 msgid "Mejora general en la performance."
-msgstr "General performance improvement."
+msgstr ""
 
-#~ msgid "Corrección de errores"
-#~ msgstr "Bug fixes"

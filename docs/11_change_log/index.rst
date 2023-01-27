@@ -12,7 +12,7 @@ Novedades
 ---------
 
 - Versionado de aplicaciones.
-- Posibilidad de definir, crear y comparar escenarios.
+- Posibilidad de definir, guardar y comparar escenarios.
 - Manager de procesos (workflow).
 - Nueva vista "Mis tareas".
 - Nuevo diseño de la página de inicio.
@@ -25,9 +25,9 @@ Novedades
 - Mejora en la documentación de las funciones pp.
 
 
----------------------
-Corrección de errores
----------------------
+------------------
+Errores corregidos
+------------------
 - Error al crear carpetas con espacio al final del texto.
 - Paginación en selectores.
 - Error al pegar números formateados desde Excel.
@@ -40,14 +40,15 @@ Corrección de errores
 - En menú tipo bloques, no deshabilita bloques para los cuales el usuario no tiene permisos.
 - No funciona copiar y pegar / duplicar módulos.
 - No funciona links a dashboards cuando en una interface existe mas de un link.
+- Otras correcciones menores.
 
 
 v3.3.6 - 2022-12-12
 -------------------
 
----------------------
-Corrección de errores
----------------------
+------------------
+Errores corregidos
+------------------
 - Visualización en wizard de creación de indices.
 - Corrección de errores al visualizar un dataframe no indexado.
   
@@ -55,9 +56,9 @@ Corrección de errores
 v3.3.5 - 2022-12-07
 -------------------
 
----------------------
-Corrección de errores
----------------------
+------------------
+Errores corregidos
+------------------
 - Error al insertar un valor en un input table.
 
 
@@ -73,9 +74,9 @@ Novedades
 - Ejemplo de aplicaciones en home.
  
 
----------------------
-Corrección de errores
----------------------
+------------------
+Errores corregidos
+------------------
 - Scroll en Filemanager.
 - Error al arrastrar componente tipo chart.
 
@@ -92,9 +93,9 @@ Novedades
 - Permitir cambiar el idioma de Pyplan.
 
 
----------------------
-Corrección de errores
----------------------
+------------------
+Errores corregidos
+------------------
 - Al cambiar tipo de visualización (tabla -> gráfico -> tabla), no aplica código personalizado.
 - Error en estilos de radio buttons.
 
@@ -115,22 +116,91 @@ Novedades
 - Cambios en jerarquías de índices.
 - Uso de la carpeta Media para almacenar imágenes, documentos, etc.
 
----------------------
-Corrección de errores
----------------------
+------------------
+Errores corregidos
+------------------
 - No funciona exportar vista de componente como "Full node".
 - En la home y file manager, se pueden ver todos los teams.
 - Error al intentar visualizar resultado de objetos no serializables.
 - Exportar componente como tabla da error si hay más de una dimensión en columnas.
+- Otras correcciones menores.
 
 
 v3.3.1 - 2022-11-04
 -------------------
 
+---------
+Novedades
+---------
+
+- Ahora las librerías a utilizar en una aplicación se pueden definir en el archivo requirements.txt.
+- Permitir configurar colores para cada serie de un gráfico.
+- Asistentes que permiten crear el siguiente paso de cálculo.
+- Ajustes al confirmar la definición de un nodo.
+- Ajustes en la creación de menu.
+- El componente menu ahora se puede visualizar por bloques.
+- Ajustes en ventanas emergentes.
+- Permitir configurar bordes y encabezados en componentes.
+- Optimización del uso de librerías.
+- Los selectores ahora soportan la opción "Seleccionar todos" para cuando permiten selección múltiple.
+- El menú permite agregar subtítulos.
+
+
+------------------
+Errores corregidos
+------------------
+- Al navegar el diagrama, se resetea el nivel de zoom.
+- Error al ejecutar una tarea programada con parámetros.
+- Error al editar un campo fecha en un formulario
+- En algunas ocasiones al copiar/mover un archivo existente no lo sobre-escribe.
+- Los selectores de tipo radio button muestran solo las primeras 10 opciones.
+- No muestra el menu principal al abrir desde nueva instancia.
+- Error al cerrar instancia desde el Instance Manager.
+- Si un dataframe tiene un solo índice, no se puede configurar estilos.
+- Al ordenar columna de una tabla está ordenando la columna de totales.
+- En algunas ocasiones no se puede editar una tarea programada creada por otro usuario.
+- No se visualiza correctamente el breadcrumb cuando se selecciona un Team.
+- En formularios, da error al insertar un valor vacío en columna tipo entero o decimal
+- Instance manager no funciona correctamente
+- Otras correcciones menores.  
+
 
 v3.2.1 - 2022-07-12
 -------------------
 
+---------
+Novedades
+---------
+
+- Posibilidad de crear campos calculados.
+- Reordenar resultado de búsqueda de nodos según criterios.
+- Exponer resultado de un nodo como API endpoints.
+- Posibilidad de resetear la vista de un componente.
+
+------------------
+Errores corregidos
+------------------
+- Error al hacer drilldowns en tablas.
+- Error al cambiar de empresa y volver a file manager.
+- Problemas con diálogo de confirmación de cambios no guardados en interfaces
+  
+
 
 v3.1.1 - 2022-06-17
 -------------------
+
+---------
+Novedades
+---------
+
+- Nueva y moderna interface de usuario.
+- Nuevo concepto de aplicaciones (integrando lógica, interfaces y formularios).
+- Se agregaron nuevos componentes de tipo gráfico (incluye todos los gráficos de la librería plotly).
+- Interface de usuario para la creación de formularios.
+- Posibilidad de personalizar el código de cada componente de una interface.
+- Nuevo diagrama de influencia (estandarización de colores de nodos).
+- 3 vistas de código.
+- Ayudas en codificación.
+- Wizards para la creación de nodos.
+- Consola de output y errores.
+- Mejora general en la performance.

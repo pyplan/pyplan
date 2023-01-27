@@ -1,0 +1,626 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Versions and scenarios</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
+    <script src="../_static/custom.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Change Log" href="../99_change_log/index.html" />
+    <link rel="prev" title="Virtual environments" href="../10_environments/index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Table of Contents
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../1_home/index.html">
+   Access to Pyplan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2_applications/index.html">
+   Applications
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../3_code_window/index.html">
+   Coding Window
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../4_visualization_configuration/index.html">
+   Analysis and Visualization
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../5_low_code_no_code/index.html">
+   Coding in Pyplan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../6_interfaces/index.html">
+   Interfaces in Pyplan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../7_file_manager/index.html">
+   File Manager
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../8_task_manager/index.html">
+   Scheduled tasks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../9_user_manager/index.html">
+   Opciones de seguridad
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../10_environments/index.html">
+   Virtual environments
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Versions and scenarios
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../99_change_log/index.html">
+   Change Log
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/pyplan/pyplan"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/pyplan/pyplan/issues/new?title=Issue%20on%20page%20%2F11_versions/index.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/pyplan/pyplan/edit/master/docs/11_versions/index.rst"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/11_versions/index.rst.txt"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.rst</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#versiones">
+   Versions
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#introduccion">
+     Introduction
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#administrador-de-versiones">
+     Version Manager
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#estado-de-una-version">
+     Version status
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#escenarios">
+   Scenarios
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Introduction
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#administrador-de-escenarios">
+     Scenario Manager
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#grabar-escenario">
+     Save scenario
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#comparacion-de-escenarios">
+     Scenario comparison
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Versions and scenarios</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#versiones">
+   Versions
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#introduccion">
+     Introduction
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#administrador-de-versiones">
+     Version Manager
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#estado-de-una-version">
+     Version status
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#escenarios">
+   Scenarios
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Introduction
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#administrador-de-escenarios">
+     Scenario Manager
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#grabar-escenario">
+     Save scenario
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#comparacion-de-escenarios">
+     Scenario comparison
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <div class="section" id="versiones-y-escenarios">
+<h1>Versions and scenarios<a class="headerlink" href="#versiones-y-escenarios" title="Permalink to this headline">#</a></h1>
+<p>An application can contain many versions. Each version contains logic, interfaces, scenarios, data and form definitions and other input data.</p>
+<p>The structure of an application is as follows:</p>
+<div class="figure align-default">
+<img alt="../_images/app_new_structure.png" src="../_images/app_new_structure.png" />
+</div>
+<div class="section" id="versiones">
+<h2>Versions<a class="headerlink" href="#versiones" title="Permalink to this headline">#</a></h2>
+<div class="section" id="introduccion">
+<h3>Introduction<a class="headerlink" href="#introduccion" title="Permalink to this headline">#</a></h3>
+<p>When creating an application, a default version will be created. Each time the user opens an application, always will be positioned on a particular version that can be displayed in the top bar.</p>
+<p>Versioning has multiple purposes and can be used as a development cycle, planning cycle, etc.</p>
+<div class="admonition-uso-simultaneo admonition">
+<p class="admonition-title">Concurrent use</p>
+<p>Two users can work (and save changes) at the same time on <strong>different</strong> versions of the same application.</p>
+</div>
+</div>
+<div class="section" id="administrador-de-versiones">
+<h3>Version Manager<a class="headerlink" href="#administrador-de-versiones" title="Permalink to this headline">#</a></h3>
+<p>To access the application version manager, click on the <strong>“Versions”</strong> option in the main menu.</p>
+<div class="figure align-default">
+<img alt="../_images/version_manager.png" src="../_images/version_manager.png" />
+</div>
+<p>From the manager you will be able to create, edit, export and import versions. You can also easily change the status of a version.</p>
+<p>To create a new version you must click on the <strong>“Create version”</strong> button. Then a window like the following one will open:</p>
+<div class="figure align-default">
+<img alt="../_images/create_version.png" src="../_images/create_version.png" />
+</div>
+<p>New versions always take an existing version as a base, so all the content of the selected base version will be copied to the new version. You can also specify different tags (by entering text and pressing Enter). These tags will make it easier to find the version.</p>
+<p>The “Set as default version” option allows you to specify that the new version you are about to create will be the version that will be opened when you open the application.</p>
+<p>When you confirm the creation of the new version and if the “Open after creating” option is selected, the new version will be opened and you will be able to see it in the top bar.</p>
+</div>
+<div class="section" id="estado-de-una-version">
+<h3>Version status<a class="headerlink" href="#estado-de-una-version" title="Permalink to this headline">#</a></h3>
+<p>Each version can have one of the following statuses:</p>
+<ul class="simple">
+<li><p><strong>Active</strong>: the version is in use and can be modified.</p></li>
+<li><p><strong>Closed</strong>: the version is closed, therefore no changes can be made to this version.</p></li>
+<li><p><strong>Archived</strong>: the version is closed and archived. In this case no changes can be made and it is hidden from the main listings.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="escenarios">
+<h2>Scenarios<a class="headerlink" href="#escenarios" title="Permalink to this headline">#</a></h2>
+<div class="section" id="id1">
+<h3>Introduction<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+<p>A scenario consists of a set of results from certain nodes that are stored in order to be used later for comparison.</p>
+<p>Many scenarios can exist in one version. Pyplan allows the comparison of scenarios even between different versions of the same application.</p>
+<div class="admonition-comparacion admonition">
+<p class="admonition-title">Comparison</p>
+<p>In order to compare two or more scenarios, the results to be compared must have the same structure.</p>
+</div>
+</div>
+<div class="section" id="administrador-de-escenarios">
+<h3>Scenario Manager<a class="headerlink" href="#administrador-de-escenarios" title="Permalink to this headline">#</a></h3>
+<p>To access the scenario manager, click on the <strong>“Scenarios”</strong> option in the main menu.</p>
+<div class="figure align-default">
+<img alt="../_images/scenario_manager.png" src="../_images/scenario_manager.png" />
+</div>
+<p>From the administrator you can create, edit, export and import scenarios.</p>
+<p>To create a new scenario you must click on the <strong>“Create scenario”</strong> button. Then a window like the following one will open:</p>
+<div class="figure align-default">
+<img alt="../_images/create_scenario.png" src="../_images/create_scenario.png" />
+</div>
+<p>Here you must define the name, the alias (used as a label for the comparison), an optional description and you must specify the nodes from which the results will be saved.</p>
+<div class="admonition-aclaracion admonition">
+<p class="admonition-title">Clarification</p>
+<p>In this step you are defining the scenario, but optionally you can also save the scenario result. Later we will see how you can update the results of a scenario or generate a new scenario without using the scenario manager.</p>
+</div>
+</div>
+<div class="section" id="grabar-escenario">
+<h3>Save scenario<a class="headerlink" href="#grabar-escenario" title="Permalink to this headline">#</a></h3>
+<p>Once you have defined a scenario (specifying the nodes that will persist), you can save the current scenario or create a new scenario by clicking on the “Save scenario” button.</p>
+<div class="figure align-default">
+<img alt="../_images/create_scenario_button.png" src="../_images/create_scenario_button.png" />
+</div>
+<p>If you select the “Existing scenario” option:</p>
+<div class="figure align-default">
+<img alt="../_images/save_existing_scenario.png" src="../_images/save_existing_scenario.png" />
+</div>
+<p>When confirmed, the results of the nodes defined in the selected scenario will be saved, overwriting the previous results.</p>
+<p>If you select the “New scenario” option:</p>
+<div class="figure align-default">
+<img alt="../_images/save_new_scenario.png" src="../_images/save_new_scenario.png" />
+</div>
+<p>you must specify the scenario to be taken as a base and assign a name and alias. When confirmed, a new scenario will be created with the results of the nodes that were specified in the scenario selected as a base.</p>
+</div>
+<div class="section" id="comparacion-de-escenarios">
+<h3>Scenario comparison<a class="headerlink" href="#comparacion-de-escenarios" title="Permalink to this headline">#</a></h3>
+<p>You can compare different scenarios (even from different versions) by clicking on the “Select scenarios” button:</p>
+<div class="figure align-default">
+<img alt="../_images/select_scenario_button.png" src="../_images/select_scenario_button.png" />
+</div>
+<p>In the next window you can select the scenarios to be compared, specifying which of these will be used as the basis for the comparison.</p>
+<div class="figure align-default">
+<img alt="../_images/select_scenario_popup.png" src="../_images/select_scenario_popup.png" />
+</div>
+<p>For a component (table or graph) to allow scenario comparison, you must enable the comparison option from the component properties:</p>
+<div class="figure align-default">
+<img alt="../_images/compare_scenarios_properties.png" src="../_images/compare_scenarios_properties.png" />
+</div>
+<p>This option will add a new dimension “Pyplan Scenarios” which will contain the list of selected scenarios. You can also specify whether or not to add the calculated difference fields (both absolute and percentage).</p>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../10_environments/index.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Virtual environments</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../99_change_log/index.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Change Log</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Pyplan Inc.<br/>
+  
+      &copy; Copyright 2022, Pyplan.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

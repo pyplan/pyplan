@@ -21,6 +21,7 @@
    8_task_manager/index
    9_user_manager/index
    10_environments/index
+   11_change_log/index
    
 	
 

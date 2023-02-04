@@ -17,13 +17,11 @@ Novedades
 Errores corregidos
 ------------------
 
-- En algunas ocasiones al agregar ID de nodo a definición (usando Alt + click), no agrega el último carácter del texto.
 - Corrección de errores en formularios basados en dataframes cuando se modifica el dataframe origen.
 - Al importar un módulo, no lo muestra correctamente en el diagrama.
 - No funciona agregar nodos a escenarios haciendo doble click sobre el nodo.
 - Error al intentar visualizar un inputnode en una interface dentro de un módulo dennegado.
 - Alinear encabezados y botones en managers.
-
 
 
 v3.4.1 - 2023-01-27

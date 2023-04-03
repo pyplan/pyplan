@@ -3,6 +3,59 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.4.3 - 2023-04-03
+-------------------
+
+---------
+Novedades
+---------
+
+- Integración de PyplanBot con la creación de nodos. Mejora en la experiencia de usuario.
+- Nuevo manager para customizar parámetros de PyplanBot y Logs.
+- Backup automático cada 1 minuto de assets de una aplicación. Recupero automático cuando desaparece la carpeta assets.
+- Nuevo tipo de selector que guarda los labels seleccionados en lugar de las posiciones.
+- Wizard de creación de selectores en diagrama.
+- Mejora de performance de formularios al confirmar cambios.
+- Feedback al apretar botón de Confirmar cambios en un formulario.
+- Permitir agregar nuevas columnas a formulario que ya fue creado.
+- Crear tabla de usuarios en formularios que contenga su información.
+- Opción para que app no intente instalar librerías automáticamente cuando se abre.
+- Opción para duplicar componente en una interfaz.
+- Configuración inicial para nuevas instalaciones.
+- Opción para correr pruebas internas.
+- App manager: nuevo botón para importar una app.
+- Menú desplegable al hacer click derecho sobre el diagrama.
+- Opción para establecer el valor mínimo del eje Y en gráficos.
+- Mejora en experiencia de usuario de flechas para encadenar wizards a partir de un nodo.
+- Progress bar no bloquea la interfaz. Nuevo parámetro para cerrarla al llegar al 100%.
+- Optimizar templates al subir archivos .xls, .xlsx, .xlsm, .xlsb en File Manager.
+
+------------------
+Errores corregidos
+------------------
+
+- Process manager: validar que si la tarea tiene action type "interface" se mande la interfaz.
+- File Manager no se ve en pantalla chica.
+- En forms, si pegás más filas de las que tiene el form, da error.
+- Al agregar cambios más de una persona en el formulario, a veces se pierden datos.
+- Error al cambiar de orden los campos de un formulario.
+- Al pegar valores negativos desde Excel en un formulario, se pegan como positivos.
+- Al pegar datos desde Excel a un form con selectores relacionados, se sobrecarga la aplicación.
+- Setear la versión por defecto debe impactar automáticamente en app.ppl.
+- Al crear versión con espacio extra al final, no te deja crear una nueva versión desde ésta.
+- Al crear una carpeta en File Manager y en el input presionar delete, aparece el popup de confirmación de borrar.
+- Problema al visualizar selectores multiselect en diagrama.
+- Al crear un selector no se refresca la definición.
+- Si un selector falla, no se puede ingresar al módulo donde se encuentra el selector.
+- Al quitarle todos los permisos a un rol, un usuario puede ingresar a funciones que no debería.
+- Buscador de nodos de programador de tareas no lista nodos tipo output.
+- Ajustes en interfaces.
+- Si un usuario falla al loguearse desde más de un navegador distinto, no deja desbloquearlo desde User Manager.
+- Buscador de Task Scheduler no funciona correctamente.
+- Usuarios con rol Company User no pueden abrir aplicaciones de un Team.
+- Al editar un archivo en file manager y dejarlo vacío, no guarda los cambios.
+
+
 v3.4.2 - 2023-02-04
 -------------------
 

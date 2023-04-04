@@ -3,6 +3,18 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.4.4 - 2023-04-04
+-------------------
+
+------------------
+Errores corregidos
+------------------
+
+- Al abrir app que corre nodos al inicio, se cierra la barra de progreso antes de que termine de correrlos.
+- Eliminar escenario no lo quita de los escenarios seleccionados.
+- Editor de texto en File Manager no formatea bien archivos .ppm y .ppi.
+
+
 v3.4.3 - 2023-04-03
 -------------------
 

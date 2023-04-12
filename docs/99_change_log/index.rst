@@ -3,6 +3,24 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.4.5 - 2023-04-11
+-------------------
+
+---------
+Novedades
+---------
+
+- Mejoras en la experiencia de usuario de PyplanBot.
+
+------------------
+Errores corregidos
+------------------
+
+- Logs manager no funciona.
+- Editor de menú no vincula correctamente las interfaces asociadas a acciones cuando existen más de 50 interfaces.
+- Correcciones varias.
+
+
 v3.4.4 - 2023-04-04
 -------------------
 
@@ -118,7 +136,7 @@ Errores corregidos
 - Error al pegar números formateados desde Excel.
 - Error al cancelar cambios en form que no fue confirmado.
 - Al editar el nombre de una carpeta o archivo y presionar delete, intenta eliminar el archivo.
-- Al completar default value de una columna de un form y luego borrarlo, da error el generar definición
+- Al completar default value de una columna de un form y luego borrarlo, da error el generar definición.
 - Problemas de scroll en área de pivoteo de tablas y gráficos.
 - Error al navegar el diagrama si la definición de un nodo tipo input tiene un error.
 - No funcionan los selectores relacionados del form basado en un dataframe.
@@ -158,13 +176,11 @@ Novedades
 - Wizard para realizar cambio de indice.
 - Ejemplo de aplicaciones en home.
  
-
 ------------------
 Errores corregidos
 ------------------
 - Scroll en Filemanager.
 - Error al arrastrar componente tipo chart.
-
 
 
 v3.3.3 - 2022-12-02
@@ -176,7 +192,6 @@ Novedades
 - Nuevas variantes de colores de heatmap para tablas.
 - Ajustes en pestaña de Performance.
 - Permitir cambiar el idioma de Pyplan.
-
 
 ------------------
 Errores corregidos
@@ -230,7 +245,6 @@ Novedades
 - Los selectores ahora soportan la opción "Seleccionar todos" para cuando permiten selección múltiple.
 - El menú permite agregar subtítulos.
 
-
 ------------------
 Errores corregidos
 ------------------
@@ -245,7 +259,7 @@ Errores corregidos
 - Al ordenar columna de una tabla está ordenando la columna de totales.
 - En algunas ocasiones no se puede editar una tarea programada creada por otro usuario.
 - No se visualiza correctamente el breadcrumb cuando se selecciona un Team.
-- En formularios, da error al insertar un valor vacío en columna tipo entero o decimal
+- En formularios, da error al insertar un valor vacío en columna tipo entero o decimal.
 - Instance manager no funciona correctamente
 - Otras correcciones menores.  
 

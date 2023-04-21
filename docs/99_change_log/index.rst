@@ -3,6 +3,37 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.4.8 - 2023-04-21
+-------------------
+
+---------
+Novedades
+---------
+
+- Agregar ícono para guardar vista por defecto en widget de resultado en diagrama.
+- Funcionalidad para copiar, cortar y pegar en Interface Manager.
+- Al crear una interfaz, abrirla en modo edición.
+- Al archivar una versión, la carpeta se comprime en un archivo .zip.
+- Agregar campo de descripción a versiones.
+- Funcionalidad para abrir archivos (.txt, .json, .ppm, .ppi) y descomprimir archivos (.zip) al hacer doble click en File Manager.
+- Nuevo manager de links externos generados (API endpoints de nodos).
+- Mejoras en feedback al subir archivos.
+- Mejoras en la experiencia de usuario de PyplanBot.
+
+------------------
+Errores corregidos
+------------------
+
+- Al hacer click en un nodo con documentación, en ocasiones no la muestra.
+- Maximizar widget de resultado no debe superponerse a barra de nodos anclados.
+- Al crear un alias de un nodo, queda seleccionado el alias y no el nodo original.
+- Exportación como "Full node" no funciona correctamente.
+- Al importar una interfaz, si ya existe una interfaz con mismo nombre, la nueva debe conservar el id y la vieja cambiar su id y nombre.
+- No es posible navegar carpetas en Interface Manager si la versión de la app contiene caracteres especiales como "+".
+- Al abrir una app con una instancia preexistente abierta, no carga las interfaces al abrir.
+- Al moverse con flechas de teclado en widget de resultado o código, se mueve también el nodo en el diagrama.
+
+
 v3.4.7 - 2023-04-14
 -------------------
 

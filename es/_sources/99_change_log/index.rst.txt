@@ -3,6 +3,17 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.4.9 - 2023-04-24
+-------------------
+
+------------------
+Errores corregidos
+------------------
+
+- En una columna tipo selector con valores relacionados en un formulario, sólo es posible elegir entre las primeras 100 opciones.
+- Al instalar librerías, si la instalación falla, igualmente agrega la librería al archivo requirements.txt.
+
+
 v3.4.8 - 2023-04-21
 -------------------
 

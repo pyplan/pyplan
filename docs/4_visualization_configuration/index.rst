@@ -48,7 +48,7 @@ Haciendo click en (3) se despliegan las alternativas de formatación de la tabla
 
 El lector puede investigar las opciones de configuración agrupadas en General y Data por su propia cuenta.
 
-La sección Styles agrupa las configuraciones de estilo de la tabla con un comportamiento particular que le otorga mucha flexibilidad y consiste en lo siguiente:
+La sección Styles agrupa las configuraciones de estilo de la tabla con un comportamiento particular que le otorga flexibilidad y consiste en lo siguiente:
 
 Una primera sección encabezada por "Apply to" indica el objetivo o destino de la configuración establecida mas abajo. 
 Por defecto este objetivo es "All" que significa que lo que se configure a continuación aplicará a toda la tabla.

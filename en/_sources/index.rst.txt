@@ -22,6 +22,7 @@
    9_user_manager/index
    10_environments/index
    11_versions/index
+   12_integration_with_pyplan/index
    99_change_log/index
    
 	

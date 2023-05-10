@@ -5,20 +5,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  Pyplan\n"
+"Project-Id-Version: Pyplan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-27 17:29-0300\n"
-"PO-Revision-Date: 2023-01-02 16:23-0300\n"
+"PO-Revision-Date: 2023-05-10 12:29-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: ../../9_user_manager/index.rst:2
 msgid "Opciones de seguridad"
-msgstr ""
+msgstr "Security options"
 
 #: ../../9_user_manager/index.rst:4
 msgid ""
@@ -28,15 +30,14 @@ msgid ""
 msgstr ""
 
 #: ../../9_user_manager/index.rst:9
-#, fuzzy
 msgid "Administrador de usuarios"
-msgstr "User Management"
+msgstr "User manager"
 
 #: ../../9_user_manager/index.rst:11
 msgid ""
 "Pyplan cuenta con un adiministrador de usuarios para gestionar los "
-"usuarios, roles y departamentos correspondientes. Se encuentra disponible"
-" en el menú **Security options** bajo el nombre **Users**."
+"usuarios, roles y departamentos correspondientes. Se encuentra "
+"disponible en el menú **Security options** bajo el nombre **Users**."
 msgstr ""
 
 #: ../../9_user_manager/index.rst:18
@@ -46,9 +47,8 @@ msgid ""
 msgstr ""
 
 #: ../../9_user_manager/index.rst:27
-#, fuzzy
 msgid "Creación de usuarios"
-msgstr "User Management"
+msgstr "User creation"
 
 #: ../../9_user_manager/index.rst:29
 msgid ""
@@ -86,9 +86,9 @@ msgstr ""
 
 #: ../../9_user_manager/index.rst:61
 msgid ""
-"Un rol es una colección de permisos que se asignan a un usuario dentro de"
-" plataforma. Los roles pueden ser asignados y personalizados de acuerdo a"
-" las necesidades de cada organización."
+"Un rol es una colección de permisos que se asignan a un usuario dentro "
+"de plataforma. Los roles pueden ser asignados y personalizados de "
+"acuerdo a las necesidades de cada organización."
 msgstr ""
 
 #: ../../9_user_manager/index.rst:68
@@ -96,8 +96,8 @@ msgid ""
 "Los roles se crean accediendo a la opción **Add role** en el menu "
 "superior. Luego se debe seleccionar a que compañia va a pertenecer el "
 "rol, el nombre y uno de los templates que tiene configurados un conjunto "
-"de permisos predeterminados, que luego se pueden modificar y personalizar"
-" en la opción de **Permissions by role**."
+"de permisos predeterminados, que luego se pueden modificar y "
+"personalizar en la opción de **Permissions by role**."
 msgstr ""
 
 #: ../../9_user_manager/index.rst:78
@@ -135,9 +135,9 @@ msgstr ""
 
 #: ../../9_user_manager/index.rst:110
 msgid ""
-"Para crear un nuevo departamento, en el menú superior se debe seleccionar"
-" la opción **Add department**. Luego se debe elegir el nombre del "
-"departamento a crear, a que compañia corresponde y la definición del "
+"Para crear un nuevo departamento, en el menú superior se debe "
+"seleccionar la opción **Add department**. Luego se debe elegir el nombre "
+"del departamento a crear, a que compañia corresponde y la definición del "
 "engine."
 msgstr ""
 
@@ -148,12 +148,12 @@ msgstr ""
 #: ../../9_user_manager/index.rst:121
 msgid ""
 "Los Teams permiten el trabajo en grupo de ciertos usuarios, compartiendo "
-"archivos y aplicaciones dentro de una compañia, solo con los usuarios que"
-" forman parte de un Team en particular. Cada team cuenta con una carpeta "
-"en el administrador de archivos, dentro de la carpeta Teams, a la que "
-"pueden acceder solo los usuarios que forman parte del Team. Cuando se "
-"abre el Team manager pueden verse los teams existentes en la compañia. Se"
-" pueden agregar nuevos teams o editar los ya existentes."
+"archivos y aplicaciones dentro de una compañia, solo con los usuarios "
+"que forman parte de un Team en particular. Cada team cuenta con una "
+"carpeta en el administrador de archivos, dentro de la carpeta Teams, a "
+"la que pueden acceder solo los usuarios que forman parte del Team. "
+"Cuando se abre el Team manager pueden verse los teams existentes en la "
+"compañia. Se pueden agregar nuevos teams o editar los ya existentes."
 msgstr ""
 
 #: ../../9_user_manager/index.rst:131
@@ -186,14 +186,8 @@ msgstr ""
 
 #: ../../9_user_manager/index.rst:156
 msgid ""
-"Además al crear una compañia nueva se debe proveer una licencia de Pyplan"
-" para que la compañia nueva se encuentre activada. Esto permite que la "
-"compañia este activada por un periodo y para una cierta cantidad de "
-"usuarios que vienen determinados por la licencia."
+"Además al crear una compañia nueva se debe proveer una licencia de "
+"Pyplan para que la compañia nueva se encuentre activada. Esto permite "
+"que la compañia este activada por un periodo y para una cierta cantidad "
+"de usuarios que vienen determinados por la licencia."
 msgstr ""
-
-#~ msgid ""
-#~ "Pyplan cuanta con un adiministrador de"
-#~ " usuarios para gestionar permisos...."
-#~ msgstr ""
-

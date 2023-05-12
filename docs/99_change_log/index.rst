@@ -3,6 +3,39 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.4.10 - 2023-05-12
+--------------------
+
+---------
+Novedades
+---------
+
+- Al abrir aplicación, permitir elegir versión en lugar de abrir la versión por defecto (propiedad nueva; por defecto, desactivada).
+- Interacción de componentes de Dash con componentes nativos de la app.
+- Comparación de escenarios no ejecuta escenario Current si no fue elegido para compararse.
+- Permitir filtros en interfaces si el título del nodo de un índice coincide con el nombre de la dimensión/columna en otro componente.
+- Agregar nuevo permiso de si se permite "Guardar como" una aplicación.
+- Mejorar estética de componente Menú formato "Cajas".
+- Vencimiento de contraseñas por empresa.
+- Funcionalidad "Olvidé mi contraseña".
+- Funcionalidad para forzar cambiar contraseña al crear un nuevo usuario.
+- Nuevas imágenes en página de login.
+- Envío de mensaje cuando la licencia de Pyplan en la compañía está próxima a su vencimiento.
+- Funcionalidad para repreguntar en PyplanBot.
+- Funcionalidad para detener respuesta de PyplanBot.
+- Ícono con declaración de privacidad en PyplanBot.
+
+------------------
+Errores corregidos
+------------------
+
+- Editar un valor de una columna tipo integer de un formulario arroja un error.
+- Formato condicional en tabla no inserta ícono si celda no es de tipo numérica.
+- En ocasiones, la ventana emergente del intellisense del código no se alcanza a ver por completo.
+- Ciertos grupos de permisos están duplicados en Permisos por rol.
+- Al recargar aplicación, abre siempre la versión por defecto a pesar de tener abierta otra versión.
+
+
 v3.4.9 - 2023-04-24
 -------------------
 

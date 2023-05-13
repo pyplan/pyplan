@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pyplan\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-13 07:36-0300\n"
-"PO-Revision-Date: 2023-05-13 07:37-0300\n"
+"POT-Creation-Date: 2023-05-13 09:00-0300\n"
+"PO-Revision-Date: 2023-05-13 09:01-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.8.0\n"
 "X-Generator: Poedit 3.0.1\n"
 
 #: ../../99_change_log/index.rst:2
@@ -30,7 +30,7 @@ msgid ""
 msgstr "All notable changes to Pyplan will be documented in this file:"
 
 #: ../../99_change_log/index.rst:7
-msgid "v3.4.11 - 2023-04-15"
+msgid "v3.4.11 - 2023-05-13"
 msgstr ""
 
 #: ../../99_change_log/index.rst:11 ../../99_change_log/index.rst:40

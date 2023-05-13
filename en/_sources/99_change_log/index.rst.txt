@@ -3,6 +3,16 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.4.11 - 2023-04-15
+--------------------
+
+------------------
+Errores corregidos
+------------------
+
+- Correcciones mínimas.
+
+
 v3.4.10 - 2023-05-12
 --------------------
 
@@ -34,6 +44,7 @@ Errores corregidos
 - En ocasiones, la ventana emergente del intellisense del código no se alcanza a ver por completo.
 - Ciertos grupos de permisos están duplicados en Permisos por rol.
 - Al recargar aplicación, abre siempre la versión por defecto a pesar de tener abierta otra versión.
+- Correcciones mínimas.
 
 
 v3.4.9 - 2023-04-24

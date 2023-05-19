@@ -3,6 +3,31 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.4.13 - 2023-05-19
+--------------------
+
+---------
+Novedades
+---------
+
+- Funcionalidad para cambiar colores a series de gráfico tipo Combinado.
+- Funcionalidad para exportar chat con PyplanBot.
+- Permitir elegir con qué usuario ejecutar una tarea programada.
+- Funcionalidad para formatear código en widget de código de diagrama.
+
+------------------
+Errores corregidos
+------------------
+
+- Al crear un nodo tipo Input variante Cubo (InputDataArray), no se puede asignar como valor por defecto un nodo cuyo resultado sea np.nan.
+- Celda con selector en formularios se "corta" cuando llega hasta el final de la tabla.
+- No es posible copiar id de nodo con ALT + Click si está seleccionado el widget de Resultado en diagrama.
+- Error al ordenar por roles a usuarios en User Manager.
+- En campos calculados de una tabla, el valor de los totales no se está calculando.
+- Evitar cambiar automáticamente las vistas del diagrama al cambiar de elemento seleccionado.
+- Correcciones mínimas.
+
+
 v3.4.12 - 2023-05-15
 --------------------
 

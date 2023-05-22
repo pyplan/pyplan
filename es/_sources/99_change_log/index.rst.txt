@@ -3,6 +3,23 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.4.14 - 2023-05-22
+--------------------
+
+---------
+Novedades
+---------
+
+- Filtrar resultados al buscar texto en selector de formularios.
+
+------------------
+Errores corregidos
+------------------
+
+- Al pegar más de una fila que contiene fechas en un form, no se pegan todas las filas.
+- Al ingresar un valor en un Input variante Cubo o Tabla (InputDataArray o InputDataFrame), se refresca y el foco vuelve al inicio.
+- Correcciones mínimas.
+
 v3.4.13 - 2023-05-19
 --------------------
 

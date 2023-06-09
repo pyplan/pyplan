@@ -28,6 +28,8 @@ Errores corregidos
 - Al abrir un módulo que contiene un nodo de tipo InputScalar con error, no abre el módulo.
 - Home de Pyplan da error si existe más de un Team con el mismo nombre.
 - Error en código generado por wizard de Seleccionar filas.
+- Tabla plana no muestra títulos de índices cuando el identifier de un índice coincide con el nombre de la columna.
+- Selector de condiciones de estilos no trae columnas cuando la tabla es plana.
 - Correcciones mínimas.
 
 

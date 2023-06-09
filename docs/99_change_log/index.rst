@@ -3,6 +3,34 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.4.16 - 2023-06-09
+--------------------
+
+---------
+Novedades
+---------
+
+- Elementos calculados para una dimensión en tablas y gráficos.
+- Autenticación con API key para links externos.
+- Posibilidad de setear permisos a más de una interface al mismo tiempo.
+
+------------------
+Errores corregidos
+------------------
+
+- No funciona el formato condicional aplicado a columnas de tipo selector en formularios.
+- No funcionan opciones de formato condicional en indicadores.
+- Al hacer click en opción "Go to node", centrar diagrama en nodo elegido.
+- Al estar editando una interface, si se elige "Go to node" en un componente, nunca te redirige al nodo.
+- Componente Índice en interfaces no se ve bien cuando sus valores son booleanos (True, False).
+- Al crear nuevas interfaces, no aparecen en listado de interfaces del editor del Menú hasta que se recarga la aplicación.
+- No funciona paginación en Administrador de logs.
+- Al abrir un módulo que contiene un nodo de tipo InputScalar con error, no abre el módulo.
+- Home de Pyplan da error si existe más de un Team con el mismo nombre.
+- Error en código generado por wizard de Seleccionar filas.
+- Correcciones mínimas.
+
+
 v3.4.15 - 2023-05-23
 --------------------
 

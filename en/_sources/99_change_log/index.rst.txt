@@ -3,7 +3,7 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
-v3.4.16 - 2023-06-09
+v3.4.16 - 2023-06-13
 --------------------
 
 ---------
@@ -13,6 +13,7 @@ Novedades
 - Elementos calculados para una dimensión en tablas y gráficos.
 - Autenticación con API key para links externos.
 - Posibilidad de setear permisos a más de una interface al mismo tiempo.
+- Visualización nativa de gráficos de Matplotlib.
 
 ------------------
 Errores corregidos
@@ -30,6 +31,7 @@ Errores corregidos
 - Error en código generado por wizard de Seleccionar filas.
 - Tabla plana no muestra títulos de índices cuando el identifier de un índice coincide con el nombre de la columna.
 - Selector de condiciones de estilos no trae columnas cuando la tabla es plana.
+- Mejoras en Administrador de instancias.
 - Correcciones mínimas.
 
 

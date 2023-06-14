@@ -3,7 +3,7 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
-v3.4.16 - 2023-06-13
+v3.4.16 - 2023-06-14
 --------------------
 
 ---------

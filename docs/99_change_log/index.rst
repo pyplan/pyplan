@@ -21,6 +21,7 @@ Errores corregidos
 
 - No funciona el formato condicional aplicado a columnas de tipo selector en formularios.
 - No funcionan opciones de formato condicional en indicadores.
+- Si tabla tiene mezcla de números y texto como valores, no funciona formato numérico.
 - Al hacer click en opción "Go to node", centrar diagrama en nodo elegido.
 - Al estar editando una interface, si se elige "Go to node" en un componente, nunca te redirige al nodo.
 - Componente Índice en interfaces no se ve bien cuando sus valores son booleanos (True, False).

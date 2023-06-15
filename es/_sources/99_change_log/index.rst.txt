@@ -3,6 +3,17 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.4.17 - 2023-06-15
+--------------------
+
+------------------
+Errores corregidos
+------------------
+
+- Al crear visualización de componente por primera vez, sólo elegir formato numérico si el tipo de dato de las medidas es numérico.
+- Al visualizar una celda con un valor con formato de fecha, lo transforma a número.
+
+
 v3.4.16 - 2023-06-14
 --------------------
 

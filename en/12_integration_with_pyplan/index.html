@@ -372,6 +372,23 @@ title="Print to PDF"
      API endpoints manager
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gestor-de-api-keys">
+     API key manager
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#link-a-interfaz">
+   Link a interfaz
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creacion-de-un-link-a-interfaz">
+     Creación de un Link a interfaz
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -418,6 +435,23 @@ title="Print to PDF"
      API endpoints manager
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gestor-de-api-keys">
+     API key manager
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#link-a-interfaz">
+   Link a interfaz
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creacion-de-un-link-a-interfaz">
+     Creación de un Link a interfaz
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -459,6 +493,7 @@ title="Print to PDF"
 <ul class="simple">
 <li><p>HTTP method: POST</p></li>
 <li><p>Content-Type: application/json</p></li>
+<li><p>Headers (optional): If the endpoint has an assigned API key, it should be sent as the “x-api-key” parameter.</p></li>
 <li><p>Body (Optional): form-data. Where the parameters to feed the function are sent.</p></li>
 </ul>
 <p>Example performed on the Postman platform:</p>
@@ -475,7 +510,7 @@ title="Print to PDF"
 <div class="figure align-default">
 <img alt="../_images/external_links_manager.png" src="../_images/external_links_manager.png" />
 </div>
-<p>To edit an API endpoint, you must click on the following icon:</p>
+<p>To edit an API endpoint, you need to select the link to be edited and then click on the “Edit” button:</p>
 <div class="figure align-default">
 <img alt="../_images/external_link_edit.png" src="../_images/external_link_edit.png" />
 </div>
@@ -488,11 +523,58 @@ title="Print to PDF"
 <li><p>Common instance: allows you to enable/disable sharing the instance when making multiple calls.</p></li>
 <li><p>Active: allows enabling/disabling the API endpoint completely.</p></li>
 <li><p>Custom endpoint: allows you to assign a custom name to the external link endpoint. The final link will be available to copy in the API endpoints manager.</p></li>
+<li><p>Executor: allows choosing with which user to open the instance.</p></li>
+<li><p>API key: allows selecting a previously created key that should be sent as a header in the API call with the key “x-api-key”.</p></li>
 </ul>
 <p>To confirm the changes, you must click on the <strong>“Confirm”</strong> button. To not apply the changes, click on <strong>“Cancel”</strong></p>
 <p>To delete an API endpoint, you must click on the following icon:</p>
 <div class="figure align-default">
 <img alt="../_images/external_link_delete.png" src="../_images/external_link_delete.png" />
+</div>
+</div>
+<div class="section" id="gestor-de-api-keys">
+<h3>API key manager<a class="headerlink" href="#gestor-de-api-keys" title="Permalink to this headline">#</a></h3>
+<p>To create, edit, or delete API keys, you need to access them through the “Show API keys” button:</p>
+<div class="figure align-default">
+<img alt="../_images/external_links_show_api_keys.png" src="../_images/external_links_show_api_keys.png" />
+</div>
+<p>To create a new API key, click on the “Create API key”:</p>
+<div class="figure align-default">
+<img alt="../_images/external_links_api_key_create.png" src="../_images/external_links_api_key_create.png" />
+</div>
+<p>The following window will be displayed:</p>
+<div class="figure align-default">
+<img alt="../_images/external_links_api_key_create_window.png" src="../_images/external_links_api_key_create_window.png" />
+</div>
+<p>Options:</p>
+<ul class="simple">
+<li><p>Active: allows enabling/disabling the API key.</p></li>
+<li><p>Alias: allows assigning a personalized name to the API key for easier recognition when assigning it to API endpoints.</p></li>
+<li><p>Key: the actual API key. It is possible to edit it with a custom one. Please save this key securely as it will not be possible to view it again after it is created. Only a new key can be generated or the existing one can be deleted.</p></li>
+</ul>
+<p>To confirm the changes, click on the “Confirm” button. To discard the creation, click on “Cancel”</p>
+<p>To edit an API key, select the API key to be edited, and then click on the “Edit API key” button:</p>
+<div class="figure align-default">
+<img alt="../_images/external_links_api_key_edit.png" src="../_images/external_links_api_key_edit.png" />
+</div>
+<p>A window will be displayed with the same options as when creating a new API key.</p>
+<p>To delete an API key, click on the following icon:</p>
+<div class="figure align-default">
+<img alt="../_images/external_links_api_key_delete.png" src="../_images/external_links_api_key_delete.png" />
+</div>
+<p>To assign an API key to an API endpoint, edit the API endpoint and select the desired API key:</p>
+<div class="figure align-default">
+<img alt="../_images/external_link_select_api_key.png" src="../_images/external_link_select_api_key.png" />
+</div>
+</div>
+</div>
+<div class="section" id="link-a-interfaz">
+<h2>Link a interfaz<a class="headerlink" href="#link-a-interfaz" title="Permalink to this headline">#</a></h2>
+<div class="section" id="creacion-de-un-link-a-interfaz">
+<h3>Creación de un Link a interfaz<a class="headerlink" href="#creacion-de-un-link-a-interfaz" title="Permalink to this headline">#</a></h3>
+<p>Para crear un Link a interfaz, se debe ir a la sección Interfaces:</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_interfaces_option.png" src="../_images/interface_links_interfaces_option.png" />
 </div>
 </div>
 </div>

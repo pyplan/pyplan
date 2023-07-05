@@ -373,6 +373,23 @@ title="Print to PDF"
      Gestor de API endpoints
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gestor-de-api-keys">
+     Gestor de API keys
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#link-a-interfaz">
+   Link a interfaz
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creacion-de-un-link-a-interfaz">
+     Creación de un Link a interfaz
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -419,6 +436,23 @@ title="Print to PDF"
      Gestor de API endpoints
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gestor-de-api-keys">
+     Gestor de API keys
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#link-a-interfaz">
+   Link a interfaz
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creacion-de-un-link-a-interfaz">
+     Creación de un Link a interfaz
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -463,6 +497,7 @@ Siguiendo con el ejemplo, la URL <strong>«https://dev.pyplan.com/api/result/f27
 <ul class="simple">
 <li><p>Método HTTP: POST</p></li>
 <li><p>Content-Type: application/json</p></li>
+<li><p>Headers (opcional): si el endpoint tiene asignado una Api key, se debe enviar como parámetro «x-api-key».</p></li>
 <li><p>Body (Opcional): form-data. Aquí se envían los parámetros para alimentar la función.</p></li>
 </ul>
 <p>Ejemplo realizado en plataforma Postman:</p>
@@ -479,7 +514,7 @@ Siguiendo con el ejemplo, la URL <strong>«https://dev.pyplan.com/api/result/f27
 <div class="figure align-default">
 <img alt="../_images/external_links_manager.png" src="../_images/external_links_manager.png" />
 </div>
-<p>Para editar un API endpoint, se debe hacer click en el siguiente ícono:</p>
+<p>Para editar un API endpoint, se debe seleccionar el enlace a editar y luego hacer click en el botón «Edit»:</p>
 <div class="figure align-default">
 <img alt="../_images/external_link_edit.png" src="../_images/external_link_edit.png" />
 </div>
@@ -492,11 +527,58 @@ Siguiendo con el ejemplo, la URL <strong>«https://dev.pyplan.com/api/result/f27
 <li><p>Common instance: permite habilitar/deshabilitar el compartir la instancia al hacer múltiples llamadas.</p></li>
 <li><p>Active: permite habilitar/deshabilitar el API endpoint por completo.</p></li>
 <li><p>Custom endpoint: permite asignarle un nombre personalizado al link externo. El link final quedará disponible para copiar en el Gestor de API endpoints.</p></li>
+<li><p>Executor: permite elegir con qué usuario abrir la instancia.</p></li>
+<li><p>Api key: permite seleccionar una clave creada anteriormente que deberá enviarse como Header en la llamada al endpoint con la clave «x-api-key».</p></li>
 </ul>
 <p>Para confirmar los cambios, se debe hacer click en el botón <strong>«Confirm»</strong>. Para no aplicar los cambios, hacer click en <strong>«Cancel»</strong></p>
 <p>Para borrar un API endpoint, se debe hacer click en el siguiente ícono:</p>
 <div class="figure align-default">
 <img alt="../_images/external_link_delete.png" src="../_images/external_link_delete.png" />
+</div>
+</div>
+<div class="section" id="gestor-de-api-keys">
+<h3>Gestor de API keys<a class="headerlink" href="#gestor-de-api-keys" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Para crear, editar o eliminar Api keys, se debe acceder a través del botón «Show Api keys»:</p>
+<div class="figure align-default">
+<img alt="../_images/external_links_show_api_keys.png" src="../_images/external_links_show_api_keys.png" />
+</div>
+<p>Para crear una nueva Api key, hacer click en el botón «Create Api key»:</p>
+<div class="figure align-default">
+<img alt="../_images/external_links_api_key_create.png" src="../_images/external_links_api_key_create.png" />
+</div>
+<p>Se desplegará la siguiente ventana:</p>
+<div class="figure align-default">
+<img alt="../_images/external_links_api_key_create_window.png" src="../_images/external_links_api_key_create_window.png" />
+</div>
+<p>Opciones:</p>
+<ul class="simple">
+<li><p>Active: permite habilitar/deshabilitar la Api key.</p></li>
+<li><p>Alias: permite asignarle un nombre personalizado a la Api key para que sea más fácil de reconocer al asignarla a  Api endpoints.</p></li>
+<li><p>Key: la clave misma. Es posible editarla por una personalizada. Guardar esta clave de manera segura ya que no será posible visualizarla luego de creada. Sólo podrá generarse una nueva o eliminarse.</p></li>
+</ul>
+<p>Para confirmar los cambios, se debe hacer click en el botón <strong>«Confirm»</strong>. Para descartar la creación, hacer click en <strong>«Cancel»</strong></p>
+<p>Para editar una Api key, se debe seleccionar la Api key a editar y luego hacer click en el botón «Edit Api key»:</p>
+<div class="figure align-default">
+<img alt="../_images/external_links_api_key_edit.png" src="../_images/external_links_api_key_edit.png" />
+</div>
+<p>Se desplegará una ventana con las mismas opciones que al crear una nueva Api key.</p>
+<p>Para borrar una Api key, se debe hacer click en el siguiente ícono:</p>
+<div class="figure align-default">
+<img alt="../_images/external_links_api_key_delete.png" src="../_images/external_links_api_key_delete.png" />
+</div>
+<p>Para asignar una Api key a un Api endpoint, se debe editar el Api endpoint y seleccionar la Api key que se desee:</p>
+<div class="figure align-default">
+<img alt="../_images/external_link_select_api_key.png" src="../_images/external_link_select_api_key.png" />
+</div>
+</div>
+</div>
+<div class="section" id="link-a-interfaz">
+<h2>Link a interfaz<a class="headerlink" href="#link-a-interfaz" title="Enlazar permanentemente con este título">#</a></h2>
+<div class="section" id="creacion-de-un-link-a-interfaz">
+<h3>Creación de un Link a interfaz<a class="headerlink" href="#creacion-de-un-link-a-interfaz" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Para crear un Link a interfaz, se debe ir a la sección Interfaces:</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_interfaces_option.png" src="../_images/interface_links_interfaces_option.png" />
 </div>
 </div>
 </div>

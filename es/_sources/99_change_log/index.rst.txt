@@ -3,6 +3,35 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.5.1 - 2023-07-06
+--------------------
+
+---------
+Novedades
+---------
+
+- Funcionalidad para compartir interfaces con usuarios externos de Pyplan.
+- Autenticación con múltiples factores en login de usuarios (MFA).
+- PyplanBot responde consultas sobre Pyplan.
+- Asistente de Bot por compañía como widget de interfaces.
+- Wizard para comparar dos o más nodos.
+- Mostrar tareas programadas de sistema en Task Manager.
+- Crear rol "Login Only User" que sólo tenga permisos para loguearse para todas las compañías.
+
+
+------------------
+Errores corregidos
+------------------
+
+- Copiar tabla a una planilla Excel no pega títulos de columnas.
+- Visualización de algunos tipos de nodos no se actualizan al cambiar definición y evaluar nuevamente.
+- En algunas ocasiones, al hacer ALT + Click en un nodo desde el widget de código trae el id del nodo sin el último caracter.
+- Selector de formato Radio buttons en orientación vertical no muestra opción "All" si es multiselect.
+- Si el resultado de un nodo es un string, no es posible configurarle estilos como si fuera un Indicator.
+- En interfaces, no deja importar alias de Index al elegir tipo de componente Index.
+- Correcciones mínimas.
+
+
 v3.4.17 - 2023-06-15
 --------------------
 

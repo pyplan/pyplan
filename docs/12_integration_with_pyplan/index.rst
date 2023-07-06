@@ -112,11 +112,11 @@ Para asignar una Api key a un Api endpoint, se debe editar el Api endpoint y sel
 .. figure:: images/external_link_select_api_key.png
 
 Link a interfaz
-============
+===============
 
----------------------------
+------------------------------
 Creación de un Link a interfaz
----------------------------
+------------------------------
 
 Para crear un Link a interfaz, se debe ir a la sección Interfaces:
 

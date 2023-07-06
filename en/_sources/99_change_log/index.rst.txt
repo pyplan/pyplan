@@ -3,6 +3,17 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.5.2 - 2023-07-06
+--------------------
+
+------------------
+Errores corregidos
+------------------
+
+- Copiar y pegar valores de tabla pega títulos de columnas.
+- Correcciones mínimas.
+
+
 v3.5.1 - 2023-07-06
 --------------------
 

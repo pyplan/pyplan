@@ -3,6 +3,18 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.5.3 - 2023-07-07
+--------------------
+
+------------------
+Errores corregidos
+------------------
+
+- No es posible visualizar nodos con un string con código HTML.
+- Login con SAML pide cambiar contraseña vencida.
+- Correcciones mínimas.
+
+
 v3.5.2 - 2023-07-06
 --------------------
 

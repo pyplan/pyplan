@@ -3,6 +3,31 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.5.4 - 2023-07-14
+--------------------
+
+---------
+Novedades
+---------
+
+- Funcionalidad para abrir una app al iniciar sesión configurable por departamento.
+- Guardar última carpeta abierta en Interface Manager al navegar interfaces.
+- Nueva función pp.get_user_list() permite obtener listado de usuarios de la compañía.
+- Autenticación de múltiples factores por código de única vez enviado a e-mail.
+- Funcionalidad para personalizar estilos de botones en interfaces.
+- No ordenar ni filtrar filas no confirmadas en formularios.
+
+------------------
+Errores corregidos
+------------------
+
+- Al recibir mensajes en PyplanBot, no es posible hacer scroll hacia arriba.
+- Si el resultado de un nodo es de tipo string, no es posible configurarle estilos personalizados.
+- Al finalizar wizard de Transformar desde un dataframe a un índice, no se visualiza el nodo en el diagrama.
+- No es posible cambiar tamaño de nodo tipo texto si está dentro de otro nodo tipo texto.
+- Correcciones mínimas.
+
+
 v3.5.3 - 2023-07-07
 --------------------
 
@@ -40,7 +65,6 @@ Novedades
 - Wizard para comparar dos o más nodos.
 - Mostrar tareas programadas de sistema en Task Manager.
 - Crear rol "Login Only User" que sólo tenga permisos para loguearse para todas las compañías.
-
 
 ------------------
 Errores corregidos

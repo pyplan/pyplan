@@ -381,12 +381,22 @@ title="Print to PDF"
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#link-a-interfaz">
-   Link a interfaz
+   Interface link
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#creacion-de-un-link-a-interfaz">
-     Creación de un Link a interfaz
+     Creation of an Interface link
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#uso-de-link-a-interfaz">
+     Use of an Interface link
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gestor-de-links-a-interfaces">
+     Interface links manager
     </a>
    </li>
   </ul>
@@ -444,12 +454,22 @@ title="Print to PDF"
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#link-a-interfaz">
-   Link a interfaz
+   Interface link
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#creacion-de-un-link-a-interfaz">
-     Creación de un Link a interfaz
+     Creation of an Interface link
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#uso-de-link-a-interfaz">
+     Use of an Interface link
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gestor-de-links-a-interfaces">
+     Interface links manager
     </a>
    </li>
   </ul>
@@ -486,7 +506,8 @@ title="Print to PDF"
 <div class="figure align-default">
 <img alt="../_images/get_api_endpoint_window.png" src="../_images/get_api_endpoint_window.png" />
 </div>
-<p>The <strong>“Share instance”</strong> option allows multiple calls to the API endpoint to be served from the same instance without the need to create a new one for each call. Conversely, by disabling this option, each call will create a new instance in Pyplan to serve it. Continuing with the example, the URL <strong>“https://dev.pyplan.com/api/result/f274199c-28d0-437d-b136-ec2284dcb9a8/”</strong> will be our API endpoint that we can call from outside of Pyplan.</p>
+<p>The <strong>“Share instance”</strong> option allows multiple calls to the API endpoint to be served from the same instance without the need to create a new one for each call. Conversely, by disabling this option, each call will create a new instance in Pyplan to serve it.</p>
+<p>Continuing with the example, the URL <strong>“https://dev.pyplan.com/api/result/f274199c-28d0-437d-b136-ec2284dcb9a8/”</strong> will be our API endpoint that we can call from outside of Pyplan.</p>
 </div>
 <div class="section" id="estructura-de-la-llamada-al-api-endpoint">
 <h3>Structure of the API endpoint call<a class="headerlink" href="#estructura-de-la-llamada-al-api-endpoint" title="Permalink to this headline">#</a></h3>
@@ -569,13 +590,62 @@ title="Print to PDF"
 </div>
 </div>
 <div class="section" id="link-a-interfaz">
-<h2>Link a interfaz<a class="headerlink" href="#link-a-interfaz" title="Permalink to this headline">#</a></h2>
+<h2>Interface link<a class="headerlink" href="#link-a-interfaz" title="Permalink to this headline">#</a></h2>
 <div class="section" id="creacion-de-un-link-a-interfaz">
-<h3>Creación de un Link a interfaz<a class="headerlink" href="#creacion-de-un-link-a-interfaz" title="Permalink to this headline">#</a></h3>
-<p>Para crear un Link a interfaz, se debe ir a la sección Interfaces:</p>
+<h3>Creation of an Interface link<a class="headerlink" href="#creacion-de-un-link-a-interfaz" title="Permalink to this headline">#</a></h3>
+<p>To create an interface link, you need to go to the Interfaces section.</p>
 <div class="figure align-default">
 <img alt="../_images/interface_links_interfaces_option.png" src="../_images/interface_links_interfaces_option.png" />
 </div>
+<p>After that, select the interface you want to share, click on the interface options, and choose the <strong>“Interface link”</strong> option.</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_get_interface_link.png" src="../_images/interface_links_get_interface_link.png" />
+</div>
+<p>The following window will be displayed:</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_share_window.png" src="../_images/interface_links_share_window.png" />
+</div>
+<p>The “Share instance” option allows multiple users using this link to be served from the same instance without the need to create a new one for each user. On the other hand, disabling this option will make each user create a new instance in Pyplan to serve them.</p>
+<p>From this window, you can add a password that will be required when loading the link. To do so, fill in the <strong>“Password”</strong> field. Please ensure you securely save this password as it will not be visible once created. You can only replace it with a new one or remove it.</p>
+<p>Continuing with the example, the URL <strong>“https://dev.pyplan.com/ext/1/bec5271e-b44f-4a0b-8b08-f8166759d2a4/6e945dd6-c4f9-4cd2-9c6f-6e32421a8ab5/?theme=light”</strong> will be our link that we can share with non-Pyplan users. It is possible to customize the default theme by using the <strong>“theme”</strong> parameter at the end of the URL. The accepted values are <strong>“light”</strong> or <strong>“dark”</strong>.</p>
+</div>
+<div class="section" id="uso-de-link-a-interfaz">
+<h3>Use of an Interface link<a class="headerlink" href="#uso-de-link-a-interfaz" title="Permalink to this headline">#</a></h3>
+<p>To use the Interface Link, simply copy and paste it into the address bar of your web browser.</p>
+<p>If a password has been set, it will be prompted when you access the link.</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_ask_password.png" src="../_images/interface_links_ask_password.png" />
+</div>
+<p>After a few moments, the shared interface will be displayed.</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_shared_interface.png" src="../_images/interface_links_shared_interface.png" />
+</div>
+<p>Users accessing the interface through an Interface link only have permissions to view that specific interface and any other interfaces they can navigate to through the application menu, if it is present in the original shared interface.</p>
+</div>
+<div class="section" id="gestor-de-links-a-interfaces">
+<h3>Interface links manager<a class="headerlink" href="#gestor-de-links-a-interfaces" title="Permalink to this headline">#</a></h3>
+<p>In the <strong>“Interface links”</strong> section, you can edit and delete the created Interface links for the current application.</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_interface_links_option.png" src="../_images/interface_links_interface_links_option.png" />
+</div>
+<div class="figure align-default">
+<img alt="../_images/interface_links_manager.png" src="../_images/interface_links_manager.png" />
+</div>
+<p>To edit an Interface Link, you need to select the link you want to edit and then click on the <strong>“Update interface link”</strong> button.</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_edit.png" src="../_images/interface_links_edit.png" />
+</div>
+<p>The following window will be displayed:</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_edit_window.png" src="../_images/interface_links_edit_window.png" />
+</div>
+<p>Options:</p>
+<ul class="simple">
+<li><p>Activate interface endpoint: allows enabling/disabling the link entirely.</p></li>
+<li><p>Share instance: allows enabling/disabling the sharing of the instance when multiple users access the link.</p></li>
+<li><p>Custom endpoint: allows assigning a personalized name to the shared link. The final link will be available for copying in the Interface links manager.</p></li>
+<li><p>Password: allows entering a password that will be required when loading the link. Please securely save this password as it will not be visible once created. It can only be replaced with a new password or removed.</p></li>
+</ul>
 </div>
 </div>
 </div>

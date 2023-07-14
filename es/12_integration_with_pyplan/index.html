@@ -390,6 +390,16 @@ title="Print to PDF"
      Creación de un Link a interfaz
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#uso-de-link-a-interfaz">
+     Uso de Link a interfaz
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gestor-de-links-a-interfaces">
+     Gestor de Links a interfaces
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -453,6 +463,16 @@ title="Print to PDF"
      Creación de un Link a interfaz
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#uso-de-link-a-interfaz">
+     Uso de Link a interfaz
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gestor-de-links-a-interfaces">
+     Gestor de Links a interfaces
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -489,8 +509,8 @@ Por ejemplo, el código del nodo podría ser el siguiente:</p>
 <img alt="../_images/get_api_endpoint_window.png" src="../_images/get_api_endpoint_window.png" />
 </div>
 <p>La opción <strong>«Share instance»</strong> permite que múltiples llamadas al API endpoint se atiendan desde una misma instancia sin necesidad de crear una nueva por cada llamada.
-Por el contrario, deshabilitando esta opción, cada llamada creara una nueva instancia en Pyplan para atenderla.
-Siguiendo con el ejemplo, la URL <strong>«https://dev.pyplan.com/api/result/f274199c-28d0-437d-b136-ec2284dcb9a8/»</strong> será nuestro API endpoint al cual podremos llamar desde fuera de Pyplan.</p>
+Por el contrario, deshabilitando esta opción, cada llamada creará una nueva instancia en Pyplan para atenderla.</p>
+<p>Siguiendo con el ejemplo, la URL <strong>«https://dev.pyplan.com/api/result/f274199c-28d0-437d-b136-ec2284dcb9a8/»</strong> será nuestro API endpoint al cual podremos llamar desde fuera de Pyplan.</p>
 </div>
 <div class="section" id="estructura-de-la-llamada-al-api-endpoint">
 <h3>Estructura de la llamada al API endpoint<a class="headerlink" href="#estructura-de-la-llamada-al-api-endpoint" title="Enlazar permanentemente con este título">#</a></h3>
@@ -580,6 +600,57 @@ Siguiendo con el ejemplo, la URL <strong>«https://dev.pyplan.com/api/result/f27
 <div class="figure align-default">
 <img alt="../_images/interface_links_interfaces_option.png" src="../_images/interface_links_interfaces_option.png" />
 </div>
+<p>Luego, elegir la interfaz que se desea compartir, hacer click en las opciones de la interfaz y elegir la opción <strong>«Interface link»</strong>:</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_get_interface_link.png" src="../_images/interface_links_get_interface_link.png" />
+</div>
+<p>Se desplegará la siguiente ventana:</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_share_window.png" src="../_images/interface_links_share_window.png" />
+</div>
+<p>La opción <strong>«Share instance»</strong> permite que múltiples usuarios que utilicen este link sean atendidos desde una misma instancia sin necesidad de crear una nueva por cada usuario.
+Por el contrario, deshabilitando esta opción, cada usuario creará una nueva instancia en Pyplan para atenderlo.</p>
+<p>Desde esta ventana es posible agregar una contraseña que se solicitará al cargar el link. Para hacerlo, completar el campo <strong>«Password»</strong>. Guardar esta contraseña de manera segura ya que no será posible visualizarla luego de creada. Sólo podrá reemplazarse por una nueva o eliminarse.</p>
+<p>Siguiendo con el ejemplo, la URL <strong>«https://dev.pyplan.com/ext/1/bec5271e-b44f-4a0b-8b08-f8166759d2a4/6e945dd6-c4f9-4cd2-9c6f-6e32421a8ab5/?theme=light»</strong> será nuestro link que podremos compartir con personas que no sean usuarias de Pyplan.
+Es posible personalizar el tema que queremos que se inicie por defecto a través del parámetro <strong>«theme»</strong> al final de la URL. Los valores aceptados son: <strong>«light»</strong> (claro) o <strong>«dark»</strong> (oscuro).</p>
+</div>
+<div class="section" id="uso-de-link-a-interfaz">
+<h3>Uso de Link a interfaz<a class="headerlink" href="#uso-de-link-a-interfaz" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Para utilizar el Link a interfaz, simplemente copiarlo y pegarlo en la barra de direcciones del explorador.</p>
+<p>En caso de haberse establecido una contraseña, ésta será solicitada al ingresar:</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_ask_password.png" src="../_images/interface_links_ask_password.png" />
+</div>
+<p>Luego de unos instantes, se visualizará la interfaz compartida:</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_shared_interface.png" src="../_images/interface_links_shared_interface.png" />
+</div>
+<p>Los usuarios que ingresan a través de un Link a interfaz sólo tienen permisos para visualizar esa interfaz y todas aquellas a las que pueda navegar a través del menú de la aplicación, si éste estuviera presente en la interfaz compartida original.</p>
+</div>
+<div class="section" id="gestor-de-links-a-interfaces">
+<h3>Gestor de Links a interfaces<a class="headerlink" href="#gestor-de-links-a-interfaces" title="Enlazar permanentemente con este título">#</a></h3>
+<p>En la sección <strong>«Interface links»</strong> es posible editar y eliminar los Links a interfaces creados de la aplicación actual.</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_interface_links_option.png" src="../_images/interface_links_interface_links_option.png" />
+</div>
+<div class="figure align-default">
+<img alt="../_images/interface_links_manager.png" src="../_images/interface_links_manager.png" />
+</div>
+<p>Para editar un Link a interfaz, se debe seleccionar el link a editar y luego hacer click en el botón «Update interface link»:</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_edit.png" src="../_images/interface_links_edit.png" />
+</div>
+<p>Se desplegará la siguiente ventana:</p>
+<div class="figure align-default">
+<img alt="../_images/interface_links_edit_window.png" src="../_images/interface_links_edit_window.png" />
+</div>
+<p>Opciones:</p>
+<ul class="simple">
+<li><p>Activate interface endpoint: permite habilitar/deshabilitar el link por completo.</p></li>
+<li><p>Share instance: permite habilitar/deshabilitar el compartir la instancia al ingresar múltiples usuarios con el mismo link.</p></li>
+<li><p>Custom endpoint: permite asignarle un nombre personalizado al link compartido. El link final quedará disponible para copiar en el Gestor de Links a interfaces.</p></li>
+<li><p>Password: permite ingresar una contraseña que se solicitará al cargar el link. Guardar esta contraseña de manera segura ya que no será posible visualizarla luego de creada. Sólo podrá reemplazarse por una nueva o eliminarse.</p></li>
+</ul>
 </div>
 </div>
 </div>

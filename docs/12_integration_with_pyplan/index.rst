@@ -28,7 +28,8 @@ Se desplegará la siguiente ventana:
 .. figure:: images/get_api_endpoint_window.png
 
 La opción **"Share instance"** permite que múltiples llamadas al API endpoint se atiendan desde una misma instancia sin necesidad de crear una nueva por cada llamada.
-Por el contrario, deshabilitando esta opción, cada llamada creara una nueva instancia en Pyplan para atenderla.
+Por el contrario, deshabilitando esta opción, cada llamada creará una nueva instancia en Pyplan para atenderla.
+
 Siguiendo con el ejemplo, la URL **"https://dev.pyplan.com/api/result/f274199c-28d0-437d-b136-ec2284dcb9a8/"** será nuestro API endpoint al cual podremos llamar desde fuera de Pyplan.
 
 ----------------------------------------
@@ -121,3 +122,58 @@ Creación de un Link a interfaz
 Para crear un Link a interfaz, se debe ir a la sección Interfaces:
 
 .. figure:: images/interface_links_interfaces_option.png
+
+Luego, elegir la interfaz que se desea compartir, hacer click en las opciones de la interfaz y elegir la opción **"Interface link"**:
+
+.. figure:: images/interface_links_get_interface_link.png
+
+Se desplegará la siguiente ventana:
+
+.. figure:: images/interface_links_share_window.png
+
+La opción **"Share instance"** permite que múltiples usuarios que utilicen este link sean atendidos desde una misma instancia sin necesidad de crear una nueva por cada usuario.
+Por el contrario, deshabilitando esta opción, cada usuario creará una nueva instancia en Pyplan para atenderlo.
+
+Desde esta ventana es posible agregar una contraseña que se solicitará al cargar el link. Para hacerlo, completar el campo **"Password"**. Guardar esta contraseña de manera segura ya que no será posible visualizarla luego de creada. Sólo podrá reemplazarse por una nueva o eliminarse.
+
+Siguiendo con el ejemplo, la URL **"https://dev.pyplan.com/ext/1/bec5271e-b44f-4a0b-8b08-f8166759d2a4/6e945dd6-c4f9-4cd2-9c6f-6e32421a8ab5/?theme=light"** será nuestro link que podremos compartir con personas que no sean usuarias de Pyplan.
+Es posible personalizar el tema que queremos que se inicie por defecto a través del parámetro **"theme"** al final de la URL. Los valores aceptados son: **"light"** (claro) o **"dark"** (oscuro).
+
+----------------------
+Uso de Link a interfaz
+----------------------
+Para utilizar el Link a interfaz, simplemente copiarlo y pegarlo en la barra de direcciones del explorador.
+
+En caso de haberse establecido una contraseña, ésta será solicitada al ingresar:
+
+.. figure:: images/interface_links_ask_password.png
+
+Luego de unos instantes, se visualizará la interfaz compartida:
+
+.. figure:: images/interface_links_shared_interface.png
+
+Los usuarios que ingresan a través de un Link a interfaz sólo tienen permisos para visualizar esa interfaz y todas aquellas a las que pueda navegar a través del menú de la aplicación, si éste estuviera presente en la interfaz compartida original.
+
+----------------------------
+Gestor de Links a interfaces
+----------------------------
+En la sección **"Interface links"** es posible editar y eliminar los Links a interfaces creados de la aplicación actual.
+
+.. figure:: images/interface_links_interface_links_option.png
+
+.. figure:: images/interface_links_manager.png
+
+Para editar un Link a interfaz, se debe seleccionar el link a editar y luego hacer click en el botón "Update interface link":
+
+.. figure:: images/interface_links_edit.png
+
+Se desplegará la siguiente ventana:
+
+.. figure:: images/interface_links_edit_window.png
+
+Opciones:
+
+- Activate interface endpoint: permite habilitar/deshabilitar el link por completo.
+- Share instance: permite habilitar/deshabilitar el compartir la instancia al ingresar múltiples usuarios con el mismo link.
+- Custom endpoint: permite asignarle un nombre personalizado al link compartido. El link final quedará disponible para copiar en el Gestor de Links a interfaces.
+- Password: permite ingresar una contraseña que se solicitará al cargar el link. Guardar esta contraseña de manera segura ya que no será posible visualizarla luego de creada. Sólo podrá reemplazarse por una nueva o eliminarse.

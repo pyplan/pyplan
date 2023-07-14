@@ -5,18 +5,19 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  Pyplan\n"
+"Project-Id-Version: Pyplan\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-06 11:38-0300\n"
-"PO-Revision-Date: 2023-07-03 12:44-0300\n"
+"POT-Creation-Date: 2023-07-14 16:20-0300\n"
+"PO-Revision-Date: 2023-07-14 16:28-0300\n"
 "Last-Translator: \n"
-"Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: ../../12_integration_with_pyplan/index.rst:3
 msgid "Integración con Pyplan"
@@ -28,11 +29,11 @@ msgstr "Introduction"
 
 #: ../../12_integration_with_pyplan/index.rst:8
 msgid ""
-"En esta sección se detalla cómo es posible consumir datos generados en "
-"una aplicación de Pyplan desde fuera de Pyplan."
+"En esta sección se detalla cómo es posible consumir datos generados en una "
+"aplicación de Pyplan desde fuera de Pyplan."
 msgstr ""
-"This section explains how it's possible to consume data generated in a "
-"Pyplan app from outside of Pyplan."
+"This section explains how it's possible to consume data generated in a Pyplan "
+"app from outside of Pyplan."
 
 #: ../../12_integration_with_pyplan/index.rst:11
 msgid "API endpoint"
@@ -44,237 +45,373 @@ msgstr "Creation of an API endpoint"
 
 #: ../../12_integration_with_pyplan/index.rst:17
 msgid ""
-"Para crear un API endpoint, es necesario crear un nodo cuyo resultado sea"
-" una función de Python que, opcionalmente, puede recibir parámetros. Por "
-"ejemplo, el código del nodo podría ser el siguiente:"
+"Para crear un API endpoint, es necesario crear un nodo cuyo resultado sea una "
+"función de Python que, opcionalmente, puede recibir parámetros. Por ejemplo, "
+"el código del nodo podría ser el siguiente:"
 msgstr ""
-"To create an API endpoint, it's necessary to create a node whose result "
-"is a Python function that can optionally receive parameters. For example,"
-" the code of the node could be the following:"
+"To create an API endpoint, it's necessary to create a node whose result is a "
+"Python function that can optionally receive parameters. For example, the code "
+"of the node could be the following:"
 
 #: ../../12_integration_with_pyplan/index.rst:22
 msgid ""
-"Luego, hacer click derecho sobre el nodo creado y elegir la opción "
-"**\"Get API Endpoint\"**:"
+"Luego, hacer click derecho sobre el nodo creado y elegir la opción **\"Get API "
+"Endpoint\"**:"
 msgstr ""
-"Then, right-click on the created node and choose the **\"Get API "
-"Endpoint\"** option:"
+"Then, right-click on the created node and choose the **\"Get API Endpoint\"** "
+"option:"
 
 #: ../../12_integration_with_pyplan/index.rst:26
-#: ../../12_integration_with_pyplan/index.rst:59
-#: ../../12_integration_with_pyplan/index.rst:88
+#: ../../12_integration_with_pyplan/index.rst:60
+#: ../../12_integration_with_pyplan/index.rst:89
+#: ../../12_integration_with_pyplan/index.rst:130
+#: ../../12_integration_with_pyplan/index.rst:170
 msgid "Se desplegará la siguiente ventana:"
 msgstr "The following window will be displayed:"
 
 #: ../../12_integration_with_pyplan/index.rst:30
 msgid ""
 "La opción **\"Share instance\"** permite que múltiples llamadas al API "
-"endpoint se atiendan desde una misma instancia sin necesidad de crear una"
-" nueva por cada llamada. Por el contrario, deshabilitando esta opción, "
-"cada llamada creara una nueva instancia en Pyplan para atenderla. "
-"Siguiendo con el ejemplo, la URL **\"https://dev.pyplan.com/api/result"
-"/f274199c-28d0-437d-b136-ec2284dcb9a8/\"** será nuestro API endpoint al "
-"cual podremos llamar desde fuera de Pyplan."
+"endpoint se atiendan desde una misma instancia sin necesidad de crear una "
+"nueva por cada llamada. Por el contrario, deshabilitando esta opción, cada "
+"llamada creará una nueva instancia en Pyplan para atenderla."
 msgstr ""
-"The **\"Share instance\"** option allows multiple calls to the API "
-"endpoint to be served from the same instance without the need to create a"
-" new one for each call. Conversely, by disabling this option, each call "
-"will create a new instance in Pyplan to serve it. Continuing with the "
-"example, the URL **\"https://dev.pyplan.com/api/result/f274199c-"
-"28d0-437d-b136-ec2284dcb9a8/\"** will be our API endpoint that we can "
+"The **\"Share instance\"** option allows multiple calls to the API endpoint to "
+"be served from the same instance without the need to create a new one for each "
+"call. Conversely, by disabling this option, each call will create a new "
+"instance in Pyplan to serve it."
+
+#: ../../12_integration_with_pyplan/index.rst:33
+msgid ""
+"Siguiendo con el ejemplo, la URL **\"https://dev.pyplan.com/api/result/"
+"f274199c-28d0-437d-b136-ec2284dcb9a8/\"** será nuestro API endpoint al cual "
+"podremos llamar desde fuera de Pyplan."
+msgstr ""
+"Continuing with the example, the URL **\"https://dev.pyplan.com/api/result/"
+"f274199c-28d0-437d-b136-ec2284dcb9a8/\"** will be our API endpoint that we can "
 "call from outside of Pyplan."
 
-#: ../../12_integration_with_pyplan/index.rst:36
+#: ../../12_integration_with_pyplan/index.rst:37
 msgid "Estructura de la llamada al API endpoint"
 msgstr "Structure of the API endpoint call"
 
-#: ../../12_integration_with_pyplan/index.rst:37
+#: ../../12_integration_with_pyplan/index.rst:38
 msgid "Método HTTP: POST"
 msgstr "HTTP method: POST"
 
-#: ../../12_integration_with_pyplan/index.rst:38
+#: ../../12_integration_with_pyplan/index.rst:39
 msgid "Content-Type: application/json"
 msgstr "Content-Type: application/json"
 
-#: ../../12_integration_with_pyplan/index.rst:39
-msgid ""
-"Headers (opcional): si el endpoint tiene asignado una Api key, se debe "
-"enviar como parámetro \"x-api-key\"."
-msgstr ""
-"Headers (optional): If the endpoint has an assigned API key, it should be"
-" sent as the \"x-api-key\" parameter."
-
 #: ../../12_integration_with_pyplan/index.rst:40
 msgid ""
-"Body (Opcional): form-data. Aquí se envían los parámetros para alimentar "
-"la función."
+"Headers (opcional): si el endpoint tiene asignado una Api key, se debe enviar "
+"como parámetro \"x-api-key\"."
 msgstr ""
-"Body (Optional): form-data. Where the parameters to feed the function are"
-" sent."
+"Headers (optional): If the endpoint has an assigned API key, it should be sent "
+"as the \"x-api-key\" parameter."
 
-#: ../../12_integration_with_pyplan/index.rst:42
+#: ../../12_integration_with_pyplan/index.rst:41
+msgid ""
+"Body (Opcional): form-data. Aquí se envían los parámetros para alimentar la "
+"función."
+msgstr ""
+"Body (Optional): form-data. Where the parameters to feed the function are sent."
+
+#: ../../12_integration_with_pyplan/index.rst:43
 msgid "Ejemplo realizado en plataforma Postman:"
 msgstr "Example performed on the Postman platform:"
 
-#: ../../12_integration_with_pyplan/index.rst:48
+#: ../../12_integration_with_pyplan/index.rst:49
 msgid "Gestor de API endpoints"
 msgstr "API endpoints manager"
 
-#: ../../12_integration_with_pyplan/index.rst:49
+#: ../../12_integration_with_pyplan/index.rst:50
 msgid ""
-"En la sección **\"External Link Endpoints\"** es posible editar y "
-"eliminar los API endpoints creados de la aplicación actual."
+"En la sección **\"External Link Endpoints\"** es posible editar y eliminar los "
+"API endpoints creados de la aplicación actual."
 msgstr ""
-"In the **\"External Link Endpoints\"** section, it is possible to edit "
-"and delete the created API endpoints of the current application."
+"In the **\"External Link Endpoints\"** section, it is possible to edit and "
+"delete the created API endpoints of the current application."
 
-#: ../../12_integration_with_pyplan/index.rst:55
+#: ../../12_integration_with_pyplan/index.rst:56
 msgid ""
-"Para editar un API endpoint, se debe seleccionar el enlace a editar y "
-"luego hacer click en el botón \"Edit\":"
+"Para editar un API endpoint, se debe seleccionar el enlace a editar y luego "
+"hacer click en el botón \"Edit\":"
 msgstr ""
-"To edit an API endpoint, you need to select the link to be edited and "
-"then click on the \"Edit\" button:"
+"To edit an API endpoint, you need to select the link to be edited and then "
+"click on the \"Edit\" button:"
 
-#: ../../12_integration_with_pyplan/index.rst:63
-#: ../../12_integration_with_pyplan/index.rst:92
+#: ../../12_integration_with_pyplan/index.rst:64
+#: ../../12_integration_with_pyplan/index.rst:93
+#: ../../12_integration_with_pyplan/index.rst:174
 msgid "Opciones:"
 msgstr "Options:"
 
-#: ../../12_integration_with_pyplan/index.rst:65
-msgid ""
-"Common instance: permite habilitar/deshabilitar el compartir la instancia"
-" al hacer múltiples llamadas."
-msgstr ""
-"Common instance: allows you to enable/disable sharing the instance when "
-"making multiple calls."
-
 #: ../../12_integration_with_pyplan/index.rst:66
+msgid ""
+"Common instance: permite habilitar/deshabilitar el compartir la instancia al "
+"hacer múltiples llamadas."
+msgstr ""
+"Common instance: allows you to enable/disable sharing the instance when making "
+"multiple calls."
+
+#: ../../12_integration_with_pyplan/index.rst:67
 msgid "Active: permite habilitar/deshabilitar el API endpoint por completo."
 msgstr "Active: allows enabling/disabling the API endpoint completely."
 
-#: ../../12_integration_with_pyplan/index.rst:67
+#: ../../12_integration_with_pyplan/index.rst:68
 msgid ""
-"Custom endpoint: permite asignarle un nombre personalizado al link "
-"externo. El link final quedará disponible para copiar en el Gestor de API"
-" endpoints."
+"Custom endpoint: permite asignarle un nombre personalizado al link externo. El "
+"link final quedará disponible para copiar en el Gestor de API endpoints."
 msgstr ""
 "Custom endpoint: allows you to assign a custom name to the external link "
 "endpoint. The final link will be available to copy in the API endpoints "
 "manager."
 
-#: ../../12_integration_with_pyplan/index.rst:68
+#: ../../12_integration_with_pyplan/index.rst:69
 msgid "Executor: permite elegir con qué usuario abrir la instancia."
 msgstr "Executor: allows choosing with which user to open the instance."
 
-#: ../../12_integration_with_pyplan/index.rst:69
+#: ../../12_integration_with_pyplan/index.rst:70
 msgid ""
 "Api key: permite seleccionar una clave creada anteriormente que deberá "
-"enviarse como Header en la llamada al endpoint con la clave \"x-api-"
-"key\"."
+"enviarse como Header en la llamada al endpoint con la clave \"x-api-key\"."
 msgstr ""
-"API key: allows selecting a previously created key that should be sent as"
-" a header in the API call with the key \"x-api-key\"."
+"API key: allows selecting a previously created key that should be sent as a "
+"header in the API call with the key \"x-api-key\"."
 
-#: ../../12_integration_with_pyplan/index.rst:71
+#: ../../12_integration_with_pyplan/index.rst:72
 msgid ""
-"Para confirmar los cambios, se debe hacer click en el botón "
-"**\"Confirm\"**. Para no aplicar los cambios, hacer click en "
-"**\"Cancel\"**"
+"Para confirmar los cambios, se debe hacer click en el botón **\"Confirm\"**. "
+"Para no aplicar los cambios, hacer click en **\"Cancel\"**"
 msgstr ""
-"To confirm the changes, you must click on the **\"Confirm\"** button. To "
-"not apply the changes, click on **\"Cancel\"**"
+"To confirm the changes, you must click on the **\"Confirm\"** button. To not "
+"apply the changes, click on **\"Cancel\"**"
 
-#: ../../12_integration_with_pyplan/index.rst:73
+#: ../../12_integration_with_pyplan/index.rst:74
 msgid "Para borrar un API endpoint, se debe hacer click en el siguiente ícono:"
 msgstr "To delete an API endpoint, you must click on the following icon:"
 
-#: ../../12_integration_with_pyplan/index.rst:79
+#: ../../12_integration_with_pyplan/index.rst:80
 msgid "Gestor de API keys"
 msgstr "API key manager"
 
-#: ../../12_integration_with_pyplan/index.rst:80
+#: ../../12_integration_with_pyplan/index.rst:81
 msgid ""
-"Para crear, editar o eliminar Api keys, se debe acceder a través del "
-"botón \"Show Api keys\":"
+"Para crear, editar o eliminar Api keys, se debe acceder a través del botón "
+"\"Show Api keys\":"
 msgstr ""
 "To create, edit, or delete API keys, you need to access them through the "
 "\"Show API keys\" button:"
 
-#: ../../12_integration_with_pyplan/index.rst:84
+#: ../../12_integration_with_pyplan/index.rst:85
 msgid "Para crear una nueva Api key, hacer click en el botón \"Create Api key\":"
 msgstr "To create a new API key, click on the \"Create API key\":"
 
-#: ../../12_integration_with_pyplan/index.rst:94
+#: ../../12_integration_with_pyplan/index.rst:95
 msgid "Active: permite habilitar/deshabilitar la Api key."
 msgstr "Active: allows enabling/disabling the API key."
 
-#: ../../12_integration_with_pyplan/index.rst:95
+#: ../../12_integration_with_pyplan/index.rst:96
 msgid ""
-"Alias: permite asignarle un nombre personalizado a la Api key para que "
-"sea más fácil de reconocer al asignarla a  Api endpoints."
+"Alias: permite asignarle un nombre personalizado a la Api key para que sea más "
+"fácil de reconocer al asignarla a  Api endpoints."
 msgstr ""
 "Alias: allows assigning a personalized name to the API key for easier "
 "recognition when assigning it to API endpoints."
 
-#: ../../12_integration_with_pyplan/index.rst:96
+#: ../../12_integration_with_pyplan/index.rst:97
 msgid ""
-"Key: la clave misma. Es posible editarla por una personalizada. Guardar "
-"esta clave de manera segura ya que no será posible visualizarla luego de "
-"creada. Sólo podrá generarse una nueva o eliminarse."
+"Key: la clave misma. Es posible editarla por una personalizada. Guardar esta "
+"clave de manera segura ya que no será posible visualizarla luego de creada. "
+"Sólo podrá generarse una nueva o eliminarse."
 msgstr ""
-"Key: the actual API key. It is possible to edit it with a custom one. "
-"Please save this key securely as it will not be possible to view it again"
-" after it is created. Only a new key can be generated or the existing one"
-" can be deleted."
+"Key: the actual API key. It is possible to edit it with a custom one. Please "
+"save this key securely as it will not be possible to view it again after it is "
+"created. Only a new key can be generated or the existing one can be deleted."
 
-#: ../../12_integration_with_pyplan/index.rst:98
+#: ../../12_integration_with_pyplan/index.rst:99
 msgid ""
-"Para confirmar los cambios, se debe hacer click en el botón "
-"**\"Confirm\"**. Para descartar la creación, hacer click en "
-"**\"Cancel\"**"
+"Para confirmar los cambios, se debe hacer click en el botón **\"Confirm\"**. "
+"Para descartar la creación, hacer click en **\"Cancel\"**"
 msgstr ""
 "To confirm the changes, click on the \"Confirm\" button. To discard the "
 "creation, click on \"Cancel\""
 
-#: ../../12_integration_with_pyplan/index.rst:100
+#: ../../12_integration_with_pyplan/index.rst:101
 msgid ""
-"Para editar una Api key, se debe seleccionar la Api key a editar y luego "
-"hacer click en el botón \"Edit Api key\":"
+"Para editar una Api key, se debe seleccionar la Api key a editar y luego hacer "
+"click en el botón \"Edit Api key\":"
 msgstr ""
-"To edit an API key, select the API key to be edited, and then click on "
-"the \"Edit API key\" button:"
+"To edit an API key, select the API key to be edited, and then click on the "
+"\"Edit API key\" button:"
 
-#: ../../12_integration_with_pyplan/index.rst:104
+#: ../../12_integration_with_pyplan/index.rst:105
 msgid ""
-"Se desplegará una ventana con las mismas opciones que al crear una nueva "
-"Api key."
+"Se desplegará una ventana con las mismas opciones que al crear una nueva Api "
+"key."
 msgstr ""
-"A window will be displayed with the same options as when creating a new "
-"API key."
+"A window will be displayed with the same options as when creating a new API "
+"key."
 
-#: ../../12_integration_with_pyplan/index.rst:106
+#: ../../12_integration_with_pyplan/index.rst:107
 msgid "Para borrar una Api key, se debe hacer click en el siguiente ícono:"
 msgstr "To delete an API key, click on the following icon:"
 
-#: ../../12_integration_with_pyplan/index.rst:110
+#: ../../12_integration_with_pyplan/index.rst:111
 msgid ""
-"Para asignar una Api key a un Api endpoint, se debe editar el Api "
-"endpoint y seleccionar la Api key que se desee:"
+"Para asignar una Api key a un Api endpoint, se debe editar el Api endpoint y "
+"seleccionar la Api key que se desee:"
 msgstr ""
-"To assign an API key to an API endpoint, edit the API endpoint and select"
-" the desired API key:"
+"To assign an API key to an API endpoint, edit the API endpoint and select the "
+"desired API key:"
 
-#: ../../12_integration_with_pyplan/index.rst:115
+#: ../../12_integration_with_pyplan/index.rst:116
 msgid "Link a interfaz"
-msgstr ""
+msgstr "Interface link"
 
-#: ../../12_integration_with_pyplan/index.rst:119
-#, fuzzy
+#: ../../12_integration_with_pyplan/index.rst:120
 msgid "Creación de un Link a interfaz"
-msgstr "Creation of an API endpoint"
+msgstr "Creation of an Interface link"
 
-#: ../../12_integration_with_pyplan/index.rst:121
+#: ../../12_integration_with_pyplan/index.rst:122
 msgid "Para crear un Link a interfaz, se debe ir a la sección Interfaces:"
-msgstr ""
+msgstr "To create an interface link, you need to go to the Interfaces section."
 
+#: ../../12_integration_with_pyplan/index.rst:126
+msgid ""
+"Luego, elegir la interfaz que se desea compartir, hacer click en las opciones "
+"de la interfaz y elegir la opción **\"Interface link\"**:"
+msgstr ""
+"After that, select the interface you want to share, click on the interface "
+"options, and choose the **\"Interface link\"** option."
+
+#: ../../12_integration_with_pyplan/index.rst:134
+msgid ""
+"La opción **\"Share instance\"** permite que múltiples usuarios que utilicen "
+"este link sean atendidos desde una misma instancia sin necesidad de crear una "
+"nueva por cada usuario. Por el contrario, deshabilitando esta opción, cada "
+"usuario creará una nueva instancia en Pyplan para atenderlo."
+msgstr ""
+"The \"Share instance\" option allows multiple users using this link to be "
+"served from the same instance without the need to create a new one for each "
+"user. On the other hand, disabling this option will make each user create a "
+"new instance in Pyplan to serve them."
+
+#: ../../12_integration_with_pyplan/index.rst:137
+msgid ""
+"Desde esta ventana es posible agregar una contraseña que se solicitará al "
+"cargar el link. Para hacerlo, completar el campo **\"Password\"**. Guardar "
+"esta contraseña de manera segura ya que no será posible visualizarla luego de "
+"creada. Sólo podrá reemplazarse por una nueva o eliminarse."
+msgstr ""
+"From this window, you can add a password that will be required when loading "
+"the link. To do so, fill in the **\"Password\"** field. Please ensure you "
+"securely save this password as it will not be visible once created. You can "
+"only replace it with a new one or remove it."
+
+#: ../../12_integration_with_pyplan/index.rst:139
+msgid ""
+"Siguiendo con el ejemplo, la URL **\"https://dev.pyplan.com/ext/1/bec5271e-"
+"b44f-4a0b-8b08-f8166759d2a4/6e945dd6-c4f9-4cd2-9c6f-6e32421a8ab5/?"
+"theme=light\"** será nuestro link que podremos compartir con personas que no "
+"sean usuarias de Pyplan. Es posible personalizar el tema que queremos que se "
+"inicie por defecto a través del parámetro **\"theme\"** al final de la URL. "
+"Los valores aceptados son: **\"light\"** (claro) o **\"dark\"** (oscuro)."
+msgstr ""
+"Continuing with the example, the URL **\"https://dev.pyplan.com/ext/1/bec5271e-"
+"b44f-4a0b-8b08-f8166759d2a4/6e945dd6-c4f9-4cd2-9c6f-6e32421a8ab5/?"
+"theme=light\"** will be our link that we can share with non-Pyplan users. It "
+"is possible to customize the default theme by using the **\"theme\"** "
+"parameter at the end of the URL. The accepted values are **\"light\"** or "
+"**\"dark\"**."
+
+#: ../../12_integration_with_pyplan/index.rst:144
+msgid "Uso de Link a interfaz"
+msgstr "Use of an Interface link"
+
+#: ../../12_integration_with_pyplan/index.rst:145
+msgid ""
+"Para utilizar el Link a interfaz, simplemente copiarlo y pegarlo en la barra "
+"de direcciones del explorador."
+msgstr ""
+"To use the Interface Link, simply copy and paste it into the address bar of "
+"your web browser."
+
+#: ../../12_integration_with_pyplan/index.rst:147
+msgid ""
+"En caso de haberse establecido una contraseña, ésta será solicitada al "
+"ingresar:"
+msgstr ""
+"If a password has been set, it will be prompted when you access the link."
+
+#: ../../12_integration_with_pyplan/index.rst:151
+msgid "Luego de unos instantes, se visualizará la interfaz compartida:"
+msgstr "After a few moments, the shared interface will be displayed."
+
+#: ../../12_integration_with_pyplan/index.rst:155
+msgid ""
+"Los usuarios que ingresan a través de un Link a interfaz sólo tienen permisos "
+"para visualizar esa interfaz y todas aquellas a las que pueda navegar a través "
+"del menú de la aplicación, si éste estuviera presente en la interfaz "
+"compartida original."
+msgstr ""
+"Users accessing the interface through an Interface link only have permissions "
+"to view that specific interface and any other interfaces they can navigate to "
+"through the application menu, if it is present in the original shared "
+"interface."
+
+#: ../../12_integration_with_pyplan/index.rst:159
+msgid "Gestor de Links a interfaces"
+msgstr "Interface links manager"
+
+#: ../../12_integration_with_pyplan/index.rst:160
+msgid ""
+"En la sección **\"Interface links\"** es posible editar y eliminar los Links a "
+"interfaces creados de la aplicación actual."
+msgstr ""
+"In the **\"Interface links\"** section, you can edit and delete the created "
+"Interface links for the current application."
+
+#: ../../12_integration_with_pyplan/index.rst:166
+msgid ""
+"Para editar un Link a interfaz, se debe seleccionar el link a editar y luego "
+"hacer click en el botón \"Update interface link\":"
+msgstr ""
+"To edit an Interface Link, you need to select the link you want to edit and "
+"then click on the **\"Update interface link\"** button."
+
+#: ../../12_integration_with_pyplan/index.rst:176
+msgid ""
+"Activate interface endpoint: permite habilitar/deshabilitar el link por "
+"completo."
+msgstr ""
+"Activate interface endpoint: allows enabling/disabling the link entirely."
+
+#: ../../12_integration_with_pyplan/index.rst:177
+msgid ""
+"Share instance: permite habilitar/deshabilitar el compartir la instancia al "
+"ingresar múltiples usuarios con el mismo link."
+msgstr ""
+"Share instance: allows enabling/disabling the sharing of the instance when "
+"multiple users access the link."
+
+#: ../../12_integration_with_pyplan/index.rst:178
+msgid ""
+"Custom endpoint: permite asignarle un nombre personalizado al link compartido. "
+"El link final quedará disponible para copiar en el Gestor de Links a "
+"interfaces."
+msgstr ""
+"Custom endpoint: allows assigning a personalized name to the shared link. The "
+"final link will be available for copying in the Interface links manager."
+
+#: ../../12_integration_with_pyplan/index.rst:179
+msgid ""
+"Password: permite ingresar una contraseña que se solicitará al cargar el link. "
+"Guardar esta contraseña de manera segura ya que no será posible visualizarla "
+"luego de creada. Sólo podrá reemplazarse por una nueva o eliminarse."
+msgstr ""
+"Password: allows entering a password that will be required when loading the "
+"link. Please securely save this password as it will not be visible once "
+"created. It can only be replaced with a new password or removed."

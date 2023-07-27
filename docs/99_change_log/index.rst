@@ -3,6 +3,30 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.5.5 - 2023-07-27
+--------------------
+
+---------
+Novedades
+---------
+
+- Nuevos roles por defecto: Administrator, App Administrator, Creator, Explorer, Viewer. Usuarios con rol Pyplan Admin asumen rol de Administrator. Usuarios Company Admin, App Administrator. Usuarios Company User, Creator.
+- Tareas de workflow pueden agregarse como widget en una interfaz. Desaparece vista de Mis tareas.
+- Mejoras estéticas en tabla de Mis tareas de workflow y al agregar un tareas en un proceso.
+- Validar que correo electrónico sea único al agregar nuevos usuarios.
+
+------------------
+Errores corregidos
+------------------
+
+- Visualización de formulario se rompe al aplicar más de un filtro.
+- No es posible borrar una carpeta con espacios al final.
+- No permitir ajustar tamaño ni mover componente maximizado en una interfaz.
+- No funciona buscador de tareas programadas.
+- Etiqueta de botones no se ven bien al aumentar el tamaño de fuente.
+- Correcciones mínimas.
+
+
 v3.5.4 - 2023-07-14
 --------------------
 

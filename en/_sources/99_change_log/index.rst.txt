@@ -3,6 +3,17 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.5.6 - 2023-07-28
+--------------------
+
+------------------
+Errores corregidos
+------------------
+
+- Componente Dash no refresca al cambiar un input en un nodo relacionado.
+- Correcciones mínimas.
+
+
 v3.5.5 - 2023-07-27
 --------------------
 

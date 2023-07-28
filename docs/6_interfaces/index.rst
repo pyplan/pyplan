@@ -137,6 +137,7 @@ Button
 ------
 
 Este objeto permite ejecutar código que opere con la aplicación para diferentes tipos de procesos, por ejemplo enviar mensajes de correo, correr modelos y salvar resultados, etc.
+
 ----
 Menu
 ----

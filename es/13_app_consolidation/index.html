@@ -1,0 +1,633 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consolidación de aplicaciones</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
+    <script src="../_static/custom.js"></script>
+    <script src="../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="next" title="Historial de cambios" href="../99_change_log/index.html" />
+    <link rel="prev" title="Integración con Pyplan" href="../12_integration_with_pyplan/index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="es">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Indice de Contenidos
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../1_home/index.html">
+   Acceso a Pyplan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2_applications/index.html">
+   Aplicaciones
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../3_code_window/index.html">
+   Ventana de Codificación
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../4_visualization_configuration/index.html">
+   Análisis y Visualización
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../5_low_code_no_code/index.html">
+   Codificando en Pyplan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../6_interfaces/index.html">
+   Interfaces en Pyplan
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../7_file_manager/index.html">
+   Administrador de archivos
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../8_task_manager/index.html">
+   Tareas programadas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../9_user_manager/index.html">
+   Opciones de seguridad
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../10_environments/index.html">
+   Entornos virtuales
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../11_versions/index.html">
+   Versiones y escenarios
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../12_integration_with_pyplan/index.html">
+   Integración con Pyplan
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Consolidación de aplicaciones
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../99_change_log/index.html">
+   Historial de cambios
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/pyplan/pyplan"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/pyplan/pyplan/issues/new?title=Issue%20on%20page%20%2F13_app_consolidation/index.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/pyplan/pyplan/edit/master/docs/13_app_consolidation/index.rst"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Edit this page"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="headerbtn__text-container">suggest edit</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/13_app_consolidation/index.rst.txt"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.rst</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduccion">
+   Introducción
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#eleccion-de-aplicacion-y-version-fuente">
+   Elección de aplicación y versión fuente
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#parametros">
+     Parámetros
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#comparacion-y-eleccion-de-diferencias-a-aplicar">
+   Comparación y elección de diferencias a aplicar
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#listado-de-elementos-con-diferencias">
+     Listado de elementos con diferencias
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#significado-de-iconos-por-color">
+       Significado de íconos por color
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#comparacion-de-elemento-elegido">
+     Comparación de elemento elegido
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#confirmacion-de-cambios">
+     Confirmación de cambios
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#resumen-de-consolidacion">
+   Resumen de consolidación
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#base-de-datos-con-cambios-aplicados">
+   Base de datos con cambios aplicados
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Consolidación de aplicaciones</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduccion">
+   Introducción
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#eleccion-de-aplicacion-y-version-fuente">
+   Elección de aplicación y versión fuente
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#parametros">
+     Parámetros
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#comparacion-y-eleccion-de-diferencias-a-aplicar">
+   Comparación y elección de diferencias a aplicar
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#listado-de-elementos-con-diferencias">
+     Listado de elementos con diferencias
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#significado-de-iconos-por-color">
+       Significado de íconos por color
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#comparacion-de-elemento-elegido">
+     Comparación de elemento elegido
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#confirmacion-de-cambios">
+     Confirmación de cambios
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#resumen-de-consolidacion">
+   Resumen de consolidación
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#base-de-datos-con-cambios-aplicados">
+   Base de datos con cambios aplicados
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <div class="section" id="consolidacion-de-aplicaciones">
+<h1>Consolidación de aplicaciones<a class="headerlink" href="#consolidacion-de-aplicaciones" title="Enlazar permanentemente con este título">#</a></h1>
+<div class="section" id="introduccion">
+<h2>Introducción<a class="headerlink" href="#introduccion" title="Enlazar permanentemente con este título">#</a></h2>
+<p>En esta sección se detalla cómo es posible incorporar (consolidar) reglas de negocio, interfaces y archivos desde una versión de una aplicación a la versión abierta.</p>
+</div>
+<div class="section" id="eleccion-de-aplicacion-y-version-fuente">
+<h2>Elección de aplicación y versión fuente<a class="headerlink" href="#eleccion-de-aplicacion-y-version-fuente" title="Enlazar permanentemente con este título">#</a></h2>
+<p>En este paso se elige la aplicación y la versión desde la cual se importarán los nuevos cambios a la versión abierta actual.</p>
+<div class="figure align-default">
+<img alt="../_images/step1.png" src="../_images/step1.png" />
+</div>
+<div class="section" id="parametros">
+<h3>Parámetros<a class="headerlink" href="#parametros" title="Enlazar permanentemente con este título">#</a></h3>
+<ul class="simple">
+<li><p>App path: ubicación de la aplicación fuente. Al hacer click en el campo, se desplegará una ventana para navegar las carpetas del sistema y elegir la aplicación deseada.</p></li>
+<li><p>Version: versión de la aplicación fuente desde la cual se quiere incorporar nuevos cambios.</p></li>
+<li><p>Business rules - Modules: selector para elegir los módulos que se quieren incorporar.</p></li>
+<li><p>Business rules - Replace matching nodes outside these modules: esta opción es relevante si dentro de los módulos elegidos para consolidar existe un nodo con un identifier que coincide con el identifier de un nodo de la versión de destino (actual), pero que en esta última se encuentra en otro módulo por fuera de los módulos elegidos para consolidar. En caso de estar tildada la opción, las propiedades de estos nodos serán reemplazados por los nuevos nodos. En caso de estar destildada, los nodos en cuestión nuevos serán renombrados con el sufijo «_new» luego de la consolidación.</p></li>
+<li><p>Interfaces: selector para elegir qué interfaces se quieren incorporar.</p></li>
+<li><p>Files: si esta opción está tildada, se compararán todos los archivos dentro de la versión fuente vs. los archivos dentro de la versión de destino.</p></li>
+<li><p>Version metadata: si esta opción está tildada, se comparará el archivo metadata.json dentro de la versión fuente vs. la de destino.</p></li>
+</ul>
+<p>Al hacer click en el botón «Next», Pyplan calculará las diferencias entre la versión fuente vs. la de destino y las mostrará en el siguiente paso.</p>
+</div>
+</div>
+<div class="section" id="comparacion-y-eleccion-de-diferencias-a-aplicar">
+<h2>Comparación y elección de diferencias a aplicar<a class="headerlink" href="#comparacion-y-eleccion-de-diferencias-a-aplicar" title="Enlazar permanentemente con este título">#</a></h2>
+<p>En este paso se visualizarán las diferencias entre la versión fuente y la versión actual abierta.</p>
+<div class="figure align-default">
+<img alt="../_images/step2.png" src="../_images/step2.png" />
+</div>
+<div class="section" id="listado-de-elementos-con-diferencias">
+<h3>Listado de elementos con diferencias<a class="headerlink" href="#listado-de-elementos-con-diferencias" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Del lado izquierdo se muestran los nodos, interfaces y archivos en los que existen diferencias entre las dos versiones.</p>
+<div class="figure align-default">
+<img alt="../_images/step2-left.png" src="../_images/step2-left.png" />
+</div>
+<p>Los elementos tildados serán los que efectivamente se aplicarán al confirmar los cambios.</p>
+<div class="section" id="significado-de-iconos-por-color">
+<h4>Significado de íconos por color<a class="headerlink" href="#significado-de-iconos-por-color" title="Enlazar permanentemente con este título">#</a></h4>
+<div class="figure align-default">
+<img alt="../_images/step2-icons.png" src="../_images/step2-icons.png" />
+</div>
+<ul class="simple">
+<li><p>Verde: nuevo elemento que será agregado.</p></li>
+<li><p>Amarillo: elemento existente que será modificado.</p></li>
+<li><p>Rojo: elemento que será eliminado</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="comparacion-de-elemento-elegido">
+<h3>Comparación de elemento elegido<a class="headerlink" href="#comparacion-de-elemento-elegido" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Del lado derecho se muestran las diferencias del elemento elegido. Lo que se muestra bajo «Old» son las propiedades de la versión abierta actual. Lo que se muestra bajo «New», las de la versión fuente. De confirmarse el cambio, se aplicarán las propiedades que se visualizan bajo «New».</p>
+<div class="figure align-default">
+<img alt="../_images/step2-right.png" src="../_images/step2-right.png" />
+</div>
+<p>En caso de elegir un elemento de Business rules, las diferencias se presentan en dos pestañas:</p>
+<ul class="simple">
+<li><p>Properties: muestra las propiedades del nodo como el título, posición en diagrama (x, y), tamaño (w, h), entre otros.</p></li>
+<li><p>Definition: muestra la definición del nodo (el código Python).</p></li>
+</ul>
+<p>Para el resto de los elementos (Interfaces, Files y Version metadata), sólo se muestran diferencias bajo la pestaña de Properties.</p>
+</div>
+<div class="section" id="confirmacion-de-cambios">
+<h3>Confirmación de cambios<a class="headerlink" href="#confirmacion-de-cambios" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Al hacer click en el botón «Confirm», se aplicarán los cambios elegidos.</p>
+<p>Consideraciones:</p>
+<ul class="simple">
+<li><p>Los cambios aplicados en <strong>Files y Version metadata</strong> son <strong>irreversibles</strong>.</p></li>
+<li><p>Los cambios en <strong>Business rules e Interfaces pueden ser revertidos</strong> si no se guardan los cambios en la aplicación.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="resumen-de-consolidacion">
+<h2>Resumen de consolidación<a class="headerlink" href="#resumen-de-consolidacion" title="Enlazar permanentemente con este título">#</a></h2>
+<p>En esta sección es posible ver un resumen de los cambios aplicados en la versión abierta actual.</p>
+<div class="figure align-default">
+<img alt="../_images/step3.png" src="../_images/step3.png" />
+</div>
+<p>Los cambios aplicados en Files y Version metadata son definitivos. Los cambios en Business rules e Interfaces serán grabados si se guarda la aplicación.</p>
+</div>
+<div class="section" id="base-de-datos-con-cambios-aplicados">
+<h2>Base de datos con cambios aplicados<a class="headerlink" href="#base-de-datos-con-cambios-aplicados" title="Enlazar permanentemente con este título">#</a></h2>
+<p>En la carpeta de la versión, luego de aplicada una consolidación, se registran todos los cambios aplicados en un archivo llamado «consolidations.db».</p>
+<p>Tener en cuenta que si los cambios en Business rules o Interfaces no se guardan finalmente en la aplicación, igualmente quedarán impactados en la base de datos.</p>
+</div>
+</div>
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../12_integration_with_pyplan/index.html" title="anterior página">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">anterior</p>
+            <p class="prev-next-title">Integración con Pyplan</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../99_change_log/index.html" title="siguiente página">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">siguiente</p>
+        <p class="prev-next-title">Historial de cambios</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Pyplan Inc.<br/>
+  
+      &copy; Copyright 2022, Pyplan.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

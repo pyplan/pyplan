@@ -23,6 +23,7 @@
    10_environments/index
    11_versions/index
    12_integration_with_pyplan/index
+   13_app_consolidation/index
    99_change_log/index
    
 	

@@ -3,6 +3,43 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.0 - 2023-08-25
+--------------------
+
+---------
+Novedades
+---------
+
+- Nueva sección para consolidar módulos, interfaces y archivos entre dos versiones de una aplicación.
+- Tareas programadas pueden agregarse como widget en una interfaz.
+- Mejora en workflow: nuevo estado "Not ready to start" dependiente de que tareas bloqueantes finalicen antes de permitir avanzar en el proceso.
+- Mejora en workflow: nuevo tipo de expiración de tarea "desde que se completó la tarea bloqueante".
+- Mejora en workflow: nuevo campo "Interfaz de revisión" para asignar una interfaz al usuario revisor.
+- Mejora en workflow: sólo mostrar tareas en las que el usuario es responsable, revisor o subscriptor. En caso de ser subscriptor del proceso, mostrar todas.
+- Mejora en workflow: no permitir que el usuario elegido como responsable de la tarea pueda ser elegido como revisor o subscriptor de la misma.
+- Nuevas funciones PyplanFunctions para consumir/interactuar con workflow con código desde la aplicación: pp.get_my_processes, pp.get_task_statuses y pp.change_task_status.
+- Funcionalidad para elegir qué columnas visualizar en widget de tareas de workflow.
+- Nuevo rol estándar "Creator with Public Access".
+- Permitir ordenar por cualquier columna en Administrador de Instancias.
+- Al ingresar vía SAML, siempre permitir elegir la compañía si el usuario está asignado a más de una.
+- Agregar campos "Creation Date", "Last Password Change", "MFA Enabled" y "Deleted" a reporte de usuarios que se exporta desde Administrador de Usuarios.
+
+------------------
+Errores corregidos
+------------------
+
+- Al seleccionar un nodo y luego un texto, no es posible volver a seleccionar el nodo original.
+- No funciona la obtención de recursos utilizados con cgroup v2.
+- No se visualizan correctamente los resultados de tipo str, dict o list o bool en interfaces.
+- En interfaces externas no se muestra el ícono para deplegar el menú de interfaces.
+- Corrección en workflow: al cambiar el estado de una tarea desde Completado a otro estado anterior (reversión), las tareas que dependen de ella deben bloquearse nuevamente.
+- Si un nodo contiene texto en formato HTML, al arrastrarlo a una interfaz no funciona el "Go to node".
+- En Permisos por rol, al apretar en checkbox de "All" de una sección, aplica a todas las secciones.
+- Al crear/editar un proceso, al intentar crear un grupo de tareas teniendo un grupo seleccionado de la tabla, edita el grupo seleccionado.
+- Al solicitar cambiar contraseña en login, si se quita el "/auth/"" de la URL, es posible continuar sin cambiar la contraseña.
+- Correcciones mínimas.
+
+
 v3.5.6 - 2023-07-28
 --------------------
 

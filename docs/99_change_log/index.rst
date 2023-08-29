@@ -3,6 +3,16 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.1 - 2023-08-28
+--------------------
+
+------------------
+Errores corregidos
+------------------
+
+- Se reporta alto uso de CPU constantemente con cgroup v1.
+
+
 v3.6.0 - 2023-08-25
 --------------------
 

@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../13_app_consolidation/index.rst:3
 msgid "Consolidación de aplicaciones"
-msgstr ""
+msgstr "App consolidation"
 
 #: ../../13_app_consolidation/index.rst:6
 msgid "Introducción"

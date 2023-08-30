@@ -3,6 +3,16 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.2 - 2023-08-30
+--------------------
+
+---------
+Novedades
+---------
+
+- Mejora en performance al obtener flechas en diagrama.
+
+
 v3.6.1 - 2023-08-28
 --------------------
 

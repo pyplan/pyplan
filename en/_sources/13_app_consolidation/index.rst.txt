@@ -7,6 +7,8 @@ Introducción
 
 En esta sección se detalla cómo es posible incorporar (consolidar) reglas de negocio, interfaces y archivos desde una versión de una aplicación a la versión abierta.
 
+.. figure:: images/section.png
+
 Elección de aplicación y versión fuente
 =======================================
 

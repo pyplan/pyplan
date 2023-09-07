@@ -3,6 +3,38 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.3 - 2023-09-07
+--------------------
+
+---------
+Novedades
+---------
+
+- Agregar opciones con click derecho en tablas para copiar incluyendo los encabezados.
+- Agregar propiedad de aplicación para elegir qué pestaña elegir entre "Seleccionar versión existente" o "Crear nueva versión".
+- Mejoras en búsqueda en Administrador de archivos.
+- Si se abre una nuevo pestaña del explorador en una sección que necesita una instancia, si existe una recuperarla.
+- Aceptar distintos formatos de fecha para pegar en formularios con campo de tipo fecha.
+- Agregar opción en componentes de interfaces para no mostrar ícono de maximizar.
+- En menú de interfaces, agregar nuevas rutas de Pyplan para navegar dentro de la aplicación.
+- Agregar posibilidad de anular contraseña en interfaces externas.
+
+------------------
+Errores corregidos
+------------------
+
+- Impedir evaluación concurrente de nodos.
+- No es posible eliminar el estilo autogenerado de formularios para las columnas numéricas.
+- Índice en formato Oculto no resetea a los valores guardados al refrescar la interfaz.
+- No se ordenan correctamente las filas del Administrador de instancias.
+- Filtrar listado de tareas de workflow en base a la compañía actual.
+- En algunas aplicaciones no deja confirmar cambios en propiedades de la aplicación.
+- Si no se carga un usuario que corra una tarea programada, arroja error.
+- En Administrador de logs, no muestra nada en campo "Model".
+- No se ve link de resetear password en email de recuperar contraseña en modo claro.
+- Correcciones mínimas.
+
+
 v3.6.2 - 2023-08-30
 --------------------
 

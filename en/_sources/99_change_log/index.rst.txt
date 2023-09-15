@@ -3,6 +3,37 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.4 - 2023-09-15
+--------------------
+
+---------
+Novedades
+---------
+
+- Permitir renombrar, activar y cerrar versión abierta.
+- Agregar propiedad en componentes para ocultar/mostrar ícono de manipulación de datos.
+- Al seleccionar opción "All" en selectores múltiples, guardar array vacío en definición que indique que todas las opciones están seleccionadas.
+- Cambiar color de fondo y texto por defecto de celdas de valores en tablas.
+- Validar contraseña actual al cambiar la contraseña del usuario actual.
+- Modificar componente HTML para que detecte links a interfaces con xlink:href.
+- Permitir copiar URL al seleccionar un archivo dentro de la carpeta Media en Administrador de archivos.
+- Mostrar número de versión según tag de imágenes utilizadas.
+
+------------------
+Errores corregidos
+------------------
+
+- Exportar tabla a Excel como "Full node" demora mucho tiempo y utiliza mucha memoria.
+- No funciona acción de desplazar diagrama en dispositivos táctiles.
+- Validar en formularios que todos las columnas tengan un field no vacío antes de crear la tabla en la base de datos.
+- Nodo seleccionado se marca con cambios pendientes de confirmación aún no habiendo hecho cambios.
+- Luego de apretar botón de refresh en una interfaz, al hacer un cambio en un índice y cambiar a otra interfaz, al volver a la interfaz original te mantiene el cambio.
+- Si una columna de un dataframe que alimenta un formulario es de tipo float32, el formulario se rompe.
+- Problemas de posicionamiento al hacer click en opción de "Ir al nodo" de un componente de interfaz.
+- Al recargar Pyplan con una instancia vencida, en ocasiones recupera la instancia de otro usuario.
+- Correcciones mínimas.
+
+
 v3.6.3 - 2023-09-07
 --------------------
 

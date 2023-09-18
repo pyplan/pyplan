@@ -3,6 +3,18 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.5 - 2023-09-18
+--------------------
+
+------------------
+Errores corregidos
+------------------
+
+- No es posible confirmar definición en nodos de tipo Botón.
+- Al consolidar nodos con cambios en la propiedad nodeInfo, arroja error al confirmar.
+- Selectores no permiten elegir valores si existe alguna opción con caracteres "(" o ")" en su dominio de valores posibles.
+
+
 v3.6.4 - 2023-09-15
 --------------------
 

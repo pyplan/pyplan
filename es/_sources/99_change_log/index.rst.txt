@@ -3,6 +3,36 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.7 - 2023-09-26
+--------------------
+
+---------
+Novedades
+---------
+
+- Reorganización de opciones de menú lateral.
+- Ajustes en Consolidación de aplicaciones.
+- Agregar posibilidad de mostrar un diálogo de confirmación al apretar un botón en una interfaz.
+
+------------------
+Errores corregidos
+------------------
+
+- Si hay progress bar y modal de nodo corriendo simultáneamente, sólo muestra progress bar. Debe mostrar ambos.
+- Selector de nodos de Administrador de tareas no funciona correctamente.
+- Correcciones mínimas.
+
+
+v3.6.6 - 2023-09-19
+--------------------
+
+------------------
+Errores corregidos
+------------------
+
+- Correcciones mínimas.
+
+
 v3.6.5 - 2023-09-18
 --------------------
 

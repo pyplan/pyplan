@@ -3,6 +3,16 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.8 - 2023-09-27
+--------------------
+
+---------
+Novedades
+---------
+
+- Agregar permiso para mostrar botón que oculta archivos en Administrador de archivos.
+
+
 v3.6.7 - 2023-09-26
 --------------------
 

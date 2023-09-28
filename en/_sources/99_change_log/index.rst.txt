@@ -3,6 +3,22 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.9 - 2023-09-28
+--------------------
+
+---------
+Novedades
+---------
+
+- Agregar funcionalidad de aplicar columnas jerárquicas a formularios.
+
+------------------
+Errores corregidos
+------------------
+
+- Error al consolidar interfaces que no tienen propiedad "definition".
+
+
 v3.6.8 - 2023-09-27
 --------------------
 

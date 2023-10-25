@@ -3,6 +3,56 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.11 - 2023-10-25
+--------------------
+
+------------------
+Errores corregidos
+------------------
+
+- Correciones mínimas.
+
+
+v3.6.10 - 2023-10-25
+--------------------
+
+---------
+Novedades
+---------
+
+- Agregar ícono para filtrar en etiquetas de columnas en tablas planas.
+- Crear administrador de plantillas de escenarios.
+- Permitir seleccionar múltiples nodos al elegir nodos para una plantilla de escenarios.
+- Agregar lista de nodos a evaluar antes de guardar un escenario a plantillas de escenarios.
+- Agregar ícono en componente para activar/desactivar la comparación de escenarios.
+- Otras mejoras en escenarios.
+- Permitir aplicar formato numérico a componente InputValue.
+- Mejoras en gráficos Waterfall y Combinado.
+- Al ingresar a un módulo, agregar loader mientras carga el módulo.
+- Cambio en color de fondo de celdas no editables en modo claro.
+- Agregar ícono para cambiar jerarquía de un componente tipo Índice que tiene jerarquías establecidas.
+- Ocultar botón de maximizar componente en componentes que no sean de tipo Tabla o Gráfico.
+- Mover ícono de maximizar a la derecha del título del componente.
+- Agregar ícono para seleccionar jerarquías de forma rápida en componentes de tipo Tabla y Gráfico.
+- Agregar propiedad de componente para personalizar color de texto y fondo de título de un componente.
+- Adecuar font-family de gráficos de Plotly al resto de Pyplan.
+- Habilitar por defecto la opción de permitir agregar nuevas columnas en la creación de nuevos formularios.
+- Agregar departments a usuarios en función pp.get_user_list.
+- Nueva función pp.get_all_processes para obtener el listado de todos los procesos y sus tareas que contiene la aplicación abierta.
+- Nuevas funciones pp.where, pp.maximum y pp.minimum.
+
+------------------
+Errores corregidos
+------------------
+
+- Si el resultado de un nodo es de tipo Generic y el resultado es un string de tamaño considerable, se rompe el explorador.
+- Tabla de pestaña de Performance en consola no muestra bien los porcentajes.
+- Guardar ID de nodo original al guardar los nodos afectados a un escenario.
+- Menú contextual de wizards en un nodo se mueve a la esquina superior izquierda por error.
+- Si existe un componente con escenarios como dimensión y luego se quitan todos los escenarios cargados, se rompe la visualización.
+- Correciones mínimas.
+
+
 v3.6.9 - 2023-09-28
 --------------------
 

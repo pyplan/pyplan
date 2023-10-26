@@ -3,6 +3,26 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.12 - 2023-10-26
+--------------------
+
+---------
+Novedades
+---------
+
+- Nueva funcionalidad para aplicar paletas de colores personalizadas a gráficos.
+- Cambio en color por defecto de componentes de tipo Tabla y Gráfico.
+
+------------------
+Errores corregidos
+------------------
+
+- No activar checkbox de Borrar y recrear tabla automáticamente al agregar o eliminar una columna de un formulario.
+- Ancho de encabezado de componentes en diagrama se ve cortado cuando tiene color de fondo.
+- Actualizar año de copyright en sección de Acerca de.
+- Correciones mínimas.
+
+
 v3.6.11 - 2023-10-25
 --------------------
 

@@ -3,6 +3,23 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.13 - 2023-10-27
+--------------------
+
+---------
+Novedades
+---------
+
+- Al activar escenarios en tablas, colocar dimensión Pyplan Scenarios en las columnas en lugar de las filas.
+
+------------------
+Errores corregidos
+------------------
+
+- Ancho de encabezado de componentes en código personalizado se ve cortado cuando tiene color de fondo.
+- No funciona botón de aplicar wizards en widget de código.
+
+
 v3.6.12 - 2023-10-26
 --------------------
 

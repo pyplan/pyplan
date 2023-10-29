@@ -3,6 +3,16 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.14 - 2023-10-29
+--------------------
+
+------------------
+Errores corregidos
+------------------
+
+- No funciona crear nodo desde PyplanBot.
+
+
 v3.6.13 - 2023-10-27
 --------------------
 

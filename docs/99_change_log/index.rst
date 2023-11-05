@@ -3,6 +3,32 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.15 - 2023-11-05
+--------------------
+
+---------
+Novedades
+---------
+
+- Al cambiar jerarquía desde componente Index, que automáticamente actualice el resto de componentes donde ese índice esté a la jerarquía elegida.
+- Al crear versión, si el usuario no tiene permisos de escritura en el directorio, guardar aplicación y nueva versión en su espacio privado.
+- Agregar loader al cambiar de compañía.
+- Cambiar texto de medida de agregación "Media" por "Promedio".
+
+------------------
+Errores corregidos
+------------------
+
+- Al consolidar un módulo que no existe en la aplicación de destino, siempre lo agrega en el root del diagrama.
+- Al consolidar una aplicación, las interfaces muestran resultados anteriores a la consolidación.
+- Al renombrar una versión que es la versión por defecto de la aplicación, no la renombra en el archivo app.ppl.
+- No se ve todo el diálogo de lectura de Excel en resoluciones bajas.
+- En ciertas ocasiones no se actualiza correctamente la aplicación o la versión en la barra superior.
+- Al cerrar una de varias instancias abiertas en la Home de Pyplan, siempre cierra la última.
+- Quedan instancias abiertas cuando no están disponibles.
+- Correcciones mínimas.
+
+
 v3.6.14 - 2023-10-29
 --------------------
 

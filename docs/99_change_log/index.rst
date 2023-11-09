@@ -3,6 +3,25 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.6.16 - 2023-11-09
+--------------------
+
+---------
+Novedades
+---------
+
+- Agregar posibilidad de guardar cambios pendientes de aplicación en una nueva versión.
+- Agregar loader al navegar Administrador de archivos.
+
+------------------
+Errores corregidos
+------------------
+
+- Duplicar procesos arroja error en algunas ocasiones.
+- Exportar componente con múltiples dimensiones en columnas arroja error.
+- Correcciones mínimas.
+
+
 v3.6.15 - 2023-11-05
 --------------------
 

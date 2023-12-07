@@ -3,6 +3,49 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.7.0 - 2023-12-07
+-------------------
+
+---------
+Novedades
+---------
+
+- Nuevo add-in para Microsoft Excel de Pyplan.
+- Nuevo sistema de notificaciones de una aplicación.
+- Nuevas opciones para personalizar la invalidación de outputs o la confirmación de cambios en formularios.
+- Agregar opciones de copiar aplicación al Public y a un Team desde Administrador de aplicaciones.
+- Nuevo formato de visualización de componente Selector de forma que se vea como chips elegibles clickeables.
+- Nuevo formato de visualización de componente Index de forma que se vea como un selector.
+- Nuevo parámetro en tareas programadas para seleccionar usuarios a los que se les enviará un email al finalizar la tarea.
+- Permitir aplicar acciones como eliminar o archivar a múltiples versiones al mismo tiempo.
+- Permitir aplicar acciones como eliminar a múltiples escenarios al mismo tiempo.
+- Se agregó el rol del usuario en la vista de información de su cuenta.
+- Autochequear checkbox de Borrar/recrear tabla en formularios ante cambios estructurales al editarlo.
+- Permitir fijar nodos de tipo módulo para navegar rápidamente a ellos.
+- En escenarios, guardar selectores e input scalars que son inputs de los nodos a guardar.
+- En componente HTML, si un link a interfaz tiene target='_self', al hacerle click, abrir interfaz y cerrar tab actual.
+
+------------------
+Errores corregidos
+------------------
+
+- No se puede crear una nueva versión en un Team si el usuario no tiene permisos para ver todas las carpetas de la compañía.
+- Al desincronizar índices de un componente, no funciona aplicar filtros a ese mismo componente.
+- Si definición con dynamic tiene caracter "\", dynamic no funciona.
+- Al buscar en selector de formularios, los resultados se reordenan de forma arbitraria.
+- Agregar loader a componente tipo Index cuando se están cargando los valores.
+- Al recargar aplicación con cambios pendientes no guardados, no limpia el estado de cambios pendientes sin guardar.
+- En diagrama, al dibujar selector debería llegar los datos con el último valor guardado para no ejecutar su result.
+- Si una tarea de un proceso pasa de estado "Completada" a "No iniciada", borrar fecha de finalización.
+- Al crear un alias, seleccionar el nuevo nodo alias.
+- Input Scalar con valor no serializable rompe UI.
+- En algunas resoluciones la ventana de login no se ve correctamente.
+- Al agregar mapa de jerarquías a un nodo en el diagrama, no muestra el ícono de jerarquía en el nodo hasta que no se refresca el diagrama.
+- Si borrás un componente de una interfaz con un sólo componente, no te lo deja borrar.
+- Al cerrar sesión en una pestaña, redireccionar las otras pestañas abiertas a la pantalla de login.
+- Correcciones mínimas.
+
+
 v3.6.16 - 2023-11-09
 --------------------
 

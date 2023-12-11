@@ -3,6 +3,22 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.7.1 - 2023-12-11
+-------------------
+
+---------
+Novedades
+---------
+
+- Al abrir una interfaz, mostrar recursos cada dos segundos.
+
+------------------
+Errores corregidos
+------------------
+
+- Error al guardar aplicación con selector que tiene parámetros no serializables.
+
+
 v3.7.0 - 2023-12-07
 -------------------
 

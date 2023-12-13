@@ -3,6 +3,16 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.7.3 - 2023-12-12
+-------------------
+
+------------------
+Errores corregidos
+------------------
+
+- Hay múltiples llamados a endpoints desde interfaz por defecto.
+
+
 v3.7.2 - 2023-12-12
 -------------------
 

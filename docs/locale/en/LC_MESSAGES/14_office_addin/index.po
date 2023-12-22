@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pyplan \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-22 16:40-0300\n"
+"PO-Revision-Date: 2023-12-22 20:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Unknown\n"
+"Language: zxx\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: es_AR\n"
+"Generated-By: Babel 2.14.0\n"
+"\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: ../../14_office_addin/index.rst:3
+msgid "Complemento de Office"
+msgstr "Office Add-in"
+
+#: ../../14_office_addin/index.rst:6
+msgid "Introducción"
+msgstr "Introduction"
+
+#: ../../14_office_addin/index.rst:8
+msgid ""
+"En esta sección se detalla cómo puedes utilizar el complemento de office "
+"para comunicarte con tu aplicación en Pyplan."
+msgstr ""
+"This section details how you can use the office add-in to communicate with "
+"your Pyplan application."
+
+#: ../../14_office_addin/index.rst:12
+msgid "Instalación"
+msgstr "Installation"
+
+#: ../../14_office_addin/index.rst:14
+msgid ""
+"Para agregar el complemento de Pyplan, despliega la lista de complementos y "
+"utiliza el buscador. Luego seleccionas **Pyplan for Microsoft 365** y "
+"confirmas la instalación."
+msgstr ""
+"To add the Pyplan add-in, open the list of add-ins and use the search box. "
+"Then select **Pyplan for Microsoft 365** and confirm the installation."
+
+#: ../../14_office_addin/index.rst:18
+msgid "Inicio de sesión"
+msgstr "Login"
+
+#: ../../14_office_addin/index.rst:20
+msgid ""
+"Para iniciar sesión en una instancia de Pyplan, primero deberás registrar "
+"dicha instancia. Para realizar esto sigue los siguientes pasos:"
+msgstr ""
+"To log in to a Pyplan instance, you must first register that instance. To do "
+"this, follow the steps below:"
+
+#: ../../14_office_addin/index.rst:22
+msgid "Click en el botón *Sign in*"
+msgstr "Click on the *Sign in* button"
+
+#: ../../14_office_addin/index.rst:26
+msgid ""
+"Si es la primera vez que ingresas, deberás registrar la instancia a la cual "
+"deseas conectarte. Para esto haz click en el botón **+** y luego completa "
+"los datos de la instancia y luego click en confirmar."
+msgstr ""
+"If this is the first time you log in, you must register the instance you "
+"wish to connect to. To do this click on the **+** button and then fill in "
+"the instance data and click on confirm."
+
+#: ../../14_office_addin/index.rst:30
+msgid "Conexión utilizando SSO"
+msgstr "Connecting using SSO"
+
+#: ../../14_office_addin/index.rst:32
+msgid ""
+"Si vas a utilizar el inicio de sesión con SSO (Single Sign On), en la url "
+"deberás agregar /saml/[nombre de la empresa]. Ejemplo: https://dev.pyplan."
+"com/saml/pyplan"
+msgstr ""
+"If you are going to use SSO (Single Sign On) login, in the url you must add "
+"/saml/[company code]. Example: https://dev.pyplan.com/saml/pyplan"
+
+#: ../../14_office_addin/index.rst:34
+msgid ""
+"Una vez que registres la conexión, quedará disponible para próximos inicios "
+"de sesión. Luego has click en la conexión que desees utilizar e inicia "
+"sesión utilizando tus credenciales."
+msgstr ""
+"Once you register the connection, it will be available for future logins. "
+"Then click on the connection you wish to use and log in using your "
+"credentials."
+
+#: ../../14_office_addin/index.rst:38
+msgid "Abrir una aplicación"
+msgstr "Open an application"
+
+#: ../../14_office_addin/index.rst:40
+msgid ""
+"Luego de haber iniciado sesión podrás abrir alguna de las aplicaciones que "
+"tengas disponibles, tanto de tu espacio privado como del espacio público o "
+"de algún equipo de trabajo al cual pertenezcas."
+msgstr ""
+"After logging in, you will be able to open any of the applications you have "
+"available, either from your private space or from the public space or from a "
+"work team to which you belong."
+
+#: ../../14_office_addin/index.rst:45
+msgid "Node Links"
+msgstr "Node Links"
+
+#: ../../14_office_addin/index.rst:47
+msgid ""
+"Los **Node Links** son vínculos entre hojas de cálculo o rangos de Microsoft "
+"Excel y nodos de Pyplan. Estos vínculos te permiten enviar y recibir "
+"información hacia y desde tu aplicación de Pyplan."
+msgstr ""
+"**Node Links** are links between Microsoft Excel spreadsheets or ranges and "
+"Pyplan nodes. These links allow you to send and receive information to and "
+"from your Pyplan application."
+
+#: ../../14_office_addin/index.rst:51
+msgid "Tipos de Node Links"
+msgstr "Types of Node Links"
+
+#: ../../14_office_addin/index.rst:53
+msgid "Existen dos tipos de **Node Links**:"
+msgstr "There are two types of **Node Links**:"
+
+#: ../../14_office_addin/index.rst:55
+msgid "salida de datos: permiten obtener datos desde Pyplan"
+msgstr "data output: allow to obtain data from Pyplan"
+
+#: ../../14_office_addin/index.rst:56
+msgid "entrada de datos: permiten enviar datos hacia Pyplan"
+msgstr "data input: allow to send data to Pyplan"
+
+#: ../../14_office_addin/index.rst:58
+msgid ""
+"Para crear un **Node Link** de salida de datos realiza los siguientes pasos:"
+msgstr "To create a **Node Link** for data output perform the following steps:"
+
+#: ../../14_office_addin/index.rst:60
+msgid "Click en el botón **+**."
+msgstr "Click on the **+** button."
+
+#: ../../14_office_addin/index.rst:61
+msgid ""
+"Selecciona el destino de los datos. Puede ser en la celda seleccionada o en "
+"una nueva hoja. En caso de que selecciones una nueva hoja, se creará una "
+"hoja con el ID del nodo de Pyplan."
+msgstr ""
+"Select the destination of the data. It can be in the selected cell or in a "
+"new worksheet. In case you select a new sheet, a sheet with the Pyplan node "
+"ID will be created."
+
+#: ../../14_office_addin/index.rst:62
+msgid ""
+"Seleccionar el nodo de Pyplan desde el cual se obtendrán los datos. Todos "
+"los nodos son de salida de datos, excepto los nodos de tipo formulario."
+msgstr ""
+"Select the Pyplan node from which the data will be obtained. All nodes are "
+"data output nodes, except form type nodes."
+
+#: ../../14_office_addin/index.rst:66
+msgid ""
+"Para crear un **Node Link** de entrada de datos realiza los mismos pasos "
+"anteriormente mencionados, pero selecciona un nodo de tipo formulario. Esto "
+"te permitirá modificar los valores de las celdas y luego enviar los datos a "
+"Pyplan. Para enviar los datos a Pyplan una vez modificadas las celdas de la "
+"tabla debes hacer click en el botono de **enviar datos**."
+msgstr ""
+"To create a data entry **Node Link** perform the same steps as above, but "
+"select a form type node. This will allow you to modify the cell values and "
+"then send the data to Pyplan. To send the data to Pyplan once the table "
+"cells have been modified you must click on the **send data** button."
+
+#: ../../14_office_addin/index.rst:72
+msgid "Envío de datos"
+msgstr "Sending data"
+
+#: ../../14_office_addin/index.rst:74
+msgid ""
+"Al enviar datos a Pyplan, se actualizará el nodo de tipo Formulario y si en "
+"el libro de Excel existen nodos que dependen del nodo actualizado, los "
+"mismos se actualizarán con el nuevo resultado. También puedes hacer una "
+"tabla dinámica tomando como base la tabla de salida de datos. Al actualizar "
+"el Node link también se actualizarán las tablas dinámicas."
+msgstr ""
+"When sending data to Pyplan, the Form node will be updated and if there are "
+"nodes in the Excel workbook that depend on the updated node, they will be "
+"updated with the new result. You can also make a pivot table based on the "
+"data output table. Updating the Node link will also update the pivot tables."

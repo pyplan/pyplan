@@ -3,14 +3,32 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
-v3.7.3 - 2023-12-12
+v3.7.3 - 2023-12-23
 -------------------
+
+---------
+Novedades
+---------
+
+- Mejorar soporte a dimensiones de tipo datetime en tablas y gráficos. Se agregó jerarquía automática al detectarse este tipo de Index.
+- No permitir pegar carpetas o archivos en el raiz de la carpeta Teams.
+- Actualización de editor de HTML.
+- Agregar tooltip a todos los nodos con el título e identifier.
+- Agregar opción de nodo para copiar valores para nodos con resultado de tipo DataFrame o Series.
+- Agregar ícono de tipo de dato a nodos de tipo variable, output, report y datareading.
+- Agregar borde lateral izquierdo a nodos de tipo inputselector, inputchoice y form.
 
 ------------------
 Errores corregidos
 ------------------
 
+- Etiquetas de columnas anidadas no se ajustan bien cuando el formulario proviene de un DataFrame.
 - Hay múltiples llamados a endpoints desde interfaz por defecto.
+- Etiquetas en nombres de columnas se ven cortados cuando son multilínea.
+- Error en exportación a Excel de tabla con muchas filas.
+- Filtrar por tipo de nodo no funciona correctamente con nodos de tipo alias.
+- Lógica de excluir NaNs en heatmap está al revés. No colorear celdas con NaN.
+- Correcciones mínimas.
 
 
 v3.7.2 - 2023-12-12

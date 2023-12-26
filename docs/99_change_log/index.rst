@@ -3,6 +3,16 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.7.4 - 2023-12-26
+-------------------
+
+------------------
+Errores corregidos
+------------------
+
+- Navegar diagrama arroja error si existe un nodo de tipo alias cuyo nodo original no existe.
+
+
 v3.7.3 - 2023-12-23
 -------------------
 

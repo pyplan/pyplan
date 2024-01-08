@@ -3,6 +3,28 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.7.5 - 2024-01-08
+-------------------
+
+---------
+Novedades
+---------
+
+- Nuevo componente de interfaces Dynamic HTML que permite agregar al vuelo propiedades a un HTML.
+- Funcionalidad para establecer permisos por carpetas de interfaces.
+- Selector de departamento principal en asignación de empresa-departamento a usuario que determina de qué departamento tomar la configuración de recursos de la instancia si el usuario tiene más de un departamento asignado en una compañía. 
+- Funcionalidad para agregar vista en miniatura a aplicaciones.
+
+------------------
+Errores corregidos
+------------------
+
+- No aplica correctamente formato de Input Scalar en interfaces.
+- Si en una interfaz hay un componente Assistant, al abrirla hace scroll hacia abajo.
+- Íconos de estado de versión y opciones están desalineados en título de app de barra superior usando Windows.
+- Correcciones mínimas.
+
+
 v3.7.4 - 2023-12-26
 -------------------
 

@@ -3,6 +3,23 @@ Historial de cambios
 
 A continuación se detallan todos los cambios destacables de Pyplan para cada versión:
 
+v3.7.6 - 2024-01-09
+-------------------
+
+---------
+Novedades
+---------
+
+- Renombrar "External link" por "API endpoint".
+
+------------------
+Errores corregidos
+------------------
+
+- No funciona botón de volver atrás de navegador en interfaces externas.
+- Ajustes en márgenes de componentes tipo Index.
+
+
 v3.7.5 - 2024-01-08
 -------------------
 

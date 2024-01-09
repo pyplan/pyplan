@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pyplan\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-08 18:39-0300\n"
-"PO-Revision-Date: 2024-01-08 18:41-0300\n"
+"POT-Creation-Date: 2024-01-09 18:43-0300\n"
+"PO-Revision-Date: 2024-01-09 18:44-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -30,30 +30,76 @@ msgid ""
 msgstr "All notable changes to Pyplan will be documented in this file:"
 
 #: ../../99_change_log/index.rst:7
-msgid "v3.7.5 - 2024-01-08"
+msgid "v3.7.6 - 2024-01-09"
 msgstr ""
 
-#: ../../99_change_log/index.rst:11 ../../99_change_log/index.rst:43
-#: ../../99_change_log/index.rst:81 ../../99_change_log/index.rst:97
-#: ../../99_change_log/index.rst:140 ../../99_change_log/index.rst:159
-#: ../../99_change_log/index.rst:195 ../../99_change_log/index.rst:212
-#: ../../99_change_log/index.rst:242 ../../99_change_log/index.rst:282
-#: ../../99_change_log/index.rst:298 ../../99_change_log/index.rst:308
-#: ../../99_change_log/index.rst:350 ../../99_change_log/index.rst:381
-#: ../../99_change_log/index.rst:413 ../../99_change_log/index.rst:433
-#: ../../99_change_log/index.rst:481 ../../99_change_log/index.rst:505
-#: ../../99_change_log/index.rst:553 ../../99_change_log/index.rst:592
-#: ../../99_change_log/index.rst:634 ../../99_change_log/index.rst:651
-#: ../../99_change_log/index.rst:696 ../../99_change_log/index.rst:741
-#: ../../99_change_log/index.rst:792 ../../99_change_log/index.rst:822
-#: ../../99_change_log/index.rst:875 ../../99_change_log/index.rst:896
-#: ../../99_change_log/index.rst:954 ../../99_change_log/index.rst:972
-#: ../../99_change_log/index.rst:989 ../../99_change_log/index.rst:1015
-#: ../../99_change_log/index.rst:1053 ../../99_change_log/index.rst:1074
+#: ../../99_change_log/index.rst:11 ../../99_change_log/index.rst:28
+#: ../../99_change_log/index.rst:60 ../../99_change_log/index.rst:98
+#: ../../99_change_log/index.rst:114 ../../99_change_log/index.rst:157
+#: ../../99_change_log/index.rst:176 ../../99_change_log/index.rst:212
+#: ../../99_change_log/index.rst:229 ../../99_change_log/index.rst:259
+#: ../../99_change_log/index.rst:299 ../../99_change_log/index.rst:315
+#: ../../99_change_log/index.rst:325 ../../99_change_log/index.rst:367
+#: ../../99_change_log/index.rst:398 ../../99_change_log/index.rst:430
+#: ../../99_change_log/index.rst:450 ../../99_change_log/index.rst:498
+#: ../../99_change_log/index.rst:522 ../../99_change_log/index.rst:570
+#: ../../99_change_log/index.rst:609 ../../99_change_log/index.rst:651
+#: ../../99_change_log/index.rst:668 ../../99_change_log/index.rst:713
+#: ../../99_change_log/index.rst:758 ../../99_change_log/index.rst:809
+#: ../../99_change_log/index.rst:839 ../../99_change_log/index.rst:892
+#: ../../99_change_log/index.rst:913 ../../99_change_log/index.rst:971
+#: ../../99_change_log/index.rst:989 ../../99_change_log/index.rst:1006
+#: ../../99_change_log/index.rst:1032 ../../99_change_log/index.rst:1070
+#: ../../99_change_log/index.rst:1091
 msgid "Novedades"
 msgstr "New Features"
 
 #: ../../99_change_log/index.rst:13
+msgid "Renombrar \"External link\" por \"API endpoint\"."
+msgstr "Rename \"External link\" to \"API endpoint\"."
+
+#: ../../99_change_log/index.rst:17 ../../99_change_log/index.rst:37
+#: ../../99_change_log/index.rst:50 ../../99_change_log/index.rst:72
+#: ../../99_change_log/index.rst:88 ../../99_change_log/index.rst:104
+#: ../../99_change_log/index.rst:133 ../../99_change_log/index.rst:164
+#: ../../99_change_log/index.rst:185 ../../99_change_log/index.rst:202
+#: ../../99_change_log/index.rst:218 ../../99_change_log/index.rst:236
+#: ../../99_change_log/index.rst:249 ../../99_change_log/index.rst:284
+#: ../../99_change_log/index.rst:305 ../../99_change_log/index.rst:333
+#: ../../99_change_log/index.rst:345 ../../99_change_log/index.rst:355
+#: ../../99_change_log/index.rst:380 ../../99_change_log/index.rst:411
+#: ../../99_change_log/index.rst:440 ../../99_change_log/index.rst:468
+#: ../../99_change_log/index.rst:487 ../../99_change_log/index.rst:507
+#: ../../99_change_log/index.rst:533 ../../99_change_log/index.rst:547
+#: ../../99_change_log/index.rst:559 ../../99_change_log/index.rst:582
+#: ../../99_change_log/index.rst:598 ../../99_change_log/index.rst:618
+#: ../../99_change_log/index.rst:642 ../../99_change_log/index.rst:657
+#: ../../99_change_log/index.rst:677 ../../99_change_log/index.rst:693
+#: ../../99_change_log/index.rst:703 ../../99_change_log/index.rst:732
+#: ../../99_change_log/index.rst:747 ../../99_change_log/index.rst:772
+#: ../../99_change_log/index.rst:789 ../../99_change_log/index.rst:799
+#: ../../99_change_log/index.rst:815 ../../99_change_log/index.rst:827
+#: ../../99_change_log/index.rst:863 ../../99_change_log/index.rst:899
+#: ../../99_change_log/index.rst:931 ../../99_change_log/index.rst:952
+#: ../../99_change_log/index.rst:962 ../../99_change_log/index.rst:979
+#: ../../99_change_log/index.rst:996 ../../99_change_log/index.rst:1019
+#: ../../99_change_log/index.rst:1048 ../../99_change_log/index.rst:1079
+msgid "Errores corregidos"
+msgstr "Bug fixes"
+
+#: ../../99_change_log/index.rst:19
+msgid "No funciona botón de volver atrás de navegador en interfaces externas."
+msgstr "Back button of the browser does not work in external interfaces."
+
+#: ../../99_change_log/index.rst:20
+msgid "Ajustes en márgenes de componentes tipo Index."
+msgstr "Adjustments to margins in Index-type components."
+
+#: ../../99_change_log/index.rst:24
+msgid "v3.7.5 - 2024-01-08"
+msgstr ""
+
+#: ../../99_change_log/index.rst:30
 msgid ""
 "Nuevo componente de interfaces Dynamic HTML que permite agregar al vuelo "
 "propiedades a un HTML."
@@ -61,11 +107,11 @@ msgstr ""
 "New Dynamic HTML Interfaces component that allows dynamically adding properties "
 "to an HTML."
 
-#: ../../99_change_log/index.rst:14
+#: ../../99_change_log/index.rst:31
 msgid "Funcionalidad para establecer permisos por carpetas de interfaces."
 msgstr "Functionality to set permissions for interface folders."
 
-#: ../../99_change_log/index.rst:15
+#: ../../99_change_log/index.rst:32
 msgid ""
 "Selector de departamento principal en asignación de empresa-departamento a "
 "usuario que determina de qué departamento tomar la configuración de recursos de "
@@ -75,44 +121,15 @@ msgstr ""
 "determines from which department to take the resource configuration of the "
 "instance if the user has more than one department assigned in a company."
 
-#: ../../99_change_log/index.rst:16
+#: ../../99_change_log/index.rst:33
 msgid "Funcionalidad para agregar vista en miniatura a aplicaciones."
 msgstr "Functionality to add thumbnail view to applications."
 
-#: ../../99_change_log/index.rst:20 ../../99_change_log/index.rst:33
-#: ../../99_change_log/index.rst:55 ../../99_change_log/index.rst:71
-#: ../../99_change_log/index.rst:87 ../../99_change_log/index.rst:116
-#: ../../99_change_log/index.rst:147 ../../99_change_log/index.rst:168
-#: ../../99_change_log/index.rst:185 ../../99_change_log/index.rst:201
-#: ../../99_change_log/index.rst:219 ../../99_change_log/index.rst:232
-#: ../../99_change_log/index.rst:267 ../../99_change_log/index.rst:288
-#: ../../99_change_log/index.rst:316 ../../99_change_log/index.rst:328
-#: ../../99_change_log/index.rst:338 ../../99_change_log/index.rst:363
-#: ../../99_change_log/index.rst:394 ../../99_change_log/index.rst:423
-#: ../../99_change_log/index.rst:451 ../../99_change_log/index.rst:470
-#: ../../99_change_log/index.rst:490 ../../99_change_log/index.rst:516
-#: ../../99_change_log/index.rst:530 ../../99_change_log/index.rst:542
-#: ../../99_change_log/index.rst:565 ../../99_change_log/index.rst:581
-#: ../../99_change_log/index.rst:601 ../../99_change_log/index.rst:625
-#: ../../99_change_log/index.rst:640 ../../99_change_log/index.rst:660
-#: ../../99_change_log/index.rst:676 ../../99_change_log/index.rst:686
-#: ../../99_change_log/index.rst:715 ../../99_change_log/index.rst:730
-#: ../../99_change_log/index.rst:755 ../../99_change_log/index.rst:772
-#: ../../99_change_log/index.rst:782 ../../99_change_log/index.rst:798
-#: ../../99_change_log/index.rst:810 ../../99_change_log/index.rst:846
-#: ../../99_change_log/index.rst:882 ../../99_change_log/index.rst:914
-#: ../../99_change_log/index.rst:935 ../../99_change_log/index.rst:945
-#: ../../99_change_log/index.rst:962 ../../99_change_log/index.rst:979
-#: ../../99_change_log/index.rst:1002 ../../99_change_log/index.rst:1031
-#: ../../99_change_log/index.rst:1062
-msgid "Errores corregidos"
-msgstr "Bug fixes"
-
-#: ../../99_change_log/index.rst:22
+#: ../../99_change_log/index.rst:39
 msgid "No aplica correctamente formato de Input Scalar en interfaces."
 msgstr "Does not apply Input Scalar formatting correctly in interfaces."
 
-#: ../../99_change_log/index.rst:23
+#: ../../99_change_log/index.rst:40
 msgid ""
 "Si en una interfaz hay un componente Assistant, al abrirla hace scroll hacia "
 "abajo."
@@ -120,7 +137,7 @@ msgstr ""
 "If there is an Assistant component in an interface, opening it causes a scroll "
 "down."
 
-#: ../../99_change_log/index.rst:24
+#: ../../99_change_log/index.rst:41
 msgid ""
 "Íconos de estado de versión y opciones están desalineados en título de app de "
 "barra superior usando Windows."
@@ -128,27 +145,27 @@ msgstr ""
 "Version status icons and options are misaligned in the title of the top bar app "
 "using Windows."
 
-#: ../../99_change_log/index.rst:25 ../../99_change_log/index.rst:63
-#: ../../99_change_log/index.rst:73 ../../99_change_log/index.rst:132
-#: ../../99_change_log/index.rst:151 ../../99_change_log/index.rst:177
-#: ../../99_change_log/index.rst:320 ../../99_change_log/index.rst:330
-#: ../../99_change_log/index.rst:373 ../../99_change_log/index.rst:405
-#: ../../99_change_log/index.rst:462 ../../99_change_log/index.rst:473
-#: ../../99_change_log/index.rst:497 ../../99_change_log/index.rst:522
-#: ../../99_change_log/index.rst:534 ../../99_change_log/index.rst:545
-#: ../../99_change_log/index.rst:573 ../../99_change_log/index.rst:617
-#: ../../99_change_log/index.rst:627 ../../99_change_log/index.rst:644
-#: ../../99_change_log/index.rst:668 ../../99_change_log/index.rst:678
-#: ../../99_change_log/index.rst:688 ../../99_change_log/index.rst:722
-#: ../../99_change_log/index.rst:774
+#: ../../99_change_log/index.rst:42 ../../99_change_log/index.rst:80
+#: ../../99_change_log/index.rst:90 ../../99_change_log/index.rst:149
+#: ../../99_change_log/index.rst:168 ../../99_change_log/index.rst:194
+#: ../../99_change_log/index.rst:337 ../../99_change_log/index.rst:347
+#: ../../99_change_log/index.rst:390 ../../99_change_log/index.rst:422
+#: ../../99_change_log/index.rst:479 ../../99_change_log/index.rst:490
+#: ../../99_change_log/index.rst:514 ../../99_change_log/index.rst:539
+#: ../../99_change_log/index.rst:551 ../../99_change_log/index.rst:562
+#: ../../99_change_log/index.rst:590 ../../99_change_log/index.rst:634
+#: ../../99_change_log/index.rst:644 ../../99_change_log/index.rst:661
+#: ../../99_change_log/index.rst:685 ../../99_change_log/index.rst:695
+#: ../../99_change_log/index.rst:705 ../../99_change_log/index.rst:739
+#: ../../99_change_log/index.rst:791
 msgid "Correcciones mínimas."
 msgstr "Minor fixes."
 
-#: ../../99_change_log/index.rst:29
+#: ../../99_change_log/index.rst:46
 msgid "v3.7.4 - 2023-12-26"
 msgstr ""
 
-#: ../../99_change_log/index.rst:35
+#: ../../99_change_log/index.rst:52
 msgid ""
 "Navegar diagrama arroja error si existe un nodo de tipo alias cuyo nodo original "
 "no existe."
@@ -156,11 +173,11 @@ msgstr ""
 "Navigating diagram throws an error if there is an alias node where its original "
 "node does not exist."
 
-#: ../../99_change_log/index.rst:39
+#: ../../99_change_log/index.rst:56
 msgid "v3.7.3 - 2023-12-23"
 msgstr ""
 
-#: ../../99_change_log/index.rst:45
+#: ../../99_change_log/index.rst:62
 msgid ""
 "Mejorar soporte a dimensiones de tipo datetime en tablas y gráficos. Se agregó "
 "jerarquía automática al detectarse este tipo de Index."
@@ -168,107 +185,107 @@ msgstr ""
 "Improve support for datetime-type dimensions in tables and charts. Added "
 "automatic hierarchy when this type of Index is detected."
 
-#: ../../99_change_log/index.rst:46
+#: ../../99_change_log/index.rst:63
 msgid "No permitir pegar carpetas o archivos en el raiz de la carpeta Teams."
 msgstr "Do not allow pasting folders or files into the root of the Teams folder."
 
-#: ../../99_change_log/index.rst:47
+#: ../../99_change_log/index.rst:64
 msgid "Actualización de editor de HTML."
 msgstr "HTML editor update."
 
-#: ../../99_change_log/index.rst:48
+#: ../../99_change_log/index.rst:65
 msgid "Agregar tooltip a todos los nodos con el título e identifier."
 msgstr "Add tooltip to all nodes with title and identifier."
 
-#: ../../99_change_log/index.rst:49
+#: ../../99_change_log/index.rst:66
 msgid ""
 "Agregar opción de nodo para copiar valores para nodos con resultado de tipo "
 "DataFrame o Series."
 msgstr ""
 "Add a node option to copy values for nodes with DataFrame or Series result types."
 
-#: ../../99_change_log/index.rst:50
+#: ../../99_change_log/index.rst:67
 msgid ""
 "Agregar ícono de tipo de dato a nodos de tipo variable, output, report y "
 "datareading."
 msgstr ""
 "Add data type icon to nodes of variable, output, report, and datareading types."
 
-#: ../../99_change_log/index.rst:51
+#: ../../99_change_log/index.rst:68
 msgid ""
 "Agregar borde lateral izquierdo a nodos de tipo inputselector, inputchoice y "
 "form."
 msgstr ""
 "Add left side border to nodes of type inputselector, inputchoice, and form."
 
-#: ../../99_change_log/index.rst:57
+#: ../../99_change_log/index.rst:74
 msgid ""
 "Etiquetas de columnas anidadas no se ajustan bien cuando el formulario proviene "
 "de un DataFrame."
 msgstr ""
 "Nested column labels do not adjust well when the form comes from a DataFrame."
 
-#: ../../99_change_log/index.rst:58
+#: ../../99_change_log/index.rst:75
 msgid "Hay múltiples llamados a endpoints desde interfaz por defecto."
 msgstr "There are multiple calls to endpoints from the default interface."
 
-#: ../../99_change_log/index.rst:59
+#: ../../99_change_log/index.rst:76
 msgid "Etiquetas en nombres de columnas se ven cortados cuando son multilínea."
 msgstr "Labels in nested column names are cut off when they are multiline."
 
-#: ../../99_change_log/index.rst:60
+#: ../../99_change_log/index.rst:77
 msgid "Error en exportación a Excel de tabla con muchas filas."
 msgstr "Error in exporting a table with many rows to Excel."
 
-#: ../../99_change_log/index.rst:61
+#: ../../99_change_log/index.rst:78
 msgid "Filtrar por tipo de nodo no funciona correctamente con nodos de tipo alias."
 msgstr "Filtering by node type does not work correctly with alias-type nodes."
 
-#: ../../99_change_log/index.rst:62
+#: ../../99_change_log/index.rst:79
 msgid ""
 "Lógica de excluir NaNs en heatmap está al revés. No colorear celdas con NaN."
 msgstr ""
 "The logic for excluding NaNs in the heatmap is reversed. Do not color cells with "
 "NaN."
 
-#: ../../99_change_log/index.rst:67
+#: ../../99_change_log/index.rst:84
 msgid "v3.7.2 - 2023-12-12"
 msgstr ""
 
-#: ../../99_change_log/index.rst:77
+#: ../../99_change_log/index.rst:94
 msgid "v3.7.1 - 2023-12-11"
 msgstr ""
 
-#: ../../99_change_log/index.rst:83
+#: ../../99_change_log/index.rst:100
 msgid "Al abrir una interfaz, mostrar recursos cada dos segundos."
 msgstr "Display resources every two seconds when opening an interface."
 
-#: ../../99_change_log/index.rst:89
+#: ../../99_change_log/index.rst:106
 msgid ""
 "Error al guardar aplicación con selector que tiene parámetros no serializables."
 msgstr ""
 "Error when saving an application with a selector that has non-serializable "
 "parameters."
 
-#: ../../99_change_log/index.rst:93
+#: ../../99_change_log/index.rst:110
 msgid "v3.7.0 - 2023-12-07"
 msgstr ""
 
-#: ../../99_change_log/index.rst:99
+#: ../../99_change_log/index.rst:116
 msgid "Nuevo add-in para Microsoft Excel de Pyplan."
 msgstr "New Pyplan add-in for Microsoft Excel."
 
-#: ../../99_change_log/index.rst:100
+#: ../../99_change_log/index.rst:117
 msgid "Nuevo sistema de notificaciones de una aplicación."
 msgstr "New notifications system for an application."
 
-#: ../../99_change_log/index.rst:101
+#: ../../99_change_log/index.rst:118
 msgid ""
 "Nuevas opciones para personalizar la invalidación de outputs o la confirmación "
 "de cambios en formularios."
 msgstr "New options to customize output invalidation or form change confirmation."
 
-#: ../../99_change_log/index.rst:102
+#: ../../99_change_log/index.rst:119
 msgid ""
 "Agregar opciones de copiar aplicación al Public y a un Team desde Administrador "
 "de aplicaciones."
@@ -276,7 +293,7 @@ msgstr ""
 "Add options to copy the application to Public and to a Team from the Application "
 "Manager."
 
-#: ../../99_change_log/index.rst:103
+#: ../../99_change_log/index.rst:120
 msgid ""
 "Nuevo formato de visualización de componente Selector de forma que se vea como "
 "chips elegibles clickeables."
@@ -284,14 +301,14 @@ msgstr ""
 "New display format for the Selector component to make it look like clickable and "
 "selectable chips."
 
-#: ../../99_change_log/index.rst:104
+#: ../../99_change_log/index.rst:121
 msgid ""
 "Nuevo formato de visualización de componente Index de forma que se vea como un "
 "selector."
 msgstr ""
 "New display format for the Index component to make it look like a selector."
 
-#: ../../99_change_log/index.rst:105
+#: ../../99_change_log/index.rst:122
 msgid ""
 "Nuevo parámetro en tareas programadas para seleccionar usuarios a los que se les "
 "enviará un email al finalizar la tarea."
@@ -299,7 +316,7 @@ msgstr ""
 "New parameter in scheduled tasks to select users who will receive an email upon "
 "task completion."
 
-#: ../../99_change_log/index.rst:106
+#: ../../99_change_log/index.rst:123
 msgid ""
 "Permitir aplicar acciones como eliminar o archivar a múltiples versiones al "
 "mismo tiempo."
@@ -307,17 +324,17 @@ msgstr ""
 "Allow applying actions like deleting or archiving to multiple versions at the "
 "same time."
 
-#: ../../99_change_log/index.rst:107
+#: ../../99_change_log/index.rst:124
 msgid ""
 "Permitir aplicar acciones como eliminar a múltiples escenarios al mismo tiempo."
 msgstr ""
 "Allow applying actions like deleting to multiple scenarios at the same time."
 
-#: ../../99_change_log/index.rst:108
+#: ../../99_change_log/index.rst:125
 msgid "Se agregó el rol del usuario en la vista de información de su cuenta."
 msgstr "The user's role has been added to the account information view."
 
-#: ../../99_change_log/index.rst:109
+#: ../../99_change_log/index.rst:126
 msgid ""
 "Autochequear checkbox de Borrar/recrear tabla en formularios ante cambios "
 "estructurales al editarlo."
@@ -325,11 +342,11 @@ msgstr ""
 "Automatically check the Delete/Recreate Table checkbox in forms when making "
 "structural changes while editing it."
 
-#: ../../99_change_log/index.rst:110
+#: ../../99_change_log/index.rst:127
 msgid "Permitir fijar nodos de tipo módulo para navegar rápidamente a ellos."
 msgstr "Allow pinning module-type nodes for quick navigation to them."
 
-#: ../../99_change_log/index.rst:111
+#: ../../99_change_log/index.rst:128
 msgid ""
 "En escenarios, guardar selectores e input scalars que son inputs de los nodos a "
 "guardar."
@@ -337,7 +354,7 @@ msgstr ""
 "In scenarios, save selectors and input scalars that are inputs of the nodes "
 "being saved."
 
-#: ../../99_change_log/index.rst:112
+#: ../../99_change_log/index.rst:129
 msgid ""
 "En componente HTML, si un link a interfaz tiene target='_self', al hacerle "
 "click, abrir interfaz y cerrar tab actual."
@@ -345,7 +362,7 @@ msgstr ""
 "In the HTML component, if a link to an interface has target='_self', clicking it "
 "should open the interface and close the current tab."
 
-#: ../../99_change_log/index.rst:118
+#: ../../99_change_log/index.rst:135
 msgid ""
 "No se puede crear una nueva versión en un Team si el usuario no tiene permisos "
 "para ver todas las carpetas de la compañía."
@@ -353,7 +370,7 @@ msgstr ""
 "Cannot create a new version in a Team if the user does not have permissions to "
 "view all folders in the company."
 
-#: ../../99_change_log/index.rst:119
+#: ../../99_change_log/index.rst:136
 msgid ""
 "Al desincronizar índices de un componente, no funciona aplicar filtros a ese "
 "mismo componente."
@@ -361,24 +378,24 @@ msgstr ""
 "When desynchronizing indices of a component, applying filters to that same "
 "component does not work."
 
-#: ../../99_change_log/index.rst:120
+#: ../../99_change_log/index.rst:137
 msgid "Si definición con dynamic tiene caracter \"\\\", dynamic no funciona."
 msgstr ""
 "If a definition with dynamic has the \"\" character, dynamic does not work."
 
-#: ../../99_change_log/index.rst:121
+#: ../../99_change_log/index.rst:138
 msgid ""
 "Al buscar en selector de formularios, los resultados se reordenan de forma "
 "arbitraria."
 msgstr ""
 "When searching in the form selector, the results are arbitrarily reordered."
 
-#: ../../99_change_log/index.rst:122
+#: ../../99_change_log/index.rst:139
 msgid ""
 "Agregar loader a componente tipo Index cuando se están cargando los valores."
 msgstr "Add a loader to the Index-type component when values are being loaded."
 
-#: ../../99_change_log/index.rst:123
+#: ../../99_change_log/index.rst:140
 msgid ""
 "Al recargar aplicación con cambios pendientes no guardados, no limpia el estado "
 "de cambios pendientes sin guardar."
@@ -386,7 +403,7 @@ msgstr ""
 "When reloading the application with unsaved changes, it does not clear the "
 "unsaved changes state."
 
-#: ../../99_change_log/index.rst:124
+#: ../../99_change_log/index.rst:141
 msgid ""
 "En diagrama, al dibujar selector debería llegar los datos con el último valor "
 "guardado para no ejecutar su result."
@@ -394,7 +411,7 @@ msgstr ""
 "In the diagram, when drawing a selector, the data should arrive with the last "
 "saved value to avoid executing its result."
 
-#: ../../99_change_log/index.rst:125
+#: ../../99_change_log/index.rst:142
 msgid ""
 "Si una tarea de un proceso pasa de estado \"Completada\" a \"No iniciada\", "
 "borrar fecha de finalización."
@@ -402,19 +419,19 @@ msgstr ""
 "If a task in a process changes from \"Completed\" to \"Not started\", delete the "
 "end date."
 
-#: ../../99_change_log/index.rst:126
+#: ../../99_change_log/index.rst:143
 msgid "Al crear un alias, seleccionar el nuevo nodo alias."
 msgstr "When creating an alias, select the new alias node."
 
-#: ../../99_change_log/index.rst:127
+#: ../../99_change_log/index.rst:144
 msgid "Input Scalar con valor no serializable rompe UI."
 msgstr "Non-serializable value in Input Scalar breaks UI."
 
-#: ../../99_change_log/index.rst:128
+#: ../../99_change_log/index.rst:145
 msgid "En algunas resoluciones la ventana de login no se ve correctamente."
 msgstr "In some resolutions, the login window does not display correctly."
 
-#: ../../99_change_log/index.rst:129
+#: ../../99_change_log/index.rst:146
 msgid ""
 "Al agregar mapa de jerarquías a un nodo en el diagrama, no muestra el ícono de "
 "jerarquía en el nodo hasta que no se refresca el diagrama."
@@ -422,7 +439,7 @@ msgstr ""
 "When adding a hierarchy map to a node in the diagram, it does not display the "
 "hierarchy icon in the node until the diagram is refreshed."
 
-#: ../../99_change_log/index.rst:130
+#: ../../99_change_log/index.rst:147
 msgid ""
 "Si borrás un componente de una interfaz con un sólo componente, no te lo deja "
 "borrar."
@@ -430,42 +447,42 @@ msgstr ""
 "If you delete a component from an interface with only one component, it does not "
 "allow you to delete it."
 
-#: ../../99_change_log/index.rst:131
+#: ../../99_change_log/index.rst:148
 msgid ""
 "Al cerrar sesión en una pestaña, redireccionar las otras pestañas abiertas a la "
 "pantalla de login."
 msgstr ""
 "When logging out in one tab, redirect the other open tabs to the login screen."
 
-#: ../../99_change_log/index.rst:136
+#: ../../99_change_log/index.rst:153
 msgid "v3.6.16 - 2023-11-09"
 msgstr ""
 
-#: ../../99_change_log/index.rst:142
+#: ../../99_change_log/index.rst:159
 msgid ""
 "Agregar posibilidad de guardar cambios pendientes de aplicación en una nueva "
 "versión."
 msgstr ""
 "Add the possibility to save pending changes in an application to a new version."
 
-#: ../../99_change_log/index.rst:143
+#: ../../99_change_log/index.rst:160
 msgid "Agregar loader al navegar Administrador de archivos."
 msgstr "Add a loader when navigating the File Manager."
 
-#: ../../99_change_log/index.rst:149
+#: ../../99_change_log/index.rst:166
 msgid "Duplicar procesos arroja error en algunas ocasiones."
 msgstr "Duplicating processes results in an error on some occasions."
 
-#: ../../99_change_log/index.rst:150
+#: ../../99_change_log/index.rst:167
 msgid "Exportar componente con múltiples dimensiones en columnas arroja error."
 msgstr ""
 "Exporting a component with multiple dimensions in columns results in an error."
 
-#: ../../99_change_log/index.rst:155
+#: ../../99_change_log/index.rst:172
 msgid "v3.6.15 - 2023-11-05"
 msgstr ""
 
-#: ../../99_change_log/index.rst:161
+#: ../../99_change_log/index.rst:178
 msgid ""
 "Al cambiar jerarquía desde componente Index, que automáticamente actualice el "
 "resto de componentes donde ese índice esté a la jerarquía elegida."
@@ -473,7 +490,7 @@ msgstr ""
 "When changing the hierarchy from an Index component, automatically update the "
 "rest of the components where that index is set to the chosen hierarchy."
 
-#: ../../99_change_log/index.rst:162
+#: ../../99_change_log/index.rst:179
 msgid ""
 "Al crear versión, si el usuario no tiene permisos de escritura en el directorio, "
 "guardar aplicación y nueva versión en su espacio privado."
@@ -481,15 +498,15 @@ msgstr ""
 "When creating a version, if the user does not have write permissions in the "
 "directory, save the application and the new version in their private workspace."
 
-#: ../../99_change_log/index.rst:163
+#: ../../99_change_log/index.rst:180
 msgid "Agregar loader al cambiar de compañía."
 msgstr "Add a loader when switching companies."
 
-#: ../../99_change_log/index.rst:164
+#: ../../99_change_log/index.rst:181
 msgid "Cambiar texto de medida de agregación \"Media\" por \"Promedio\"."
 msgstr "Change the aggregation measure text from \"Mean\" to \"Average\"."
 
-#: ../../99_change_log/index.rst:170
+#: ../../99_change_log/index.rst:187
 msgid ""
 "Al consolidar un módulo que no existe en la aplicación de destino, siempre lo "
 "agrega en el root del diagrama."
@@ -497,7 +514,7 @@ msgstr ""
 "When consolidating a module that does not exist in the target application, it "
 "always adds it to the root of the diagram."
 
-#: ../../99_change_log/index.rst:171
+#: ../../99_change_log/index.rst:188
 msgid ""
 "Al consolidar una aplicación, las interfaces muestran resultados anteriores a la "
 "consolidación."
@@ -505,7 +522,7 @@ msgstr ""
 "When consolidating an application, the interfaces display results prior to "
 "consolidation."
 
-#: ../../99_change_log/index.rst:172
+#: ../../99_change_log/index.rst:189
 msgid ""
 "Al renombrar una versión que es la versión por defecto de la aplicación, no la "
 "renombra en el archivo app.ppl."
@@ -513,11 +530,11 @@ msgstr ""
 "When renaming a version that is the default version of the application, it does "
 "not rename it in the app.ppl file."
 
-#: ../../99_change_log/index.rst:173
+#: ../../99_change_log/index.rst:190
 msgid "No se ve todo el diálogo de lectura de Excel en resoluciones bajas."
 msgstr "The entire Excel import dialog is not visible on low resolutions."
 
-#: ../../99_change_log/index.rst:174
+#: ../../99_change_log/index.rst:191
 msgid ""
 "En ciertas ocasiones no se actualiza correctamente la aplicación o la versión en "
 "la barra superior."
@@ -525,7 +542,7 @@ msgstr ""
 "On certain occasions, the application or version in the top bar does not update "
 "correctly."
 
-#: ../../99_change_log/index.rst:175
+#: ../../99_change_log/index.rst:192
 msgid ""
 "Al cerrar una de varias instancias abiertas en la Home de Pyplan, siempre cierra "
 "la última."
@@ -533,23 +550,23 @@ msgstr ""
 "When closing one of several open instances on the Pyplan Home, it always closes "
 "the last one."
 
-#: ../../99_change_log/index.rst:176
+#: ../../99_change_log/index.rst:193
 msgid "Quedan instancias abiertas cuando no están disponibles."
 msgstr "Instances remain open when they are not available."
 
-#: ../../99_change_log/index.rst:181
+#: ../../99_change_log/index.rst:198
 msgid "v3.6.14 - 2023-10-29"
 msgstr ""
 
-#: ../../99_change_log/index.rst:187
+#: ../../99_change_log/index.rst:204
 msgid "No funciona crear nodo desde PyplanBot."
 msgstr "Create node from PyplanBot does not work."
 
-#: ../../99_change_log/index.rst:191
+#: ../../99_change_log/index.rst:208
 msgid "v3.6.13 - 2023-10-27"
 msgstr ""
 
-#: ../../99_change_log/index.rst:197
+#: ../../99_change_log/index.rst:214
 msgid ""
 "Al activar escenarios en tablas, colocar dimensión Pyplan Scenarios en las "
 "columnas en lugar de las filas."
@@ -557,7 +574,7 @@ msgstr ""
 "When activating scenarios in tables, place the Pyplan Scenarios dimension in the "
 "columns instead of the rows."
 
-#: ../../99_change_log/index.rst:203
+#: ../../99_change_log/index.rst:220
 msgid ""
 "Ancho de encabezado de componentes en código personalizado se ve cortado cuando "
 "tiene color de fondo."
@@ -565,24 +582,24 @@ msgstr ""
 "Header width of components in custom code gets cut off when it has a background "
 "color."
 
-#: ../../99_change_log/index.rst:204
+#: ../../99_change_log/index.rst:221
 msgid "No funciona botón de aplicar wizards en widget de código."
 msgstr "Apply wizards button does not work in the code widget."
 
-#: ../../99_change_log/index.rst:208
+#: ../../99_change_log/index.rst:225
 msgid "v3.6.12 - 2023-10-26"
 msgstr ""
 
-#: ../../99_change_log/index.rst:214
+#: ../../99_change_log/index.rst:231
 msgid ""
 "Nueva funcionalidad para aplicar paletas de colores personalizadas a gráficos."
 msgstr "New functionality to apply custom color palettes to charts."
 
-#: ../../99_change_log/index.rst:215
+#: ../../99_change_log/index.rst:232
 msgid "Cambio en color por defecto de componentes de tipo Tabla y Gráfico."
 msgstr "Change in the default color of Table and Chart-type components."
 
-#: ../../99_change_log/index.rst:221
+#: ../../99_change_log/index.rst:238
 msgid ""
 "No activar checkbox de Borrar y recrear tabla automáticamente al agregar o "
 "eliminar una columna de un formulario."
@@ -590,7 +607,7 @@ msgstr ""
 "Do not automatically activate the Delete and Recreate Table checkbox when adding "
 "or removing a column from a form."
 
-#: ../../99_change_log/index.rst:222
+#: ../../99_change_log/index.rst:239
 msgid ""
 "Ancho de encabezado de componentes en diagrama se ve cortado cuando tiene color "
 "de fondo."
@@ -598,71 +615,71 @@ msgstr ""
 "Header width of components in the diagram gets cut off when it has a background "
 "color."
 
-#: ../../99_change_log/index.rst:223
+#: ../../99_change_log/index.rst:240
 msgid "Actualizar año de copyright en sección de Acerca de."
 msgstr "Update the copyright year in the About section."
 
-#: ../../99_change_log/index.rst:224 ../../99_change_log/index.rst:234
-#: ../../99_change_log/index.rst:274
+#: ../../99_change_log/index.rst:241 ../../99_change_log/index.rst:251
+#: ../../99_change_log/index.rst:291
 msgid "Correciones mínimas."
 msgstr "Minor fixes."
 
-#: ../../99_change_log/index.rst:228
+#: ../../99_change_log/index.rst:245
 msgid "v3.6.11 - 2023-10-25"
 msgstr ""
 
-#: ../../99_change_log/index.rst:238
+#: ../../99_change_log/index.rst:255
 msgid "v3.6.10 - 2023-10-25"
 msgstr ""
 
-#: ../../99_change_log/index.rst:244
+#: ../../99_change_log/index.rst:261
 msgid "Agregar ícono para filtrar en etiquetas de columnas en tablas planas."
 msgstr "Add an icon for filtering in column labels in flat tables."
 
-#: ../../99_change_log/index.rst:245
+#: ../../99_change_log/index.rst:262
 msgid "Crear administrador de plantillas de escenarios."
 msgstr "Create a scenario template manager."
 
-#: ../../99_change_log/index.rst:246
+#: ../../99_change_log/index.rst:263
 msgid ""
 "Permitir seleccionar múltiples nodos al elegir nodos para una plantilla de "
 "escenarios."
 msgstr ""
 "Allow selecting multiple nodes when choosing nodes for a scenario template."
 
-#: ../../99_change_log/index.rst:247
+#: ../../99_change_log/index.rst:264
 msgid ""
 "Agregar lista de nodos a evaluar antes de guardar un escenario a plantillas de "
 "escenarios."
 msgstr ""
 "Add a list of nodes to evaluate before saving a scenario to scenario templates."
 
-#: ../../99_change_log/index.rst:248
+#: ../../99_change_log/index.rst:265
 msgid ""
 "Agregar ícono en componente para activar/desactivar la comparación de escenarios."
 msgstr "Add an icon to the component to enable/disable scenario comparison."
 
-#: ../../99_change_log/index.rst:249
+#: ../../99_change_log/index.rst:266
 msgid "Otras mejoras en escenarios."
 msgstr "Other improvements in scenarios."
 
-#: ../../99_change_log/index.rst:250
+#: ../../99_change_log/index.rst:267
 msgid "Permitir aplicar formato numérico a componente InputValue."
 msgstr "Allow applying numeric formatting to the InputValue component."
 
-#: ../../99_change_log/index.rst:251
+#: ../../99_change_log/index.rst:268
 msgid "Mejoras en gráficos Waterfall y Combinado."
 msgstr "Improvements in Waterfall and Combined charts."
 
-#: ../../99_change_log/index.rst:252
+#: ../../99_change_log/index.rst:269
 msgid "Al ingresar a un módulo, agregar loader mientras carga el módulo."
 msgstr "When entering a module, add a loader while the module is loading."
 
-#: ../../99_change_log/index.rst:253
+#: ../../99_change_log/index.rst:270
 msgid "Cambio en color de fondo de celdas no editables en modo claro."
 msgstr "Change in the background color of non-editable cells in light mode."
 
-#: ../../99_change_log/index.rst:254
+#: ../../99_change_log/index.rst:271
 msgid ""
 "Agregar ícono para cambiar jerarquía de un componente tipo Índice que tiene "
 "jerarquías establecidas."
@@ -670,7 +687,7 @@ msgstr ""
 "Add an icon to change the hierarchy of an Index-type component that has "
 "established hierarchies."
 
-#: ../../99_change_log/index.rst:255
+#: ../../99_change_log/index.rst:272
 msgid ""
 "Ocultar botón de maximizar componente en componentes que no sean de tipo Tabla o "
 "Gráfico."
@@ -678,18 +695,18 @@ msgstr ""
 "Hide the maximize component button in components that are not of type Table or "
 "Chart."
 
-#: ../../99_change_log/index.rst:256
+#: ../../99_change_log/index.rst:273
 msgid "Mover ícono de maximizar a la derecha del título del componente."
 msgstr "Move the maximize icon to the right of the component title."
 
-#: ../../99_change_log/index.rst:257
+#: ../../99_change_log/index.rst:274
 msgid ""
 "Agregar ícono para seleccionar jerarquías de forma rápida en componentes de tipo "
 "Tabla y Gráfico."
 msgstr ""
 "Add an icon for quick hierarchy selection in Table and Chart-type components."
 
-#: ../../99_change_log/index.rst:258
+#: ../../99_change_log/index.rst:275
 msgid ""
 "Agregar propiedad de componente para personalizar color de texto y fondo de "
 "título de un componente."
@@ -697,11 +714,11 @@ msgstr ""
 "Add component property to customize the text and background color of a "
 "component's title."
 
-#: ../../99_change_log/index.rst:259
+#: ../../99_change_log/index.rst:276
 msgid "Adecuar font-family de gráficos de Plotly al resto de Pyplan."
 msgstr "Adjust Plotly graphics' font-family to match the rest of Pyplan."
 
-#: ../../99_change_log/index.rst:260
+#: ../../99_change_log/index.rst:277
 msgid ""
 "Habilitar por defecto la opción de permitir agregar nuevas columnas en la "
 "creación de nuevos formularios."
@@ -709,11 +726,11 @@ msgstr ""
 "Enable by default the option to allow adding new columns in the creation of new "
 "forms."
 
-#: ../../99_change_log/index.rst:261
+#: ../../99_change_log/index.rst:278
 msgid "Agregar departments a usuarios en función pp.get_user_list."
 msgstr "Add departments to users in the pp.get_user_list function."
 
-#: ../../99_change_log/index.rst:262
+#: ../../99_change_log/index.rst:279
 msgid ""
 "Nueva función pp.get_all_processes para obtener el listado de todos los procesos "
 "y sus tareas que contiene la aplicación abierta."
@@ -721,11 +738,11 @@ msgstr ""
 "New function pp.get_all_processes to retrieve the list of all processes and "
 "their tasks within the open application."
 
-#: ../../99_change_log/index.rst:263
+#: ../../99_change_log/index.rst:280
 msgid "Nuevas funciones pp.where, pp.maximum y pp.minimum."
 msgstr "New functions pp.where, pp.maximum, and pp.minimum."
 
-#: ../../99_change_log/index.rst:269
+#: ../../99_change_log/index.rst:286
 msgid ""
 "Si el resultado de un nodo es de tipo Generic y el resultado es un string de "
 "tamaño considerable, se rompe el explorador."
@@ -733,23 +750,23 @@ msgstr ""
 "If the result of a node is of Generic type, and the result is a large-sized "
 "string, it breaks the browser."
 
-#: ../../99_change_log/index.rst:270
+#: ../../99_change_log/index.rst:287
 msgid "Tabla de pestaña de Performance en consola no muestra bien los porcentajes."
 msgstr ""
 "Performance tab table in the console does not display percentages correctly."
 
-#: ../../99_change_log/index.rst:271
+#: ../../99_change_log/index.rst:288
 msgid "Guardar ID de nodo original al guardar los nodos afectados a un escenario."
 msgstr "Save the original node ID when saving the nodes affected by a scenario."
 
-#: ../../99_change_log/index.rst:272
+#: ../../99_change_log/index.rst:289
 msgid ""
 "Menú contextual de wizards en un nodo se mueve a la esquina superior izquierda "
 "por error."
 msgstr ""
 "Contextual menu of wizards in a node moves to the upper left corner by mistake."
 
-#: ../../99_change_log/index.rst:273
+#: ../../99_change_log/index.rst:290
 msgid ""
 "Si existe un componente con escenarios como dimensión y luego se quitan todos "
 "los escenarios cargados, se rompe la visualización."
@@ -757,42 +774,42 @@ msgstr ""
 "If there is a component with scenarios as a dimension, and then all loaded "
 "scenarios are removed, the visualization breaks."
 
-#: ../../99_change_log/index.rst:278
+#: ../../99_change_log/index.rst:295
 msgid "v3.6.9 - 2023-09-28"
 msgstr ""
 
-#: ../../99_change_log/index.rst:284
+#: ../../99_change_log/index.rst:301
 msgid "Agregar funcionalidad de aplicar columnas jerárquicas a formularios."
 msgstr "Add the functionality to apply nested column headers to forms."
 
-#: ../../99_change_log/index.rst:290
+#: ../../99_change_log/index.rst:307
 msgid "Error al consolidar interfaces que no tienen propiedad \"definition\"."
 msgstr ""
 "Error when consolidating interfaces that do not have the \"definition\" property."
 
-#: ../../99_change_log/index.rst:294
+#: ../../99_change_log/index.rst:311
 msgid "v3.6.8 - 2023-09-27"
 msgstr ""
 
-#: ../../99_change_log/index.rst:300
+#: ../../99_change_log/index.rst:317
 msgid ""
 "Agregar permiso para mostrar botón que oculta archivos en Administrador de "
 "archivos."
 msgstr "Add permission to display the button that hides files in the File Manager."
 
-#: ../../99_change_log/index.rst:304
+#: ../../99_change_log/index.rst:321
 msgid "v3.6.7 - 2023-09-26"
 msgstr ""
 
-#: ../../99_change_log/index.rst:310
+#: ../../99_change_log/index.rst:327
 msgid "Reorganización de opciones de menú lateral."
 msgstr "Reorganization of side menu options."
 
-#: ../../99_change_log/index.rst:311
+#: ../../99_change_log/index.rst:328
 msgid "Ajustes en Consolidación de aplicaciones."
 msgstr "Adjustments in App Consolidation."
 
-#: ../../99_change_log/index.rst:312
+#: ../../99_change_log/index.rst:329
 msgid ""
 "Agregar posibilidad de mostrar un diálogo de confirmación al apretar un botón en "
 "una interfaz."
@@ -800,7 +817,7 @@ msgstr ""
 "Add the ability to display a confirmation dialog when clicking a button in an "
 "interface."
 
-#: ../../99_change_log/index.rst:318
+#: ../../99_change_log/index.rst:335
 msgid ""
 "Si hay progress bar y modal de nodo corriendo simultáneamente, sólo muestra "
 "progress bar. Debe mostrar ambos."
@@ -808,23 +825,23 @@ msgstr ""
 "If there is a progress bar and a node modal running simultaneously, it only "
 "displays the progress bar. It should display both."
 
-#: ../../99_change_log/index.rst:319
+#: ../../99_change_log/index.rst:336
 msgid "Selector de nodos de Administrador de tareas no funciona correctamente."
 msgstr "Task Manager node selector is not working correctly."
 
-#: ../../99_change_log/index.rst:324
+#: ../../99_change_log/index.rst:341
 msgid "v3.6.6 - 2023-09-19"
 msgstr ""
 
-#: ../../99_change_log/index.rst:334
+#: ../../99_change_log/index.rst:351
 msgid "v3.6.5 - 2023-09-18"
 msgstr ""
 
-#: ../../99_change_log/index.rst:340
+#: ../../99_change_log/index.rst:357
 msgid "No es posible confirmar definición en nodos de tipo Botón."
 msgstr "It's not possible to confirm definitions in Button-type nodes."
 
-#: ../../99_change_log/index.rst:341
+#: ../../99_change_log/index.rst:358
 msgid ""
 "Al consolidar nodos con cambios en la propiedad nodeInfo, arroja error al "
 "confirmar."
@@ -832,7 +849,7 @@ msgstr ""
 "When consolidating nodes with changes in the nodeInfo property, it throws an "
 "error when confirming."
 
-#: ../../99_change_log/index.rst:342
+#: ../../99_change_log/index.rst:359
 msgid ""
 "Selectores no permiten elegir valores si existe alguna opción con caracteres "
 "\"(\" o \")\" en su dominio de valores posibles."
@@ -840,21 +857,21 @@ msgstr ""
 "Selectors do not allow choosing values if there is an option with \"(\" or \")\" "
 "characters in its possible value domain."
 
-#: ../../99_change_log/index.rst:346
+#: ../../99_change_log/index.rst:363
 msgid "v3.6.4 - 2023-09-15"
 msgstr ""
 
-#: ../../99_change_log/index.rst:352
+#: ../../99_change_log/index.rst:369
 msgid "Permitir renombrar, activar y cerrar versión abierta."
 msgstr "Allow renaming, activating and closing an open version."
 
-#: ../../99_change_log/index.rst:353
+#: ../../99_change_log/index.rst:370
 msgid ""
 "Agregar propiedad en componentes para ocultar/mostrar ícono de manipulación de "
 "datos."
 msgstr "Add property to components to hide/show data handling icon."
 
-#: ../../99_change_log/index.rst:354
+#: ../../99_change_log/index.rst:371
 msgid ""
 "Al seleccionar opción \"All\" en selectores múltiples, guardar array vacío en "
 "definición que indique que todas las opciones están seleccionadas."
@@ -862,31 +879,31 @@ msgstr ""
 "When selecting the \"All\" option in multiple selectors, save an empty array in "
 "the definition to indicate that all options are selected."
 
-#: ../../99_change_log/index.rst:355
+#: ../../99_change_log/index.rst:372
 msgid "Cambiar color de fondo y texto por defecto de celdas de valores en tablas."
 msgstr "Change default background and text color of value cells in tables."
 
-#: ../../99_change_log/index.rst:356
+#: ../../99_change_log/index.rst:373
 msgid "Validar contraseña actual al cambiar la contraseña del usuario actual."
 msgstr "Validate current password when changing the current user's password."
 
-#: ../../99_change_log/index.rst:357
+#: ../../99_change_log/index.rst:374
 msgid ""
 "Modificar componente HTML para que detecte links a interfaces con xlink:href."
 msgstr "Modify HTML component to detect links to interfaces with xlink:href."
 
-#: ../../99_change_log/index.rst:358
+#: ../../99_change_log/index.rst:375
 msgid ""
 "Permitir copiar URL al seleccionar un archivo dentro de la carpeta Media en "
 "Administrador de archivos."
 msgstr ""
 "Allow copying URL when selecting a file within the Media folder in File Manager."
 
-#: ../../99_change_log/index.rst:359
+#: ../../99_change_log/index.rst:376
 msgid "Mostrar número de versión según tag de imágenes utilizadas."
 msgstr "Display version number according to used image tag."
 
-#: ../../99_change_log/index.rst:365
+#: ../../99_change_log/index.rst:382
 msgid ""
 "Exportar tabla a Excel como \"Full node\" demora mucho tiempo y utiliza mucha "
 "memoria."
@@ -894,11 +911,11 @@ msgstr ""
 "Exporting the table to Excel as a \"Full node\" takes a long time and uses a lot "
 "of memory."
 
-#: ../../99_change_log/index.rst:366
+#: ../../99_change_log/index.rst:383
 msgid "No funciona acción de desplazar diagrama en dispositivos táctiles."
 msgstr "Touchscreen diagram scrolling action is not working."
 
-#: ../../99_change_log/index.rst:367
+#: ../../99_change_log/index.rst:384
 msgid ""
 "Validar en formularios que todos las columnas tengan un field no vacío antes de "
 "crear la tabla en la base de datos."
@@ -906,7 +923,7 @@ msgstr ""
 "Validate in forms that all columns have a non-empty field before creating the "
 "table in the database."
 
-#: ../../99_change_log/index.rst:368
+#: ../../99_change_log/index.rst:385
 msgid ""
 "Nodo seleccionado se marca con cambios pendientes de confirmación aún no "
 "habiendo hecho cambios."
@@ -914,7 +931,7 @@ msgstr ""
 "Selected node is marked with pending unconfirmed changes even if no changes have "
 "been made."
 
-#: ../../99_change_log/index.rst:369
+#: ../../99_change_log/index.rst:386
 msgid ""
 "Luego de apretar botón de refresh en una interfaz, al hacer un cambio en un "
 "índice y cambiar a otra interfaz, al volver a la interfaz original te mantiene "
@@ -924,14 +941,14 @@ msgstr ""
 "and switching to another interface, returning to the original interface keeps "
 "the change."
 
-#: ../../99_change_log/index.rst:370
+#: ../../99_change_log/index.rst:387
 msgid ""
 "Si una columna de un dataframe que alimenta un formulario es de tipo float32, el "
 "formulario se rompe."
 msgstr ""
 "If a column in a dataframe that feeds a form is of type float32, the form breaks."
 
-#: ../../99_change_log/index.rst:371
+#: ../../99_change_log/index.rst:388
 msgid ""
 "Problemas de posicionamiento al hacer click en opción de \"Ir al nodo\" de un "
 "componente de interfaz."
@@ -939,7 +956,7 @@ msgstr ""
 "Positioning issues when clicking on the \"Go to Node\" option of an interface "
 "component."
 
-#: ../../99_change_log/index.rst:372
+#: ../../99_change_log/index.rst:389
 msgid ""
 "Al recargar Pyplan con una instancia vencida, en ocasiones recupera la instancia "
 "de otro usuario."
@@ -947,17 +964,17 @@ msgstr ""
 "When reloading Pyplan with an expired instance, it sometimes recovers another "
 "user's instance."
 
-#: ../../99_change_log/index.rst:377
+#: ../../99_change_log/index.rst:394
 msgid "v3.6.3 - 2023-09-07"
 msgstr ""
 
-#: ../../99_change_log/index.rst:383
+#: ../../99_change_log/index.rst:400
 msgid ""
 "Agregar opciones con click derecho en tablas para copiar incluyendo los "
 "encabezados."
 msgstr "Add options with right-click in tables to copy including the headers."
 
-#: ../../99_change_log/index.rst:384
+#: ../../99_change_log/index.rst:401
 msgid ""
 "Agregar propiedad de aplicación para elegir qué pestaña elegir entre "
 "\"Seleccionar versión existente\" o \"Crear nueva versión\"."
@@ -965,43 +982,43 @@ msgstr ""
 "Add application property to choose which tab to select between \"Open existing "
 "version\" or \"Create new version\"."
 
-#: ../../99_change_log/index.rst:385
+#: ../../99_change_log/index.rst:402
 msgid "Mejoras en búsqueda en Administrador de archivos."
 msgstr "Improvements in File Manager search."
 
-#: ../../99_change_log/index.rst:386
+#: ../../99_change_log/index.rst:403
 msgid ""
 "Si se abre una nuevo pestaña del explorador en una sección que necesita una "
 "instancia, si existe una recuperarla."
 msgstr ""
 
-#: ../../99_change_log/index.rst:387
+#: ../../99_change_log/index.rst:404
 msgid ""
 "Aceptar distintos formatos de fecha para pegar en formularios con campo de tipo "
 "fecha."
 msgstr "Accept different date formats when pasting date values into forms."
 
-#: ../../99_change_log/index.rst:388
+#: ../../99_change_log/index.rst:405
 msgid ""
 "Agregar opción en componentes de interfaces para no mostrar ícono de maximizar."
 msgstr "Add an option in interface components to hide the maximize icon."
 
-#: ../../99_change_log/index.rst:389
+#: ../../99_change_log/index.rst:406
 msgid ""
 "En menú de interfaces, agregar nuevas rutas de Pyplan para navegar dentro de la "
 "aplicación."
 msgstr ""
 "In the interface menu, add new Pyplan routes to navigate within the application."
 
-#: ../../99_change_log/index.rst:390
+#: ../../99_change_log/index.rst:407
 msgid "Agregar posibilidad de anular contraseña en interfaces externas."
 msgstr "Add the possibility to reset passwords in external interfaces."
 
-#: ../../99_change_log/index.rst:396
+#: ../../99_change_log/index.rst:413
 msgid "Impedir evaluación concurrente de nodos."
 msgstr "Prevent concurrent evaluation of nodes."
 
-#: ../../99_change_log/index.rst:397
+#: ../../99_change_log/index.rst:414
 msgid ""
 "No es posible eliminar el estilo autogenerado de formularios para las columnas "
 "numéricas."
@@ -1009,7 +1026,7 @@ msgstr ""
 "It is not possible to remove the auto-generated style for numeric columns in "
 "forms."
 
-#: ../../99_change_log/index.rst:398
+#: ../../99_change_log/index.rst:415
 msgid ""
 "Índice en formato Oculto no resetea a los valores guardados al refrescar la "
 "interfaz."
@@ -1017,15 +1034,15 @@ msgstr ""
 "Index with Hidden format does not reset to the saved values when refreshing the "
 "interface."
 
-#: ../../99_change_log/index.rst:399
+#: ../../99_change_log/index.rst:416
 msgid "No se ordenan correctamente las filas del Administrador de instancias."
 msgstr "Rows in the Instance Manager are not sorted correctly."
 
-#: ../../99_change_log/index.rst:400
+#: ../../99_change_log/index.rst:417
 msgid "Filtrar listado de tareas de workflow en base a la compañía actual."
 msgstr "Filter workflow task list based on the current company."
 
-#: ../../99_change_log/index.rst:401
+#: ../../99_change_log/index.rst:418
 msgid ""
 "En algunas aplicaciones no deja confirmar cambios en propiedades de la "
 "aplicación."
@@ -1033,15 +1050,15 @@ msgstr ""
 "In some applications, it does not allow confirming changes in application "
 "properties."
 
-#: ../../99_change_log/index.rst:402
+#: ../../99_change_log/index.rst:419
 msgid "Si no se carga un usuario que corra una tarea programada, arroja error."
 msgstr "If task user is not selected, it throws an error."
 
-#: ../../99_change_log/index.rst:403
+#: ../../99_change_log/index.rst:420
 msgid "En Administrador de logs, no muestra nada en campo \"Model\"."
 msgstr "In the Log Manager, it does not display anything in the \"Model\" field."
 
-#: ../../99_change_log/index.rst:404
+#: ../../99_change_log/index.rst:421
 msgid ""
 "No se ve link de resetear password en email de recuperar contraseña en modo "
 "claro."
@@ -1049,27 +1066,27 @@ msgstr ""
 "The password reset link is not visible in the email for password recovery in "
 "light mode."
 
-#: ../../99_change_log/index.rst:409
+#: ../../99_change_log/index.rst:426
 msgid "v3.6.2 - 2023-08-30"
 msgstr ""
 
-#: ../../99_change_log/index.rst:415
+#: ../../99_change_log/index.rst:432
 msgid "Mejora en performance al obtener flechas en diagrama."
 msgstr "Performance improvements when calculating arrows in diagram."
 
-#: ../../99_change_log/index.rst:419
+#: ../../99_change_log/index.rst:436
 msgid "v3.6.1 - 2023-08-28"
 msgstr ""
 
-#: ../../99_change_log/index.rst:425
+#: ../../99_change_log/index.rst:442
 msgid "Se reporta alto uso de CPU constantemente con cgroup v1."
 msgstr "Constant high CPU usage is reported with cgroup v1."
 
-#: ../../99_change_log/index.rst:429
+#: ../../99_change_log/index.rst:446
 msgid "v3.6.0 - 2023-08-25"
 msgstr ""
 
-#: ../../99_change_log/index.rst:435
+#: ../../99_change_log/index.rst:452
 msgid ""
 "Nueva sección para consolidar módulos, interfaces y archivos entre dos versiones "
 "de una aplicación."
@@ -1077,11 +1094,11 @@ msgstr ""
 "New section to consolidate modules, interfaces, and files between two versions "
 "of an application."
 
-#: ../../99_change_log/index.rst:436
+#: ../../99_change_log/index.rst:453
 msgid "Tareas programadas pueden agregarse como widget en una interfaz."
 msgstr "Scheduled tasks can be added as widgets in an interface."
 
-#: ../../99_change_log/index.rst:437
+#: ../../99_change_log/index.rst:454
 msgid ""
 "Mejora en workflow: nuevo estado \"Not ready to start\" dependiente de que "
 "tareas bloqueantes finalicen antes de permitir avanzar en el proceso."
@@ -1089,7 +1106,7 @@ msgstr ""
 "Workflow improvement: new \"Not ready to start\" state dependent on blocking "
 "tasks finishing before allowing advancement in the process."
 
-#: ../../99_change_log/index.rst:438
+#: ../../99_change_log/index.rst:455
 msgid ""
 "Mejora en workflow: nuevo tipo de expiración de tarea \"desde que se completó la "
 "tarea bloqueante\"."
@@ -1097,7 +1114,7 @@ msgstr ""
 "Workflow improvement: new task expiration type \"since blocking task was "
 "completed\"."
 
-#: ../../99_change_log/index.rst:439
+#: ../../99_change_log/index.rst:456
 msgid ""
 "Mejora en workflow: nuevo campo \"Interfaz de revisión\" para asignar una "
 "interfaz al usuario revisor."
@@ -1105,7 +1122,7 @@ msgstr ""
 "Workflow improvement: new \"Reviewer Interface\" field to assign a review "
 "interface for the reviewer."
 
-#: ../../99_change_log/index.rst:440
+#: ../../99_change_log/index.rst:457
 msgid ""
 "Mejora en workflow: sólo mostrar tareas en las que el usuario es responsable, "
 "revisor o subscriptor. En caso de ser subscriptor del proceso, mostrar todas."
@@ -1113,7 +1130,7 @@ msgstr ""
 "Workflow improvement: only display tasks where the user is the owner, reviewer, "
 "or subscriber. If the user is a subscriber of the process, display all tasks."
 
-#: ../../99_change_log/index.rst:441
+#: ../../99_change_log/index.rst:458
 msgid ""
 "Mejora en workflow: no permitir que el usuario elegido como responsable de la "
 "tarea pueda ser elegido como revisor o subscriptor de la misma."
@@ -1121,7 +1138,7 @@ msgstr ""
 "Workflow improvement: do not allow the user responsible for the task to be "
 "chosen as the reviewer or subscriber of the same task."
 
-#: ../../99_change_log/index.rst:442
+#: ../../99_change_log/index.rst:459
 msgid ""
 "Nuevas funciones PyplanFunctions para consumir/interactuar con workflow con "
 "código desde la aplicación: pp.get_my_processes, pp.get_task_statuses y pp."
@@ -1131,22 +1148,22 @@ msgstr ""
 "application: pp.get_my_processes, pp.get_task_statuses, and pp."
 "change_task_status."
 
-#: ../../99_change_log/index.rst:443
+#: ../../99_change_log/index.rst:460
 msgid ""
 "Funcionalidad para elegir qué columnas visualizar en widget de tareas de "
 "workflow."
 msgstr ""
 "Functionality to choose which columns to display in the workflow task widget."
 
-#: ../../99_change_log/index.rst:444
+#: ../../99_change_log/index.rst:461
 msgid "Nuevo rol estándar \"Creator with Public Access\"."
 msgstr "New standard role \"Creator with Public Access\"."
 
-#: ../../99_change_log/index.rst:445
+#: ../../99_change_log/index.rst:462
 msgid "Permitir ordenar por cualquier columna en Administrador de Instancias."
 msgstr "Allow sorting by any column in the Instance Manager."
 
-#: ../../99_change_log/index.rst:446
+#: ../../99_change_log/index.rst:463
 msgid ""
 "Al ingresar vía SAML, siempre permitir elegir la compañía si el usuario está "
 "asignado a más de una."
@@ -1154,7 +1171,7 @@ msgstr ""
 "When logging in via SAML, always allow choosing the company if the user is "
 "assigned to more than one."
 
-#: ../../99_change_log/index.rst:447
+#: ../../99_change_log/index.rst:464
 msgid ""
 "Agregar campos \"Creation Date\", \"Last Password Change\", \"MFA Enabled\" y "
 "\"Deleted\" a reporte de usuarios que se exporta desde Administrador de Usuarios."
@@ -1162,7 +1179,7 @@ msgstr ""
 "Add \"Creation Date\", \"Last Password Change\", \"MFA Enabled\", and "
 "\"Deleted\" fields to the user report exported from the User Manager."
 
-#: ../../99_change_log/index.rst:453
+#: ../../99_change_log/index.rst:470
 msgid ""
 "Al seleccionar un nodo y luego un texto, no es posible volver a seleccionar el "
 "nodo original."
@@ -1170,11 +1187,11 @@ msgstr ""
 "When selecting a node and then a text, it is not possible to re-select the "
 "original node."
 
-#: ../../99_change_log/index.rst:454
+#: ../../99_change_log/index.rst:471
 msgid "No funciona la obtención de recursos utilizados con cgroup v2."
 msgstr "Resource usage retrieval using cgroup v2 does not work."
 
-#: ../../99_change_log/index.rst:455
+#: ../../99_change_log/index.rst:472
 msgid ""
 "No se visualizan correctamente los resultados de tipo str, dict o list o bool en "
 "interfaces."
@@ -1182,14 +1199,14 @@ msgstr ""
 "Results of type str, dict, list, or bool are not displayed correctly in "
 "interfaces."
 
-#: ../../99_change_log/index.rst:456
+#: ../../99_change_log/index.rst:473
 msgid ""
 "En interfaces externas no se muestra el ícono para deplegar el menú de "
 "interfaces."
 msgstr ""
 "In external interfaces, the icon to expand the interface menu is not displayed."
 
-#: ../../99_change_log/index.rst:457
+#: ../../99_change_log/index.rst:474
 msgid ""
 "Corrección en workflow: al cambiar el estado de una tarea desde Completado a "
 "otro estado anterior (reversión), las tareas que dependen de ella deben "
@@ -1198,7 +1215,7 @@ msgstr ""
 "Workflow correction: when changing the status of a task from Completed to a "
 "previous state (reversion), the tasks dependent on it should be blocked again."
 
-#: ../../99_change_log/index.rst:458
+#: ../../99_change_log/index.rst:475
 msgid ""
 "Si un nodo contiene texto en formato HTML, al arrastrarlo a una interfaz no "
 "funciona el \"Go to node\"."
@@ -1206,7 +1223,7 @@ msgstr ""
 "If a node contains text in HTML format, the \"Go to node\" function doesn't work "
 "when dragging it into an interface."
 
-#: ../../99_change_log/index.rst:459
+#: ../../99_change_log/index.rst:476
 msgid ""
 "En Permisos por rol, al apretar en checkbox de \"All\" de una sección, aplica a "
 "todas las secciones."
@@ -1214,7 +1231,7 @@ msgstr ""
 "In Permissions by Role, when clicking on the \"All\" checkbox in one section, it "
 "applies to all sections."
 
-#: ../../99_change_log/index.rst:460
+#: ../../99_change_log/index.rst:477
 msgid ""
 "Al crear/editar un proceso, al intentar crear un grupo de tareas teniendo un "
 "grupo seleccionado de la tabla, edita el grupo seleccionado."
@@ -1222,7 +1239,7 @@ msgstr ""
 "When creating/editing a process, trying to create a task group while having a "
 "selected group in the table edits the selected group instead."
 
-#: ../../99_change_log/index.rst:461
+#: ../../99_change_log/index.rst:478
 msgid ""
 "Al solicitar cambiar contraseña en login, si se quita el \"/auth/\"\" de la URL, "
 "es posible continuar sin cambiar la contraseña."
@@ -1230,19 +1247,19 @@ msgstr ""
 "When requesting a password change at login, if the \"/auth/\" part is removed "
 "from the URL, it's possible to proceed without changing the password."
 
-#: ../../99_change_log/index.rst:466
+#: ../../99_change_log/index.rst:483
 msgid "v3.5.6 - 2023-07-28"
 msgstr ""
 
-#: ../../99_change_log/index.rst:472
+#: ../../99_change_log/index.rst:489
 msgid "Componente Dash no refresca al cambiar un input en un nodo relacionado."
 msgstr "Dash component does not reload when a related input node is refreshed."
 
-#: ../../99_change_log/index.rst:477
+#: ../../99_change_log/index.rst:494
 msgid "v3.5.5 - 2023-07-27"
 msgstr ""
 
-#: ../../99_change_log/index.rst:483
+#: ../../99_change_log/index.rst:500
 msgid ""
 "Nuevos roles por defecto: Administrator, App Administrator, Creator, Explorer, "
 "Viewer. Usuarios con rol Pyplan Admin asumen rol de Administrator. Usuarios "
@@ -1253,7 +1270,7 @@ msgstr ""
 "Company Admin role become App Administrators. Users with the Company User role "
 "become Creators."
 
-#: ../../99_change_log/index.rst:484
+#: ../../99_change_log/index.rst:501
 msgid ""
 "Tareas de workflow pueden agregarse como widget en una interfaz. Desaparece "
 "vista de Mis tareas."
@@ -1261,7 +1278,7 @@ msgstr ""
 "Workflow tasks can be added as widgets in an interface. The My tasks view "
 "disappears."
 
-#: ../../99_change_log/index.rst:485
+#: ../../99_change_log/index.rst:502
 msgid ""
 "Mejoras estéticas en tabla de Mis tareas de workflow y al agregar un tareas en "
 "un proceso."
@@ -1269,67 +1286,67 @@ msgstr ""
 "Aesthetic improvements in the My tasks table of workflow and when adding a task "
 "in a process."
 
-#: ../../99_change_log/index.rst:486
+#: ../../99_change_log/index.rst:503
 msgid "Validar que correo electrónico sea único al agregar nuevos usuarios."
 msgstr "Validate that the email address is unique when adding new users."
 
-#: ../../99_change_log/index.rst:492
+#: ../../99_change_log/index.rst:509
 msgid "Visualización de formulario se rompe al aplicar más de un filtro."
 msgstr "Form visualization breaks when applying more than one filter."
 
-#: ../../99_change_log/index.rst:493
+#: ../../99_change_log/index.rst:510
 msgid "No es posible borrar una carpeta con espacios al final."
 msgstr "It is not possible to delete a folder with spaces at the end."
 
-#: ../../99_change_log/index.rst:494
+#: ../../99_change_log/index.rst:511
 msgid "No permitir ajustar tamaño ni mover componente maximizado en una interfaz."
 msgstr "Do not allow resizing or moving a maximized component in an interface."
 
-#: ../../99_change_log/index.rst:495
+#: ../../99_change_log/index.rst:512
 msgid "No funciona buscador de tareas programadas."
 msgstr "The scheduled task search function does not work."
 
-#: ../../99_change_log/index.rst:496
+#: ../../99_change_log/index.rst:513
 msgid "Etiqueta de botones no se ven bien al aumentar el tamaño de fuente."
 msgstr "Button labels do not display properly when increasing the font size."
 
-#: ../../99_change_log/index.rst:501
+#: ../../99_change_log/index.rst:518
 msgid "v3.5.4 - 2023-07-14"
 msgstr ""
 
-#: ../../99_change_log/index.rst:507
+#: ../../99_change_log/index.rst:524
 msgid ""
 "Funcionalidad para abrir una app al iniciar sesión configurable por departamento."
 msgstr "Functionality to open an app upon login, configurable by department."
 
-#: ../../99_change_log/index.rst:508
+#: ../../99_change_log/index.rst:525
 msgid "Guardar última carpeta abierta en Interface Manager al navegar interfaces."
 msgstr "Save last opened folder in Interface Manager when navigating interfaces."
 
-#: ../../99_change_log/index.rst:509
+#: ../../99_change_log/index.rst:526
 msgid ""
 "Nueva función pp.get_user_list() permite obtener listado de usuarios de la "
 "compañía."
 msgstr "New function pp.get_user_list() allows retrieving list of company users."
 
-#: ../../99_change_log/index.rst:510
+#: ../../99_change_log/index.rst:527
 msgid ""
 "Autenticación de múltiples factores por código de única vez enviado a e-mail."
 msgstr "Multi-factor authentication via one-time code sent to email."
 
-#: ../../99_change_log/index.rst:511
+#: ../../99_change_log/index.rst:528
 msgid "Funcionalidad para personalizar estilos de botones en interfaces."
 msgstr "Functionality to customize button styles in interfaces."
 
-#: ../../99_change_log/index.rst:512
+#: ../../99_change_log/index.rst:529
 msgid "No ordenar ni filtrar filas no confirmadas en formularios."
 msgstr "Not sorting or filtering unconfirmed rows in forms."
 
-#: ../../99_change_log/index.rst:518
+#: ../../99_change_log/index.rst:535
 msgid "Al recibir mensajes en PyplanBot, no es posible hacer scroll hacia arriba."
 msgstr "Unable to scroll upwards when receiving messages in PyplanBot."
 
-#: ../../99_change_log/index.rst:519
+#: ../../99_change_log/index.rst:536
 msgid ""
 "Si el resultado de un nodo es de tipo string, no es posible configurarle estilos "
 "personalizados."
@@ -1337,7 +1354,7 @@ msgstr ""
 "If the result of a node is a string, it is not possible to configure custom "
 "styles for it."
 
-#: ../../99_change_log/index.rst:520
+#: ../../99_change_log/index.rst:537
 msgid ""
 "Al finalizar wizard de Transformar desde un dataframe a un índice, no se "
 "visualiza el nodo en el diagrama."
@@ -1345,7 +1362,7 @@ msgstr ""
 "The node is not displayed on the diagram after completing the Transform from "
 "DataFrame to Index wizard."
 
-#: ../../99_change_log/index.rst:521
+#: ../../99_change_log/index.rst:538
 msgid ""
 "No es posible cambiar tamaño de nodo tipo texto si está dentro de otro nodo tipo "
 "texto."
@@ -1353,55 +1370,55 @@ msgstr ""
 "It is not possible to resize a text node if it is nested within another text "
 "node."
 
-#: ../../99_change_log/index.rst:526
+#: ../../99_change_log/index.rst:543
 msgid "v3.5.3 - 2023-07-07"
 msgstr ""
 
-#: ../../99_change_log/index.rst:532
+#: ../../99_change_log/index.rst:549
 msgid "No es posible visualizar nodos con un string con código HTML."
 msgstr "It is not possible to visualize nodes with an HTML code string."
 
-#: ../../99_change_log/index.rst:533
+#: ../../99_change_log/index.rst:550
 msgid "Login con SAML pide cambiar contraseña vencida."
 msgstr "SAML login prompts to change expired password."
 
-#: ../../99_change_log/index.rst:538
+#: ../../99_change_log/index.rst:555
 msgid "v3.5.2 - 2023-07-06"
 msgstr ""
 
-#: ../../99_change_log/index.rst:544
+#: ../../99_change_log/index.rst:561
 msgid "Copiar y pegar valores de tabla pega títulos de columnas."
 msgstr "Copying and pasting table values includes column headers."
 
-#: ../../99_change_log/index.rst:549
+#: ../../99_change_log/index.rst:566
 msgid "v3.5.1 - 2023-07-06"
 msgstr ""
 
-#: ../../99_change_log/index.rst:555
+#: ../../99_change_log/index.rst:572
 msgid "Funcionalidad para compartir interfaces con usuarios externos de Pyplan."
 msgstr "Functionality to share interfaces with external users of Pyplan."
 
-#: ../../99_change_log/index.rst:556
+#: ../../99_change_log/index.rst:573
 msgid "Autenticación con múltiples factores en login de usuarios (MFA)."
 msgstr "Multi-factor authentication (MFA) in user login."
 
-#: ../../99_change_log/index.rst:557
+#: ../../99_change_log/index.rst:574
 msgid "PyplanBot responde consultas sobre Pyplan."
 msgstr "PyplanBot answers inquiries about Pyplan."
 
-#: ../../99_change_log/index.rst:558
+#: ../../99_change_log/index.rst:575
 msgid "Asistente de Bot por compañía como widget de interfaces."
 msgstr "Assistant Bot by company as a widget for interfaces."
 
-#: ../../99_change_log/index.rst:559
+#: ../../99_change_log/index.rst:576
 msgid "Wizard para comparar dos o más nodos."
 msgstr "Wizard to compare two or more nodes."
 
-#: ../../99_change_log/index.rst:560
+#: ../../99_change_log/index.rst:577
 msgid "Mostrar tareas programadas de sistema en Task Manager."
 msgstr "Display scheduled system tasks in Task Manager."
 
-#: ../../99_change_log/index.rst:561
+#: ../../99_change_log/index.rst:578
 msgid ""
 "Crear rol \"Login Only User\" que sólo tenga permisos para loguearse para todas "
 "las compañías."
@@ -1409,11 +1426,11 @@ msgstr ""
 "Create \"Login Only User\" role with permissions limited to login access for all "
 "companies."
 
-#: ../../99_change_log/index.rst:567
+#: ../../99_change_log/index.rst:584
 msgid "Copiar tabla a una planilla Excel no pega títulos de columnas."
 msgstr "Copying table to an Excel spreadsheet does not paste column headers."
 
-#: ../../99_change_log/index.rst:568
+#: ../../99_change_log/index.rst:585
 msgid ""
 "Visualización de algunos tipos de nodos no se actualizan al cambiar definición y "
 "evaluar nuevamente."
@@ -1421,7 +1438,7 @@ msgstr ""
 "Visualization of certain node types does not update when changing the definition "
 "and reevaluating."
 
-#: ../../99_change_log/index.rst:569
+#: ../../99_change_log/index.rst:586
 msgid ""
 "En algunas ocasiones, al hacer ALT + Click en un nodo desde el widget de código "
 "trae el id del nodo sin el último caracter."
@@ -1429,7 +1446,7 @@ msgstr ""
 "Sometimes, when using ALT + Click on a node from the code widget, it retrieves "
 "the node ID without the last character."
 
-#: ../../99_change_log/index.rst:570
+#: ../../99_change_log/index.rst:587
 msgid ""
 "Selector de formato Radio buttons en orientación vertical no muestra opción "
 "\"All\" si es multiselect."
@@ -1437,7 +1454,7 @@ msgstr ""
 "Vertical orientation of Radio button format selector does not display \"All\" "
 "option when it is a multiselect."
 
-#: ../../99_change_log/index.rst:571
+#: ../../99_change_log/index.rst:588
 msgid ""
 "Si el resultado de un nodo es un string, no es posible configurarle estilos como "
 "si fuera un Indicator."
@@ -1445,7 +1462,7 @@ msgstr ""
 "If the result of a node is a string, it is not possible to configure styles for "
 "it as if it were an Indicator."
 
-#: ../../99_change_log/index.rst:572
+#: ../../99_change_log/index.rst:589
 msgid ""
 "En interfaces, no deja importar alias de Index al elegir tipo de componente "
 "Index."
@@ -1453,11 +1470,11 @@ msgstr ""
 "In interfaces, it does not allow importing aliases for Index when choosing the "
 "Index component type."
 
-#: ../../99_change_log/index.rst:577
+#: ../../99_change_log/index.rst:594
 msgid "v3.4.17 - 2023-06-15"
 msgstr ""
 
-#: ../../99_change_log/index.rst:583
+#: ../../99_change_log/index.rst:600
 msgid ""
 "Al crear visualización de componente por primera vez, sólo elegir formato "
 "numérico si el tipo de dato de las medidas es numérico."
@@ -1465,7 +1482,7 @@ msgstr ""
 "When creating a component visualization for the first time, only choose numeric "
 "formatting if the data type of the measures is numeric."
 
-#: ../../99_change_log/index.rst:584
+#: ../../99_change_log/index.rst:601
 msgid ""
 "Al visualizar una celda con un valor con formato de fecha, lo transforma a "
 "número."
@@ -1473,37 +1490,37 @@ msgstr ""
 "When visualizing a cell with a date-formatted value, it transforms it into a "
 "number."
 
-#: ../../99_change_log/index.rst:588
+#: ../../99_change_log/index.rst:605
 msgid "v3.4.16 - 2023-06-14"
 msgstr ""
 
-#: ../../99_change_log/index.rst:594
+#: ../../99_change_log/index.rst:611
 msgid "Elementos calculados para una dimensión en tablas y gráficos."
 msgstr "Calculated elements for a dimension in tables and charts."
 
-#: ../../99_change_log/index.rst:595
+#: ../../99_change_log/index.rst:612
 msgid "Autenticación con API key para links externos."
 msgstr "API key authentication for external links."
 
-#: ../../99_change_log/index.rst:596
+#: ../../99_change_log/index.rst:613
 msgid "Posibilidad de setear permisos a más de una interface al mismo tiempo."
 msgstr "Ability to set permissions for more than one interface at the same time."
 
-#: ../../99_change_log/index.rst:597
+#: ../../99_change_log/index.rst:614
 msgid "Visualización nativa de gráficos de Matplotlib."
 msgstr "Native visualization of Matplotlib graphs."
 
-#: ../../99_change_log/index.rst:603
+#: ../../99_change_log/index.rst:620
 msgid ""
 "No funciona el formato condicional aplicado a columnas de tipo selector en "
 "formularios."
 msgstr "Conditional formatting applied to selector columns in forms does not work."
 
-#: ../../99_change_log/index.rst:604
+#: ../../99_change_log/index.rst:621
 msgid "No funcionan opciones de formato condicional en indicadores."
 msgstr "Conditional formatting options do not work in indicators."
 
-#: ../../99_change_log/index.rst:605
+#: ../../99_change_log/index.rst:622
 msgid ""
 "Si tabla tiene mezcla de números y texto como valores, no funciona formato "
 "numérico."
@@ -1511,13 +1528,13 @@ msgstr ""
 "If a table has a mixture of numbers and text as values, the numeric formatting "
 "does not work."
 
-#: ../../99_change_log/index.rst:606
+#: ../../99_change_log/index.rst:623
 msgid "Al hacer click en opción \"Go to node\", centrar diagrama en nodo elegido."
 msgstr ""
 "When clicking on the \"Go to node\" option, center the diagram on the selected "
 "node."
 
-#: ../../99_change_log/index.rst:607
+#: ../../99_change_log/index.rst:624
 msgid ""
 "Al estar editando una interface, si se elige \"Go to node\" en un componente, "
 "nunca te redirige al nodo."
@@ -1525,7 +1542,7 @@ msgstr ""
 "When editing an interface, selecting \"Go to node\" in a component does not "
 "redirect you to the node."
 
-#: ../../99_change_log/index.rst:608
+#: ../../99_change_log/index.rst:625
 msgid ""
 "Componente Índice en interfaces no se ve bien cuando sus valores son booleanos "
 "(True, False)."
@@ -1533,7 +1550,7 @@ msgstr ""
 "The Index component in interfaces does not display properly when its values are "
 "boolean (True, False)."
 
-#: ../../99_change_log/index.rst:609
+#: ../../99_change_log/index.rst:626
 msgid ""
 "Al crear nuevas interfaces, no aparecen en listado de interfaces del editor del "
 "Menú hasta que se recarga la aplicación."
@@ -1541,11 +1558,11 @@ msgstr ""
 "When creating new interfaces, they do not appear in the interface list of the "
 "Menu editor until the application is reloaded."
 
-#: ../../99_change_log/index.rst:610
+#: ../../99_change_log/index.rst:627
 msgid "No funciona paginación en Administrador de logs."
 msgstr "Pagination does not work in the Logs Manager."
 
-#: ../../99_change_log/index.rst:611
+#: ../../99_change_log/index.rst:628
 msgid ""
 "Al abrir un módulo que contiene un nodo de tipo InputScalar con error, no abre "
 "el módulo."
@@ -1553,16 +1570,16 @@ msgstr ""
 "When opening a module that contains an InputScalar node with an error, the "
 "module does not open."
 
-#: ../../99_change_log/index.rst:612
+#: ../../99_change_log/index.rst:629
 msgid "Home de Pyplan da error si existe más de un Team con el mismo nombre."
 msgstr ""
 "Home of Pyplan gives an error if there is more than one Team with the same name."
 
-#: ../../99_change_log/index.rst:613
+#: ../../99_change_log/index.rst:630
 msgid "Error en código generado por wizard de Seleccionar filas."
 msgstr "Error in code generated by Select Rows wizard."
 
-#: ../../99_change_log/index.rst:614
+#: ../../99_change_log/index.rst:631
 msgid ""
 "Tabla plana no muestra títulos de índices cuando el identifier de un índice "
 "coincide con el nombre de la columna."
@@ -1570,29 +1587,29 @@ msgstr ""
 "Flat table does not display index titles when the identifier of an index matches "
 "the name of the column."
 
-#: ../../99_change_log/index.rst:615
+#: ../../99_change_log/index.rst:632
 msgid ""
 "Selector de condiciones de estilos no trae columnas cuando la tabla es plana."
 msgstr ""
 "The style conditions selector does not fetch columns when the table is flat."
 
-#: ../../99_change_log/index.rst:616
+#: ../../99_change_log/index.rst:633
 msgid "Mejoras en Administrador de instancias."
 msgstr "Improvements in the Instance Manager."
 
-#: ../../99_change_log/index.rst:621
+#: ../../99_change_log/index.rst:638
 msgid "v3.4.15 - 2023-05-23"
 msgstr ""
 
-#: ../../99_change_log/index.rst:630
+#: ../../99_change_log/index.rst:647
 msgid "v3.4.14 - 2023-05-22"
 msgstr ""
 
-#: ../../99_change_log/index.rst:636
+#: ../../99_change_log/index.rst:653
 msgid "Filtrar resultados al buscar texto en selector de formularios."
 msgstr "Filter results when searching for text in the form selector."
 
-#: ../../99_change_log/index.rst:642
+#: ../../99_change_log/index.rst:659
 msgid ""
 "Al pegar más de una fila que contiene fechas en un form, no se pegan todas las "
 "filas."
@@ -1600,7 +1617,7 @@ msgstr ""
 "When pasting more than one row containing dates in a form, not all rows are "
 "pasted."
 
-#: ../../99_change_log/index.rst:643
+#: ../../99_change_log/index.rst:660
 msgid ""
 "Al ingresar un valor en un Input variante Cubo o Tabla (InputDataArray o "
 "InputDataFrame), se refresca y el foco vuelve al inicio."
@@ -1608,27 +1625,27 @@ msgstr ""
 "When entering a value in a Cube or Table variant Input (InputDataArray or "
 "InputDataFrame), it refreshes and the focus returns to the beginning."
 
-#: ../../99_change_log/index.rst:647
+#: ../../99_change_log/index.rst:664
 msgid "v3.4.13 - 2023-05-19"
 msgstr ""
 
-#: ../../99_change_log/index.rst:653
+#: ../../99_change_log/index.rst:670
 msgid "Funcionalidad para cambiar colores a series de gráfico tipo Combinado."
 msgstr "Functionality to change colors for series in a Combined chart type."
 
-#: ../../99_change_log/index.rst:654
+#: ../../99_change_log/index.rst:671
 msgid "Funcionalidad para exportar chat con PyplanBot."
 msgstr "Functionality to export chat with PyplanBot."
 
-#: ../../99_change_log/index.rst:655
+#: ../../99_change_log/index.rst:672
 msgid "Permitir elegir con qué usuario ejecutar una tarea programada."
 msgstr "Allow choosing the user to execute a scheduled task."
 
-#: ../../99_change_log/index.rst:656
+#: ../../99_change_log/index.rst:673
 msgid "Funcionalidad para formatear código en widget de código de diagrama."
 msgstr "Functionality to format code in diagram code widget."
 
-#: ../../99_change_log/index.rst:662
+#: ../../99_change_log/index.rst:679
 msgid ""
 "Al crear un nodo tipo Input variante Cubo (InputDataArray), no se puede asignar "
 "como valor por defecto un nodo cuyo resultado sea np.nan."
@@ -1636,7 +1653,7 @@ msgstr ""
 "When creating a Cube variant Input node (InputDataArray), it is not possible to "
 "assign a node with a result of np.nan as the default value."
 
-#: ../../99_change_log/index.rst:663
+#: ../../99_change_log/index.rst:680
 msgid ""
 "Celda con selector en formularios se \"corta\" cuando llega hasta el final de la "
 "tabla."
@@ -1644,7 +1661,7 @@ msgstr ""
 "A cell with a selector in forms gets 'cut off' when it reaches the end of the "
 "table."
 
-#: ../../99_change_log/index.rst:664
+#: ../../99_change_log/index.rst:681
 msgid ""
 "No es posible copiar id de nodo con ALT + Click si está seleccionado el widget "
 "de Resultado en diagrama."
@@ -1652,36 +1669,36 @@ msgstr ""
 "It is not possible to copy the node ID with ALT + Click if the Result widget is "
 "selected in the diagram."
 
-#: ../../99_change_log/index.rst:665
+#: ../../99_change_log/index.rst:682
 msgid "Error al ordenar por roles a usuarios en User Manager."
 msgstr "Error when sorting users by roles in User Manager."
 
-#: ../../99_change_log/index.rst:666
+#: ../../99_change_log/index.rst:683
 msgid ""
 "En campos calculados de una tabla, el valor de los totales no se está calculando."
 msgstr ""
 "In calculated fields of a table, the total values are not being calculated."
 
-#: ../../99_change_log/index.rst:667
+#: ../../99_change_log/index.rst:684
 msgid ""
 "Evitar cambiar automáticamente las vistas del diagrama al cambiar de elemento "
 "seleccionado."
 msgstr ""
 "Avoid automatically changing diagram views when switching the selected element."
 
-#: ../../99_change_log/index.rst:672
+#: ../../99_change_log/index.rst:689
 msgid "v3.4.12 - 2023-05-15"
 msgstr ""
 
-#: ../../99_change_log/index.rst:682
+#: ../../99_change_log/index.rst:699
 msgid "v3.4.11 - 2023-05-13"
 msgstr ""
 
-#: ../../99_change_log/index.rst:692
+#: ../../99_change_log/index.rst:709
 msgid "v3.4.10 - 2023-05-12"
 msgstr ""
 
-#: ../../99_change_log/index.rst:698
+#: ../../99_change_log/index.rst:715
 msgid ""
 "Al abrir aplicación, permitir elegir versión en lugar de abrir la versión por "
 "defecto (propiedad nueva; por defecto, desactivada)."
@@ -1689,11 +1706,11 @@ msgstr ""
 "When opening the application, allow to choose a version instead of opening the "
 "default version (new property; deactivated by default)."
 
-#: ../../99_change_log/index.rst:699
+#: ../../99_change_log/index.rst:716
 msgid "Interacción de componentes de Dash con componentes nativos de la app."
 msgstr "Interaction of Dash components with native components of the app."
 
-#: ../../99_change_log/index.rst:700
+#: ../../99_change_log/index.rst:717
 msgid ""
 "Comparación de escenarios no ejecuta escenario Current si no fue elegido para "
 "compararse."
@@ -1701,7 +1718,7 @@ msgstr ""
 "Comparison of scenarios does not execute the Current scenario if it was not "
 "chosen to be compared."
 
-#: ../../99_change_log/index.rst:701
+#: ../../99_change_log/index.rst:718
 msgid ""
 "Permitir filtros en interfaces si el título del nodo de un índice coincide con "
 "el nombre de la dimensión/columna en otro componente."
@@ -1709,72 +1726,72 @@ msgstr ""
 "Allow filters on interfaces if the node title of an index matches the name of "
 "the dimension/column in another component."
 
-#: ../../99_change_log/index.rst:702
+#: ../../99_change_log/index.rst:719
 msgid "Agregar nuevo permiso de si se permite \"Guardar como\" una aplicación."
 msgstr "Add new permission for allowing \"Save As\" for an application."
 
-#: ../../99_change_log/index.rst:703
+#: ../../99_change_log/index.rst:720
 msgid "Mejorar estética de componente Menú formato \"Cajas\"."
 msgstr "Improve the aesthetics of the Menu component in the 'Boxes' format."
 
-#: ../../99_change_log/index.rst:704
+#: ../../99_change_log/index.rst:721
 msgid "Vencimiento de contraseñas por empresa."
 msgstr "Password expiration by company."
 
-#: ../../99_change_log/index.rst:705
+#: ../../99_change_log/index.rst:722
 msgid "Funcionalidad \"Olvidé mi contraseña\"."
 msgstr "\"Forgot password\" functionality."
 
-#: ../../99_change_log/index.rst:706
+#: ../../99_change_log/index.rst:723
 msgid "Funcionalidad para forzar cambiar contraseña al crear un nuevo usuario."
 msgstr "Functionality to force password change when creating a new user."
 
-#: ../../99_change_log/index.rst:707
+#: ../../99_change_log/index.rst:724
 msgid "Nuevas imágenes en página de login."
 msgstr "New images on login page."
 
-#: ../../99_change_log/index.rst:708
+#: ../../99_change_log/index.rst:725
 msgid ""
 "Envío de mensaje cuando la licencia de Pyplan en la compañía está próxima a su "
 "vencimiento."
 msgstr ""
 "Sending a message when the Pyplan license in the company is nearing expiration."
 
-#: ../../99_change_log/index.rst:709
+#: ../../99_change_log/index.rst:726
 msgid "Funcionalidad para repreguntar en PyplanBot."
 msgstr "Functionality to re-prompt in PyplanBot."
 
-#: ../../99_change_log/index.rst:710
+#: ../../99_change_log/index.rst:727
 msgid "Funcionalidad para detener respuesta de PyplanBot."
 msgstr "Functionality to stop PyplanBot response."
 
-#: ../../99_change_log/index.rst:711
+#: ../../99_change_log/index.rst:728
 msgid "Ícono con declaración de privacidad en PyplanBot."
 msgstr "Privacy statement icon in PyplanBot."
 
-#: ../../99_change_log/index.rst:717
+#: ../../99_change_log/index.rst:734
 msgid ""
 "Editar un valor de una columna tipo integer de un formulario arroja un error."
 msgstr "Editing a value of an integer column in a form results in an error."
 
-#: ../../99_change_log/index.rst:718
+#: ../../99_change_log/index.rst:735
 msgid ""
 "Formato condicional en tabla no inserta ícono si celda no es de tipo numérica."
 msgstr ""
 "Conditional format in a table does not insert icon if the cell is not of numeric "
 "type."
 
-#: ../../99_change_log/index.rst:719
+#: ../../99_change_log/index.rst:736
 msgid ""
 "En ocasiones, la ventana emergente del intellisense del código no se alcanza a "
 "ver por completo."
 msgstr "Sometimes the code intellisense popup window is not fully visible."
 
-#: ../../99_change_log/index.rst:720
+#: ../../99_change_log/index.rst:737
 msgid "Ciertos grupos de permisos están duplicados en Permisos por rol."
 msgstr "Some permission groups are duplicated in Permissions by role."
 
-#: ../../99_change_log/index.rst:721
+#: ../../99_change_log/index.rst:738
 msgid ""
 "Al recargar aplicación, abre siempre la versión por defecto a pesar de tener "
 "abierta otra versión."
@@ -1782,11 +1799,11 @@ msgstr ""
 "When reloading the application, it always opens the default version even if "
 "another version is already open."
 
-#: ../../99_change_log/index.rst:726
+#: ../../99_change_log/index.rst:743
 msgid "v3.4.9 - 2023-04-24"
 msgstr ""
 
-#: ../../99_change_log/index.rst:732
+#: ../../99_change_log/index.rst:749
 msgid ""
 "En una columna tipo selector con valores relacionados en un formulario, sólo es "
 "posible elegir entre las primeras 100 opciones."
@@ -1794,7 +1811,7 @@ msgstr ""
 "In a selector-type column with related values in a form, it's only possible to "
 "choose from the first 100 options."
 
-#: ../../99_change_log/index.rst:733
+#: ../../99_change_log/index.rst:750
 msgid ""
 "Al instalar librerías, si la instalación falla, igualmente agrega la librería al "
 "archivo requirements.txt."
@@ -1802,32 +1819,32 @@ msgstr ""
 "When installing libraries, if the installation fails, it still adds the library "
 "to the requirements.txt file."
 
-#: ../../99_change_log/index.rst:737
+#: ../../99_change_log/index.rst:754
 msgid "v3.4.8 - 2023-04-21"
 msgstr ""
 
-#: ../../99_change_log/index.rst:743
+#: ../../99_change_log/index.rst:760
 msgid ""
 "Agregar ícono para guardar vista por defecto en widget de resultado en diagrama."
 msgstr "Add an icon to save default view in result widget in the diagram."
 
-#: ../../99_change_log/index.rst:744
+#: ../../99_change_log/index.rst:761
 msgid "Funcionalidad para copiar, cortar y pegar en Interface Manager."
 msgstr "Functionality to copy, cut, and paste in the Interface Manager."
 
-#: ../../99_change_log/index.rst:745
+#: ../../99_change_log/index.rst:762
 msgid "Al crear una interfaz, abrirla en modo edición."
 msgstr "When creating an interface, open it in edit mode."
 
-#: ../../99_change_log/index.rst:746
+#: ../../99_change_log/index.rst:763
 msgid "Al archivar una versión, la carpeta se comprime en un archivo .zip."
 msgstr "When archiving a version, the folder is compressed into a .zip file."
 
-#: ../../99_change_log/index.rst:747
+#: ../../99_change_log/index.rst:764
 msgid "Agregar campo de descripción a versiones."
 msgstr "Add a description field to versions."
 
-#: ../../99_change_log/index.rst:748
+#: ../../99_change_log/index.rst:765
 msgid ""
 "Funcionalidad para abrir archivos (.txt, .json, .ppm, .ppi) y descomprimir "
 "archivos (.zip) al hacer doble click en File Manager."
@@ -1835,41 +1852,41 @@ msgstr ""
 "Functionality to open files (.txt, .json, .ppm, .ppi) and decompress files (."
 "zip) by double-clicking in the File Manager."
 
-#: ../../99_change_log/index.rst:749
+#: ../../99_change_log/index.rst:766
 msgid "Nuevo manager de links externos generados (API endpoints de nodos)."
 msgstr "New manager for generated external links (API endpoints of nodes)."
 
-#: ../../99_change_log/index.rst:750
+#: ../../99_change_log/index.rst:767
 msgid "Mejoras en feedback al subir archivos."
 msgstr "Improvements in feedback when uploading files."
 
-#: ../../99_change_log/index.rst:751 ../../99_change_log/index.rst:794
+#: ../../99_change_log/index.rst:768 ../../99_change_log/index.rst:811
 msgid "Mejoras en la experiencia de usuario de PyplanBot."
 msgstr "Improvements to the user experience of PyplanBot."
 
-#: ../../99_change_log/index.rst:757
+#: ../../99_change_log/index.rst:774
 msgid "Al hacer click en un nodo con documentación, en ocasiones no la muestra."
 msgstr ""
 "When clicking on a node with documentation, sometimes it doesn't display the "
 "documentation."
 
-#: ../../99_change_log/index.rst:758
+#: ../../99_change_log/index.rst:775
 msgid ""
 "Maximizar widget de resultado no debe superponerse a barra de nodos anclados."
 msgstr "Maximizing the result widget should not overlap with the pinned nodes bar."
 
-#: ../../99_change_log/index.rst:759
+#: ../../99_change_log/index.rst:776
 msgid ""
 "Al crear un alias de un nodo, queda seleccionado el alias y no el nodo original."
 msgstr ""
 "When creating an alias for a node, the alias is selected instead of the original "
 "node."
 
-#: ../../99_change_log/index.rst:760
+#: ../../99_change_log/index.rst:777
 msgid "Exportación como \"Full node\" no funciona correctamente."
 msgstr "Exporting as 'Full Node' doesn't work properly."
 
-#: ../../99_change_log/index.rst:761
+#: ../../99_change_log/index.rst:778
 msgid ""
 "Al importar una interfaz, si ya existe una interfaz con mismo nombre, la nueva "
 "debe conservar el id y la vieja cambiar su id y nombre."
@@ -1878,7 +1895,7 @@ msgstr ""
 "name, the new one should keep the ID and the old one should change its ID and "
 "name."
 
-#: ../../99_change_log/index.rst:762
+#: ../../99_change_log/index.rst:779
 msgid ""
 "No es posible navegar carpetas en Interface Manager si la versión de la app "
 "contiene caracteres especiales como \"+\"."
@@ -1886,7 +1903,7 @@ msgstr ""
 "It's not possible to navigate folders in the Interface Manager if the app "
 "version contains special characters such as '+'."
 
-#: ../../99_change_log/index.rst:763
+#: ../../99_change_log/index.rst:780
 msgid ""
 "Al abrir una app con una instancia preexistente abierta, no carga las interfaces "
 "al abrir."
@@ -1894,7 +1911,7 @@ msgstr ""
 "When opening an app with a pre-existing instance open, it doesn't load the "
 "interfaces when opening."
 
-#: ../../99_change_log/index.rst:764
+#: ../../99_change_log/index.rst:781
 msgid ""
 "Al moverse con flechas de teclado en widget de resultado o código, se mueve "
 "también el nodo en el diagrama."
@@ -1902,15 +1919,15 @@ msgstr ""
 "When moving with keyboard arrows in the result or code widget, the node in the "
 "diagram also moves."
 
-#: ../../99_change_log/index.rst:768
+#: ../../99_change_log/index.rst:785
 msgid "v3.4.7 - 2023-04-14"
 msgstr ""
 
-#: ../../99_change_log/index.rst:778
+#: ../../99_change_log/index.rst:795
 msgid "v3.4.6 - 2023-04-13"
 msgstr ""
 
-#: ../../99_change_log/index.rst:784
+#: ../../99_change_log/index.rst:801
 msgid ""
 "Al abrir, recargar o cambiar versión de aplicación, en ocasiones no carga la "
 "aplicación."
@@ -1918,15 +1935,15 @@ msgstr ""
 "Sometimes when opening, reloading, or changing the version of an application, it "
 "fails to load."
 
-#: ../../99_change_log/index.rst:788
+#: ../../99_change_log/index.rst:805
 msgid "v3.4.5 - 2023-04-11"
 msgstr ""
 
-#: ../../99_change_log/index.rst:800
+#: ../../99_change_log/index.rst:817
 msgid "Logs manager no funciona."
 msgstr "The Logs Manager is not working."
 
-#: ../../99_change_log/index.rst:801
+#: ../../99_change_log/index.rst:818
 msgid ""
 "Editor de menú no vincula correctamente las interfaces asociadas a acciones "
 "cuando existen más de 50 interfaces."
@@ -1934,15 +1951,15 @@ msgstr ""
 "The menu editor does not properly link interfaces associated with actions when "
 "there are more than 50 interfaces."
 
-#: ../../99_change_log/index.rst:802
+#: ../../99_change_log/index.rst:819
 msgid "Correcciones varias."
 msgstr "Various fixes."
 
-#: ../../99_change_log/index.rst:806
+#: ../../99_change_log/index.rst:823
 msgid "v3.4.4 - 2023-04-04"
 msgstr ""
 
-#: ../../99_change_log/index.rst:812
+#: ../../99_change_log/index.rst:829
 msgid ""
 "Al abrir app que corre nodos al inicio, se cierra la barra de progreso antes de "
 "que termine de correrlos."
@@ -1950,32 +1967,32 @@ msgstr ""
 "When opening an app that runs nodes on startup, the progress bar closes before "
 "the nodes have finished running."
 
-#: ../../99_change_log/index.rst:813
+#: ../../99_change_log/index.rst:830
 msgid "Eliminar escenario no lo quita de los escenarios seleccionados."
 msgstr "Deleting a scenario does not remove it from the selected scenarios."
 
-#: ../../99_change_log/index.rst:814
+#: ../../99_change_log/index.rst:831
 msgid "Editor de texto en File Manager no formatea bien archivos .ppm y .ppi."
 msgstr ""
 "The text editor in the File Manager does not format .ppm and .ppi files "
 "correctly."
 
-#: ../../99_change_log/index.rst:818
+#: ../../99_change_log/index.rst:835
 msgid "v3.4.3 - 2023-04-03"
 msgstr ""
 
-#: ../../99_change_log/index.rst:824
+#: ../../99_change_log/index.rst:841
 msgid ""
 "Integración de PyplanBot con la creación de nodos. Mejora en la experiencia de "
 "usuario."
 msgstr ""
 "Integration of PyplanBot with node creation. Improvement in user experience."
 
-#: ../../99_change_log/index.rst:825
+#: ../../99_change_log/index.rst:842
 msgid "Nuevo manager para customizar parámetros de PyplanBot y Logs."
 msgstr "New manager to customize PyplanBot parameters and logs."
 
-#: ../../99_change_log/index.rst:826
+#: ../../99_change_log/index.rst:843
 msgid ""
 "Backup automático cada 1 minuto de assets de una aplicación. Recupero automático "
 "cuando desaparece la carpeta assets."
@@ -1983,70 +2000,70 @@ msgstr ""
 "Automatic backup every 1 minute of application assets. Automatic recovery in "
 "case assets folder disappears."
 
-#: ../../99_change_log/index.rst:827
+#: ../../99_change_log/index.rst:844
 msgid ""
 "Nuevo tipo de selector que guarda los labels seleccionados en lugar de las "
 "posiciones."
 msgstr "New type of selector that saves selected labels instead of positions."
 
-#: ../../99_change_log/index.rst:828
+#: ../../99_change_log/index.rst:845
 msgid "Wizard de creación de selectores en diagrama."
 msgstr "Diagram selector creation wizard."
 
-#: ../../99_change_log/index.rst:829
+#: ../../99_change_log/index.rst:846
 msgid "Mejora de performance de formularios al confirmar cambios."
 msgstr "Improved performance of forms when confirming changes."
 
-#: ../../99_change_log/index.rst:830
+#: ../../99_change_log/index.rst:847
 msgid "Feedback al apretar botón de Confirmar cambios en un formulario."
 msgstr "Feedback when clicking on the Confirm changes button in a form."
 
-#: ../../99_change_log/index.rst:831
+#: ../../99_change_log/index.rst:848
 msgid "Permitir agregar nuevas columnas a formulario que ya fue creado."
 msgstr "Allow adding new columns to a previously created form."
 
-#: ../../99_change_log/index.rst:832
+#: ../../99_change_log/index.rst:849
 msgid "Crear tabla de usuarios en formularios que contenga su información."
 msgstr "Create users table in forms that contains their information."
 
-#: ../../99_change_log/index.rst:833
+#: ../../99_change_log/index.rst:850
 msgid ""
 "Opción para que app no intente instalar librerías automáticamente cuando se abre."
 msgstr ""
 "Option for the app to not attempt to install libraries automatically upon "
 "opening."
 
-#: ../../99_change_log/index.rst:834
+#: ../../99_change_log/index.rst:851
 msgid "Opción para duplicar componente en una interfaz."
 msgstr "Option to duplicate component in an interface."
 
-#: ../../99_change_log/index.rst:835
+#: ../../99_change_log/index.rst:852
 msgid "Configuración inicial para nuevas instalaciones."
 msgstr "Initial setup for new installations."
 
-#: ../../99_change_log/index.rst:836
+#: ../../99_change_log/index.rst:853
 msgid "Opción para correr pruebas internas."
 msgstr "Option to run internal tests."
 
-#: ../../99_change_log/index.rst:837
+#: ../../99_change_log/index.rst:854
 msgid "App manager: nuevo botón para importar una app."
 msgstr "App manager: new button to import an app."
 
-#: ../../99_change_log/index.rst:838
+#: ../../99_change_log/index.rst:855
 msgid "Menú desplegable al hacer click derecho sobre el diagrama."
 msgstr "Dropdown menu when right-clicking on the diagram."
 
-#: ../../99_change_log/index.rst:839
+#: ../../99_change_log/index.rst:856
 msgid "Opción para establecer el valor mínimo del eje Y en gráficos."
 msgstr "Option to set the minimum value of the Y-axis in graphs."
 
-#: ../../99_change_log/index.rst:840
+#: ../../99_change_log/index.rst:857
 msgid ""
 "Mejora en experiencia de usuario de flechas para encadenar wizards a partir de "
 "un nodo."
 msgstr "Improved user experience of arrows to chain wizards from a node."
 
-#: ../../99_change_log/index.rst:841
+#: ../../99_change_log/index.rst:858
 msgid ""
 "Progress bar no bloquea la interfaz. Nuevo parámetro para cerrarla al llegar al "
 "100%."
@@ -2054,14 +2071,14 @@ msgstr ""
 "Progress bar does not block the interface. New parameter to close it when it "
 "reaches 100%."
 
-#: ../../99_change_log/index.rst:842
+#: ../../99_change_log/index.rst:859
 msgid ""
 "Optimizar templates al subir archivos .xls, .xlsx, .xlsm, .xlsb en File Manager."
 msgstr ""
 "\"Optimize templates when uploading .xls, .xlsx, .xlsm, .xlsb files in File "
 "Manager."
 
-#: ../../99_change_log/index.rst:848
+#: ../../99_change_log/index.rst:865
 msgid ""
 "Process manager: validar que si la tarea tiene action type \"interface\" se "
 "mande la interfaz."
@@ -2069,33 +2086,33 @@ msgstr ""
 "Process manager: validate that if the task has action type 'interface', the "
 "interface is sent."
 
-#: ../../99_change_log/index.rst:849
+#: ../../99_change_log/index.rst:866
 msgid "File Manager no se ve en pantalla chica."
 msgstr "File Manager is not visible on small screens."
 
-#: ../../99_change_log/index.rst:850
+#: ../../99_change_log/index.rst:867
 msgid "En forms, si pegás más filas de las que tiene el form, da error."
 msgstr "In forms, if you paste more rows than the form has, an error occurs."
 
-#: ../../99_change_log/index.rst:851
+#: ../../99_change_log/index.rst:868
 msgid ""
 "Al agregar cambios más de una persona en el formulario, a veces se pierden datos."
 msgstr ""
 "When adding changes from more than one person in the form, data is sometimes "
 "lost."
 
-#: ../../99_change_log/index.rst:852
+#: ../../99_change_log/index.rst:869
 msgid "Error al cambiar de orden los campos de un formulario."
 msgstr "Error when changing the order of fields in a form."
 
-#: ../../99_change_log/index.rst:853
+#: ../../99_change_log/index.rst:870
 msgid ""
 "Al pegar valores negativos desde Excel en un formulario, se pegan como positivos."
 msgstr ""
 "When pasting negative values from Excel into a form, they are pasted as positive "
 "values."
 
-#: ../../99_change_log/index.rst:854
+#: ../../99_change_log/index.rst:871
 msgid ""
 "Al pegar datos desde Excel a un form con selectores relacionados, se sobrecarga "
 "la aplicación."
@@ -2103,11 +2120,11 @@ msgstr ""
 "Pasting data from Excel into a form with related selectors overloads the "
 "application."
 
-#: ../../99_change_log/index.rst:855
+#: ../../99_change_log/index.rst:872
 msgid "Setear la versión por defecto debe impactar automáticamente en app.ppl."
 msgstr "Setting the default version should automatically impact app.ppl."
 
-#: ../../99_change_log/index.rst:856
+#: ../../99_change_log/index.rst:873
 msgid ""
 "Al crear versión con espacio extra al final, no te deja crear una nueva versión "
 "desde ésta."
@@ -2115,7 +2132,7 @@ msgstr ""
 "When creating a version with extra space at the end, it does not allow you to "
 "create a new version from it."
 
-#: ../../99_change_log/index.rst:857
+#: ../../99_change_log/index.rst:874
 msgid ""
 "Al crear una carpeta en File Manager y en el input presionar delete, aparece el "
 "popup de confirmación de borrar."
@@ -2123,15 +2140,15 @@ msgstr ""
 "When creating a folder in File Manager and pressing delete in the input, the "
 "delete confirmation popup appears."
 
-#: ../../99_change_log/index.rst:858
+#: ../../99_change_log/index.rst:875
 msgid "Problema al visualizar selectores multiselect en diagrama."
 msgstr "Problem when displaying multiselect selectors on the diagram."
 
-#: ../../99_change_log/index.rst:859
+#: ../../99_change_log/index.rst:876
 msgid "Al crear un selector no se refresca la definición."
 msgstr "When creating a selector, the definition is not refreshed."
 
-#: ../../99_change_log/index.rst:860
+#: ../../99_change_log/index.rst:877
 msgid ""
 "Si un selector falla, no se puede ingresar al módulo donde se encuentra el "
 "selector."
@@ -2139,7 +2156,7 @@ msgstr ""
 "If a selector fails, it is not possible to enter the module where the selector "
 "is located."
 
-#: ../../99_change_log/index.rst:861
+#: ../../99_change_log/index.rst:878
 msgid ""
 "Al quitarle todos los permisos a un rol, un usuario puede ingresar a funciones "
 "que no debería."
@@ -2147,15 +2164,15 @@ msgstr ""
 "When removing all permissions from a role, a user can access functions they "
 "shouldn't."
 
-#: ../../99_change_log/index.rst:862
+#: ../../99_change_log/index.rst:879
 msgid "Buscador de nodos de programador de tareas no lista nodos tipo output."
 msgstr "The task scheduler node searcher does not list output-type nodes."
 
-#: ../../99_change_log/index.rst:863
+#: ../../99_change_log/index.rst:880
 msgid "Ajustes en interfaces."
 msgstr "Adjustments in interfaces."
 
-#: ../../99_change_log/index.rst:864
+#: ../../99_change_log/index.rst:881
 msgid ""
 "Si un usuario falla al loguearse desde más de un navegador distinto, no deja "
 "desbloquearlo desde User Manager."
@@ -2163,132 +2180,132 @@ msgstr ""
 "If a user fails to log in from more than one different browser, it does not "
 "allow unlocking it from User Manager."
 
-#: ../../99_change_log/index.rst:865
+#: ../../99_change_log/index.rst:882
 msgid "Buscador de Task Scheduler no funciona correctamente."
 msgstr "The Task Scheduler search function is not working correctly."
 
-#: ../../99_change_log/index.rst:866
+#: ../../99_change_log/index.rst:883
 msgid "Usuarios con rol Company User no pueden abrir aplicaciones de un Team."
 msgstr ""
 "Users with the Company User role are unable to open applications in a Team."
 
-#: ../../99_change_log/index.rst:867
+#: ../../99_change_log/index.rst:884
 msgid ""
 "Al editar un archivo en file manager y dejarlo vacío, no guarda los cambios."
 msgstr ""
 "When editing a file in the file manager and leaving it empty, changes are not "
 "saved."
 
-#: ../../99_change_log/index.rst:871
+#: ../../99_change_log/index.rst:888
 msgid "v3.4.2 - 2023-02-04"
 msgstr ""
 
-#: ../../99_change_log/index.rst:877
+#: ../../99_change_log/index.rst:894
 msgid ""
 "Ahora los nodos pineados de una aplicación persisten entre diferentes sesiones."
 msgstr "Now the pinned nodes of an application persist between different sessions."
 
-#: ../../99_change_log/index.rst:878
+#: ../../99_change_log/index.rst:895
 msgid ""
 "En manager de procesos, los selectores de usuarios ahora muestran nombre y "
 "apellido del usuario."
 msgstr "In process manager, user selectors now show user's first and last name."
 
-#: ../../99_change_log/index.rst:884
+#: ../../99_change_log/index.rst:901
 msgid ""
 "Corrección de errores en formularios basados en dataframes cuando se modifica el "
 "dataframe origen."
 msgstr ""
 "Fixed errors in forms based on dataframes when the source dataframe is modified."
 
-#: ../../99_change_log/index.rst:885
+#: ../../99_change_log/index.rst:902
 msgid "Al importar un módulo, no lo muestra correctamente en el diagrama."
 msgstr "The diagram does not display correctly after importing a module."
 
-#: ../../99_change_log/index.rst:886
+#: ../../99_change_log/index.rst:903
 msgid "No funciona agregar nodos a escenarios haciendo doble click sobre el nodo."
 msgstr "Adding nodes to scenarios by double clicking on the node does not work."
 
-#: ../../99_change_log/index.rst:887
+#: ../../99_change_log/index.rst:904
 msgid ""
 "Error al intentar visualizar un inputnode en una interface dentro de un módulo "
 "dennegado."
 msgstr ""
 "Error when trying to display an inputnode in an interface inside a denied module."
 
-#: ../../99_change_log/index.rst:888
+#: ../../99_change_log/index.rst:905
 msgid "Alinear encabezados y botones en managers."
 msgstr "Align headers and buttons in managers."
 
-#: ../../99_change_log/index.rst:892
+#: ../../99_change_log/index.rst:909
 msgid "v3.4.1 - 2023-01-27"
 msgstr ""
 
-#: ../../99_change_log/index.rst:898
+#: ../../99_change_log/index.rst:915
 msgid "Versionado de aplicaciones."
 msgstr "Application versioning."
 
-#: ../../99_change_log/index.rst:899
+#: ../../99_change_log/index.rst:916
 msgid "Posibilidad de definir, guardar y comparar escenarios."
 msgstr "Capability to define, save and compare scenarios."
 
-#: ../../99_change_log/index.rst:900
+#: ../../99_change_log/index.rst:917
 msgid "Manager de procesos (workflow)."
 msgstr "Process manager (workflow)."
 
-#: ../../99_change_log/index.rst:901
+#: ../../99_change_log/index.rst:918
 msgid "Nueva vista \"Mis tareas\"."
 msgstr "New \"My Tasks\" view."
 
-#: ../../99_change_log/index.rst:902
+#: ../../99_change_log/index.rst:919
 msgid "Nuevo diseño de la página de inicio."
 msgstr "New home page design."
 
-#: ../../99_change_log/index.rst:903
+#: ../../99_change_log/index.rst:920
 msgid "Permitir agregar imágenes en miniatura (thumbnail.png) para aplicaciones."
 msgstr "Allow adding thumbnail images (thumbnail.png) for applications."
 
-#: ../../99_change_log/index.rst:904
+#: ../../99_change_log/index.rst:921
 msgid "Editor de texto dentro del administrador de archivos."
 msgstr "Text editor inside the file manager."
 
-#: ../../99_change_log/index.rst:905
+#: ../../99_change_log/index.rst:922
 msgid "Más opciones de formato condicional."
 msgstr "More conditional formatting options."
 
-#: ../../99_change_log/index.rst:906
+#: ../../99_change_log/index.rst:923
 msgid "Nuevas funciones pp.download() y pp.upload()."
 msgstr "New functions pp.download() and pp.upload()."
 
-#: ../../99_change_log/index.rst:907
+#: ../../99_change_log/index.rst:924
 msgid "Exportar/importar interfaces."
 msgstr "Export/import interfaces."
 
-#: ../../99_change_log/index.rst:908
+#: ../../99_change_log/index.rst:925
 msgid "Mejora en las respuestas de pyplan-bot."
 msgstr "Improved pyplan-bot responses."
 
-#: ../../99_change_log/index.rst:909
+#: ../../99_change_log/index.rst:926
 msgid "Mejora en la documentación de las funciones pp."
 msgstr "Improved documentation of pp functions."
 
-#: ../../99_change_log/index.rst:915
+#: ../../99_change_log/index.rst:932
 msgid "Error al crear carpetas con espacio al final del texto."
 msgstr "Error when creating folders with space at the end of the text."
 
-#: ../../99_change_log/index.rst:916
+#: ../../99_change_log/index.rst:933
 msgid "Paginación en selectores."
 msgstr "Pagination in selectors."
 
-#: ../../99_change_log/index.rst:917
+#: ../../99_change_log/index.rst:934
 msgid "Error al pegar números formateados desde Excel."
 msgstr "Error when pasting formatted numbers from Excel."
 
-#: ../../99_change_log/index.rst:918
+#: ../../99_change_log/index.rst:935
 msgid "Error al cancelar cambios en form que no fue confirmado."
 msgstr "Error canceling changes to form that was not confirmed."
 
-#: ../../99_change_log/index.rst:919
+#: ../../99_change_log/index.rst:936
 msgid ""
 "Al editar el nombre de una carpeta o archivo y presionar delete, intenta "
 "eliminar el archivo."
@@ -2296,7 +2313,7 @@ msgstr ""
 "When you edit the name of a folder or file and press delete, it attempts to "
 "delete the file."
 
-#: ../../99_change_log/index.rst:920
+#: ../../99_change_log/index.rst:937
 #, fuzzy
 msgid ""
 "Al completar default value de una columna de un form y luego borrarlo, da error "
@@ -2305,11 +2322,11 @@ msgstr ""
 "When filling in the default value of a column of a form and then deleting it, "
 "the generate definition fails."
 
-#: ../../99_change_log/index.rst:921
+#: ../../99_change_log/index.rst:938
 msgid "Problemas de scroll en área de pivoteo de tablas y gráficos."
 msgstr "Scrolling problems in the pivot area of tables and graphs."
 
-#: ../../99_change_log/index.rst:922
+#: ../../99_change_log/index.rst:939
 msgid ""
 "Error al navegar el diagrama si la definición de un nodo tipo input tiene un "
 "error."
@@ -2317,11 +2334,11 @@ msgstr ""
 "Error when navigating the diagram if the definition of an input type node has an "
 "error."
 
-#: ../../99_change_log/index.rst:923
+#: ../../99_change_log/index.rst:940
 msgid "No funcionan los selectores relacionados del form basado en un dataframe."
 msgstr "The related selectors of the form based on a dataframe do not work."
 
-#: ../../99_change_log/index.rst:924
+#: ../../99_change_log/index.rst:941
 msgid ""
 "En menú tipo bloques, no deshabilita bloques para los cuales el usuario no tiene "
 "permisos."
@@ -2329,156 +2346,156 @@ msgstr ""
 "In the block type menu, blocks for which the user does not have permissions are "
 "not disabled."
 
-#: ../../99_change_log/index.rst:925
+#: ../../99_change_log/index.rst:942
 msgid "No funciona copiar y pegar / duplicar módulos."
 msgstr "Copying and pasting / duplicating modules does not work."
 
-#: ../../99_change_log/index.rst:926
+#: ../../99_change_log/index.rst:943
 msgid ""
 "No funciona links a dashboards cuando en una interface existe mas de un link."
 msgstr ""
 "Links to dashboards do not work when there is more than one link in an interface."
 
-#: ../../99_change_log/index.rst:927 ../../99_change_log/index.rst:1007
-#: ../../99_change_log/index.rst:1045
+#: ../../99_change_log/index.rst:944 ../../99_change_log/index.rst:1024
+#: ../../99_change_log/index.rst:1062
 msgid "Otras correcciones menores."
 msgstr "Other minor fixes."
 
-#: ../../99_change_log/index.rst:931
+#: ../../99_change_log/index.rst:948
 msgid "v3.3.6 - 2022-12-12"
 msgstr ""
 
-#: ../../99_change_log/index.rst:936
+#: ../../99_change_log/index.rst:953
 msgid "Visualización en wizard de creación de indices."
 msgstr "Visualization in the index creation wizard."
 
-#: ../../99_change_log/index.rst:937
+#: ../../99_change_log/index.rst:954
 msgid "Corrección de errores al visualizar un dataframe no indexado."
 msgstr "Errors fixed when displaying a non-indexed dataframe."
 
-#: ../../99_change_log/index.rst:941
+#: ../../99_change_log/index.rst:958
 msgid "v3.3.5 - 2022-12-07"
 msgstr ""
 
-#: ../../99_change_log/index.rst:946
+#: ../../99_change_log/index.rst:963
 msgid "Error al insertar un valor en un input table."
 msgstr "Error when inserting a value in an input table."
 
-#: ../../99_change_log/index.rst:950
+#: ../../99_change_log/index.rst:967
 msgid "v3.3.4 - 2022-12-07"
 msgstr ""
 
-#: ../../99_change_log/index.rst:955
+#: ../../99_change_log/index.rst:972
 msgid "Nuevo pyplan-bot (OpenAI-GPT3)"
 msgstr "New pyplan-bot (OpenAI-GPT3)"
 
-#: ../../99_change_log/index.rst:956
+#: ../../99_change_log/index.rst:973
 msgid "Nueva función pp.progressbar()"
 msgstr "New pp.progressbar() function"
 
-#: ../../99_change_log/index.rst:957
+#: ../../99_change_log/index.rst:974
 msgid "Wizard para realizar cambio de indice."
 msgstr "Wizard to perform index change."
 
-#: ../../99_change_log/index.rst:958
+#: ../../99_change_log/index.rst:975
 msgid "Ejemplo de aplicaciones en home."
 msgstr "Example of applications in the home."
 
-#: ../../99_change_log/index.rst:963
+#: ../../99_change_log/index.rst:980
 msgid "Scroll en Filemanager."
 msgstr "Scroll in Filemanager."
 
-#: ../../99_change_log/index.rst:964
+#: ../../99_change_log/index.rst:981
 msgid "Error al arrastrar componente tipo chart."
 msgstr "Error when dragging chart type component."
 
-#: ../../99_change_log/index.rst:968
+#: ../../99_change_log/index.rst:985
 msgid "v3.3.3 - 2022-12-02"
 msgstr ""
 
-#: ../../99_change_log/index.rst:973
+#: ../../99_change_log/index.rst:990
 msgid "Nuevas variantes de colores de heatmap para tablas."
 msgstr "New heatmap color variants for tables."
 
-#: ../../99_change_log/index.rst:974
+#: ../../99_change_log/index.rst:991
 msgid "Ajustes en pestaña de Performance."
 msgstr "Fixes in the Performance tab."
 
-#: ../../99_change_log/index.rst:975
+#: ../../99_change_log/index.rst:992
 msgid "Permitir cambiar el idioma de Pyplan."
 msgstr "Allow to change the Pyplan language."
 
-#: ../../99_change_log/index.rst:980
+#: ../../99_change_log/index.rst:997
 msgid ""
 "Al cambiar tipo de visualización (tabla -> gráfico -> tabla), no aplica código "
 "personalizado."
 msgstr ""
 "When changing display type (table -> chart -> table), no custom code is applied."
 
-#: ../../99_change_log/index.rst:981
+#: ../../99_change_log/index.rst:998
 msgid "Error en estilos de radio buttons."
 msgstr "Error in radio button styles."
 
-#: ../../99_change_log/index.rst:985
+#: ../../99_change_log/index.rst:1002
 msgid "v3.3.2 - 2022-11-29"
 msgstr ""
 
-#: ../../99_change_log/index.rst:991
+#: ../../99_change_log/index.rst:1008
 msgid "Asistente de conversión de datarray a dataframe."
 msgstr "Datarray to dataframe conversion wizard."
 
-#: ../../99_change_log/index.rst:992
+#: ../../99_change_log/index.rst:1009
 msgid "Asistente de creación de indices."
 msgstr "Index creation wizard."
 
-#: ../../99_change_log/index.rst:993
+#: ../../99_change_log/index.rst:1010
 msgid "Aplicar formato a ejes y hover en charts."
 msgstr "Apply formatting to axes and hover in charts."
 
-#: ../../99_change_log/index.rst:994
+#: ../../99_change_log/index.rst:1011
 msgid "Unificar componentes inputs."
 msgstr "Standardize input components."
 
-#: ../../99_change_log/index.rst:995
+#: ../../99_change_log/index.rst:1012
 msgid "Agregar documentación a interfaces."
 msgstr "Add documentation to interfaces."
 
-#: ../../99_change_log/index.rst:996
+#: ../../99_change_log/index.rst:1013
 msgid "Nueva funcionalidad análisis de performance."
 msgstr "New performance analysis functionality."
 
-#: ../../99_change_log/index.rst:997
+#: ../../99_change_log/index.rst:1014
 msgid "Cambios en jerarquías de índices."
 msgstr "Changes in index hierarchies."
 
-#: ../../99_change_log/index.rst:998
+#: ../../99_change_log/index.rst:1015
 msgid "Uso de la carpeta Media para almacenar imágenes, documentos, etc."
 msgstr "Use the Media folder to store images, documents, etc."
 
-#: ../../99_change_log/index.rst:1003
+#: ../../99_change_log/index.rst:1020
 msgid "No funciona exportar vista de componente como \"Full node\"."
 msgstr "Exporting component view as \"Full node\" does not work."
 
-#: ../../99_change_log/index.rst:1004
+#: ../../99_change_log/index.rst:1021
 msgid "En la home y file manager, se pueden ver todos los teams."
 msgstr "In the home and file manager, you can see all the teams."
 
-#: ../../99_change_log/index.rst:1005
+#: ../../99_change_log/index.rst:1022
 msgid "Error al intentar visualizar resultado de objetos no serializables."
 msgstr "Error when trying to display results of non-serializable objects."
 
-#: ../../99_change_log/index.rst:1006
+#: ../../99_change_log/index.rst:1023
 msgid ""
 "Exportar componente como tabla da error si hay más de una dimensión en columnas."
 msgstr ""
 "Export component as table gives error if there is more than one dimension in "
 "columns."
 
-#: ../../99_change_log/index.rst:1011
+#: ../../99_change_log/index.rst:1028
 msgid "v3.3.1 - 2022-11-04"
 msgstr ""
 
-#: ../../99_change_log/index.rst:1017
+#: ../../99_change_log/index.rst:1034
 msgid ""
 "Ahora las librerías a utilizar en una aplicación se pueden definir en el archivo "
 "requirements.txt."
@@ -2486,39 +2503,39 @@ msgstr ""
 "Now the libraries to be used in an application can be defined in the "
 "requirements.txt file."
 
-#: ../../99_change_log/index.rst:1018
+#: ../../99_change_log/index.rst:1035
 msgid "Permitir configurar colores para cada serie de un gráfico."
 msgstr "Allow to set colors for each series of a chart."
 
-#: ../../99_change_log/index.rst:1019
+#: ../../99_change_log/index.rst:1036
 msgid "Asistentes que permiten crear el siguiente paso de cálculo."
 msgstr "Wizards that allow you to create the next calculation step."
 
-#: ../../99_change_log/index.rst:1020
+#: ../../99_change_log/index.rst:1037
 msgid "Ajustes al confirmar la definición de un nodo."
 msgstr "Changes when confirming the definition of a node."
 
-#: ../../99_change_log/index.rst:1021
+#: ../../99_change_log/index.rst:1038
 msgid "Ajustes en la creación de menu."
 msgstr "Changes in the creation of the menu."
 
-#: ../../99_change_log/index.rst:1022
+#: ../../99_change_log/index.rst:1039
 msgid "El componente menu ahora se puede visualizar por bloques."
 msgstr "The menu component can now be displayed in blocks."
 
-#: ../../99_change_log/index.rst:1023
+#: ../../99_change_log/index.rst:1040
 msgid "Ajustes en ventanas emergentes."
 msgstr "Changes in pop-up windows."
 
-#: ../../99_change_log/index.rst:1024
+#: ../../99_change_log/index.rst:1041
 msgid "Permitir configurar bordes y encabezados en componentes."
 msgstr "Allow setting borders and headers on components."
 
-#: ../../99_change_log/index.rst:1025
+#: ../../99_change_log/index.rst:1042
 msgid "Optimización del uso de librerías."
 msgstr "Optimization of the use of libraries."
 
-#: ../../99_change_log/index.rst:1026
+#: ../../99_change_log/index.rst:1043
 msgid ""
 "Los selectores ahora soportan la opción \"Seleccionar todos\" para cuando "
 "permiten selección múltiple."
@@ -2526,60 +2543,60 @@ msgstr ""
 "Selectors now support the \"Select All\" option for when multiple selection is "
 "allowed."
 
-#: ../../99_change_log/index.rst:1027
+#: ../../99_change_log/index.rst:1044
 msgid "El menú permite agregar subtítulos."
 msgstr "The menu allows you to add subtitles."
 
-#: ../../99_change_log/index.rst:1032
+#: ../../99_change_log/index.rst:1049
 msgid "Al navegar el diagrama, se resetea el nivel de zoom."
 msgstr "When navigating the diagram, the zoom level is reset."
 
-#: ../../99_change_log/index.rst:1033
+#: ../../99_change_log/index.rst:1050
 msgid "Error al ejecutar una tarea programada con parámetros."
 msgstr "Error when executing a scheduled task with parameters."
 
-#: ../../99_change_log/index.rst:1034
+#: ../../99_change_log/index.rst:1051
 msgid "Error al editar un campo fecha en un formulario"
 msgstr "Error when editing a date field in a form"
 
-#: ../../99_change_log/index.rst:1035
+#: ../../99_change_log/index.rst:1052
 msgid ""
 "En algunas ocasiones al copiar/mover un archivo existente no lo sobre-escribe."
 msgstr "Occasionally copying/moving an existing file does not overwrite it."
 
-#: ../../99_change_log/index.rst:1036
+#: ../../99_change_log/index.rst:1053
 msgid "Los selectores de tipo radio button muestran solo las primeras 10 opciones."
 msgstr "The radio button selectors show only the first 10 options."
 
-#: ../../99_change_log/index.rst:1037
+#: ../../99_change_log/index.rst:1054
 msgid "No muestra el menu principal al abrir desde nueva instancia."
 msgstr ""
 "When an application is opened in a new instance, the main menu is not displayed."
 
-#: ../../99_change_log/index.rst:1038
+#: ../../99_change_log/index.rst:1055
 msgid "Error al cerrar instancia desde el Instance Manager."
 msgstr "Error closing instance from Instance Manager."
 
-#: ../../99_change_log/index.rst:1039
+#: ../../99_change_log/index.rst:1056
 msgid "Si un dataframe tiene un solo índice, no se puede configurar estilos."
 msgstr "If a dataframe has only one index, no styles can be configured."
 
-#: ../../99_change_log/index.rst:1040
+#: ../../99_change_log/index.rst:1057
 msgid "Al ordenar columna de una tabla está ordenando la columna de totales."
 msgstr "When sorting a table column, the total column must not be sorted."
 
-#: ../../99_change_log/index.rst:1041
+#: ../../99_change_log/index.rst:1058
 msgid ""
 "En algunas ocasiones no se puede editar una tarea programada creada por otro "
 "usuario."
 msgstr ""
 "Occasionally it is not possible to edit a scheduled task created by another user."
 
-#: ../../99_change_log/index.rst:1042
+#: ../../99_change_log/index.rst:1059
 msgid "No se visualiza correctamente el breadcrumb cuando se selecciona un Team."
 msgstr "The breadcrumb is not displayed correctly when a Team is selected."
 
-#: ../../99_change_log/index.rst:1043
+#: ../../99_change_log/index.rst:1060
 msgid ""
 "En formularios, da error al insertar un valor vacío en columna tipo entero o "
 "decimal."
@@ -2587,57 +2604,57 @@ msgstr ""
 "In forms, an error occurs when inserting an empty value in an integer or decimal "
 "column."
 
-#: ../../99_change_log/index.rst:1044
+#: ../../99_change_log/index.rst:1061
 msgid "Instance manager no funciona correctamente"
 msgstr "Instance manager does not work properly"
 
-#: ../../99_change_log/index.rst:1049
+#: ../../99_change_log/index.rst:1066
 msgid "v3.2.1 - 2022-07-12"
 msgstr ""
 
-#: ../../99_change_log/index.rst:1055
+#: ../../99_change_log/index.rst:1072
 msgid "Posibilidad de crear campos calculados."
 msgstr "Ability to create calculated fields."
 
-#: ../../99_change_log/index.rst:1056
+#: ../../99_change_log/index.rst:1073
 msgid "Reordenar resultado de búsqueda de nodos según criterios."
 msgstr "Reorder search result of nodes according to criteria."
 
-#: ../../99_change_log/index.rst:1057
+#: ../../99_change_log/index.rst:1074
 msgid "Exponer resultado de un nodo como API endpoints."
 msgstr "Expose results of a node as API endpoints."
 
-#: ../../99_change_log/index.rst:1058
+#: ../../99_change_log/index.rst:1075
 msgid "Posibilidad de resetear la vista de un componente."
 msgstr "Possibility to reset the view of a component."
 
-#: ../../99_change_log/index.rst:1063
+#: ../../99_change_log/index.rst:1080
 msgid "Error al hacer drilldowns en tablas."
 msgstr "Error when doing drilldowns on tables."
 
-#: ../../99_change_log/index.rst:1064
+#: ../../99_change_log/index.rst:1081
 msgid "Error al cambiar de empresa y volver a file manager."
 msgstr "Error when changing company and returning to file manager."
 
-#: ../../99_change_log/index.rst:1065
+#: ../../99_change_log/index.rst:1082
 msgid "Problemas con diálogo de confirmación de cambios no guardados en interfaces"
 msgstr ""
 "Problemas con diálogo de confirmación de cambios no guardados en interfaces"
 
-#: ../../99_change_log/index.rst:1070
+#: ../../99_change_log/index.rst:1087
 msgid "v3.1.1 - 2022-06-17"
 msgstr ""
 
-#: ../../99_change_log/index.rst:1076
+#: ../../99_change_log/index.rst:1093
 msgid "Nueva y moderna interface de usuario."
 msgstr "New and modern user interface."
 
-#: ../../99_change_log/index.rst:1077
+#: ../../99_change_log/index.rst:1094
 msgid ""
 "Nuevo concepto de aplicaciones (integrando lógica, interfaces y formularios)."
 msgstr "New concept of applications (integrating logic, interfaces and forms)."
 
-#: ../../99_change_log/index.rst:1078
+#: ../../99_change_log/index.rst:1095
 msgid ""
 "Se agregaron nuevos componentes de tipo gráfico (incluye todos los gráficos de "
 "la librería plotly)."
@@ -2645,35 +2662,35 @@ msgstr ""
 "New graphic components have been added (including all graphics from the plotly "
 "library)."
 
-#: ../../99_change_log/index.rst:1079
+#: ../../99_change_log/index.rst:1096
 msgid "Interface de usuario para la creación de formularios."
 msgstr "User interface for the creation of forms."
 
-#: ../../99_change_log/index.rst:1080
+#: ../../99_change_log/index.rst:1097
 msgid "Posibilidad de personalizar el código de cada componente de una interface."
 msgstr "Allows you to customize the code of each component of an interface."
 
-#: ../../99_change_log/index.rst:1081
+#: ../../99_change_log/index.rst:1098
 msgid "Nuevo diagrama de influencia (estandarización de colores de nodos)."
 msgstr "New influence diagram (standardization of node colors)."
 
-#: ../../99_change_log/index.rst:1082
+#: ../../99_change_log/index.rst:1099
 msgid "3 vistas de código."
 msgstr "3 code views."
 
-#: ../../99_change_log/index.rst:1083
+#: ../../99_change_log/index.rst:1100
 msgid "Ayudas en codificación."
 msgstr "Coding aids."
 
-#: ../../99_change_log/index.rst:1084
+#: ../../99_change_log/index.rst:1101
 msgid "Wizards para la creación de nodos."
 msgstr "Wizards for node creation."
 
-#: ../../99_change_log/index.rst:1085
+#: ../../99_change_log/index.rst:1102
 msgid "Consola de output y errores."
 msgstr "Output and error console."
 
-#: ../../99_change_log/index.rst:1086
+#: ../../99_change_log/index.rst:1103
 msgid "Mejora general en la performance."
 msgstr "General performance improvement."
 
